@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the email address on the New User is displayed in the text &quot;You're creating...&quot;</description>
+   <name>C728</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>74917a40-dfac-4263-ac9a-4e080d3f0947</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>8ee5c92a-90ee-42a8-915a-d78dedc6db1e</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C728 (1)</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the Login Now tile is redirected to the OAM website</description>
+   <name>C764</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>381dabc7-a189-4bb9-a03b-d6817962dc26</testCaseGuid>
+</TestCaseEntity>

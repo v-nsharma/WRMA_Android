@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the corresponding error modal appears after clicking the 'Agree to Terms and Conditions' button</description>
+   <name>C694</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75c46301-b6c6-4402-aa64-683f1e4f2748</testCaseGuid>
+</TestCaseEntity>

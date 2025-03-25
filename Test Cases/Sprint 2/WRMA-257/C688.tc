@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the Next button remains inactive If any fields are left blank</description>
+   <name>C688</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cfb72a4e-0e87-41d2-aefa-8c678afbb198</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the bottom navbar is displayed correctly when the user is in a logged-in state</description>
+   <name>C739</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>628ee4d9-4f96-4d74-9474-41d01594b619</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>36c934f5-3cd6-45bd-b840-4ebc88e5bb39</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C739</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

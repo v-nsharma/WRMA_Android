@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sprint-2,,,,24-03-2025 22:22:16,24-03-2025 22:24:02,1m - 46.516s,PASSED
+,,,,,,,
+Test Cases/Sprint 2/WRMA-60/C728,,"Verify that the email address on the New User is displayed in the text ""You're creating...""",,24-03-2025 22:22:16,24-03-2025 22:24:02,1m - 46.322s,PASSED
+"startApplication(""C:\Users\GVVignesh\git\WGR_Android\App Folder\universal.apk"", true)",,Launch the mobile application with reset enabled (true clears any previous session data),,24-03-2025 22:22:16,24-03-2025 22:23:03,46.565s,PASSED
+delay(5),,Wait for 5 seconds to allow the application to fully load,,24-03-2025 22:23:03,24-03-2025 22:23:08,5.053s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button to navigate to the authentication screen",,24-03-2025 22:23:08,24-03-2025 22:23:10,1.544s,PASSED
+delay(10),,Wait for 10 seconds to ensure that the login screen is completely loaded,,24-03-2025 22:23:10,24-03-2025 22:23:20,10.013s,PASSED
+"testData = findTestData(""Data Files/C728 (1)"")",,"Retrieve test data from the ""C728 (1)"" Excel file",,24-03-2025 22:23:20,24-03-2025 22:23:20,0.466s,PASSED
+"email = testData.getValue(""email"", 1)",,Extract the email value from the first row of the test data,,24-03-2025 22:23:20,24-03-2025 22:23:20,0.036s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email)",,Enter the retrieved email address into the email input field,,24-03-2025 22:23:20,24-03-2025 22:23:21,0.535s,PASSED
+delay(10),,Wait for 10 seconds to allow the input field to process the entered email,,24-03-2025 22:23:21,24-03-2025 22:23:31,10.006s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next""), 0)",,"Tap on the ""Next"" button to proceed to the subsequent screen",,24-03-2025 22:23:31,24-03-2025 22:23:31,0.523s,PASSED
+delay(10),,Wait for 10 seconds to allow the next screen to load,,24-03-2025 22:23:31,24-03-2025 22:23:41,10.019s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 0)",,"Tap on the ""reset"" button to clear the email field or reset the form",,24-03-2025 22:23:41,24-03-2025 22:23:42,0.421s,PASSED
+hideKeyboard(),,Hide the keyboard to prevent any interference with further actions,,24-03-2025 22:23:42,24-03-2025 22:23:43,1.526s,PASSED
+delay(10),,Wait for 10 seconds to ensure the reset action is completed,,24-03-2025 22:23:43,24-03-2025 22:23:53,10.014s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-NewUserEmail""), email)",,"Enter the same email into the ""New User Email"" field",,24-03-2025 22:23:53,24-03-2025 22:23:54,0.412s,PASSED
+"enteredEmail = getText(findTestObject(""Object Repository/Repo/android.widget.EditText-NewUserEmail""), 0)",,"Retrieve the email text from the ""New User Email"" field to verify it was entered correctly",,24-03-2025 22:23:54,24-03-2025 22:23:55,1.328s,PASSED
+assert enteredEmail == email,,Assert that the email retrieved from the field matches the expected email,,24-03-2025 22:23:55,24-03-2025 22:23:55,0.001s,PASSED
+delay(5),,Wait for 5 seconds to ensure all UI elements are updated,,24-03-2025 22:23:55,24-03-2025 22:24:00,5.011s,PASSED
+closeApplication(),,Close the mobile application after test completion,,24-03-2025 22:24:00,24-03-2025 22:24:02,2.527s,PASSED

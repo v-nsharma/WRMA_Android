@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the First and Last name fields don't allow typing more than 50 symbols</description>
+   <name>C686</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b2eaf90e-f89b-4c3d-8dbe-c30c3d765995</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a5266298-284c-4d70-9093-eb359ba6d057</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C686</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

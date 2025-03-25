@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the app version on the Settings menu in Guest Mode is correct</description>
+   <name>C719</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>467a1272-2443-406b-a9b0-9b8fc9cf578d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WRMA-119,,,,25-03-2025 04:22:52,25-03-2025 04:27:16,4m - 24.154s,PASSED
+,,,,,,,
+Test Cases/Sprint 2/WRMA-119/C764,,Verify that the Login Now tile is redirected to the OAM website,,25-03-2025 04:22:52,25-03-2025 04:27:16,4m - 23.954s,PASSED
+"startApplication(""C:\Users\GVVignesh\git\WGR_Android\App Folder\app-debug.apk"", true)",,Launch the application,,25-03-2025 04:22:53,25-03-2025 04:24:13,1m - 20.365s,PASSED
+delay(10),,,,25-03-2025 04:24:13,25-03-2025 04:24:23,10.049s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - Home""), 0)",,Verify Home element exists,,25-03-2025 04:24:23,25-03-2025 04:24:24,1.164s,PASSED
+delay(5),,,,25-03-2025 04:24:24,25-03-2025 04:24:29,5.011s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.view.View - Home""), 0)",,Tap on Home,,25-03-2025 04:24:29,25-03-2025 04:24:30,0.922s,PASSED
+delay(10),,,,25-03-2025 04:24:30,25-03-2025 04:24:40,10.018s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - Home (1)""), 0)",,Verify Home element exists after tapping,,25-03-2025 04:24:40,25-03-2025 04:24:41,0.393s,PASSED
+delay(5),,,,25-03-2025 04:24:41,25-03-2025 04:24:46,5.020s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView-Slide""), 0)",,Verify Slide text is present,,25-03-2025 04:24:46,25-03-2025 04:24:46,0.375s,PASSED
+startX = 1000,,Perform Swipe action,,25-03-2025 04:24:46,25-03-2025 04:24:46,0.001s,PASSED
+startY = 2000,,,,25-03-2025 04:24:46,25-03-2025 04:24:46,0.001s,PASSED
+endX = 200,,,,25-03-2025 04:24:46,25-03-2025 04:24:46,0.001s,PASSED
+endY = 1000,,,,25-03-2025 04:24:46,25-03-2025 04:24:46,0.001s,PASSED
+"swipe(startX, startY, endX, endY)",,,,25-03-2025 04:24:46,25-03-2025 04:24:48,1.406s,PASSED
+delay(5),,,,25-03-2025 04:24:48,25-03-2025 04:24:53,5.017s,PASSED
+"homeText = View - Home (1)""), 0).trim()",,Get and verify Home text,,25-03-2025 04:24:53,25-03-2025 04:24:53,0.503s,PASSED
+"println(""Home Text: "" + homeText)",,,,25-03-2025 04:24:53,25-03-2025 04:24:53,0.005s,PASSED
+"verifyEqual(homeText, ""Home"", STOP_ON_FAILURE)",,,,25-03-2025 04:24:53,25-03-2025 04:24:53,0.013s,PASSED
+delay(5),,,,25-03-2025 04:24:53,25-03-2025 04:24:58,5.018s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - My Account (1)""), 0)",,Verify My Account element exists,,25-03-2025 04:24:58,25-03-2025 04:24:58,0.384s,PASSED
+delay(5),,,,25-03-2025 04:24:58,25-03-2025 04:25:03,5.017s,PASSED
+"myAccountText = View - My Account (1)""), 0).trim()",,Get and verify My Account text,,25-03-2025 04:25:03,25-03-2025 04:25:04,0.352s,PASSED
+"println(""My Account Text: "" + myAccountText)",,,,25-03-2025 04:25:04,25-03-2025 04:25:04,0.002s,PASSED
+"verifyEqual(myAccountText, ""My Account"", STOP_ON_FAILURE)",,,,25-03-2025 04:25:04,25-03-2025 04:25:04,0.002s,PASSED
+delay(15),,,,25-03-2025 04:25:04,25-03-2025 04:25:19,15.015s,PASSED
+"scrollToText(""Recommended for you"")",,Scroll to text: Recommended for you,,25-03-2025 04:25:19,25-03-2025 04:25:20,1.203s,PASSED
+delay(5),,,,25-03-2025 04:25:20,25-03-2025 04:25:25,5.009s,PASSED
+delay(5),,,,25-03-2025 04:25:25,25-03-2025 04:25:30,5.010s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - RECOMMENDED FOR YOU""), 0)",,Verify Recommended for you text is present,,25-03-2025 04:25:30,25-03-2025 04:25:30,0.313s,PASSED
+delay(5),,,,25-03-2025 04:25:30,25-03-2025 04:25:35,5.019s,PASSED
+"recommendedText = TextView - RECOMMENDED FOR YOU""), 0).trim()",,Get and verify Recommended for you text,,25-03-2025 04:25:35,25-03-2025 04:25:36,0.348s,PASSED
+"println(""Recommended Text: "" + recommendedText)",,,,25-03-2025 04:25:36,25-03-2025 04:25:36,0.001s,PASSED
+"verifyEqual(recommendedText, ""RECOMMENDED FOR YOU"", STOP_ON_FAILURE)",,,,25-03-2025 04:25:36,25-03-2025 04:25:36,0.003s,PASSED
+delay(5),,,,25-03-2025 04:25:36,25-03-2025 04:25:41,5.009s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - THINGS TO DO""), 0)",,Verify Things to Do section is present,,25-03-2025 04:25:41,25-03-2025 04:25:41,0.308s,PASSED
+delay(5),,,,25-03-2025 04:25:41,25-03-2025 04:25:46,5.006s,PASSED
+"thingsToDoText = TextView - THINGS TO DO""), 0).trim()",,Get and verify Things to Do text,,25-03-2025 04:25:46,25-03-2025 04:25:46,0.284s,PASSED
+"println(""Things to Do Text: "" + thingsToDoText)",,,,25-03-2025 04:25:46,25-03-2025 04:25:46,0.002s,PASSED
+"verifyEqual(thingsToDoText, ""THINGS TO DO"", STOP_ON_FAILURE)",,,,25-03-2025 04:25:46,25-03-2025 04:25:46,0.002s,PASSED
+delay(5),,,,25-03-2025 04:25:46,25-03-2025 04:25:51,5.013s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View-gain access""), 0)",,Verify Gain Access section is present,,25-03-2025 04:25:51,25-03-2025 04:25:52,0.285s,PASSED
+delay(5),,,,25-03-2025 04:25:52,25-03-2025 04:25:57,5.004s,PASSED
+"gainAccessText = TextView - Gain access to a""), 0).trim()",,Get and verify Gain Access text,,25-03-2025 04:25:57,25-03-2025 04:25:57,0.279s,PASSED
+"println(""Gain Access Text: "" + gainAccessText)",,,,25-03-2025 04:25:57,25-03-2025 04:25:57,0.001s,PASSED
+"verifyEqual(gainAccessText, ""Gain access to a"", STOP_ON_FAILURE)",,,,25-03-2025 04:25:57,25-03-2025 04:25:57,0.004s,PASSED
+delay(5),,,,25-03-2025 04:25:57,25-03-2025 04:26:02,5.008s,PASSED
+"customizedExperienceText = TextView - customized experience""), 0).trim()",,Get and verify Customized Experience text,,25-03-2025 04:26:02,25-03-2025 04:26:02,0.347s,PASSED
+"println(""Customized Experience Text: "" + customizedExperienceText)",,,,25-03-2025 04:26:02,25-03-2025 04:26:02,0.001s,PASSED
+"verifyEqual(customizedExperienceText, ""customized experience"", STOP_ON_FAILURE)",,,,25-03-2025 04:26:02,25-03-2025 04:26:02,0.003s,PASSED
+delay(5),,,,25-03-2025 04:26:02,25-03-2025 04:26:07,5.008s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - Login""), 0)",,Verify Login button is present,,25-03-2025 04:26:07,25-03-2025 04:26:09,1.746s,PASSED
+delay(5),,,,25-03-2025 04:26:09,25-03-2025 04:26:14,5.016s,PASSED
+"loginText = TextView - Login""), 0).trim()",,Get and verify Login text,,25-03-2025 04:26:14,25-03-2025 04:26:14,0.245s,PASSED
+"println(""Login Text: "" + loginText)",,,,25-03-2025 04:26:14,25-03-2025 04:26:14,0.002s,PASSED
+"verifyEqual(loginText, ""Login"", STOP_ON_FAILURE)",,,,25-03-2025 04:26:14,25-03-2025 04:26:14,0.002s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Login""), 0)",,Tap on Login,,25-03-2025 04:26:14,25-03-2025 04:26:15,0.806s,PASSED
+delay(30),,,,25-03-2025 04:26:15,25-03-2025 04:26:45,30.011s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - WESTGATE Online Account Management""), 0)",,Verify WESTGATE Online Account Management text is present,,25-03-2025 04:26:45,25-03-2025 04:27:07,22.265s,PASSED
+delay(5),,,,25-03-2025 04:27:07,25-03-2025 04:27:12,5.007s,PASSED
+"westgateText = TextView - WESTGATE Online Account Management""), 0).trim()",,Get and verify WESTGATE Online Account Management text,,25-03-2025 04:27:12,25-03-2025 04:27:13,0.250s,PASSED
+"println(""WESTGATE Text: "" + westgateText)",,,,25-03-2025 04:27:13,25-03-2025 04:27:13,0.003s,PASSED
+"verifyEqual(westgateText, ""WESTGATE Online Account Management"", STOP_ON_FAILURE)",,,,25-03-2025 04:27:13,25-03-2025 04:27:13,0.006s,PASSED
+closeApplication(),,Close the application,,25-03-2025 04:27:13,25-03-2025 04:27:16,3.723s,PASSED

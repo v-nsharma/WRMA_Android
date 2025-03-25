@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20250324_224400</name>
+   <tag></tag>
+   <displayName>20250324_224400</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20250324_224400/Sprint-1/20250324_224401</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-A146B (Android 14)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20250324_224400/Sprint-2/20250324_224403</reportLocation>
+         <runConfigDescription>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>samsung SM-A146B (Android 14)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/WRMA Sprint1-Sprint2 Android Report</testSuiteCollectionId>
+</ReportCollectionEntity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the correct inline error message appears when incorrect email addresses are entered on the New User page</description>
+   <name>C677</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e4d7d84-06a6-4fff-908c-4f3cd895e609</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b383c868-e7fd-42c9-94e5-e00806d4323a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Emails</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

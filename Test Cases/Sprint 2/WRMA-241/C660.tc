@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the correct inline error message appears when incorrect email addresses are entered on the Login or Sign up page</description>
+   <name>C660</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5973edef-b7c0-4361-8dc2-189be9c232b5</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7283a45d-0351-4147-b243-2aa51e0d9c42</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/InvalidEmail</testDataId>
+   </testDataLinks>
+</TestCaseEntity>
