@@ -1,83 +1,74 @@
 [38;5;112m[Appium][0m Welcome to Appium v2.16.0
 [38;5;112m[Appium][0m Non-default server args:
-[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m62097[39m }
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m55643[39m }
 [38;5;112m[Appium][0m Attempting to load driver uiautomator2...
-[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:62097/wd/hub
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:55643/wd/hub
 [38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
-	http://192.168.0.104:62097/wd/hub
-	http://127.0.0.1:62097/wd/hub (only accessible from the same host)
+	http://192.168.0.106:55643/wd/hub
+	http://127.0.0.1:55643/wd/hub (only accessible from the same host)
 [38;5;112m[Appium][0m Available drivers:
 [38;5;112m[Appium][0m   - uiautomator2@4.0.1 (automationName 'UiAutomator2')
 [38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
-[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 111[39m [90m[39m
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
-[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 111[39m [90m[39m
-[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\GVVignesh\\OneDrive - Technossus LLC\\Desktop\\WGR_Android\\App Folder\\universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"samsung SM-A146B (Android 14)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":62114,"appium:udid":"adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"C:\\Users\\GVVignesh\\OneDrive - Technossus LLC\\Desktop\\WGR_Android\\App Folder\\universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"samsung SM-A146B (Android 14)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":62114,"appium:udid":"adb-RZCW81...[39m
+[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"samsung SM-A146B (Android 14)","appium:newCommandTimeout":1800,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":8248,"appium:udid":"adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"samsung SM-A146B (Android 14)","appium:newCommandTimeout":1800,"appium:platformName":"ANDROID","appium:platformVersion":"14","appium:systemPort":8248,"appium:udid":"adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp"}}[39m
 [38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
 [38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
 [38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
 [38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
 [38;5;112m[Appium][0m Will require it at C:\Users\GVVignesh\.appium\node_modules\appium-uiautomator2-driver
-[38;5;165m[AppiumDriver@68a6][0m Appium v2.16.0 creating new AndroidUiautomator2Driver (v4.0.1) session
-[38;5;165m[AppiumDriver@68a6][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
-[38;5;165m[AppiumDriver@68a6][0m Appium's BaseDriver version is 9.16.0
-[38;5;165m[AppiumDriver@68a6][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.0
-[38;5;-117m[AndroidUiautomator2Driver@e201][0m The following provided capabilities were not recognized by this driver:
-[38;5;-117m[AndroidUiautomator2Driver@e201][0m   deviceId
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Session created with session id: 9edd59b7-197d-4aa6-a317-e102de7c7a35
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\GVVignesh\.katalon\tools\android_sdk' (newest first):
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m     C:\Users\GVVignesh\.katalon\tools\android_sdk\build-tools\29.0.3
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\GVVignesh\.katalon\tools\android_sdk\platform-tools\adb.exe'
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Retrieving device list
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Using device: adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\GVVignesh\.katalon\tools\android_sdk\platform-tools\adb.exe'
-[38;5;179m[9edd59b7][0m[38;5;123m[BaseDriver][0m Using local app 'C:\Users\GVVignesh\OneDrive - Technossus LLC\Desktop\WGR_Android\App Folder\universal.apk'
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m Getting device platform version
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Relaxing hidden api policy
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\GVVignesh\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Server packages are not going to be (re)installed
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from 'C:\Users\GVVignesh\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m 'C:\Users\GVVignesh\OneDrive - Technossus LLC\Desktop\WGR_Android\App Folder\universal.apk' is signed with a non-default certificate
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m The application at 'C:\Users\GVVignesh\OneDrive - Technossus LLC\Desktop\WGR_Android\App Folder\universal.apk' will not be cached, because the device under test has confirmed the support of streamed installs
-[38;5;179m[9edd59b7][0m[38;5;229m[ADB][0m The installation of 'universal.apk' took 20501ms
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Starting UIAutomator2 server 7.2.3
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Using UIAutomator2 server from 'C:\Users\GVVignesh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.2.3.apk' and test from 'C:\Users\GVVignesh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Waiting up to 30000ms for UiAutomator2 to be online...
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m socket hang up
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m socket hang up
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m socket hang up
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m socket hang up
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Determined the downstream protocol as 'W3C'
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Got response with status 404: {"sessionId":null,"value":{"error":"unknown command","message":"The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource","stacktrace":"io.appium.uiautomator2.common.exceptions.UnknownCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:84)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandler...
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Cannot fetch device details. Original error: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Got response with status 404: {"sessionId":null,"value":{"error":"unknown command","message":"The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource","stacktrace":"io.appium.uiautomator2.common.exceptions.UnknownCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:84)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandler...
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Got response with status 404: {"sessionId":null,"value":{"error":"unknown command","message":"The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource","stacktrace":"io.appium.uiautomator2.common.exceptions.UnknownCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:84)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandler...
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Screen already unlocked, doing nothing
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Starting 'com.westgate.rewrite2/com.westgate.rewrite2.MainActivity' and waiting for 'com.westgate.rewrite2/com.westgate.rewrite2.MainActivity'
-[38;5;179m[9edd59b7][0m[38;5;165m[AppiumDriver@68a6][0m New AndroidUiautomator2Driver session created successfully, session 9edd59b7-197d-4aa6-a317-e102de7c7a35 added to master session list
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m33674 ms - 1254[39m [90m[39m
+[38;5;19m[AppiumDriver@1ec6][0m Appium v2.16.0 creating new AndroidUiautomator2Driver (v4.0.1) session
+[38;5;19m[AppiumDriver@1ec6][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;19m[AppiumDriver@1ec6][0m Appium's BaseDriver version is 9.16.0
+[38;5;19m[AppiumDriver@1ec6][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.0
+[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m The following provided capabilities were not recognized by this driver:
+[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m   deviceId
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Session created with session id: 2a34bcc0-cebb-4b92-a866-52b08520d734
+[38;5;26m[2a34bcc0][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under 'C:\Users\GVVignesh\.katalon\tools\android_sdk' (newest first):
+[38;5;26m[2a34bcc0][0m[38;5;229m[ADB][0m     C:\Users\GVVignesh\.katalon\tools\android_sdk\build-tools\29.0.3
+[38;5;26m[2a34bcc0][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\GVVignesh\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Retrieving device list
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Using device: adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp
+[38;5;26m[2a34bcc0][0m[38;5;229m[ADB][0m Using 'adb.exe' from 'C:\Users\GVVignesh\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Starting 'com.android.settings' directly on the device
+[38;5;26m[2a34bcc0][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Relaxing hidden api policy
+[38;5;26m[2a34bcc0][0m[38;5;229m[ADB][0m Using 'aapt2.exe' from 'C:\Users\GVVignesh\.katalon\tools\android_sdk\build-tools\29.0.3\aapt2.exe'
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Server packages are not going to be (re)installed
+[38;5;26m[2a34bcc0][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Starting UIAutomator2 server 7.2.3
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Using UIAutomator2 server from 'C:\Users\GVVignesh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v7.2.3.apk' and test from 'C:\Users\GVVignesh\.appium\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m socket hang up
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m socket hang up
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Determined the downstream protocol as 'W3C'
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Got response with status 404: {"sessionId":null,"value":{"error":"unknown command","message":"The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource","stacktrace":"io.appium.uiautomator2.common.exceptions.UnknownCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:84)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandler...
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Cannot fetch device details. Original error: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Got response with status 404: {"sessionId":null,"value":{"error":"unknown command","message":"The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource","stacktrace":"io.appium.uiautomator2.common.exceptions.UnknownCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:84)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandler...
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Got response with status 404: {"sessionId":null,"value":{"error":"unknown command","message":"The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource","stacktrace":"io.appium.uiautomator2.common.exceptions.UnknownCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:84)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:345)\n\tat io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandler...
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Screen already unlocked, doing nothing
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Starting 'com.android.settings/.Settings' and waiting for 'com.android.settings/.Settings'
+[38;5;26m[2a34bcc0][0m[38;5;19m[AppiumDriver@1ec6][0m New AndroidUiautomator2Driver session created successfully, session 2a34bcc0-cebb-4b92-a866-52b08520d734 added to master session list
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m9522 ms - 1012[39m [90m[39m
 [38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m [90m{}[39m
 [38;5;86m[HTTP][0m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 111[39m [90m[39m
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/timeouts[39m [90m{"implicit":60000}[39m
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/timeouts [39m[32m200[39m [90m6 ms - 14[39m [90m[39m
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/source[39m [90m{}[39m
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Replacing sessionId a6a1deac-8eed-4fc8-8cfb-022fee866194 with 9edd59b7-197d-4aa6-a317-e102de7c7a35
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/source [39m[32m200[39m [90m419 ms - 5069[39m [90m[39m
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/screenshot[39m [90m{}[39m
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/screenshot [39m[32m200[39m [90m553 ms - 39992[39m [90m[39m
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/source[39m [90m{}[39m
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Driver proxy active, passing request on via HTTP proxy
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Replacing sessionId a6a1deac-8eed-4fc8-8cfb-022fee866194 with 9edd59b7-197d-4aa6-a317-e102de7c7a35
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/source [39m[32m200[39m [90m242 ms - 28513[39m [90m[39m
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/screenshot[39m [90m{}[39m
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35/screenshot [39m[32m200[39m [90m896 ms - 733092[39m [90m[39m
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35[39m [90m{}[39m
-[38;5;179m[9edd59b7][0m[38;5;165m[AppiumDriver@68a6][0m Removing session 9edd59b7-197d-4aa6-a317-e102de7c7a35 from our master session list
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
-[38;5;179m[9edd59b7][0m[38;5;-117m[AndroidUiautomator2Driver@e201][0m Restoring hidden api policy to the device default configuration
-[38;5;179m[9edd59b7][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/9edd59b7-197d-4aa6-a317-e102de7c7a35 [39m[32m200[39m [90m335 ms - 14[39m [90m[39m
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/timeouts[39m [90m{"implicit":60000}[39m
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/timeouts [39m[32m200[39m [90m5 ms - 14[39m [90m[39m
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/execute/sync[39m [90m{"script":"mobile: getSystemBars","args":[]}[39m
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/execute/sync [39m[32m200[39m [90m353 ms - 151[39m [90m[39m
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/execute/sync[39m [90m{"script":"mobile: activateApp","args":[{"appId":"com.westgate.rewrite2","bundleId":"com.westgate.rewrite2"}]}[39m
+[38;5;26m[2a34bcc0][0m[38;5;123m[BaseDriver][0m The following script arguments are not known and will be ignored: bundleId
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/execute/sync [39m[32m200[39m [90m458 ms - 14[39m [90m[39m
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/source[39m [90m{}[39m
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Replacing sessionId 474d6f20-8d25-406c-8c92-35154df74989 with 2a34bcc0-cebb-4b92-a866-52b08520d734
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/source [39m[32m200[39m [90m1779 ms - 47988[39m [90m[39m
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/screenshot[39m [90m{}[39m
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m<-- GET /wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734/screenshot [39m[32m200[39m [90m1494 ms - 1907084[39m [90m[39m
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734[39m [90m{}[39m
+[38;5;26m[2a34bcc0][0m[38;5;19m[AppiumDriver@1ec6][0m Removing session 2a34bcc0-cebb-4b92-a866-52b08520d734 from our master session list
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;26m[2a34bcc0][0m[38;5;-77m[AndroidUiautomator2Driver@fe7d][0m Restoring hidden api policy to the device default configuration
+[38;5;26m[2a34bcc0][0m[38;5;86m[HTTP][0m [37m<-- DELETE /wd/hub/session/2a34bcc0-cebb-4b92-a866-52b08520d734 [39m[32m200[39m [90m662 ms - 14[39m [90m[39m

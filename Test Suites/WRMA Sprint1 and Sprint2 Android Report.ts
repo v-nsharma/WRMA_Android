@@ -92,7 +92,7 @@
       <guid>10776535-32d4-436a-ae70-c6f900009d57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-241/C677</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-241/C660-C681</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -50,7 +50,7 @@
       <guid>138402a3-f797-422a-93b5-889de55ca2ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-241/C677</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-241/C660-C681</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C660-Verify that the correct inline error message appears when incorrect email addresses are entered on the Login or Sign up page&#xd;
+C677-Verify that the correct inline error message appears when incorrect email addresses are entered on the New User page&#xd;
+C678-Verify that the correct inline error message appears when the email address with the domain &quot;@wgresorts.com&quot; is entered&#xd;
+C679-Verify that the correct inline error message appears when the confirmation email address doesn't match the original email address&#xd;
+C680-Verify that the system doesn't allow go to the next page users to proceed with existing email addresses in the system&#xd;
+C681-Verify that the system doesn't allow copy and paste the initially entered email address</description>
+   <name>C660-C681</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2e4d7d84-06a6-4fff-908c-4f3cd895e609</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b383c868-e7fd-42c9-94e5-e00806d4323a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Emails</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

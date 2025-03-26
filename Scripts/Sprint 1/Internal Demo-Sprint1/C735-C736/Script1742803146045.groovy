@@ -53,7 +53,7 @@ Mobile.delay(5)
 
 'Open the menu by tapping on the menu button'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - menu'), 0, FailureHandling.STOP_ON_FAILURE)
-Mobile.delay(5)
+Mobile.delay(30)
 
 'Check if the "Terms and Conditions" menu option is present and tap it'
 if (Mobile.waitForElementPresent(findTestObject('Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu'), 10, FailureHandling.CONTINUE_ON_FAILURE)) {

@@ -95,7 +95,7 @@ Mobile.setText(findTestObject('Object Repository/Repo/android.widget.EditText-La
 'Hides the on-screen keyboard.'
 Mobile.hideKeyboard()
 
-'Pauses the execution for 10 seconds, waiting for the confirmation password field to be ready.\r\n\r\n'
+'Pauses the execution for 10 seconds, waiting for the confirmation password field to be ready'
 Mobile.delay(10)
 
 'Inputs the value of password into the password field.'

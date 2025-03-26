@@ -123,10 +123,10 @@ Mobile.hideKeyboard()
 'Simulates key presses in a specified field.'
 Mobile.sendKeys(findTestObject('Object Repository/Repo/android.widget.EditText-Password'), password)
 
-'Pauses the execution for 15 seconds.\r\n\r\n'
+'Pauses the execution for 15 seconds'
 Mobile.delay(15)
 
-'Simulates a tap on a specified element.\r\n\r\n'
+'Simulates a tap on a specified element'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TextView - Your password must be between 8 and 20 characters and may not contain spaces'), 
     0)
 
