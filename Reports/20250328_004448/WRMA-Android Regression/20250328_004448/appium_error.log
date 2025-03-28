@@ -1,0 +1,17 @@
+[38;5;126m[37e3c249][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+[38;5;37m[150f5fe5][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+uncaughtException: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+Error: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy'' exited with code 20'; Command output: cmd: Can't find service: settings
+cmd: Can't find service: settings
+cmd: Can't find service: settings
+
+    at ChildProcess.<anonymous> (/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/teen_process/lib/exec.js:110:19)
+    at ChildProcess.emit (node:events:507:28)
+    at maybeClose (node:internal/child_process:1101:16)
+    at Socket.<anonymous> (node:internal/child_process:457:11)
+    at Socket.emit (node:events:507:28)
+    at Pipe.<anonymous> (node:net:351:12)
+    at Pipe.callbackTrampoline (node:internal/async_hooks:130:17)

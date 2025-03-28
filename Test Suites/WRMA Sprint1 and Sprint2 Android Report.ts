@@ -15,21 +15,21 @@
       <guid>87b2d985-8f1b-4f2e-b2e2-ada61c6afc2a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/Internal Demo-Sprint1/C658-C667-C668</testCaseId>
+      <testCaseId>Test Cases/App Installation And Launching/C658-C667-C668_AppInstallationAndLaunching</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>d52133e2-2d28-43d3-a6d9-9b79ffdca68e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 1/Internal Demo-Sprint1/C735-C736</testCaseId>
+      <testCaseId>Test Cases/Login Owner OR Renter/C735-C736_LoginOwnerOrRenter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>99ac567d-e002-43ee-ba24-1217aea27dd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-119/C764</testCaseId>
+      <testCaseId>Test Cases/Guest User Mode/C764-C793_GuestUserMode</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -78,7 +78,7 @@
       <guid>96dd4380-b3d5-49b9-9417-d41828221ed5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-239/C739</testCaseId>
+      <testCaseId>Test Cases/Login Owner OR Renter/C739_LoginOwnerOrRenter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -92,7 +92,7 @@
       <guid>10776535-32d4-436a-ae70-c6f900009d57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-241/C660-C681</testCaseId>
+      <testCaseId>Test Cases/Sign Up New UserPage/C660-C681_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -176,7 +176,7 @@
       <guid>5c464c93-becf-4f4b-a927-5932907c23ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-258/C698-C696</testCaseId>
+      <testCaseId>Test Cases/Sign Up New UserPage/C698-C696_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -190,7 +190,7 @@
       <guid>54aa8229-10f8-4aa6-967f-bfdb6ca29edd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-56/C699</testCaseId>
+      <testCaseId>Test Cases/Sign Up New UserPage/C699_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

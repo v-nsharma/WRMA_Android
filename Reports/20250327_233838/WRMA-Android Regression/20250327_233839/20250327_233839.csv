@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WRMA-Android Regression,,,,27-03-2025 23:38:44,27-03-2025 23:38:44,0.306s,FAILED
+,,,,,,,
+Test Cases/App Installation And Launching/C658-C667-C668_AppInstallationAndLaunching,,"Verify that the Intro Page opens correctly
+Verify that the Term and Conditions in Guest Mode is displayed correctly
+Verify that the Privacy Policy in Guest Mode is displayed correctly",,27-03-2025 23:38:44,27-03-2025 23:38:44,0.011s,FAILED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true)",,Launch the application on the physical device,,27-03-2025 23:38:44,27-03-2025 23:38:44,0.003s,FAILED

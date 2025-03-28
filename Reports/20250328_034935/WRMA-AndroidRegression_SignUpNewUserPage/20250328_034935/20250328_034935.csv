@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WRMA-AndroidRegression_SignUpNewUserPage,,,,28-03-2025 03:49:39,28-03-2025 03:49:40,0.674s,FAILED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C682-C688_SignUpNewUserPage,,"C682-Verify that an correct inline error message appears when numbers are entered in the First Name and Last Name fields
+C683-Verify that the correct inline error message appears when typing the password less than 8 symbols
+C684-Verify that the password field doesn't allow typing more than 20 symbols
+C685-Verify that the correct inline error message appears when the Confirm password doesn't match the original password
+C686-Verify that the First and Last name fields don't allow typing more than 50 symbols
+C687-Verify that the Next button is activated only when all fields are filled
+C688-Verify that the Next button remains inactive If any fields are left blank",,28-03-2025 03:49:40,28-03-2025 03:49:40,0.033s,FAILED
+userRegistrationTests = new UserRegistrationTests(),,,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.000s,PASSED
+userRegistrationTests.runAllTests(),,,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.001s,PASSED
+testNameValidationWithNumbers(),,,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.000s,PASSED
+"testData = findTestData(""Data Files/C682-688"")",,Retrieve test data,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.007s,PASSED
+"startApplication(APK_PATH, false)",,Launch the mobile application,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.002s,FAILED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C699_SignUpNewUserPage,,Verify that the Next button on the 'Not Verified Thank You' page is clickable,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.017s,FAILED
+"testData = findTestData(""Data Files/C699"")",,"Retrieve test data from the ""C699"" data file",,28-03-2025 03:49:40,28-03-2025 03:49:40,0.005s,PASSED
+"email = testData.getValue(""email"", 1)",,"Extract email, first name, last name, password, and confirm password from the test data file",,28-03-2025 03:49:40,28-03-2025 03:49:40,0.000s,PASSED
+"firstName = testData.getValue(""firstname"", 1)",,,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.001s,PASSED
+"lastName = testData.getValue(""lastname"", 1)",,,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.000s,PASSED
+"password = testData.getValue(""password"", 1)",,,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.000s,PASSED
+"confirmPassword = testData.getValue(""confirm password"", 1)",,,,28-03-2025 03:49:40,28-03-2025 03:49:40,0.000s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true)",,Launch the mobile application with reset enabled (clears previous session data),,28-03-2025 03:49:40,28-03-2025 03:49:40,0.002s,FAILED

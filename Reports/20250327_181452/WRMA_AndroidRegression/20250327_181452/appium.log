@@ -1,0 +1,271 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.17.1 (REV f1041842141f20bc701b522d4371d7843d905580)
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m60039[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:60039/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:60039/wd/hub (only accessible from the same host)
+	http://192.168.0.106:60039/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.1.5 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 5 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":60038,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":60038,"appium:udid":"emulator-5554"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;211m[AppiumDriver@86fe][0m Appium v2.17.1 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;211m[AppiumDriver@86fe][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;211m[AppiumDriver@86fe][0m Appium's BaseDriver version is 9.16.4
+[38;5;211m[AppiumDriver@86fe][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-133m[AndroidUiautomator2Driver@40fd][0m The following provided capabilities were not recognized by this driver:
+[38;5;-133m[AndroidUiautomator2Driver@40fd][0m   deviceId
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Session created with session id: 5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under '/Users/gv.vignesh/.katalon/tools/android_sdk' (newest first):
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m     /Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Retrieving device list
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Using device: emulator-5554
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;119m[5cb92ba3][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Relaxing hidden api policy
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m Using 'apksigner.jar' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Server packages are not going to be (re)installed
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk' is signed with a non-default certificate
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m com.westgate.rewrite2 was successfully uninstalled
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m The installation of 'universal.apk' took 932ms
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Starting UIAutomator2 server 7.3.0
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Using UIAutomator2 server from '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.3.0.apk' and test from '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m socket hang up
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Determined the downstream protocol as 'W3C'
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Screen already unlocked, doing nothing
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Starting 'com.westgate.rewrite2/com.westgate.rewrite2.MainActivity' and waiting for 'com.westgate.rewrite2/com.westgate.rewrite2.MainActivity'
+[38;5;119m[5cb92ba3][0m[38;5;211m[AppiumDriver@86fe][0m New AndroidUiautomator2Driver session created successfully, session 5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0 added to master session list
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 7369 ms - 1352 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts[39m {"implicit":30000}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts 200 2 ms - 14 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/execute/sync[39m {"args":[],"script":"mobile: getSystemBars"}
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m No windows have been found whose title matches to 'NavigationBar'. Assuming it is invisible. Only the following windows are available: ScreenDecorOverlayBottom,ScreenDecorOverlay,EdgeBackGestureHandler0,Taskbar,NotificationShade,StatusBar,ShellDropTarget,InputMethod
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/execute/sync 200 96 ms - 145 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts[39m {"implicit":50}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts 200 1 ms - 14 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/window/rect[39m {}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/window/rect 200 13 ms - 50 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/elements[39m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Login or Sign Up' or . = 'Login or Sign Up')]"}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/elements 200 173 ms - 139 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/element/00000000-0000-000a-0000-00dd00000007/rect[39m {}
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Replacing sessionId 4b800e0d-d42e-42f4-8c85-06c57f392db5 with 5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/element/00000000-0000-000a-0000-00dd00000007/rect 200 8 ms - 103 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts[39m {"implicit":30000}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts 200 0 ms - 14 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/element/00000000-0000-000a-0000-00dd00000007/click[39m {"id":"00000000-0000-000a-0000-00dd00000007"}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/element/00000000-0000-000a-0000-00dd00000007/click 200 58 ms - 14 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts[39m {"implicit":50}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts 200 1 ms - 14 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/window/rect[39m {}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/window/rect 500 2 ms - 1149 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts[39m {"implicit":30000}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/timeouts 200 0 ms - 14 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/context[39m {}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/context 200 1 ms - 22 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/contexts[39m {}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/contexts 200 287 ms - 24 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/context[39m {"name":"NATIVE_APP"}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/context 200 2 ms - 14 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/screenshot[39m {}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/screenshot 500 4 ms - 986 
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/context[39m {"name":"NATIVE_APP"}
+[38;5;119m[5cb92ba3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0/context 200 1 ms - 14 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":60280,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":60280,"appium:udid":"emulator-5554"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;211m[AppiumDriver@86fe][0m Appium v2.17.1 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;211m[AppiumDriver@86fe][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;211m[AppiumDriver@86fe][0m Appium's BaseDriver version is 9.16.4
+[38;5;211m[AppiumDriver@86fe][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-162m[AndroidUiautomator2Driver@d496][0m The following provided capabilities were not recognized by this driver:
+[38;5;-162m[AndroidUiautomator2Driver@d496][0m   deviceId
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Session created with session id: 60e4537c-0db3-41ea-b797-88bdcb526a47
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Retrieving device list
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Using device: emulator-5554
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;143m[60e4537c][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Relaxing hidden api policy
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Server packages are not going to be (re)installed
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m com.westgate.rewrite2 was not uninstalled, because it was not present on the device
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m The installation of 'universal.apk' took 694ms
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Starting UIAutomator2 server 7.3.0
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Using UIAutomator2 server from '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.3.0.apk' and test from '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m socket hang up
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Determined the downstream protocol as 'W3C'
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Screen already unlocked, doing nothing
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Starting 'com.westgate.rewrite2/com.westgate.rewrite2.MainActivity' and waiting for 'com.westgate.rewrite2/com.westgate.rewrite2.MainActivity'
+[38;5;143m[60e4537c][0m[38;5;211m[AppiumDriver@86fe][0m New AndroidUiautomator2Driver session created successfully, session 60e4537c-0db3-41ea-b797-88bdcb526a47 added to master session list
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 3855 ms - 1352 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts[39m {"implicit":30000}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts 200 1 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/execute/sync[39m {"args":[],"script":"mobile: getSystemBars"}
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m No windows have been found whose title matches to 'NavigationBar'. Assuming it is invisible. Only the following windows are available: ScreenDecorOverlayBottom,ScreenDecorOverlay,EdgeBackGestureHandler0,Taskbar,NotificationShade,StatusBar,ShellDropTarget,InputMethod
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/execute/sync 200 68 ms - 145 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts[39m {"implicit":50}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts 200 1 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/window/rect[39m {}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/window/rect 200 9 ms - 50 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/elements[39m {"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Login or Sign Up' or . = 'Login or Sign Up')]"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/elements 200 190 ms - 139 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-00dd00000007/rect[39m {}
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Replacing sessionId cc801bfb-4317-4e24-9c43-04962d564fd7 with 60e4537c-0db3-41ea-b797-88bdcb526a47
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-00dd00000007/rect 200 11 ms - 103 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts[39m {"implicit":30000}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts 200 1 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-00dd00000007/click[39m {"id":"00000000-0000-0015-0000-00dd00000007"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-00dd00000007/click 200 63 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts[39m {"implicit":50}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts 200 2 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/window/rect[39m {}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/window/rect 200 9 ms - 50 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/elements[39m {"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = '' or . = '')]"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/elements 200 83 ms - 139 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-010600000007/rect[39m {}
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Replacing sessionId cc801bfb-4317-4e24-9c43-04962d564fd7 with 60e4537c-0db3-41ea-b797-88bdcb526a47
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-010600000007/rect 200 6 ms - 103 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts[39m {"implicit":30000}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts 200 1 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-010600000007/clear[39m {"id":"00000000-0000-0015-0000-010600000007"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-010600000007/clear 200 8 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-010600000007/click[39m {"id":"00000000-0000-0015-0000-010600000007"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-010600000007/click 200 34 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-010600000007/value[39m {"id":"00000000-0000-0015-0000-010600000007","value":["0","3","2","0","5","1","9","8","t","m","@","w","g",".","c","o","m"],"text":"03205198tm@wg.com"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/element/00000000-0000-0015-0000-010600000007/value 200 13 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context[39m {}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context 200 0 ms - 22 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/contexts[39m {}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/contexts 200 291 ms - 24 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context[39m {"name":"NATIVE_APP"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context 200 0 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/execute/sync[39m {"args":[],"script":"mobile: hideKeyboard"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/execute/sync 200 527 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context[39m {"name":"NATIVE_APP"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context 200 0 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts[39m {"implicit":50}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts 200 1 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/window/rect[39m {}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/window/rect 500 1 ms - 1149 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts[39m {"implicit":30000}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/timeouts 200 0 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context[39m {}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context 200 0 ms - 22 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/contexts[39m {}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/contexts 200 289 ms - 24 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context[39m {"name":"NATIVE_APP"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context 200 1 ms - 14 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/screenshot[39m {}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/screenshot 500 1 ms - 986 
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context[39m {"name":"NATIVE_APP"}
+[38;5;143m[60e4537c][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/60e4537c-0db3-41ea-b797-88bdcb526a47/context 200 1 ms - 14 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":60511,"appium:udid":"emulator-5554","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone64_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":60511,"appium:udid":"emulator-5554"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;211m[AppiumDriver@86fe][0m Appium v2.17.1 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;211m[AppiumDriver@86fe][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;211m[AppiumDriver@86fe][0m Appium's BaseDriver version is 9.16.4
+[38;5;211m[AppiumDriver@86fe][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-161m[AndroidUiautomator2Driver@52e6][0m The following provided capabilities were not recognized by this driver:
+[38;5;-161m[AndroidUiautomator2Driver@52e6][0m   deviceId
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Session created with session id: ce5711d3-b04b-4800-b7f7-426f7cb4c0bf
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Retrieving device list
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Using device: emulator-5554
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;153m[ce5711d3][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Relaxing hidden api policy
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Server packages are not going to be (re)installed
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m com.westgate.rewrite2 was not uninstalled, because it was not present on the device
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;153m[ce5711d3][0m[38;5;229m[ADB][0m The installation of 'universal.apk' took 804ms
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Starting UIAutomator2 server 7.3.0
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Using UIAutomator2 server from '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.3.0.apk' and test from '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m socket hang up
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Determined the downstream protocol as 'W3C'
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Screen already unlocked, doing nothing
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Starting 'com.westgate.rewrite2/com.westgate.rewrite2.MainActivity' and waiting for 'com.westgate.rewrite2/com.westgate.rewrite2.MainActivity'
+[38;5;153m[ce5711d3][0m[38;5;211m[AppiumDriver@86fe][0m New AndroidUiautomator2Driver session created successfully, session ce5711d3-b04b-4800-b7f7-426f7cb4c0bf added to master session list
+[38;5;153m[ce5711d3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 200 3967 ms - 1352 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 200 
+[38;5;153m[ce5711d3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ce5711d3-b04b-4800-b7f7-426f7cb4c0bf/timeouts[39m {"implicit":30000}
+[38;5;153m[ce5711d3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/ce5711d3-b04b-4800-b7f7-426f7cb4c0bf/timeouts 200 1 ms - 14 
+[38;5;153m[ce5711d3][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/ce5711d3-b04b-4800-b7f7-426f7cb4c0bf/execute/sync[39m {"args":[],"script":"mobile: getSystemBars"}
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m No windows have been found whose title matches to 'NavigationBar'. Assuming it is invisible. Only the following windows are available: ScreenDecorOverlayBottom,ScreenDecorOverlay,EdgeBackGestureHandler0,Taskbar,NotificationShade,StatusBar,ShellDropTarget,InputMethod
+[38;5;153m[ce5711d3][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/ce5711d3-b04b-4800-b7f7-426f7cb4c0bf/execute/sync 200 90 ms - 145 
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Shutting down because we waited 1800 seconds for a command
+[38;5;119m[5cb92ba3][0m[38;5;211m[AppiumDriver@86fe][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;119m[5cb92ba3][0m[38;5;211m[AppiumDriver@86fe][0m Removing session '5cb92ba3-5e8e-4ac0-bdcf-a7284abc48b0' from our master session list
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m The UIA2 server did has not been terminated within 5000ms timeout. Continuing anyway
+[38;5;119m[5cb92ba3][0m[38;5;229m[ADB][0m com.westgate.rewrite2 was successfully uninstalled
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Unable to remove system port forward: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:60038' exited with code 1'; Command output: adb: error: listener 'tcp:60038' not found
+
+[38;5;119m[5cb92ba3][0m[38;5;-133m[AndroidUiautomator2Driver@40fd][0m Restoring hidden api policy to the device default configuration
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Shutting down because we waited 1800 seconds for a command
+[38;5;143m[60e4537c][0m[38;5;211m[AppiumDriver@86fe][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;143m[60e4537c][0m[38;5;211m[AppiumDriver@86fe][0m Removing session '60e4537c-0db3-41ea-b797-88bdcb526a47' from our master session list
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Shutting down because we waited 1800 seconds for a command
+[38;5;153m[ce5711d3][0m[38;5;211m[AppiumDriver@86fe][0m Ending session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[38;5;153m[ce5711d3][0m[38;5;211m[AppiumDriver@86fe][0m Removing session 'ce5711d3-b04b-4800-b7f7-426f7cb4c0bf' from our master session list
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Did not get the confirmation of UiAutomator2 server session deletion. Original error: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m The UIA2 server did has not been terminated within 5000ms timeout. Continuing anyway
+[38;5;143m[60e4537c][0m[38;5;229m[ADB][0m com.westgate.rewrite2 was successfully uninstalled
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Unable to remove system port forward: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:60280' exited with code 1'; Command output: adb: error: listener 'tcp:60280' not found
+
+[38;5;143m[60e4537c][0m[38;5;-162m[AndroidUiautomator2Driver@d496][0m Restoring hidden api policy to the device default configuration
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Unable to uninstall app: Unable to uninstall APK. Original error: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 uninstall com.westgate.rewrite2' exited with code 1'; Command output: Failure [DELETE_FAILED_INTERNAL_ERROR]
+
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Unable to remove system port forward: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s emulator-5554 forward --remove tcp\:60511' exited with code 1'; Command output: adb: error: listener 'tcp:60511' not found
+
+[38;5;153m[ce5711d3][0m[38;5;-161m[AndroidUiautomator2Driver@52e6][0m Restoring hidden api policy to the device default configuration
+[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 8ms

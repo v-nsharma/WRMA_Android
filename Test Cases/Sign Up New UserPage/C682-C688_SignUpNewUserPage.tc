@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C682-Verify that an correct inline error message appears when numbers are entered in the First Name and Last Name fields&#xd;
+C683-Verify that the correct inline error message appears when typing the password less than 8 symbols&#xd;
+C684-Verify that the password field doesn't allow typing more than 20 symbols&#xd;
+C685-Verify that the correct inline error message appears when the Confirm password doesn't match the original password&#xd;
+C686-Verify that the First and Last name fields don't allow typing more than 50 symbols&#xd;
+C687-Verify that the Next button is activated only when all fields are filled&#xd;
+C688-Verify that the Next button remains inactive If any fields are left blank</description>
+   <name>C682-C688_SignUpNewUserPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65116774-6866-4f2a-9909-3060f01625f6</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>6210f8ab-d804-4472-99a4-01f53cfb4f28</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C682-688</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

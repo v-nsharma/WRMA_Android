@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WRMA-Android Regression,,,,28-03-2025 02:18:18,28-03-2025 02:18:19,0.904s,FAILED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C682-C688_SignUpNewUserPage,,"C682-Verify that an correct inline error message appears when numbers are entered in the First Name and Last Name fields
+C683-Verify that the correct inline error message appears when typing the password less than 8 symbols
+C684-Verify that the password field doesn't allow typing more than 20 symbols
+C685-Verify that the correct inline error message appears when the Confirm password doesn't match the original password
+C686-Verify that the First and Last name fields don't allow typing more than 50 symbols
+C687-Verify that the Next button is activated only when all fields are filled
+C688-Verify that the Next button remains inactive If any fields are left blank",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.029s,FAILED
+userRegistrationTests = new UserRegistrationTests(),,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.001s,PASSED
+userRegistrationTests.runAllTests(),,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+testNameValidationWithNumbers(),,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"testData = findTestData(""Data Files/C682-688"")",,Retrieve test data,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.007s,PASSED
+"startApplication(APK_PATH, false)",,Launch the mobile application,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.002s,FAILED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C660-C681_SignUpNewUserPage,,"C660-Verify that the correct inline error message appears when incorrect email addresses are entered on the Login or Sign up page
+C677-Verify that the correct inline error message appears when incorrect email addresses are entered on the New User page
+C678-Verify that the correct inline error message appears when the email address with the domain ""@wgresorts.com"" is entered
+C679-Verify that the correct inline error message appears when the confirmation email address doesn't match the original email address
+C680-Verify that the system doesn't allow go to the next page users to proceed with existing email addresses in the system
+C681-Verify that the system doesn't allow copy and paste the initially entered email address",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.021s,FAILED
+emailValidationTests = new EmailValidationTests(),,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+emailValidationTests.runAllTests(),,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+testInvalidEmailFormat(),,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"excelData = findTestData(""Data Files/InvalidEmail"")",,"Retrieve test data from ""InvalidEmail"" Excel file",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.004s,PASSED
+rowCount = excelData.getRowNumbers(),,Get the total number of rows available in the Excel sheet,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.001s,PASSED
+"startApplication(APK_PATH, false)",,Start the mobile application,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.002s,FAILED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C698-C696_SignUpNewUserPage,,"Verify that the confirmation email is received after agreeing to the Terms and Conditions
+Verify that outdated verification links cannot be used",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.013s,FAILED
+"testData = findTestData(""Data Files/C698-C696 (1)"")",,"Initializes testData by finding the test data file located at ""Data Files""",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.004s,PASSED
+"email = testData.getValue(""email"", 1)",,"Retrieves the value of the ""email"" field from the first row of the test data and assigns it to the variable email.",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"firstName = testData.getValue(""firstname"", 1)",,"Retrieves the value of the ""firstname"" field from the first row of the test data and assigns it to the variable firstName.",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"lastName = testData.getValue(""lastname"", 1)",,"Retrieves the value of the ""lastname"" field from the first row of the test data and assigns it to the variable lastName.",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"password = testData.getValue(""password"", 1)",,"Retrieves the value of the ""password"" field from the first row of the test data and assigns it to the variable password.",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"confirmPassword = testData.getValue(""confirmpassword"", 1)",,"Retrieves the value of the ""confirmpassword"" field from the first row of the test data and assigns it to the variable confirmPassword.",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.001s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true)",, Launches the application ,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.001s,FAILED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C699_SignUpNewUserPage,,Verify that the Next button on the 'Not Verified Thank You' page is clickable,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.014s,FAILED
+"testData = findTestData(""Data Files/C699"")",,"Retrieve test data from the ""C699"" data file",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.006s,PASSED
+"email = testData.getValue(""email"", 1)",,"Extract email, first name, last name, password, and confirm password from the test data file",,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"firstName = testData.getValue(""firstname"", 1)",,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"lastName = testData.getValue(""lastname"", 1)",,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"password = testData.getValue(""password"", 1)",,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"confirmPassword = testData.getValue(""confirm password"", 1)",,,,28-03-2025 02:18:19,28-03-2025 02:18:19,0.000s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true)",,Launch the mobile application with reset enabled (clears previous session data),,28-03-2025 02:18:19,28-03-2025 02:18:19,0.001s,FAILED

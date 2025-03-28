@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WRMA-Android Regression,,,,27-03-2025 22:20:17,27-03-2025 22:24:00,3m - 43.070s,PASSED
+,,,,,,,
+Test Cases/App Installation And Launching/C658-C667-C668_AppInstallationAndLaunching,,"Verify that the Intro Page opens correctly
+Verify that the Term and Conditions in Guest Mode is displayed correctly
+Verify that the Privacy Policy in Guest Mode is displayed correctly",,27-03-2025 22:20:17,27-03-2025 22:24:00,3m - 43.021s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true)",,Launch the application on the physical device,,27-03-2025 22:20:17,27-03-2025 22:20:29,12.119s,PASSED
+delay(3),,Wait for 3 seconds for the app to load,,27-03-2025 22:20:29,27-03-2025 22:20:32,3.015s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences""), 0)",,"Verify the text ""You are Moments Away From Customized Vacation Experiences"" is present",,27-03-2025 22:20:32,27-03-2025 22:20:37,4.133s,PASSED
+delay(3),,Wait for 3 seconds,,27-03-2025 22:20:37,27-03-2025 22:20:40,3.012s,PASSED
+"text = getText(findTestObject(""Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences""), 0)",,"Get the text ""You are Moments Away From Customized Vacation Experiences"" and print it",,27-03-2025 22:20:40,27-03-2025 22:20:40,0.110s,PASSED
+"println(""Text: "" + text)",,,,27-03-2025 22:20:40,27-03-2025 22:20:40,0.004s,PASSED
+delay(3),,Wait for 3 seconds,,27-03-2025 22:20:40,27-03-2025 22:20:43,3.008s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Verify the ""Login or Sign Up"" button is present",,27-03-2025 22:20:43,27-03-2025 22:20:43,0.083s,PASSED
+delay(3),,Wait for 3 seconds,,27-03-2025 22:20:43,27-03-2025 22:20:46,3.010s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - Home""), 0)",,"Verify the bottom navigation bar ""Home"" is present",,27-03-2025 22:20:46,27-03-2025 22:20:46,0.088s,PASSED
+delay(3),,Wait for 3 seconds,,27-03-2025 22:20:46,27-03-2025 22:20:49,3.011s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - My Account""), 0)",,"Verify the bottom navigation bar ""My Account"" is present",,27-03-2025 22:20:49,27-03-2025 22:20:49,0.078s,PASSED
+delay(3),,Wait for 3 seconds,,27-03-2025 22:20:49,27-03-2025 22:20:52,3.009s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Vacation More. Get More""), 0)",,"Tap on the non-clickable text ""Vacation More. Get More""",,27-03-2025 22:20:52,27-03-2025 22:20:52,0.171s,PASSED
+delay(3),,Wait for 3 seconds,,27-03-2025 22:20:52,27-03-2025 22:20:55,3.009s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Repo/android.widget.TextView - Vacation More. Get More""), 0)",,"Verify that tapping on ""Vacation More. Get More"" does not redirect to the next page",,27-03-2025 22:20:55,27-03-2025 22:20:55,0.068s,PASSED
+delay(3),,Wait for 3 seconds,,27-03-2025 22:20:55,27-03-2025 22:20:58,3.012s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Repo/android.widget.TextView - Explore Westgate Loyalty""), 0)",,"Verify the text ""Explore Westgate Loyalty"" is visible",,27-03-2025 22:20:58,27-03-2025 22:20:58,0.077s,PASSED
+delay(3),,Wait for 3 seconds,,27-03-2025 22:20:58,27-03-2025 22:21:01,3.011s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Continue as a Guest""), 0)",,"Tap on the clickable text ""Continue as a Guest""",,27-03-2025 22:21:01,27-03-2025 22:21:01,0.134s,PASSED
+"isElementVisible = waitForElementPresent(findTestObject(""Object Repository/Repo/android.widget.TextView - Continue as a Guest""), 10)",,"Wait for the ""Continue as a Guest"" element to be present after tapping",,27-03-2025 22:21:01,27-03-2025 22:21:01,0.045s,PASSED
+if (!(isElementVisible)),,Check if the element is visible and log the result,,27-03-2025 22:21:01,27-03-2025 22:21:01,0.000s,PASSED
+else,,,,27-03-2025 22:21:01,27-03-2025 22:21:02,0.024s,PASSED
+delay(5),,Wait for 5 seconds,,27-03-2025 22:21:02,27-03-2025 22:21:07,5.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - menu""), 0)",,Tap on the menu button,,27-03-2025 22:21:07,27-03-2025 22:21:07,0.116s,PASSED
+delay(30),,Wait for 30 seconds for the menu to open,,27-03-2025 22:21:07,27-03-2025 22:21:37,30.013s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu""), 0)",,"Tap on the ""Terms and Conditions"" option in the menu",,27-03-2025 22:21:37,27-03-2025 22:21:37,0.139s,PASSED
+delay(30),,,,27-03-2025 22:21:37,27-03-2025 22:22:07,30.009s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Repo/android.view.View-Terms and conditions web""), 30, CONTINUE_ON_FAILURE))",,"Verify if the ""Terms and Conditions"" webview is present",,27-03-2025 22:22:07,27-03-2025 22:22:07,0.165s,PASSED
+delay(30),,Wait for 30 seconds,,27-03-2025 22:22:07,27-03-2025 22:22:37,30.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.ImageButton-Cancel web""), 0)",,Tap on the cancel button to close the webview,,27-03-2025 22:22:37,27-03-2025 22:22:37,0.149s,PASSED
+delay(15),,Wait for 15 seconds,,27-03-2025 22:22:37,27-03-2025 22:22:52,15.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - menu""), 0)",,Tap on the menu button again to open the menu fly-out,,27-03-2025 22:22:52,27-03-2025 22:22:52,0.157s,PASSED
+delay(30),,Wait for 30 seconds for the menu to open,,27-03-2025 22:22:52,27-03-2025 22:23:22,30.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Privacy Policy-Menu""), 0)",,"Tap on the ""Privacy Policy"" option in the menu",,27-03-2025 22:23:22,27-03-2025 22:23:22,0.157s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Repo/android.widget.TextView - Privacy Policy-web""), 30, CONTINUE_ON_FAILURE))",,"Verify if the ""Privacy Policy"" webview is present",,27-03-2025 22:23:22,27-03-2025 22:23:28,5.647s,PASSED
+delay(30),,Wait for 30 seconds for the Privacy Policy page to load,,27-03-2025 22:23:28,27-03-2025 22:23:58,30.012s,PASSED
+closeApplication(),,Close the application successfully,,27-03-2025 22:23:58,27-03-2025 22:24:00,2.047s,PASSED

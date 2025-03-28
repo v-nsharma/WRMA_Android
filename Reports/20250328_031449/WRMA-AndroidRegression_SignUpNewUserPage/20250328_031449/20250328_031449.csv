@@ -1,0 +1,158 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WRMA-AndroidRegression_SignUpNewUserPage,,,,28-03-2025 03:14:54,28-03-2025 03:38:14,23m - 19.518s,FAILED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C660-C681_SignUpNewUserPage,,"C660-Verify that the correct inline error message appears when incorrect email addresses are entered on the Login or Sign up page
+C677-Verify that the correct inline error message appears when incorrect email addresses are entered on the New User page
+C678-Verify that the correct inline error message appears when the email address with the domain ""@wgresorts.com"" is entered
+C679-Verify that the correct inline error message appears when the confirmation email address doesn't match the original email address
+C680-Verify that the system doesn't allow go to the next page users to proceed with existing email addresses in the system
+C681-Verify that the system doesn't allow copy and paste the initially entered email address",,28-03-2025 03:14:54,28-03-2025 03:22:24,7m - 30.260s,PASSED
+emailValidationTests = new EmailValidationTests(),,,,28-03-2025 03:14:54,28-03-2025 03:14:54,0.003s,PASSED
+emailValidationTests.runAllTests(),,,,28-03-2025 03:14:54,28-03-2025 03:14:54,0.001s,PASSED
+testInvalidEmailFormat(),,,,28-03-2025 03:14:54,28-03-2025 03:14:54,0.001s,PASSED
+"excelData = findTestData(""Data Files/InvalidEmail"")",,"Retrieve test data from ""InvalidEmail"" Excel file",,28-03-2025 03:14:54,28-03-2025 03:14:54,0.142s,PASSED
+rowCount = excelData.getRowNumbers(),,Get the total number of rows available in the Excel sheet,,28-03-2025 03:14:54,28-03-2025 03:14:54,0.003s,PASSED
+"startApplication(APK_PATH, false)",,Start the mobile application,,28-03-2025 03:14:54,28-03-2025 03:15:00,5.545s,PASSED
+delay(20),,,,28-03-2025 03:15:00,28-03-2025 03:15:20,20.024s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button",,28-03-2025 03:15:20,28-03-2025 03:15:20,0.342s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",,Loop through each row in the Excel sheet,,28-03-2025 03:15:20,28-03-2025 03:15:29,8.154s,PASSED
+closeApplication(),,Close the mobile application,,28-03-2025 03:15:29,28-03-2025 03:15:29,0.865s,PASSED
+testTeamMemberEmailError(),,,,28-03-2025 03:15:29,28-03-2025 03:15:29,0.000s,PASSED
+"testData = findTestData(""Data Files/C678"")",,"Retrieve test data from ""C678"" file",,28-03-2025 03:15:29,28-03-2025 03:15:29,0.014s,PASSED
+"email1 = testData.getValue(""email"", 1)",,Extract emails from the test data file,,28-03-2025 03:15:29,28-03-2025 03:15:29,0.001s,PASSED
+"email2 = testData.getValue(""email"", 2)",,,,28-03-2025 03:15:29,28-03-2025 03:15:29,0.001s,PASSED
+"startApplication(APK_PATH, true)",,Start the mobile application,,28-03-2025 03:15:29,28-03-2025 03:15:37,7.747s,PASSED
+delay(20),,,,28-03-2025 03:15:37,28-03-2025 03:15:57,20.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button",,28-03-2025 03:15:57,28-03-2025 03:15:57,0.276s,PASSED
+delay(10),,,,28-03-2025 03:15:57,28-03-2025 03:16:07,10.009s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email1)",,Enter the first email,,28-03-2025 03:16:07,28-03-2025 03:16:08,0.116s,PASSED
+delay(10),,,,28-03-2025 03:16:08,28-03-2025 03:16:18,10.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next""), 0)",,"Tap on the ""Next"" button",,28-03-2025 03:16:18,28-03-2025 03:16:18,0.153s,PASSED
+delay(10),,,,28-03-2025 03:16:18,28-03-2025 03:16:28,10.007s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 0)",,"Tap on the ""Reset"" button",,28-03-2025 03:16:28,28-03-2025 03:16:28,0.134s,PASSED
+hideKeyboard(),,,,28-03-2025 03:16:28,28-03-2025 03:16:29,1.404s,PASSED
+delay(10),,,,28-03-2025 03:16:29,28-03-2025 03:16:39,10.010s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText -""), email2)",,Enter the second email,,28-03-2025 03:16:39,28-03-2025 03:16:39,0.079s,PASSED
+delay(10),,,,28-03-2025 03:16:39,28-03-2025 03:16:49,10.011s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (1)""), 0)",,"Tap on the ""Next"" button",,28-03-2025 03:16:49,28-03-2025 03:16:50,0.629s,PASSED
+delay(10),,,,28-03-2025 03:16:50,28-03-2025 03:17:00,10.011s,PASSED
+"actualText = getText(findTestObject(""Object Repository/Repo/android.widget.TextView -  The email address used is a Team Member email address.  Please select Create Team Member Account below""), 0)",,Retrieve the actual error message,,28-03-2025 03:17:00,28-03-2025 03:17:00,0.078s,PASSED
+"expectedText = "" The email address used is a Team Member email address.  Please select Create Team Member Account below.""",,Define the expected error message,,28-03-2025 03:17:00,28-03-2025 03:17:00,0.000s,PASSED
+assert actualText.contains(expectedText),,Verify the error message,,28-03-2025 03:17:00,28-03-2025 03:17:00,0.005s,PASSED
+closeApplication(),,Close the mobile application,,28-03-2025 03:17:00,28-03-2025 03:17:02,1.498s,PASSED
+testEmailAddressMismatch(),,,,28-03-2025 03:17:02,28-03-2025 03:17:02,0.001s,PASSED
+"testData = findTestData(""Data Files/C679"")",,"Retrieve test data from the ""C679"" file",,28-03-2025 03:17:02,28-03-2025 03:17:02,0.012s,PASSED
+rowCount = testData.getRowNumbers(),,Get the total number of rows in the test data file,,28-03-2025 03:17:02,28-03-2025 03:17:02,0.000s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",,Loop through the test data file,,28-03-2025 03:17:02,28-03-2025 03:18:11,1m - 8.888s,PASSED
+testAlreadyUsedEmailAddress(),,,,28-03-2025 03:18:11,28-03-2025 03:18:11,0.000s,PASSED
+"excelData = findTestData(""Data Files/C680"")",,"Retrieve test data from the ""C680"" file",,28-03-2025 03:18:11,28-03-2025 03:18:11,0.009s,PASSED
+rowCount = excelData.getRowNumbers(),,Get the total number of rows in the test data file,,28-03-2025 03:18:11,28-03-2025 03:18:11,0.001s,PASSED
+"for ([i = 1, i <= 2, (i++)])",,Loop through the first two rows of the test data file,,28-03-2025 03:18:11,28-03-2025 03:19:42,1m - 31.694s,PASSED
+testCopyPasteEmailFunctionality(),,,,28-03-2025 03:19:42,28-03-2025 03:19:42,0.001s,PASSED
+"testData = findTestData(""Data Files/C681"")",,"Retrieve test data from the ""C681"" file",,28-03-2025 03:19:42,28-03-2025 03:19:42,0.007s,PASSED
+"email1 = testData.getValue(""email"", 1)",,Extract the first email from the test data file,,28-03-2025 03:19:42,28-03-2025 03:19:42,0.002s,PASSED
+"startApplication(APK_PATH, true)",,Launch the application,,28-03-2025 03:19:42,28-03-2025 03:19:49,7.070s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign-Up"" button",,28-03-2025 03:19:49,28-03-2025 03:19:55,5.740s,PASSED
+delay(20),,,,28-03-2025 03:19:55,28-03-2025 03:20:15,20.010s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email1)",,Enter the correct email,,28-03-2025 03:20:15,28-03-2025 03:20:37,22.003s,PASSED
+delay(10),,,,28-03-2025 03:20:37,28-03-2025 03:20:47,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (1)""), 0)",,"Tap on the ""Next"" button",,28-03-2025 03:20:47,28-03-2025 03:20:47,0.142s,PASSED
+delay(10),,,,28-03-2025 03:20:47,28-03-2025 03:20:57,10.009s,PASSED
+try,,Try to copy the email address,,28-03-2025 03:20:57,28-03-2025 03:20:58,0.841s,FAILED
+catch (com.kms.katalon.core.exception.StepFailedException e),,,,28-03-2025 03:20:58,28-03-2025 03:20:58,0.005s,PASSED
+try,,Try to paste the copied email,,28-03-2025 03:20:58,28-03-2025 03:20:59,0.693s,FAILED
+catch (com.kms.katalon.core.exception.StepFailedException e),,,,28-03-2025 03:20:59,28-03-2025 03:20:59,0.001s,PASSED
+closeApplication(),,Close the application,,28-03-2025 03:20:59,28-03-2025 03:21:00,1.105s,PASSED
+testMultipleEmailsFunctionality(),,,,28-03-2025 03:21:00,28-03-2025 03:21:00,0.000s,PASSED
+"excelData = findTestData(""Data Files/Emails"")",,"Retrieve test data from ""Emails"" file",,28-03-2025 03:21:00,28-03-2025 03:21:00,0.007s,PASSED
+try,,,,28-03-2025 03:21:00,28-03-2025 03:22:03,1m - 3.445s,FAILED
+catch (com.kms.katalon.core.exception.StepFailedException e),,,,28-03-2025 03:22:03,28-03-2025 03:22:03,0.001s,PASSED
+closeApplication(),,Close the mobile application,,28-03-2025 03:22:03,28-03-2025 03:22:04,1.073s,PASSED
+delay(20),,,,28-03-2025 03:22:04,28-03-2025 03:22:24,20.007s,PASSED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C698-C696_SignUpNewUserPage,,"Verify that the confirmation email is received after agreeing to the Terms and Conditions
+Verify that outdated verification links cannot be used",,28-03-2025 03:23:48,28-03-2025 03:29:21,5m - 33.072s,PASSED
+"testData = findTestData(""Data Files/C698-C696 (1)"")",,"Initializes testData by finding the test data file located at ""Data Files""",,28-03-2025 03:23:48,28-03-2025 03:23:48,0.008s,PASSED
+"email = testData.getValue(""email"", 1)",,"Retrieves the value of the ""email"" field from the first row of the test data and assigns it to the variable email.",,28-03-2025 03:23:48,28-03-2025 03:23:48,0.000s,PASSED
+"firstName = testData.getValue(""firstname"", 1)",,"Retrieves the value of the ""firstname"" field from the first row of the test data and assigns it to the variable firstName.",,28-03-2025 03:23:48,28-03-2025 03:23:48,0.000s,PASSED
+"lastName = testData.getValue(""lastname"", 1)",,"Retrieves the value of the ""lastname"" field from the first row of the test data and assigns it to the variable lastName.",,28-03-2025 03:23:48,28-03-2025 03:23:48,0.000s,PASSED
+"password = testData.getValue(""password"", 1)",,"Retrieves the value of the ""password"" field from the first row of the test data and assigns it to the variable password.",,28-03-2025 03:23:48,28-03-2025 03:23:48,0.000s,PASSED
+"confirmPassword = testData.getValue(""confirmpassword"", 1)",,"Retrieves the value of the ""confirmpassword"" field from the first row of the test data and assigns it to the variable confirmPassword.",,28-03-2025 03:23:48,28-03-2025 03:23:48,0.000s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true)",, Launches the application ,,28-03-2025 03:23:48,28-03-2025 03:23:51,3.682s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:23:51,28-03-2025 03:24:01,10.004s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Simulates a tap on the ""Login or Sign Up"" button.",,28-03-2025 03:24:01,28-03-2025 03:24:02,0.322s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:24:02,28-03-2025 03:24:12,10.013s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email, 0)",,Inputs the value of email into the login or sign-up field.,,28-03-2025 03:24:12,28-03-2025 03:24:12,0.165s,PASSED
+hideKeyboard(),,Hides the on-screen keyboard.,,28-03-2025 03:24:12,28-03-2025 03:24:14,2.545s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:24:14,28-03-2025 03:24:24,10.007s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next""), 0)",,"Simulates a tap on the ""Next"" button.",,28-03-2025 03:24:24,28-03-2025 03:24:24,0.149s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:24:24,28-03-2025 03:24:34,10.004s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-confirm email address""), email, 0)",,Inputs the value of email into the confirm email address field.,,28-03-2025 03:24:34,28-03-2025 03:24:35,0.164s,PASSED
+hideKeyboard(),,Hides the on-screen keyboard.,,28-03-2025 03:24:35,28-03-2025 03:24:37,2.446s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:24:37,28-03-2025 03:24:47,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (1)""), 0)",,"Simulates a tap on the ""Next"" button.",,28-03-2025 03:24:47,28-03-2025 03:24:47,0.127s,PASSED
+delay(20),,Pauses the execution for 20 seconds.,,28-03-2025 03:24:47,28-03-2025 03:25:07,20.007s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-FirstName""), firstName, 0)",,"Inputs the value of firstName into the first name field.
+
+",,28-03-2025 03:25:07,28-03-2025 03:25:07,0.169s,PASSED
+hideKeyboard(),,Hides the on-screen keyboard.,,28-03-2025 03:25:07,28-03-2025 03:25:10,2.384s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:25:10,28-03-2025 03:25:20,10.009s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-LastName""), lastName, 0)",,Inputs the value of lastName into the last name field.,,28-03-2025 03:25:20,28-03-2025 03:25:20,0.124s,PASSED
+hideKeyboard(),,Hides the on-screen keyboard.,,28-03-2025 03:25:20,28-03-2025 03:25:22,2.370s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:25:22,28-03-2025 03:25:32,10.008s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-Password""), password)",,Simulates key presses in the password field.,,28-03-2025 03:25:32,28-03-2025 03:25:32,0.086s,PASSED
+hideKeyboard(),,Hides the on-screen keyboard.,,28-03-2025 03:25:32,28-03-2025 03:25:33,0.427s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:25:33,28-03-2025 03:25:43,10.008s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-ConfirmPassword""), confirmPassword)",, Simulates key presses in the confirm password field.,,28-03-2025 03:25:43,28-03-2025 03:25:43,0.085s,PASSED
+hideKeyboard(),,Hides the on-screen keyboard.,,28-03-2025 03:25:43,28-03-2025 03:25:43,0.422s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:25:43,28-03-2025 03:25:53,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (2)""), 0)",,"Simulates a tap on the ""Next"" button.",,28-03-2025 03:25:53,28-03-2025 03:25:53,0.127s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:25:53,28-03-2025 03:26:03,10.009s,PASSED
+"scrollToText(""etc)."")",,"Scroll down
+",,28-03-2025 03:26:03,28-03-2025 03:26:05,1.249s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:26:05,28-03-2025 03:26:15,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Agree to Terms  Conditions""), 0)",,Tap on Agree to terms and conditions,,28-03-2025 03:26:15,28-03-2025 03:26:15,0.133s,PASSED
+delay(30),,Pauses the execution for 30 seconds.,,28-03-2025 03:26:15,28-03-2025 03:26:45,30.012s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-OAM(Login)""), email, 0)",,Enter email in OAM webview,,28-03-2025 03:26:45,28-03-2025 03:26:46,1.352s,PASSED
+hideKeyboard(),,Hides the on-screen keyboard.,,28-03-2025 03:26:46,28-03-2025 03:26:49,2.307s,PASSED
+delay(30),,Pauses the execution for 30 seconds.,,28-03-2025 03:26:49,28-03-2025 03:27:19,30.015s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-OAM(Password)""), password, 0)",,Enter password in OAM webview,,28-03-2025 03:27:19,28-03-2025 03:27:20,1.104s,PASSED
+hideKeyboard(),,Hides the on-screen keyboard.,,28-03-2025 03:27:20,28-03-2025 03:27:22,2.300s,PASSED
+delay(30),,Pauses the execution for 30 seconds.,,28-03-2025 03:27:22,28-03-2025 03:27:52,30.011s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - LOGIN""), 0)",,Tap on Login Button,,28-03-2025 03:27:52,28-03-2025 03:27:52,0.125s,PASSED
+delay(30),,Pauses the execution for 30 seconds.,,28-03-2025 03:27:52,28-03-2025 03:28:22,30.010s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:28:22,28-03-2025 03:28:32,10.009s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - Resend Confirmation Email""), 0)",,Verify element present,,28-03-2025 03:28:32,28-03-2025 03:28:32,0.082s,PASSED
+"elementText = TextView - Resend Confirmation Email""), 0).trim()",,,,28-03-2025 03:28:32,28-03-2025 03:28:32,0.039s,PASSED
+"println(""Text of the element: "" + elementText)",,,,28-03-2025 03:28:32,28-03-2025 03:28:32,0.002s,PASSED
+"expectedText = ""Resend Confirmation Email"".trim()",,,,28-03-2025 03:28:32,28-03-2025 03:28:32,0.000s,PASSED
+assert elementText.equals(expectedText),,,,28-03-2025 03:28:32,28-03-2025 03:28:32,0.002s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:28:32,28-03-2025 03:28:42,10.009s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Resend Confirmation Email""), 0)",,"Tap on resend confirmation mail button
+",,28-03-2025 03:28:42,28-03-2025 03:28:42,0.116s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.Button - Next (3)""), 0)",,"Verify Nwxt button exists
+",,28-03-2025 03:28:42,28-03-2025 03:28:59,16.167s,PASSED
+delay(5),,Pauses the execution for 5 seconds.,,28-03-2025 03:28:59,28-03-2025 03:29:04,5.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (3)""), 0)",,Tap on Next Button,,28-03-2025 03:29:04,28-03-2025 03:29:04,0.104s,PASSED
+delay(5),,Pauses the execution for 5 seconds.,,28-03-2025 03:29:04,28-03-2025 03:29:09,5.010s,PASSED
+"println(""All text assertions passed successfully!"")",,Print the assertion result,,28-03-2025 03:29:09,28-03-2025 03:29:09,0.001s,PASSED
+delay(10),,Pauses the execution for 10 seconds.,,28-03-2025 03:29:09,28-03-2025 03:29:19,10.009s,PASSED
+closeApplication(),,Close the application,,28-03-2025 03:29:19,28-03-2025 03:29:21,1.974s,PASSED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C699_SignUpNewUserPage,,Verify that the Next button on the 'Not Verified Thank You' page is clickable,,28-03-2025 03:37:18,28-03-2025 03:38:14,55.295s,FAILED
+"testData = findTestData(""Data Files/C699"")",,"Retrieve test data from the ""C699"" data file",,28-03-2025 03:37:18,28-03-2025 03:37:18,0.005s,PASSED
+"email = testData.getValue(""email"", 1)",,"Extract email, first name, last name, password, and confirm password from the test data file",,28-03-2025 03:37:18,28-03-2025 03:37:18,0.000s,PASSED
+"firstName = testData.getValue(""firstname"", 1)",,,,28-03-2025 03:37:18,28-03-2025 03:37:18,0.000s,PASSED
+"lastName = testData.getValue(""lastname"", 1)",,,,28-03-2025 03:37:18,28-03-2025 03:37:18,0.000s,PASSED
+"password = testData.getValue(""password"", 1)",,,,28-03-2025 03:37:18,28-03-2025 03:37:18,0.000s,PASSED
+"confirmPassword = testData.getValue(""confirm password"", 1)",,,,28-03-2025 03:37:18,28-03-2025 03:37:18,0.000s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true)",,Launch the mobile application with reset enabled (clears previous session data),,28-03-2025 03:37:18,28-03-2025 03:37:22,3.592s,PASSED
+delay(10),,Wait for 10 seconds to allow the application to load,,28-03-2025 03:37:22,28-03-2025 03:37:32,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button to proceed to the authentication page",,28-03-2025 03:37:32,28-03-2025 03:37:32,0.235s,PASSED
+delay(10),,Wait for 10 seconds to ensure the login screen loads properly,,28-03-2025 03:37:32,28-03-2025 03:37:42,10.008s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email, 0)",,Enter the retrieved email into the email input field,,28-03-2025 03:37:42,28-03-2025 03:37:42,0.167s,PASSED
+hideKeyboard(),,Hide the keyboard to avoid UI conflicts,,28-03-2025 03:37:42,28-03-2025 03:37:45,2.365s,PASSED
+delay(10),,Wait for 10 seconds to stabilize the UI,,28-03-2025 03:37:45,28-03-2025 03:37:55,10.007s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next""), 0)",,"Tap on the ""Next"" button to proceed",,28-03-2025 03:37:55,28-03-2025 03:37:55,0.152s,PASSED
+delay(10),,Wait for 10 seconds for the next screen to load,,28-03-2025 03:37:55,28-03-2025 03:38:05,10.009s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-confirm email address""), email, 0)",,Enter the retrieved email again to confirm email address,,28-03-2025 03:38:05,28-03-2025 03:38:14,8.738s,FAILED

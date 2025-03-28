@@ -1,0 +1,14 @@
+BadRequestError: request aborted
+    at IncomingMessage.onAborted (/opt/homebrew/lib/node_modules/appium/node_modules/raw-body/index.js:245:10)
+    at IncomingMessage.emit (node:events:507:28)
+    at IncomingMessage._destroy (node:_http_incoming:221:10)
+    at _destroy (node:internal/streams/destroy:122:10)
+    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)
+    at abortIncoming (node:_http_server:809:9)
+    at socketOnClose (node:_http_server:803:3)
+    at Socket.emit (node:events:519:35)
+    at TCP.<anonymous> (node:net:351:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+[38;5;223m[67be5e2a][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+[38;5;31m[185ab219][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+[38;5;51m[58b08a12][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null

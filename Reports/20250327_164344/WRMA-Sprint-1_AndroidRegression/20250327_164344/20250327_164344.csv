@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WRMA-Sprint-1_AndroidRegression,,,,27-03-2025 16:43:48,27-03-2025 16:47:11,3m - 23.304s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Internal Demo-Sprint1/C735-C736,,"Verify that the Term and Conditions in Logged state is displayed correctly
+Verify that the Privacy Policy in Logged state is displayed correctly",,27-03-2025 16:47:08,27-03-2025 16:47:08,0.538s,FAILED
+"loginData = findTestData(""Data Files/C735 (1)"")",,Read test data from Excel file,,27-03-2025 16:47:08,27-03-2025 16:47:08,0.007s,PASSED
+"email = loginData.getValue(""email"", 1)",,,,27-03-2025 16:47:08,27-03-2025 16:47:08,0.000s,PASSED
+"password = loginData.getValue(""password"", 1)",,,,27-03-2025 16:47:08,27-03-2025 16:47:08,0.000s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true, STOP_ON_FAILURE)",,Launch the application on the device,,27-03-2025 16:47:08,27-03-2025 16:47:08,0.522s,FAILED
+,,,,,,,
+Test Cases/Sprint 1/Internal Demo-Sprint1/C658-C667-C668,,"Verify that the Intro Page opens correctly
+Verify that the Term and Conditions in Guest Mode is displayed correctly
+Verify that the Privacy Policy in Guest Mode is displayed correctly",,27-03-2025 16:47:10,27-03-2025 16:47:11,0.991s,FAILED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true)",,Launch the application on the physical device,,27-03-2025 16:47:10,27-03-2025 16:47:11,0.985s,FAILED
