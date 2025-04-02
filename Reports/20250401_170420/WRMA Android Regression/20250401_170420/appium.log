@@ -1,0 +1,226 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.16.0 (REV f1041842141f20bc701b522d4371d7843d905580)
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m54044[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:54044/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:54044/wd/hub (only accessible from the same host)
+	http://192.168.0.102:54044/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.1.5 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 4 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54043,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54043,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;147m[AppiumDriver@43fd][0m Appium v2.16.0 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;147m[AppiumDriver@43fd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;147m[AppiumDriver@43fd][0m Appium's BaseDriver version is 9.16.4
+[38;5;147m[AppiumDriver@43fd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-2m[AndroidUiautomator2Driver@ce18][0m The following provided capabilities were not recognized by this driver:
+[38;5;-2m[AndroidUiautomator2Driver@ce18][0m   deviceId
+[38;5;107m[9458ba84][0m[38;5;-2m[AndroidUiautomator2Driver@ce18][0m Session created with session id: 9458ba84-71d6-4571-a128-816f2ff7beee
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under '/Users/gv.vignesh/.katalon/tools/android_sdk' (newest first):
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m     /Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;107m[9458ba84][0m[38;5;-2m[AndroidUiautomator2Driver@ce18][0m Retrieving device list
+[38;5;107m[9458ba84][0m[38;5;-2m[AndroidUiautomator2Driver@ce18][0m Using device: adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;107m[9458ba84][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;107m[9458ba84][0m[38;5;-2m[AndroidUiautomator2Driver@ce18][0m Relaxing hidden api policy
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;107m[9458ba84][0m[38;5;-2m[AndroidUiautomator2Driver@ce18][0m Restoring hidden api policy to the device default configuration
+[38;5;107m[9458ba84][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 1388 ms - 10204 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54080,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54080,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;147m[AppiumDriver@43fd][0m Appium v2.16.0 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;147m[AppiumDriver@43fd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;147m[AppiumDriver@43fd][0m Appium's BaseDriver version is 9.16.4
+[38;5;147m[AppiumDriver@43fd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-13m[AndroidUiautomator2Driver@cf54][0m The following provided capabilities were not recognized by this driver:
+[38;5;-13m[AndroidUiautomator2Driver@cf54][0m   deviceId
+[38;5;32m[d79af335][0m[38;5;-13m[AndroidUiautomator2Driver@cf54][0m Session created with session id: d79af335-9f71-4da2-a9a1-5ecc6b9b2829
+[38;5;32m[d79af335][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;32m[d79af335][0m[38;5;-13m[AndroidUiautomator2Driver@cf54][0m Retrieving device list
+[38;5;32m[d79af335][0m[38;5;-13m[AndroidUiautomator2Driver@cf54][0m Using device: adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp
+[38;5;32m[d79af335][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;32m[d79af335][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;32m[d79af335][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;32m[d79af335][0m[38;5;-13m[AndroidUiautomator2Driver@cf54][0m Relaxing hidden api policy
+[38;5;32m[d79af335][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;32m[d79af335][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;32m[d79af335][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;32m[d79af335][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;32m[d79af335][0m[38;5;-13m[AndroidUiautomator2Driver@cf54][0m Restoring hidden api policy to the device default configuration
+[38;5;32m[d79af335][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 2750 ms - 10204 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54111,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54111,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;147m[AppiumDriver@43fd][0m Appium v2.16.0 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;147m[AppiumDriver@43fd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;147m[AppiumDriver@43fd][0m Appium's BaseDriver version is 9.16.4
+[38;5;147m[AppiumDriver@43fd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-40m[AndroidUiautomator2Driver@ac8e][0m The following provided capabilities were not recognized by this driver:
+[38;5;-40m[AndroidUiautomator2Driver@ac8e][0m   deviceId
+[38;5;111m[4165680a][0m[38;5;-40m[AndroidUiautomator2Driver@ac8e][0m Session created with session id: 4165680a-1bbc-4315-9ae6-94192f679116
+[38;5;111m[4165680a][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;111m[4165680a][0m[38;5;-40m[AndroidUiautomator2Driver@ac8e][0m Retrieving device list
+[38;5;111m[4165680a][0m[38;5;-40m[AndroidUiautomator2Driver@ac8e][0m Using device: adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp
+[38;5;111m[4165680a][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;111m[4165680a][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;111m[4165680a][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;111m[4165680a][0m[38;5;-40m[AndroidUiautomator2Driver@ac8e][0m Relaxing hidden api policy
+[38;5;111m[4165680a][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;111m[4165680a][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;111m[4165680a][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;111m[4165680a][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;111m[4165680a][0m[38;5;-40m[AndroidUiautomator2Driver@ac8e][0m Restoring hidden api policy to the device default configuration
+[38;5;111m[4165680a][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 1222 ms - 10204 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54142,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54142,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;147m[AppiumDriver@43fd][0m Appium v2.16.0 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;147m[AppiumDriver@43fd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;147m[AppiumDriver@43fd][0m Appium's BaseDriver version is 9.16.4
+[38;5;147m[AppiumDriver@43fd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-147m[AndroidUiautomator2Driver@7777][0m The following provided capabilities were not recognized by this driver:
+[38;5;-147m[AndroidUiautomator2Driver@7777][0m   deviceId
+[38;5;173m[429e446e][0m[38;5;-147m[AndroidUiautomator2Driver@7777][0m Session created with session id: 429e446e-0d88-4dc8-bfee-c91c01ba723e
+[38;5;173m[429e446e][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;173m[429e446e][0m[38;5;-147m[AndroidUiautomator2Driver@7777][0m Retrieving device list
+[38;5;173m[429e446e][0m[38;5;-147m[AndroidUiautomator2Driver@7777][0m Using device: adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp
+[38;5;173m[429e446e][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;173m[429e446e][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;173m[429e446e][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;173m[429e446e][0m[38;5;-147m[AndroidUiautomator2Driver@7777][0m Relaxing hidden api policy
+[38;5;173m[429e446e][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;173m[429e446e][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;173m[429e446e][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;173m[429e446e][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;173m[429e446e][0m[38;5;-147m[AndroidUiautomator2Driver@7777][0m Restoring hidden api policy to the device default configuration
+[38;5;173m[429e446e][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 1114 ms - 10204 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54180,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54180,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;147m[AppiumDriver@43fd][0m Appium v2.16.0 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;147m[AppiumDriver@43fd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;147m[AppiumDriver@43fd][0m Appium's BaseDriver version is 9.16.4
+[38;5;147m[AppiumDriver@43fd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-120m[AndroidUiautomator2Driver@c7f9][0m The following provided capabilities were not recognized by this driver:
+[38;5;-120m[AndroidUiautomator2Driver@c7f9][0m   deviceId
+[38;5;127m[a5e5ae36][0m[38;5;-120m[AndroidUiautomator2Driver@c7f9][0m Session created with session id: a5e5ae36-3250-47be-9939-ebe34989ef5e
+[38;5;127m[a5e5ae36][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;127m[a5e5ae36][0m[38;5;-120m[AndroidUiautomator2Driver@c7f9][0m Retrieving device list
+[38;5;127m[a5e5ae36][0m[38;5;-120m[AndroidUiautomator2Driver@c7f9][0m Using device: adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp
+[38;5;127m[a5e5ae36][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;127m[a5e5ae36][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;127m[a5e5ae36][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;127m[a5e5ae36][0m[38;5;-120m[AndroidUiautomator2Driver@c7f9][0m Relaxing hidden api policy
+[38;5;127m[a5e5ae36][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;127m[a5e5ae36][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;127m[a5e5ae36][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;127m[a5e5ae36][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;127m[a5e5ae36][0m[38;5;-120m[AndroidUiautomator2Driver@c7f9][0m Restoring hidden api policy to the device default configuration
+[38;5;127m[a5e5ae36][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 1122 ms - 10204 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54213,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54213,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;147m[AppiumDriver@43fd][0m Appium v2.16.0 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;147m[AppiumDriver@43fd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;147m[AppiumDriver@43fd][0m Appium's BaseDriver version is 9.16.4
+[38;5;147m[AppiumDriver@43fd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-61m[AndroidUiautomator2Driver@a27f][0m The following provided capabilities were not recognized by this driver:
+[38;5;-61m[AndroidUiautomator2Driver@a27f][0m   deviceId
+[38;5;90m[497fb51d][0m[38;5;-61m[AndroidUiautomator2Driver@a27f][0m Session created with session id: 497fb51d-6664-4951-8419-9b0e4d6d247d
+[38;5;90m[497fb51d][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;90m[497fb51d][0m[38;5;-61m[AndroidUiautomator2Driver@a27f][0m Retrieving device list
+[38;5;90m[497fb51d][0m[38;5;-61m[AndroidUiautomator2Driver@a27f][0m Using device: adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp
+[38;5;90m[497fb51d][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;32m[d79af335][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;90m[497fb51d][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;90m[497fb51d][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;90m[497fb51d][0m[38;5;-61m[AndroidUiautomator2Driver@a27f][0m Relaxing hidden api policy
+[38;5;90m[497fb51d][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;90m[497fb51d][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;90m[497fb51d][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;90m[497fb51d][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;90m[497fb51d][0m[38;5;-61m[AndroidUiautomator2Driver@a27f][0m Restoring hidden api policy to the device default configuration
+[38;5;90m[497fb51d][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 1121 ms - 10204 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54249,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp","platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"Xiaomi 23076PC4BI (Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":54249,"appium:udid":"adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp"}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;147m[AppiumDriver@43fd][0m Appium v2.16.0 creating new AndroidUiautomator2Driver (v4.1.5) session
+[38;5;147m[AppiumDriver@43fd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;147m[AppiumDriver@43fd][0m Appium's BaseDriver version is 9.16.4
+[38;5;147m[AppiumDriver@43fd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-168m[AndroidUiautomator2Driver@6b14][0m The following provided capabilities were not recognized by this driver:
+[38;5;-168m[AndroidUiautomator2Driver@6b14][0m   deviceId
+[38;5;42m[d74484b1][0m[38;5;-168m[AndroidUiautomator2Driver@6b14][0m Session created with session id: d74484b1-541e-4e19-a939-a06cf7cd0d75
+[38;5;42m[d74484b1][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;42m[d74484b1][0m[38;5;-168m[AndroidUiautomator2Driver@6b14][0m Retrieving device list
+[38;5;42m[d74484b1][0m[38;5;-168m[AndroidUiautomator2Driver@6b14][0m Using device: adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp
+[38;5;42m[d74484b1][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;42m[d74484b1][0m[38;5;123m[BaseDriver][0m Using local app '/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk'
+[38;5;42m[d74484b1][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;42m[d74484b1][0m[38;5;-168m[AndroidUiautomator2Driver@6b14][0m Relaxing hidden api policy
+[38;5;42m[d74484b1][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3/aapt2'
+[38;5;42m[d74484b1][0m[38;5;229m[ADB][0m Package name: 'com.westgate.rewrite2'
+[38;5;42m[d74484b1][0m[38;5;229m[ADB][0m Main activity name: 'com.westgate.rewrite2.MainActivity'
+[38;5;42m[d74484b1][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;86m[HTTP][0m <-- POST /wd/hub/session - - ms - - 
+[38;5;42m[d74484b1][0m[38;5;-168m[AndroidUiautomator2Driver@6b14][0m Restoring hidden api policy to the device default configuration
+[38;5;111m[4165680a][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;107m[9458ba84][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;173m[429e446e][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;127m[a5e5ae36][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;32m[d79af335][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;90m[497fb51d][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;42m[d74484b1][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;111m[4165680a][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;173m[429e446e][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;127m[a5e5ae36][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;90m[497fb51d][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;42m[d74484b1][0m[38;5;229m[ADB][0m The application at '/Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 47ms

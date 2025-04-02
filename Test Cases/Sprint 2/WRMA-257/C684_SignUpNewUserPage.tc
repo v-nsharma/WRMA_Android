@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the password field doesn't allow typing more than 20 symbols</description>
+   <name>C684_SignUpNewUserPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>16f5a0c9-142d-4e7e-bfa0-3c84293398ce</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>85ee90fa-a08a-4222-a145-8ed3fab807e9</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C684 (1)</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

@@ -1,4 +1,6 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import io.appium.java_client.AppiumDriver
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobiles
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -17,9 +19,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.exception.StepFailedException as StepFailedException
+import io.appium.java_client.android.AndroidDriver
+
 
 'Retrieve test data from the "C699" data file'
-TestData testData = findTestData('Data Files/C699')
+TestData testData = findTestData('Data Files/LogiNewUser')
 
 'Extract email, first name, last name, password, and confirm password from the test data file'
 String email = testData.getValue('email', 1)
@@ -33,7 +37,7 @@ String password = testData.getValue('password', 1)
 String confirmPassword = testData.getValue('confirm password', 1)
 
 'Launch the mobile application with reset enabled (clears previous session data)'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait for 10 seconds to allow the application to load'
 Mobile.delay(10)
@@ -99,7 +103,7 @@ Mobile.sendKeys(findTestObject('Object Repository/Repo/android.widget.EditText-P
 Mobile.delay(10)
 
 'Enter the confirm password'
-Mobile.sendKeys(findTestObject('Object Repository/Repo/android.widget.EditText-ConfirmPassword'), confirmPassword)
+Mobile.sendKeys(findTestObject('Object Repository/Repo/android.widget.EditText-Confirm Password'), confirmPassword)
 
 'Wait for 10 seconds'
 Mobile.delay(10)
@@ -120,7 +124,7 @@ Mobile.delay(5)
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - Agree to Terms  Conditions'), 0)
 
 'Wait for 30 seconds to allow time for agreement processing'
-Mobile.delay(30)
+Mobile.delay(45)
 
 'Enter the email address in the login field on the OAM (Online Account Management) screen'
 Mobile.setText(findTestObject('Object Repository/Repo/android.widget.EditText-OAM(Login)'), email, 0)
@@ -144,7 +148,7 @@ Mobile.delay(30)
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button -OAM(Login)'), 0)
 
 'Wait for 30 seconds to allow time for authentication processing'
-Mobile.delay(30)
+Mobile.delay(20)
 
 'Tap on the "Next" button to proceed with verifying the account'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - Next-(VerifyAccount)'), 0)
@@ -190,4 +194,11 @@ Mobile.delay(10)
 
 'Close the application after completing the test'
 Mobile.closeApplication()
+
+WebUI.closeBrowser()
+
+
+
+
+
 

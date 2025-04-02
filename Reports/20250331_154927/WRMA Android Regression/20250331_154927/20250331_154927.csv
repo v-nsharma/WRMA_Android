@@ -1,0 +1,376 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WRMA Android Regression,,,,31-03-2025 15:49:35,31-03-2025 16:24:00,34m - 24.562s,ERROR
+,,,,,,,
+Test Cases/App Installation And Launching/C658-C667-C668_AppInstallationAndLaunching,,"Verify that the Intro Page opens correctly
+Verify that the Term and Conditions in Guest Mode is displayed correctly
+Verify that the Privacy Policy in Guest Mode is displayed correctly",,31-03-2025 15:49:35,31-03-2025 15:51:54,2m - 18.797s,PASSED
+"startApplication(appUrl, true)",,Launch the application on the physical device,,31-03-2025 15:49:35,31-03-2025 15:49:44,8.876s,PASSED
+delay(3),,Wait for 3 seconds for the app to load,,31-03-2025 15:49:44,31-03-2025 15:49:47,3.015s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences""), 0)",,"Verify the text ""You are Moments Away From Customized Vacation Experiences"" is present",,31-03-2025 15:49:47,31-03-2025 15:49:50,2.446s,PASSED
+delay(3),,Wait for 3 seconds,,31-03-2025 15:49:50,31-03-2025 15:49:53,3.011s,PASSED
+"text = getText(findTestObject(""Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences""), 0)",,"Get the text ""You are Moments Away From Customized Vacation Experiences"" and print it",,31-03-2025 15:49:53,31-03-2025 15:49:53,0.084s,PASSED
+"println(""Text: "" + text)",,,,31-03-2025 15:49:53,31-03-2025 15:49:53,0.003s,PASSED
+delay(3),,Wait for 3 seconds,,31-03-2025 15:49:53,31-03-2025 15:49:56,3.010s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Verify the ""Login or Sign Up"" button is present",,31-03-2025 15:49:56,31-03-2025 15:49:56,0.078s,PASSED
+delay(3),,Wait for 3 seconds,,31-03-2025 15:49:56,31-03-2025 15:49:59,3.010s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - Home""), 0)",,"Verify the bottom navigation bar ""Home"" is present",,31-03-2025 15:49:59,31-03-2025 15:49:59,0.082s,PASSED
+delay(3),,Wait for 3 seconds,,31-03-2025 15:49:59,31-03-2025 15:50:02,3.011s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - My Account""), 0)",,"Verify the bottom navigation bar ""My Account"" is present",,31-03-2025 15:50:02,31-03-2025 15:50:02,0.071s,PASSED
+delay(3),,Wait for 3 seconds,,31-03-2025 15:50:02,31-03-2025 15:50:05,3.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Vacation More. Get More""), 0)",,"Tap on the non-clickable text ""Vacation More. Get More""",,31-03-2025 15:50:05,31-03-2025 15:50:05,0.131s,PASSED
+delay(3),,Wait for 3 seconds,,31-03-2025 15:50:05,31-03-2025 15:50:08,3.010s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Repo/android.widget.TextView - Vacation More. Get More""), 0)",,"Verify that tapping on ""Vacation More. Get More"" does not redirect to the next page",,31-03-2025 15:50:08,31-03-2025 15:50:08,0.091s,PASSED
+delay(3),,Wait for 3 seconds,,31-03-2025 15:50:08,31-03-2025 15:50:11,3.010s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Repo/android.widget.TextView - Explore Westgate Loyalty""), 0)",,"Verify the text ""Explore Westgate Loyalty"" is visible",,31-03-2025 15:50:11,31-03-2025 15:50:11,0.079s,PASSED
+delay(3),,Wait for 3 seconds,,31-03-2025 15:50:11,31-03-2025 15:50:14,3.009s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Continue as a Guest""), 0)",,"Tap on the clickable text ""Continue as a Guest""",,31-03-2025 15:50:14,31-03-2025 15:50:14,0.144s,PASSED
+"isElementVisible = waitForElementPresent(findTestObject(""Object Repository/Repo/android.widget.TextView - Continue as a Guest""), 10)",,"Wait for the ""Continue as a Guest"" element to be present after tapping",,31-03-2025 15:50:14,31-03-2025 15:50:14,0.056s,PASSED
+if (!(isElementVisible)),,Check if the element is visible and log the result,,31-03-2025 15:50:14,31-03-2025 15:50:14,0.000s,PASSED
+else,,,,31-03-2025 15:50:14,31-03-2025 15:50:14,0.004s,PASSED
+delay(10),,Wait for 15 seconds,,31-03-2025 15:50:14,31-03-2025 15:50:24,10.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - menu""), 0)",,Tap on the menu button,,31-03-2025 15:50:24,31-03-2025 15:50:25,0.164s,PASSED
+delay(30),,Wait for 30 seconds for the menu to open,,31-03-2025 15:50:25,31-03-2025 15:50:55,30.009s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu""), 0)",,"Tap on the ""Terms and Conditions"" option in the menu",,31-03-2025 15:50:55,31-03-2025 15:50:55,0.177s,PASSED
+delay(10),,,,31-03-2025 15:50:55,31-03-2025 15:51:05,10.009s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Repo/android.view.View-Terms and conditions web""), 30, CONTINUE_ON_FAILURE))",,"Verify if the ""Terms and Conditions"" webview is present",,31-03-2025 15:51:05,31-03-2025 15:51:06,1.407s,PASSED
+delay(10),,Wait for 30 seconds,,31-03-2025 15:51:06,31-03-2025 15:51:16,10.009s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.ImageButton-Cancel web""), 0)",,Tap on the cancel button to close the webview,,31-03-2025 15:51:16,31-03-2025 15:51:16,0.191s,PASSED
+delay(15),,Wait for 15 seconds,,31-03-2025 15:51:16,31-03-2025 15:51:31,15.012s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - menu""), 0)",,Tap on the menu button again to open the menu fly-out,,31-03-2025 15:51:31,31-03-2025 15:51:32,0.167s,PASSED
+delay(15),,Wait for 30 seconds for the menu to open,,31-03-2025 15:51:32,31-03-2025 15:51:47,15.012s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Privacy Policy-Menu""), 0)",,"Tap on the ""Privacy Policy"" option in the menu",,31-03-2025 15:51:47,31-03-2025 15:51:47,0.176s,PASSED
+"if (waitForElementPresent(findTestObject(""Object Repository/Repo/android.widget.TextView - Privacy Policy-web""), 30, CONTINUE_ON_FAILURE))",,"Verify if the ""Privacy Policy"" webview is present",,31-03-2025 15:51:47,31-03-2025 15:51:52,5.660s,PASSED
+closeApplication(),,Close the application successfully,,31-03-2025 15:51:52,31-03-2025 15:51:54,1.369s,PASSED
+closeBrowser(),,,,31-03-2025 15:51:54,31-03-2025 15:51:54,0.048s,PASSED
+,,,,,,,
+Test Cases/Guest User Mode/C666-C719-C738_GuestUserMode,,"C666-Verify that the Settings in Guest Mode is displayed correctly
+C719-Verify that the app version on the Settings menu in Guest Mode is correct
+C738-Verify that the bottom navbar is displayed correctly when the user is in Guest state",,31-03-2025 15:51:54,31-03-2025 15:53:19,1m - 25.106s,PASSED
+"startApplication(appUrl, true)",,Launch the Westgate mobile application,,31-03-2025 15:51:54,31-03-2025 15:52:01,7.226s,PASSED
+delay(10),,Wait for the application to load completely,,31-03-2025 15:52:01,31-03-2025 15:52:11,10.011s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Continue as a Guest""), 0)",,"Navigate through initial screen by tapping ""Continue as a Guest""",,31-03-2025 15:52:11,31-03-2025 15:52:11,0.243s,PASSED
+delay(10),,Wait for guest mode initialization,,31-03-2025 15:52:11,31-03-2025 15:52:21,10.012s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - menu""), 0)",,Open application menu,,31-03-2025 15:52:21,31-03-2025 15:52:22,0.190s,PASSED
+delay(20),,Wait for menu to fully expand,,31-03-2025 15:52:22,31-03-2025 15:52:42,20.011s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TabWidget-Settings""), 0)",,Navigate to version information tab,,31-03-2025 15:52:42,31-03-2025 15:52:47,5.424s,PASSED
+delay(10),,Wait for version information to load,,31-03-2025 15:52:47,31-03-2025 15:52:57,10.011s,PASSED
+"actualVersionText = getText(findTestObject(""Object Repository/Repo/android.widget.Button - Version 2.81.111""), 0)",,Capture the actual version text,,31-03-2025 15:52:57,31-03-2025 15:52:57,0.076s,PASSED
+"expectedVersionText = ""Version 2.81.111""",,Verify application version,,31-03-2025 15:52:57,31-03-2025 15:52:57,0.001s,PASSED
+assert actualVersionText == expectedVersionText,,,,31-03-2025 15:52:57,31-03-2025 15:52:57,0.000s,PASSED
+println(Version verification successful: $actualVersionText),,,,31-03-2025 15:52:57,31-03-2025 15:52:57,0.023s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - menu""), 0)",,Return to home screen,,31-03-2025 15:52:57,31-03-2025 15:52:57,0.112s,PASSED
+delay(10),,,,31-03-2025 15:52:57,31-03-2025 15:53:07,10.020s,PASSED
+"homeElementExists = verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - Home""), 0)",,"Verify ""Home"" element exists",,31-03-2025 15:53:07,31-03-2025 15:53:07,0.085s,PASSED
+"assert homeElementExists : ""Element 'Home' does not exist.""",,,,31-03-2025 15:53:07,31-03-2025 15:53:07,0.000s,PASSED
+"homeText = getText(findTestObject(""Object Repository/Repo/android.view.View - Home""), 0)",,"Retrieve and verify ""Home"" text",,31-03-2025 15:53:07,31-03-2025 15:53:07,0.039s,PASSED
+"assert homeText == ""Home""",,,,31-03-2025 15:53:07,31-03-2025 15:53:07,0.001s,PASSED
+"println(""Home screen verification successful."")",,,,31-03-2025 15:53:07,31-03-2025 15:53:07,0.001s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.view.View - My Account""), 0)",,"Navigate to ""My Account"" section",,31-03-2025 15:53:07,31-03-2025 15:53:08,0.090s,PASSED
+delay(10),,,,31-03-2025 15:53:08,31-03-2025 15:53:18,10.009s,PASSED
+"myAccountElementExists = verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - My Account""), 0)",,"Verify ""My Account"" element exists",,31-03-2025 15:53:18,31-03-2025 15:53:18,0.081s,PASSED
+"assert myAccountElementExists : ""Element 'My Account' does not exist.""",,,,31-03-2025 15:53:18,31-03-2025 15:53:18,0.000s,PASSED
+"myAccountText = getText(findTestObject(""Object Repository/Repo/android.view.View - My Account""), 0)",,"Retrieve and verify ""My Account"" text",,31-03-2025 15:53:18,31-03-2025 15:53:18,0.043s,PASSED
+"assert myAccountText == ""My Account""",,,,31-03-2025 15:53:18,31-03-2025 15:53:18,0.000s,PASSED
+"println(""My Account screen verification successful."")",,,,31-03-2025 15:53:18,31-03-2025 15:53:18,0.000s,PASSED
+"println(""All test verifications completed successfully!"")",,,,31-03-2025 15:53:18,31-03-2025 15:53:18,0.001s,PASSED
+closeApplication(),,Close the mobile application,,31-03-2025 15:53:18,31-03-2025 15:53:19,1.342s,PASSED
+,,,,,,,
+Test Cases/Guest User Mode/C764-C793_GuestUserMode,,Verify that the Login Now tile is redirected to the OAM website,,31-03-2025 15:53:19,31-03-2025 15:55:54,2m - 34.928s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/app-debug.apk"", true)",,Launch the application,,31-03-2025 15:53:19,31-03-2025 15:53:25,6.013s,PASSED
+delay(10),,,,31-03-2025 15:53:25,31-03-2025 15:53:35,10.012s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - Home""), 0)",,Verify Home element exists,,31-03-2025 15:53:35,31-03-2025 15:53:35,0.219s,PASSED
+delay(5),,,,31-03-2025 15:53:35,31-03-2025 15:53:40,5.009s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.view.View - Home""), 0)",,Tap on Home,,31-03-2025 15:53:40,31-03-2025 15:53:40,0.155s,PASSED
+delay(10),,,,31-03-2025 15:53:40,31-03-2025 15:53:50,10.008s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - Home (1)""), 0)",,Verify Home element exists after tapping,,31-03-2025 15:53:50,31-03-2025 15:53:51,0.100s,PASSED
+delay(5),,,,31-03-2025 15:53:51,31-03-2025 15:53:56,5.011s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView-Slide""), 0)",,Verify Slide text is present,,31-03-2025 15:53:56,31-03-2025 15:53:56,0.108s,PASSED
+startX = 1000,,Perform Swipe action,,31-03-2025 15:53:56,31-03-2025 15:53:56,0.000s,PASSED
+startY = 2000,,,,31-03-2025 15:53:56,31-03-2025 15:53:56,0.000s,PASSED
+endX = 200,,,,31-03-2025 15:53:56,31-03-2025 15:53:56,0.000s,PASSED
+endY = 1000,,,,31-03-2025 15:53:56,31-03-2025 15:53:56,0.001s,PASSED
+"swipe(startX, startY, endX, endY)",,,,31-03-2025 15:53:56,31-03-2025 15:53:57,0.852s,PASSED
+delay(5),,,,31-03-2025 15:53:57,31-03-2025 15:54:02,5.007s,PASSED
+"homeText = View - Home (1)""), 0).trim()",,Get and verify Home text,,31-03-2025 15:54:02,31-03-2025 15:54:02,0.112s,PASSED
+"println(""Home Text: "" + homeText)",,,,31-03-2025 15:54:02,31-03-2025 15:54:02,0.000s,PASSED
+"verifyEqual(homeText, ""Home"", STOP_ON_FAILURE)",,,,31-03-2025 15:54:02,31-03-2025 15:54:02,0.004s,PASSED
+delay(5),,,,31-03-2025 15:54:02,31-03-2025 15:54:07,5.008s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View - My Account (1)""), 0)",,Verify My Account element exists,,31-03-2025 15:54:07,31-03-2025 15:54:07,0.099s,PASSED
+delay(5),,,,31-03-2025 15:54:07,31-03-2025 15:54:12,5.010s,PASSED
+"myAccountText = View - My Account (1)""), 0).trim()",,Get and verify My Account text,,31-03-2025 15:54:12,31-03-2025 15:54:12,0.101s,PASSED
+"println(""My Account Text: "" + myAccountText)",,,,31-03-2025 15:54:12,31-03-2025 15:54:12,0.001s,PASSED
+"verifyEqual(myAccountText, ""My Account"", STOP_ON_FAILURE)",,,,31-03-2025 15:54:12,31-03-2025 15:54:12,0.001s,PASSED
+delay(15),,,,31-03-2025 15:54:12,31-03-2025 15:54:27,15.009s,PASSED
+"scrollToText(""Recommended for you"")",,Scroll to text: Recommended for you,,31-03-2025 15:54:27,31-03-2025 15:54:31,3.953s,PASSED
+delay(5),,,,31-03-2025 15:54:31,31-03-2025 15:54:36,5.008s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - RECOMMENDED FOR YOU""), 0)",,Verify Recommended for you text is present,,31-03-2025 15:54:36,31-03-2025 15:54:36,0.110s,PASSED
+delay(5),,,,31-03-2025 15:54:36,31-03-2025 15:54:41,5.009s,PASSED
+"recommendedText = TextView - RECOMMENDED FOR YOU""), 0).trim()",,Get and verify Recommended for you text,,31-03-2025 15:54:41,31-03-2025 15:54:41,0.105s,PASSED
+"println(""Recommended Text: "" + recommendedText)",,,,31-03-2025 15:54:41,31-03-2025 15:54:41,0.000s,PASSED
+"verifyEqual(recommendedText, ""RECOMMENDED FOR YOU"", STOP_ON_FAILURE)",,,,31-03-2025 15:54:41,31-03-2025 15:54:41,0.001s,PASSED
+delay(5),,,,31-03-2025 15:54:41,31-03-2025 15:54:46,5.008s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - THINGS TO DO""), 0)",,Verify Things to Do section is present,,31-03-2025 15:54:46,31-03-2025 15:54:46,0.095s,PASSED
+delay(5),,,,31-03-2025 15:54:46,31-03-2025 15:54:51,5.008s,PASSED
+"thingsToDoText = TextView - THINGS TO DO""), 0).trim()",,Get and verify Things to Do text,,31-03-2025 15:54:51,31-03-2025 15:54:51,0.104s,PASSED
+"println(""Things to Do Text: "" + thingsToDoText)",,,,31-03-2025 15:54:51,31-03-2025 15:54:51,0.000s,PASSED
+"verifyEqual(thingsToDoText, ""THINGS TO DO"", STOP_ON_FAILURE)",,,,31-03-2025 15:54:51,31-03-2025 15:54:51,0.001s,PASSED
+delay(5),,,,31-03-2025 15:54:51,31-03-2025 15:54:56,5.009s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.view.View-gain access""), 0)",,Verify Gain Access section is present,,31-03-2025 15:54:56,31-03-2025 15:54:56,0.097s,PASSED
+delay(5),,,,31-03-2025 15:54:56,31-03-2025 15:55:01,5.008s,PASSED
+"gainAccessText = TextView - Gain access to a""), 0).trim()",,Get and verify Gain Access text,,31-03-2025 15:55:01,31-03-2025 15:55:01,0.097s,PASSED
+"println(""Gain Access Text: "" + gainAccessText)",,,,31-03-2025 15:55:01,31-03-2025 15:55:01,0.001s,PASSED
+"verifyEqual(gainAccessText, ""Gain access to a"", STOP_ON_FAILURE)",,,,31-03-2025 15:55:01,31-03-2025 15:55:01,0.000s,PASSED
+delay(5),,,,31-03-2025 15:55:02,31-03-2025 15:55:07,5.008s,PASSED
+"customizedExperienceText = TextView - customized experience""), 0).trim()",,Get and verify Customized Experience text,,31-03-2025 15:55:07,31-03-2025 15:55:07,0.111s,PASSED
+"println(""Customized Experience Text: "" + customizedExperienceText)",,,,31-03-2025 15:55:07,31-03-2025 15:55:07,0.000s,PASSED
+"verifyEqual(customizedExperienceText, ""customized experience"", STOP_ON_FAILURE)",,,,31-03-2025 15:55:07,31-03-2025 15:55:07,0.001s,PASSED
+delay(5),,,,31-03-2025 15:55:07,31-03-2025 15:55:12,5.008s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - Login""), 0)",,Verify Login button is present,,31-03-2025 15:55:12,31-03-2025 15:55:12,0.092s,PASSED
+delay(5),,,,31-03-2025 15:55:12,31-03-2025 15:55:17,5.009s,PASSED
+"loginText = TextView - Login""), 0).trim()",,Get and verify Login text,,31-03-2025 15:55:17,31-03-2025 15:55:17,0.100s,PASSED
+"println(""Login Text: "" + loginText)",,,,31-03-2025 15:55:17,31-03-2025 15:55:17,0.001s,PASSED
+"verifyEqual(loginText, ""Login"", STOP_ON_FAILURE)",,,,31-03-2025 15:55:17,31-03-2025 15:55:17,0.000s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.TextView - Login""), 0)",,Tap on Login,,31-03-2025 15:55:17,31-03-2025 15:55:17,0.080s,PASSED
+delay(30),,,,31-03-2025 15:55:17,31-03-2025 15:55:47,30.012s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - WESTGATE Online Account Management""), 0)",,Verify WESTGATE Online Account Management text is present,,31-03-2025 15:55:47,31-03-2025 15:55:47,0.094s,PASSED
+delay(5),,,,31-03-2025 15:55:47,31-03-2025 15:55:52,5.010s,PASSED
+"westgateText = TextView - WESTGATE Online Account Management""), 0).trim()",,Get and verify WESTGATE Online Account Management text,,31-03-2025 15:55:52,31-03-2025 15:55:52,0.092s,PASSED
+"println(""WESTGATE Text: "" + westgateText)",,,,31-03-2025 15:55:52,31-03-2025 15:55:52,0.001s,PASSED
+"verifyEqual(westgateText, ""WESTGATE Online Account Management"", STOP_ON_FAILURE)",,,,31-03-2025 15:55:52,31-03-2025 15:55:52,0.001s,PASSED
+closeApplication(),,Close the application,,31-03-2025 15:55:52,31-03-2025 15:55:54,1.796s,PASSED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C660-C681_SignUpNewUserPage,,"C660-Verify that the correct inline error message appears when incorrect email addresses are entered on the Login or Sign up page
+C677-Verify that the correct inline error message appears when incorrect email addresses are entered on the New User page
+C678-Verify that the correct inline error message appears when the email address with the domain ""@wgresorts.com"" is entered
+C679-Verify that the correct inline error message appears when the confirmation email address doesn't match the original email address
+C680-Verify that the system doesn't allow go to the next page users to proceed with existing email addresses in the system
+C681-Verify that the system doesn't allow copy and paste the initially entered email address",,31-03-2025 15:55:54,31-03-2025 16:00:05,4m - 10.863s,PASSED
+emailValidationTests = new EmailValidationTests(),,,,31-03-2025 15:55:54,31-03-2025 15:55:54,0.003s,PASSED
+emailValidationTests.runAllTests(),,,,31-03-2025 15:55:54,31-03-2025 15:55:54,0.000s,PASSED
+setup(),,,,31-03-2025 15:55:54,31-03-2025 15:55:54,0.001s,PASSED
+"startApplication(appUrl, true)",,,,31-03-2025 15:55:54,31-03-2025 15:56:01,7.081s,PASSED
+delay(20),,,,31-03-2025 15:56:01,31-03-2025 15:56:21,20.018s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,,,31-03-2025 15:56:21,31-03-2025 15:56:21,0.262s,PASSED
+try,,,,31-03-2025 15:56:21,31-03-2025 15:56:21,0.001s,PASSED
+"excelData = findTestData(""Data Files/InvalidEmail"")",,,,31-03-2025 15:56:21,31-03-2025 15:56:22,0.197s,PASSED
+rowCount = excelData.getRowNumbers(),,,,31-03-2025 15:56:22,31-03-2025 15:56:22,0.005s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",,,,31-03-2025 15:56:22,31-03-2025 15:56:48,26.307s,PASSED
+"testData = findTestData(""Data Files/C678"")",,,,31-03-2025 15:56:48,31-03-2025 15:56:48,0.010s,PASSED
+"email1 = testData.getValue(""email"", 1)",,,,31-03-2025 15:56:48,31-03-2025 15:56:48,0.001s,PASSED
+"email2 = testData.getValue(""email"", 2)",,,,31-03-2025 15:56:48,31-03-2025 15:56:48,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email1)",,,,31-03-2025 15:56:48,31-03-2025 15:56:48,0.056s,PASSED
+delay(10),,,,31-03-2025 15:56:48,31-03-2025 15:56:58,10.009s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next""), 0)",,,,31-03-2025 15:56:58,31-03-2025 15:56:58,0.125s,PASSED
+delay(10),,,,31-03-2025 15:56:58,31-03-2025 15:57:08,10.007s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 0)",,,,31-03-2025 15:57:08,31-03-2025 15:57:08,0.127s,PASSED
+hideKeyboard(),,,,31-03-2025 15:57:08,31-03-2025 15:57:11,2.448s,PASSED
+delay(10),,,,31-03-2025 15:57:11,31-03-2025 15:57:21,10.008s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText -""), email2)",,,,31-03-2025 15:57:21,31-03-2025 15:57:21,0.102s,PASSED
+delay(10),,,,31-03-2025 15:57:21,31-03-2025 15:57:31,10.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (1)""), 0)",,,,31-03-2025 15:57:31,31-03-2025 15:57:31,0.636s,PASSED
+delay(10),,,,31-03-2025 15:57:31,31-03-2025 15:57:41,10.007s,PASSED
+"actualText = getText(findTestObject(""Object Repository/Repo/android.widget.TextView -  The email address used is a Team Member email address.  Please select Create Team Member Account below""), 0)",,,,31-03-2025 15:57:41,31-03-2025 15:57:42,0.074s,PASSED
+"expectedText = "" The email address used is a Team Member email address.  Please select Create Team Member Account below.""",,,,31-03-2025 15:57:42,31-03-2025 15:57:42,0.000s,PASSED
+assert actualText.contains(expectedText),,,,31-03-2025 15:57:42,31-03-2025 15:57:42,0.001s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 0)",,,,31-03-2025 15:57:42,31-03-2025 15:57:42,0.097s,PASSED
+hideKeyboard(),,,,31-03-2025 15:57:42,31-03-2025 15:57:44,2.464s,PASSED
+"testData = findTestData(""Data Files/C679"")",,,,31-03-2025 15:57:44,31-03-2025 15:57:44,0.013s,PASSED
+"email1 = testData.getValue(""email"", 1)",,,,31-03-2025 15:57:44,31-03-2025 15:57:44,0.001s,PASSED
+"email2 = testData.getValue(""email"", 2)",,,,31-03-2025 15:57:44,31-03-2025 15:57:44,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email1)",,,,31-03-2025 15:57:44,31-03-2025 15:57:44,0.045s,PASSED
+delay(10),,,,31-03-2025 15:57:44,31-03-2025 15:57:54,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next""), 0)",,,,31-03-2025 15:57:54,31-03-2025 15:57:54,0.118s,PASSED
+delay(10),,,,31-03-2025 15:57:54,31-03-2025 15:58:04,10.007s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-confirm email address""), email2)",,,,31-03-2025 15:58:04,31-03-2025 15:58:04,0.082s,PASSED
+delay(10),,,,31-03-2025 15:58:04,31-03-2025 15:58:14,10.012s,PASSED
+"actualText = TextView -  Email addresses must match""), 0).trim()",,,,31-03-2025 15:58:14,31-03-2025 15:58:14,0.084s,PASSED
+"expectedText = ""Email addresses must match.""",,,,31-03-2025 15:58:14,31-03-2025 15:58:14,0.001s,PASSED
+assert actualText == expectedText,,,,31-03-2025 15:58:14,31-03-2025 15:58:14,0.000s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 0)",,,,31-03-2025 15:58:14,31-03-2025 15:58:15,0.138s,PASSED
+hideKeyboard(),,,,31-03-2025 15:58:15,31-03-2025 15:58:17,2.446s,PASSED
+"excelData = findTestData(""Data Files/C680"")",,,,31-03-2025 15:58:17,31-03-2025 15:58:17,0.012s,PASSED
+"email1 = excelData.getValue(""email"", 1)",,,,31-03-2025 15:58:17,31-03-2025 15:58:17,0.000s,PASSED
+"email2 = excelData.getValue(""email"", 2)",,,,31-03-2025 15:58:17,31-03-2025 15:58:17,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email1)",,,,31-03-2025 15:58:17,31-03-2025 15:58:17,0.052s,PASSED
+delay(10),,,,31-03-2025 15:58:17,31-03-2025 15:58:27,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next""), 0)",,,,31-03-2025 15:58:27,31-03-2025 15:58:27,0.124s,PASSED
+delay(10),,,,31-03-2025 15:58:27,31-03-2025 15:58:37,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 0)",,,,31-03-2025 15:58:37,31-03-2025 15:58:39,1.280s,PASSED
+hideKeyboard(),,,,31-03-2025 15:58:39,31-03-2025 15:58:41,2.500s,PASSED
+delay(10),,,,31-03-2025 15:58:41,31-03-2025 15:58:51,10.008s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText -""), email2)",,,,31-03-2025 15:58:51,31-03-2025 15:58:51,0.090s,PASSED
+delay(10),,,,31-03-2025 15:58:51,31-03-2025 15:59:01,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.EditText-confirm email address""), 0)",,,,31-03-2025 15:59:01,31-03-2025 15:59:01,0.106s,PASSED
+hideKeyboard(),,,,31-03-2025 15:59:01,31-03-2025 15:59:04,2.573s,PASSED
+delay(10),,,,31-03-2025 15:59:04,31-03-2025 15:59:14,10.011s,PASSED
+"actualText = getText(findTestObject(""Object Repository/Repo/android.widget.TextView -  The email address is already in use""), 0)",,,,31-03-2025 15:59:14,31-03-2025 15:59:14,0.105s,PASSED
+"expectedText = "" The email address is already in use.""",,,,31-03-2025 15:59:14,31-03-2025 15:59:14,0.000s,PASSED
+assert actualText.contains(expectedText),,,,31-03-2025 15:59:14,31-03-2025 15:59:14,0.000s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 0)",,,,31-03-2025 15:59:14,31-03-2025 15:59:15,1.216s,PASSED
+hideKeyboard(),,,,31-03-2025 15:59:15,31-03-2025 15:59:18,2.497s,PASSED
+"testData = findTestData(""Data Files/C681"")",,,,31-03-2025 15:59:18,31-03-2025 15:59:18,0.009s,PASSED
+"email1 = testData.getValue(""email"", 1)",,,,31-03-2025 15:59:18,31-03-2025 15:59:18,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email1)",,,,31-03-2025 15:59:18,31-03-2025 15:59:18,0.047s,PASSED
+delay(10),,,,31-03-2025 15:59:18,31-03-2025 15:59:28,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (1)""), 0)",,,,31-03-2025 15:59:28,31-03-2025 15:59:28,0.112s,PASSED
+delay(10),,,,31-03-2025 15:59:28,31-03-2025 15:59:38,10.008s,PASSED
+try,,,,31-03-2025 15:59:38,31-03-2025 15:59:43,5.228s,FAILED
+catch (com.kms.katalon.core.exception.StepFailedException e),,,,31-03-2025 15:59:43,31-03-2025 15:59:43,0.004s,PASSED
+try,,,,31-03-2025 15:59:43,31-03-2025 15:59:49,5.453s,FAILED
+catch (com.kms.katalon.core.exception.StepFailedException e),,,,31-03-2025 15:59:49,31-03-2025 15:59:49,0.001s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 0)",,,,31-03-2025 15:59:49,31-03-2025 15:59:49,0.073s,PASSED
+hideKeyboard(),,,,31-03-2025 15:59:49,31-03-2025 15:59:51,2.460s,PASSED
+"testData = findTestData(""Data Files/Emails"")",,,,31-03-2025 15:59:51,31-03-2025 15:59:51,0.006s,PASSED
+"email1 = testData.getValue(""email"", 1)",,,,31-03-2025 15:59:51,31-03-2025 15:59:51,0.000s,PASSED
+"email2 = testData.getValue(""email"", 2)",,,,31-03-2025 15:59:51,31-03-2025 15:59:51,0.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email1)",,,,31-03-2025 15:59:51,31-03-2025 15:59:51,0.047s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (1)""), 10)",,,,31-03-2025 15:59:51,31-03-2025 15:59:52,1.276s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 10)",,,,31-03-2025 15:59:52,31-03-2025 15:59:54,1.262s,PASSED
+hideKeyboard(),,,,31-03-2025 15:59:54,31-03-2025 15:59:56,2.477s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-confirm email address""), email2)",,,,31-03-2025 15:59:56,31-03-2025 15:59:56,0.035s,PASSED
+delay(3),,,,31-03-2025 15:59:56,31-03-2025 15:59:59,3.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.EditText-confirm email address""), 10)",,,,31-03-2025 15:59:59,31-03-2025 16:00:00,1.257s,PASSED
+try,,,,31-03-2025 16:00:00,31-03-2025 16:00:00,0.004s,PASSED
+catch (Exception e),,,,31-03-2025 16:00:00,31-03-2025 16:00:00,0.001s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - reset""), 0)",,,,31-03-2025 16:00:00,31-03-2025 16:00:01,0.646s,PASSED
+hideKeyboard(),,,,31-03-2025 16:00:01,31-03-2025 16:00:04,2.463s,PASSED
+Finally,,,,31-03-2025 16:00:04,31-03-2025 16:00:04,0.000s,PASSED
+closeApplication(),,,,31-03-2025 16:00:04,31-03-2025 16:00:05,1.245s,PASSED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C682-C688_SignUpNewUserPage,,"C682-Verify that an correct inline error message appears when numbers are entered in the First Name and Last Name fields
+C683-Verify that the correct inline error message appears when typing the password less than 8 symbols
+C684-Verify that the password field doesn't allow typing more than 20 symbols
+C685-Verify that the correct inline error message appears when the Confirm password doesn't match the original password
+C686-Verify that the First and Last name fields don't allow typing more than 50 symbols
+C687-Verify that the Next button is activated only when all fields are filled
+C688-Verify that the Next button remains inactive If any fields are left blank",,31-03-2025 16:08:50,31-03-2025 16:10:26,1m - 36.556s,FAILED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk"", true)",,Start the application using the specified APK file,,31-03-2025 16:08:50,31-03-2025 16:08:53,3.824s,PASSED
+delay(10),,,,31-03-2025 16:08:53,31-03-2025 16:09:03,10.013s,PASSED
+"tap(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.Button - Login or Sign Up""), 0)",,Tap on the Login or Sign Up button,,31-03-2025 16:09:03,31-03-2025 16:09:04,0.291s,PASSED
+delay(10),,,,31-03-2025 16:09:04,31-03-2025 16:09:14,10.009s,PASSED
+"setText(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.EditText""), ""tester@yopmail.com"", 0)",,Enter email address in the email field,,31-03-2025 16:09:14,31-03-2025 16:09:14,0.233s,PASSED
+delay(3),,,,31-03-2025 16:09:14,31-03-2025 16:09:17,3.006s,PASSED
+hideKeyboard(),,Hide keyboard after entering email,,31-03-2025 16:09:17,31-03-2025 16:09:20,2.634s,PASSED
+delay(3),,,,31-03-2025 16:09:20,31-03-2025 16:09:23,3.004s,PASSED
+"tap(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.Button - Next""), 0)",,Tap on Next button to proceed,,31-03-2025 16:09:23,31-03-2025 16:09:23,0.197s,PASSED
+delay(3),,,,31-03-2025 16:09:23,31-03-2025 16:09:26,3.009s,PASSED
+"setText(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.EditText (1)""), ""tester@yopmail.com"", 0)",,Enter email address again for confirmation,,31-03-2025 16:09:26,31-03-2025 16:09:26,0.208s,PASSED
+delay(3),,,,31-03-2025 16:09:26,31-03-2025 16:09:29,3.003s,PASSED
+hideKeyboard(),,Hide keyboard after entering confirmation email,,31-03-2025 16:09:29,31-03-2025 16:09:32,2.559s,PASSED
+delay(3),,,,31-03-2025 16:09:32,31-03-2025 16:09:35,3.006s,PASSED
+"tap(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.Button - Next (1)""), 0)",,Tap on Next button to continue,,31-03-2025 16:09:35,31-03-2025 16:09:35,0.113s,PASSED
+delay(3),,,,31-03-2025 16:09:35,31-03-2025 16:09:38,3.002s,PASSED
+"setText(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.EditText (2)""), ""steve"", 0)",,Enter first name in the first name field,,31-03-2025 16:09:38,31-03-2025 16:09:38,0.701s,PASSED
+delay(3),,,,31-03-2025 16:09:38,31-03-2025 16:09:41,3.008s,PASSED
+hideKeyboard(),,Hide keyboard after entering first name,,31-03-2025 16:09:41,31-03-2025 16:09:44,2.528s,PASSED
+delay(3),,,,31-03-2025 16:09:44,31-03-2025 16:09:47,3.007s,PASSED
+"setText(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.EditText (3)""), ""smith"", 0)",,Enter last name in the last name field,,31-03-2025 16:09:47,31-03-2025 16:09:47,0.151s,PASSED
+delay(3),,,,31-03-2025 16:09:47,31-03-2025 16:09:50,3.007s,PASSED
+hideKeyboard(),,Hide keyboard after entering last name,,31-03-2025 16:09:50,31-03-2025 16:09:53,2.473s,PASSED
+delay(3),,,,31-03-2025 16:09:53,31-03-2025 16:09:56,3.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.EditText (5)""), ""pass"")",,Enter too short password to test validation,,31-03-2025 16:09:56,31-03-2025 16:09:56,0.095s,PASSED
+delay(3),,,,31-03-2025 16:09:56,31-03-2025 16:09:59,3.007s,PASSED
+"tap(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.TextView - Your password must be between 8 and 20 characters and may not contain spaces""), 0)",,Tap on password requirements text,,31-03-2025 16:09:59,31-03-2025 16:09:59,0.131s,PASSED
+delay(3),,,,31-03-2025 16:09:59,31-03-2025 16:10:02,3.007s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.TextView -  Password does not meet security requirements""), 0)",,Verify that password does not meet security requirements error message is displayed,,31-03-2025 16:10:02,31-03-2025 16:10:13,11.133s,PASSED
+delay(3),,,,31-03-2025 16:10:13,31-03-2025 16:10:16,3.009s,PASSED
+"tap(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.Button - back""), 0)",,Tap on back button to restart the form,,31-03-2025 16:10:16,31-03-2025 16:10:16,0.154s,PASSED
+delay(3),,,,31-03-2025 16:10:16,31-03-2025 16:10:19,3.004s,PASSED
+"setText(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.EditText (1)""), ""tester@yopmail.com"", 0)",,Enter email address again after going back,,31-03-2025 16:10:19,31-03-2025 16:10:19,0.158s,PASSED
+delay(3),,,,31-03-2025 16:10:19,31-03-2025 16:10:22,3.006s,PASSED
+hideKeyboard(),,Hide keyboard after entering email,,31-03-2025 16:10:22,31-03-2025 16:10:23,0.500s,PASSED
+delay(3),,,,31-03-2025 16:10:23,31-03-2025 16:10:26,3.007s,PASSED
+"tap(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.Button - Next (1)""), 0)",,Tap on Next button to proceed,,31-03-2025 16:10:26,31-03-2025 16:10:26,0.330s,FAILED
+,,,,,,,
+Test Cases/Sign Up New UserPage/C698-C696_SignUpNewUserPage,,"Verify that the confirmation email is received after agreeing to the Terms and Conditions
+Verify that outdated verification links cannot be used",,31-03-2025 16:10:26,31-03-2025 16:10:26,0.015s,ERROR
+,,,,,,,
+Test Cases/Sign Up New UserPage/C699_SignUpNewUserPage,,Verify that the Next button on the 'Not Verified Thank You' page is clickable,,31-03-2025 16:12:02,31-03-2025 16:17:09,5m - 7.656s,PASSED
+"testData = findTestData(""Data Files/LogiNewUser"")",,"Retrieve test data from the ""C699"" data file",,31-03-2025 16:12:02,31-03-2025 16:12:02,0.007s,PASSED
+"email = testData.getValue(""email"", 1)",,"Extract email, first name, last name, password, and confirm password from the test data file",,31-03-2025 16:12:02,31-03-2025 16:12:02,0.000s,PASSED
+"firstName = testData.getValue(""firstname"", 1)",,,,31-03-2025 16:12:02,31-03-2025 16:12:02,0.000s,PASSED
+"lastName = testData.getValue(""lastname"", 1)",,,,31-03-2025 16:12:02,31-03-2025 16:12:02,0.000s,PASSED
+"password = testData.getValue(""password"", 1)",,,,31-03-2025 16:12:02,31-03-2025 16:12:02,0.000s,PASSED
+"confirmPassword = testData.getValue(""confirm password"", 1)",,,,31-03-2025 16:12:02,31-03-2025 16:12:02,0.000s,PASSED
+"startApplication(appUrl, true)",,Launch the mobile application with reset enabled (clears previous session data),,31-03-2025 16:12:02,31-03-2025 16:12:07,4.937s,PASSED
+delay(10),,Wait for 10 seconds to allow the application to load,,31-03-2025 16:12:07,31-03-2025 16:12:17,10.011s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button to proceed to the authentication page",,31-03-2025 16:12:17,31-03-2025 16:12:17,0.242s,PASSED
+delay(10),,Wait for 10 seconds to ensure the login screen loads properly,,31-03-2025 16:12:17,31-03-2025 16:12:27,10.007s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email, 0)",,Enter the retrieved email into the email input field,,31-03-2025 16:12:27,31-03-2025 16:12:27,0.205s,PASSED
+hideKeyboard(),,Hide the keyboard to avoid UI conflicts,,31-03-2025 16:12:27,31-03-2025 16:12:30,2.607s,PASSED
+delay(10),,Wait for 10 seconds to stabilize the UI,,31-03-2025 16:12:30,31-03-2025 16:12:40,10.007s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next""), 0)",,"Tap on the ""Next"" button to proceed",,31-03-2025 16:12:40,31-03-2025 16:12:40,0.156s,PASSED
+delay(10),,Wait for 10 seconds for the next screen to load,,31-03-2025 16:12:40,31-03-2025 16:12:50,10.008s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-confirm email address""), email, 0)",,Enter the retrieved email again to confirm email address,,31-03-2025 16:12:50,31-03-2025 16:12:50,0.179s,PASSED
+hideKeyboard(),,Hide the keyboard,,31-03-2025 16:12:50,31-03-2025 16:12:53,2.498s,PASSED
+delay(10),,Wait for 10 seconds to ensure input is processed,,31-03-2025 16:12:53,31-03-2025 16:13:03,10.021s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (1)""), 0)",,"Tap on the ""Next"" button to proceed to the personal information section",,31-03-2025 16:13:03,31-03-2025 16:13:03,0.160s,PASSED
+delay(10),,Wait for 10 seconds for the transition to complete,,31-03-2025 16:13:03,31-03-2025 16:13:13,10.008s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-FirstName""), firstName, 0)",,Enter the first name,,31-03-2025 16:13:13,31-03-2025 16:13:13,0.274s,PASSED
+hideKeyboard(),,Hide the keyboard,,31-03-2025 16:13:13,31-03-2025 16:13:16,2.585s,PASSED
+delay(10),,Wait for 10 seconds,,31-03-2025 16:13:16,31-03-2025 16:13:26,10.032s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-LastName""), lastName, 0)",,Enter the last name,,31-03-2025 16:13:26,31-03-2025 16:13:26,0.302s,PASSED
+hideKeyboard(),,Hide the keyboard,,31-03-2025 16:13:26,31-03-2025 16:13:28,2.468s,PASSED
+delay(10),,Wait for 10 seconds,,31-03-2025 16:13:28,31-03-2025 16:13:38,10.007s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-Password""), password)",,Enter the password,,31-03-2025 16:13:38,31-03-2025 16:13:39,0.118s,PASSED
+delay(10),,Wait for 10 seconds,,31-03-2025 16:13:39,31-03-2025 16:13:49,10.010s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-Confirm Password""), confirmPassword)",,Enter the confirm password,,31-03-2025 16:13:49,31-03-2025 16:13:49,0.118s,PASSED
+delay(10),,Wait for 10 seconds,,31-03-2025 16:13:49,31-03-2025 16:13:59,10.009s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (2)""), 0)",,"Tap on the ""Next"" button to proceed",,31-03-2025 16:13:59,31-03-2025 16:13:59,0.139s,PASSED
+delay(20),,Wait for 20 seconds for page transition,,31-03-2025 16:13:59,31-03-2025 16:14:19,20.008s,PASSED
+"scrollToText(""etc)."")",,"Scroll down until the text ""etc)."" is visible",,31-03-2025 16:14:19,31-03-2025 16:14:20,0.840s,PASSED
+delay(5),,Wait for 5 seconds,,31-03-2025 16:14:20,31-03-2025 16:14:25,5.002s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Agree to Terms  Conditions""), 0)",,"Tap on the ""Agree to Terms & Conditions"" button",,31-03-2025 16:14:25,31-03-2025 16:14:25,0.147s,PASSED
+delay(30),,Wait for 30 seconds to allow time for agreement processing,,31-03-2025 16:14:25,31-03-2025 16:14:55,30.007s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-OAM(Login)""), email, 0)",,Enter the email address in the login field on the OAM (Online Account Management) screen,,31-03-2025 16:14:55,31-03-2025 16:14:55,0.158s,PASSED
+hideKeyboard(),,Hide the keyboard,,31-03-2025 16:14:55,31-03-2025 16:14:55,0.418s,PASSED
+delay(30),,Wait for 30 seconds,,31-03-2025 16:14:55,31-03-2025 16:15:25,30.009s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-OAM(Password)""), password, 0)",,Enter the password in the OAM login field,,31-03-2025 16:15:25,31-03-2025 16:15:26,0.122s,PASSED
+hideKeyboard(),,Hide the keyboard,,31-03-2025 16:15:26,31-03-2025 16:15:26,0.294s,PASSED
+delay(30),,Wait for 30 seconds,,31-03-2025 16:15:26,31-03-2025 16:15:56,30.005s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button -OAM(Login)""), 0)",,"Tap on the ""Login"" button to attempt authentication",,31-03-2025 16:15:56,31-03-2025 16:15:56,0.120s,PASSED
+delay(20),,Wait for 30 seconds to allow time for authentication processing,,31-03-2025 16:15:56,31-03-2025 16:16:16,20.005s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next-(VerifyAccount)""), 0)",,"Tap on the ""Next"" button to proceed with verifying the account",,31-03-2025 16:16:16,31-03-2025 16:16:16,0.132s,PASSED
+delay(10),,Wait for 10 seconds,,31-03-2025 16:16:16,31-03-2025 16:16:26,10.006s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - Youve chosen to skip the email verification process. While you can explore the app as a guest, please note that certain features and functionalities may be limited""), 0)",,Verify the existence of the message that indicates email verification has been skipped,,31-03-2025 16:16:26,31-03-2025 16:16:26,0.060s,PASSED
+delay(10),,Wait for 10 seconds,,31-03-2025 16:16:26,31-03-2025 16:16:36,10.006s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - To fully access all features""), 0)",,Verify the existence of the message about limited feature access,,31-03-2025 16:16:36,31-03-2025 16:16:36,0.051s,PASSED
+delay(10),,Wait for 10 seconds,,31-03-2025 16:16:36,31-03-2025 16:16:46,10.007s,PASSED
+"actualText = getText(findTestObject(""Object Repository/Repo/android.widget.TextView - Youve chosen to skip the email verification process. While you can explore the app as a guest, please note that certain features and functionalities may be limited""), 0)",,Capture the message about skipping email verification,,31-03-2025 16:16:46,31-03-2025 16:16:46,0.067s,PASSED
+"expectedText = ""You've chosen to skip the email verification process. While you can explore the app as a guest, please note that certain features and functionalities may be limited.""",,Define the expected text,,31-03-2025 16:16:46,31-03-2025 16:16:46,0.000s,PASSED
+assert actualText == expectedText,,Assert that the displayed message matches the expected text,,31-03-2025 16:16:46,31-03-2025 16:16:46,0.002s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.Button - Next (2)""), 0)",,"Verify that the ""Next"" button exists on the screen",,31-03-2025 16:16:46,31-03-2025 16:16:46,0.040s,PASSED
+delay(10),,Wait for 10 seconds,,31-03-2025 16:16:46,31-03-2025 16:16:56,10.005s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next (2)""), 0)",,"Tap the ""Next"" button to proceed further",,31-03-2025 16:16:56,31-03-2025 16:16:56,0.124s,PASSED
+delay(10),,Wait for 10 seconds,,31-03-2025 16:16:56,31-03-2025 16:17:06,10.007s,PASSED
+closeApplication(),,Close the application after completing the test,,31-03-2025 16:17:06,31-03-2025 16:17:09,2.877s,PASSED
+closeBrowser(),,,,31-03-2025 16:17:09,31-03-2025 16:17:09,0.006s,PASSED
+,,,,,,,
+Test Cases/Login Owner OR Renter/C739_LoginOwnerOrRenter,,Verify that the bottom navbar is displayed correctly when the user is in a logged-in state,,31-03-2025 16:20:38,31-03-2025 16:22:17,1m - 38.814s,FAILED
+"testData = findTestData(""Data Files/LogiNewUser"")",,"Retrieve test data from ""C739"" data file",,31-03-2025 16:20:38,31-03-2025 16:20:38,0.004s,PASSED
+"email = testData.getValue(""email"", 1)",,Extract the email and password from the test data,,31-03-2025 16:20:38,31-03-2025 16:20:38,0.001s,PASSED
+"password = testData.getValue(""password"", 1)",,,,31-03-2025 16:20:38,31-03-2025 16:20:38,0.000s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/app-debug.apk"", true)",,Launch the mobile application,,31-03-2025 16:20:38,31-03-2025 16:20:44,5.815s,PASSED
+delay(10),,Wait for 10 seconds to allow the app to load,,31-03-2025 16:20:44,31-03-2025 16:20:54,10.005s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button to initiate login",,31-03-2025 16:20:54,31-03-2025 16:20:54,0.295s,PASSED
+delay(10),,Wait for 10 seconds before entering the email,,31-03-2025 16:20:54,31-03-2025 16:21:04,10.008s,PASSED
+"sendKeys(findTestObject(""Object Repository/Repo/android.widget.EditText-LoginorSignUp""), email)",,Enter the email address in the login field,,31-03-2025 16:21:04,31-03-2025 16:21:05,0.113s,PASSED
+delay(10),,Wait for 10 seconds to allow input processing,,31-03-2025 16:21:05,31-03-2025 16:21:15,10.008s,PASSED
+"tap(findTestObject(""Object Repository/Repo/android.widget.Button - Next""), 0)",,"Tap on the ""Next"" button to proceed to the password entry",,31-03-2025 16:21:15,31-03-2025 16:21:15,0.151s,PASSED
+delay(30),,Wait for 30 seconds to allow the next screen to load,,31-03-2025 16:21:15,31-03-2025 16:21:45,30.006s,PASSED
+"setText(findTestObject(""Object Repository/Repo/android.widget.EditText-OAM(Login)""), email, 0)",,Enter the email address again in the OAM login field,,31-03-2025 16:21:45,31-03-2025 16:22:17,32.398s,FAILED
+,,,,,,,
+Test Cases/Login Owner OR Renter/C661-C720-C721_LoginOwnerOrRenter,,"C661-Verify that the user is able to login successfully
+C720-Verify that the app version on the Settings in Login Mode is correct
+C721-Verify that the current account email on the Settings in Login Mode is correct",,31-03-2025 16:22:17,31-03-2025 16:22:17,0.009s,ERROR
+"testData = findTestData(""Data Files/LogiNewUser"")",,Retrieve test data for login credentials and expected app version,,31-03-2025 16:22:17,31-03-2025 16:22:17,0.005s,PASSED
+"email = testData.getValue(""email"", 1)",,"Extract email, password, and expected app version from test data",,31-03-2025 16:22:17,31-03-2025 16:22:17,0.000s,PASSED
+"password = testData.getValue(""password"", 1)",,,,31-03-2025 16:22:17,31-03-2025 16:22:17,0.000s,PASSED
+"expectedVersion = testData.getValue(""version"", 1)",,,,31-03-2025 16:22:17,31-03-2025 16:22:17,0.001s,ERROR
+,,,,,,,
+Test Cases/Login Owner OR Renter/C735-C736_LoginOwnerOrRenter,,"Verify that the Term and Conditions in Logged state is displayed correctly
+Verify that the Privacy Policy in Logged state is displayed correctly",,31-03-2025 16:23:39,31-03-2025 16:24:00,20.130s,FAILED
+"loginData = findTestData(""Data Files/LogiNewUser"")",,Read test data from Excel file,,31-03-2025 16:23:39,31-03-2025 16:23:39,0.003s,PASSED
+"email = loginData.getValue(""email"", 1)",,,,31-03-2025 16:23:39,31-03-2025 16:23:39,0.001s,PASSED
+"password = loginData.getValue(""password"", 1)",,,,31-03-2025 16:23:39,31-03-2025 16:23:39,0.000s,PASSED
+"startApplication(appUrl, true)",,Launch the application on the device,,31-03-2025 16:23:39,31-03-2025 16:24:00,20.121s,FAILED

@@ -19,13 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>03de6efc-c98f-43d8-995f-408c55b48732</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Owner OR Renter/C735-C736_LoginOwnerOrRenter</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bcd1a18a-db9e-44c3-b87f-f878c88e908f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

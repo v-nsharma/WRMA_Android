@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import io.appium.java_client.AppiumDriver
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -36,7 +37,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch the Westgate mobile application'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk', false)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait for the application to load completely'
 Mobile.delay(10)
@@ -54,7 +55,7 @@ Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - menu')
 Mobile.delay(20)
 
 'Navigate to version information tab'
-Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TabWidget (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TabWidget-Settings'), 0)
 
 'Wait for version information to load'
 Mobile.delay(10)
@@ -100,4 +101,7 @@ println("All test verifications completed successfully!")
 
 'Close the mobile application'
 Mobile.closeApplication()
+
+WebUI.closeBrowser()
+
 

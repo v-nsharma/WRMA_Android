@@ -19,13 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d52133e2-2d28-43d3-a6d9-9b79ffdca68e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Owner OR Renter/C735-C736_LoginOwnerOrRenter</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>99ac567d-e002-43ee-ba24-1217aea27dd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -78,14 +71,14 @@
       <guid>96dd4380-b3d5-49b9-9417-d41828221ed5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Owner OR Renter/C739_LoginOwnerOrRenter</testCaseId>
+      <testCaseId>Test Cases/Login Owner OR Renter/C735-C736-C739_LoginOwnerOrRenter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fd68f76d-db9e-4595-bdb1-f2ebfa0c4e17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-241/C660</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-241/C660_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
@@ -99,77 +92,77 @@
       <guid>9d3f76d7-bf01-4876-98bf-7c3dedb7be3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-241/C678</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-241/C678_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3d7f7825-f417-4c48-aac9-c2bcaacf5621</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-241/C679</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-241/C679_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7e744743-62be-42f4-a929-eb051fc7fdab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-241/C680</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-241/C680_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3535de34-8614-4766-ad43-d657743877a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-241/C681</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-241/C681_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>ea23bcfe-906d-453b-b3be-47faafcddb42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-257/C682</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-257/C682_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>9aeafcb4-ee13-4175-bd76-82ec38d15cfe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-257/C683</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-257/C683_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e0abf4b4-369d-4e16-a2fc-070b31382038</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-257/C684</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-257/C684_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>3cd93032-23f4-41b0-bafb-43b6580d48e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-257/C685</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-257/C685_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>96ad8b51-0c9c-40d1-ad5b-314e97421896</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-257/C686</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-257/C686_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>991e8947-d133-4260-8754-176e46069a8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-257/C687</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-257/C687_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4ebfc2d4-4870-4a2b-afae-c64d4996286d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sprint 2/WRMA-257/C688</testCaseId>
+      <testCaseId>Test Cases/Sprint 2/WRMA-257/C688_SignUpNewUserPage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

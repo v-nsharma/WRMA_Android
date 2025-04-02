@@ -1,4 +1,8 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import io.appium.java_client.AppiumDriver
+import io.appium.java_client.android.AndroidDriver
+import org.openqa.selenium.remote.DesiredCapabilities
+import java.net.URL
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,27 +20,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
-'Initializes testData by finding the test data file located at "Data Files"'
-TestData testData = findTestData('Data Files/C698-C696 (1)')
+'Initializes testData by finding the test data file located at Data Files'
+TestData testData = findTestData('Data Files/LogiNewUser')
 
 'Retrieves the value of the "email" field from the first row of the test data and assigns it to the variable email.'
-String email = testData.getValue('email', 1)
+String email = testData.getValue('email', 2)
 
 'Retrieves the value of the "firstname" field from the first row of the test data and assigns it to the variable firstName.'
-String firstName = testData.getValue('firstname', 1)
+String firstName = testData.getValue('firstname', 2)
 
 'Retrieves the value of the "lastname" field from the first row of the test data and assigns it to the variable lastName.'
-String lastName = testData.getValue('lastname', 1)
+String lastName = testData.getValue('lastname', 2)
 
 'Retrieves the value of the "password" field from the first row of the test data and assigns it to the variable password.'
-String password = testData.getValue('password', 1)
+String password = testData.getValue('password', 2)
 
 'Retrieves the value of the "confirmpassword" field from the first row of the test data and assigns it to the variable confirmPassword.'
-String confirmPassword = testData.getValue('confirmpassword', 1)
+String confirmPassword = testData.getValue('confirm password', 2)
 
 ' Launches the application '
-Mobile.startApplication('/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Pauses the execution for 10 seconds.'
 Mobile.delay(10)
@@ -105,7 +110,7 @@ Mobile.hideKeyboard()
 Mobile.delay(10)
 
 ' Simulates key presses in the confirm password field.'
-Mobile.sendKeys(findTestObject('Object Repository/Repo/android.widget.EditText-ConfirmPassword'), confirmPassword)
+Mobile.sendKeys(findTestObject('Object Repository/Repo/android.widget.EditText-Confirm Password'), confirmPassword)
 
 'Hides the on-screen keyboard.'
 Mobile.hideKeyboard()
@@ -119,17 +124,18 @@ Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - Next (
 'Pauses the execution for 10 seconds.'
 Mobile.delay(10)
 
-'Scroll down\r\n'
+'Scroll down'
 Mobile.scrollToText('etc).')
 
 'Pauses the execution for 10 seconds.'
 Mobile.delay(10)
 
+Mobile.scrollToText('etc).')
+
+Mobile.delay(10)
+
 'Tap on Agree to terms and conditions'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - Agree to Terms  Conditions'), 0)
-
-'Pauses the execution for 30 seconds.'
-Mobile.delay(30)
 
 'Enter email in OAM webview'
 Mobile.setText(findTestObject('Object Repository/Repo/android.widget.EditText-OAM(Login)'), email, 0)
@@ -197,4 +203,7 @@ Mobile.delay(10)
 
 'Close the application'
 Mobile.closeApplication()
+
+WebUI.closeBrowser()
+
 

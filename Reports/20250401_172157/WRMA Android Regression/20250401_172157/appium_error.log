@@ -1,0 +1,280 @@
+[38;5;55m[045cfc75][0m[38;5;-63m[AndroidUiautomator2Driver@b1c4][0m Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 255'; Command output: 
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+[38;5;170m[716d4ac2][0m[38;5;-114m[AndroidUiautomator2Driver@a28d][0m Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 255'; Command output: 
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+[38;5;60m[b2d66040][0m[38;5;-166m[AndroidUiautomator2Driver@a091][0m Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 255'; Command output: 
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+[38;5;163m[7b9d354c][0m[38;5;-165m[AndroidUiautomator2Driver@99d6][0m Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 255'; Command output: 
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+[38;5;35m[8a87a40d][0m[38;5;-86m[AndroidUiautomator2Driver@66f7][0m Hidden API policy (https://developer.android.com/guide/app-compatibility/restrictions-non-sdk-interfaces) cannot be enabled. This might be happening because the device under test is not configured properly. Please check https://github.com/appium/appium/issues/13802 for more details. You could also set the "appium:ignoreHiddenApiPolicyError" capability to true in order to ignore this error, which might later lead to unexpected crashes or behavior of the automation server. Original error: Error executing adbExec. Original error: 'Command '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s adb-a6e538dc5180-rpwVK8._adb-tls-connect._tcp shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1'' exited with code 255'; Command output: 
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial, must have one of: [android.permission.WRITE_SECURE_SETTINGS]
+	at com.android.providers.settings.SettingsProvider.enforceHasAtLeastOnePermission(SettingsProvider.java:2479)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1555)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1509)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:480)
+	at android.content.ContentProvider.call(ContentProvider.java:2736)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:639)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:382)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:278)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:50)
+	at android.os.Binder.shellCommand(Binder.java:1237)
+	at android.os.Binder.onTransact(Binder.java:1050)
+	at android.os.Binder.execTransactInternal(Binder.java:1512)
+	at android.os.Binder.execTransact(Binder.java:1451)
+
+[38;5;170m[716d4ac2][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+[38;5;55m[045cfc75][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+[38;5;163m[7b9d354c][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+[38;5;35m[8a87a40d][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null
+[38;5;60m[b2d66040][0m[38;5;160m[Logcat][0m Logcat terminated with code 0, signal null

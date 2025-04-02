@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the Term and Conditions in Logged state is displayed correctly&#xd;
+Verify that the Privacy Policy in Logged state is displayed correctly</description>
+   <name>C735-C736_LoginOwnerOrRenter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c18fd954-2652-4c75-925e-0a608ad4bfab</testCaseGuid>
+</TestCaseEntity>

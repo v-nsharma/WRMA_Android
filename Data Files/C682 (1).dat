@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>c2d7e2db-6b02-4f9c-bb3e-ad6c75201077</dataFileGUID>
-   <dataSourceUrl>C:\Users\GVVignesh\Katalon Studio\WGR-Android-Automation\Data Files\C682.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/gv.vignesh/Downloads/WGR-Android-Automation/Data Files/C682.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

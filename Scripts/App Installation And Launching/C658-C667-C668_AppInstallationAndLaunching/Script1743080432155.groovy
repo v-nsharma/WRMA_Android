@@ -1,4 +1,7 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import io.appium.java_client.AppiumDriver
+import io.appium.java_client.android.AndroidDriver
+import io.appium.java_client.AppiumDriver
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 import io.appium.java_client.AppiumDriver as AppiumDriver
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -23,7 +26,7 @@ import com.kms.katalon.core.util.KeywordUtil
 
 
 'Launch the application on the physical device'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/universal.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait for 3 seconds for the app to load'
 Mobile.delay(3)
@@ -97,7 +100,7 @@ if (!(isElementVisible)) {
 }
 
 'Wait for 15 seconds'
-Mobile.delay(20)
+Mobile.delay(10)
 
 'Tap on the menu button'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - menu'), 0)
@@ -108,7 +111,7 @@ Mobile.delay(30)
 'Tap on the "Terms and Conditions" option in the menu'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu'), 0)
 
-Mobile.delay(30)
+Mobile.delay(10)
 
 'Verify if the "Terms and Conditions" webview is present'
 if (Mobile.waitForElementPresent(findTestObject('Object Repository/Repo/android.view.View-Terms and conditions web'), 30, FailureHandling.CONTINUE_ON_FAILURE)) {
@@ -120,19 +123,19 @@ if (Mobile.waitForElementPresent(findTestObject('Object Repository/Repo/android.
 }
 
 'Wait for 30 seconds'
-Mobile.delay(30)
+Mobile.delay(10)
 
 'Tap on the cancel button to close the webview'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.ImageButton-Cancel web'), 0)
 
 'Wait for 15 seconds'
-Mobile.delay(45)
+Mobile.delay(15)
 
 'Tap on the menu button again to open the menu fly-out'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - menu'), 0)
 
 'Wait for 30 seconds for the menu to open'
-Mobile.delay(30)
+Mobile.delay(15)
 
 'Tap on the "Privacy Policy" option in the menu'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TextView - Privacy Policy-Menu'), 0)
@@ -148,4 +151,7 @@ if (Mobile.waitForElementPresent(findTestObject('Object Repository/Repo/android.
 
 'Close the application successfully'
 Mobile.closeApplication()
+
+WebUI.closeBrowser()
+
 		

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the system doesn't allow copy and paste the initially entered email address</description>
+   <name>C681_SignUpNewUserPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>18f3547c-c62f-4dd9-b1b9-bf53414efbb9</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7c4cb976-5094-4a57-b3b3-2dc27eb8a1c3</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C681</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

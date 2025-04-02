@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that an correct inline error message appears when numbers are entered in the First Name and Last Name fields</description>
+   <name>C682_SignUpNewUserPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6aadaa80-d901-4ce8-90b9-e81b1767b952</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>133d4c61-3f78-4028-9204-5e32b05b0343</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C682 (1)</testDataId>
+   </testDataLinks>
+</TestCaseEntity>
