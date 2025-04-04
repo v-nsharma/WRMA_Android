@@ -2,31 +2,34 @@ trigger:
 - main
  
 pool:
-  vmImage: windows-latest
+  vmImage: 'windows-latest'
  
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: NodeTool@0
+  inputs:
+    versionSpec: '18.x'
+  displayName: 'Install Node.js'
  
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    echo Starting Android Emulator...
+    cd "%ANDROID_HOME%\emulator"
+    emulator -avd Pixel_API_30 -no-window -no-audio -no-boot-anim &
+  displayName: 'Start Android Emulator'
  
 - task: katalonTask@1
   inputs:
     version: '10.1.1'
     executeArgs: >
-      -retry=0 
-      -testSuitePath="Test Suites/demo" 
-      -browserType="Android" 
-      -deviceId="emulator-5554" 
-      -executionProfile="WRMA-Android" 
-      -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123" 
-      -orgID=1958469 
-      --config 
-      -proxy.auth.option=NO_PROXY 
-      -proxy.system.option=NO_PROXY 
-      -proxy.system.applyToDesiredCapabilities=true 
-      -webui.autoUpdateDrivers=true 
-      -appiumDirectory="/opt/homebrew/lib/node_modules/appium"
+      -retry=0
+      -testSuitePath="Test Suites/demo"
+      -browserType="Android"
+      -deviceId="emulator-5554"
+      -executionProfile="WRMA-Android"
+      -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123"
+      -orgID=your-org-id
+      --config
+      -proxy.auth.option=NO_PROXY
+      -proxy.system.option=NO_PROXY
+      -proxy.system.applyToDesiredCapabilities=true
+      -webui.autoUpdateDrivers=true
+      -appiumDirectory="C:\\Users\\VssAdministrator\\AppData\\Roaming\\npm\\node_modules\\appium"
