@@ -2,7 +2,7 @@ trigger:
 - main
  
 pool:
-  vmImage: ubuntu-24.04
+  vmImage: ubuntu-22.04  # <- Use stable version
  
 steps:
 - script: echo Hello, world!
