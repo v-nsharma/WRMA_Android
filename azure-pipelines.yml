@@ -24,8 +24,20 @@ steps:
 
     echo "Starting Android Emulator..."
     $ANDROID_HOME/emulator/emulator -avd Pixel_API_30 -no-window -no-audio -no-boot-anim &
-    sleep 60
+    
+    echo "Waiting for emulator to boot..."
+    $ANDROID_HOME/platform-tools/adb wait-for-device
+    bootanim=""
+    until [[ "$bootanim" == *"stopped"* ]]; do
+      sleep 5
+      bootanim=$($ANDROID_HOME/platform-tools/adb shell getprop init.svc.bootanim 2>/dev/null)
+      echo "Waiting for boot animation to stop... ($bootanim)"
+    done
+
+    echo "Emulator is ready."
+    $ANDROID_HOME/platform-tools/adb devices
   displayName: 'Start Android Emulator on macOS'
+
 
 - task: katalonTask@1
   inputs:
