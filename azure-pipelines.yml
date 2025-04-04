@@ -1,23 +1,32 @@
-# Starter pipeline
-- task: katalonTask@1
-  inputs:
-    version: '10.1.1'
-    executeArgs: '-retry=0 -testSuitePath="Test Suites/demo" -browserType="Android" -deviceId="emulator-5554" -executionProfile="WRMA-Android" -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123" -orgID=1958469 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true -appiumDirectory="/opt/homebrew/lib/node_modules/appium"'
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
 - main
-
+ 
 pool:
   vmImage: ubuntu-latest
-
+ 
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-
+ 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+ 
+- task: katalonTask@1
+  inputs:
+    version: '10.1.1'
+    executeArgs: >
+      -retry=0 
+      -testSuitePath="Test Suites/demo" 
+      -browserType="Android" 
+      -deviceId="emulator-5554" 
+      -executionProfile="WRMA-Android" 
+      -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123" 
+      -orgID=1958469 
+      --config 
+      -proxy.auth.option=NO_PROXY 
+      -proxy.system.option=NO_PROXY 
+      -proxy.system.applyToDesiredCapabilities=true 
+      -webui.autoUpdateDrivers=true 
+      -appiumDirectory="/opt/homebrew/lib/node_modules/appium"
