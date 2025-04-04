@@ -49,6 +49,26 @@ steps:
     $ANDROID_HOME/platform-tools/adb devices
   displayName: 'Start Android Emulator on macOS'
 
+# Ensure Katalon is installed and located
+- script: |
+    echo "Setting Katalon path..."
+    export PATH="/Users/runner/.katalon/10.1.1/Katalon_Studio_Engine_MacOS-10.1.1:$PATH"
+    echo "Katalon path: $(which katalonc)"
+  displayName: 'Set Katalon Path'
+
+# Ensure Appium is recognized
+- script: |
+    echo "Verifying Appium path..."
+    export PATH="/usr/local/lib/node_modules/appium/bin:$PATH"
+    echo "Appium path: $(which appium)"
+  displayName: 'Verify Appium Path'
+
+# Ensure Java 8 is applied
+- script: |
+    export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
+    echo "Using Java: $JAVA_HOME"
+  displayName: 'Verify Java 8 Setup'
+
 # Run Katalon with emulator
 - task: katalonTask@1
   inputs:
@@ -68,3 +88,11 @@ steps:
       -webui.autoUpdateDrivers=true
       -appiumDirectory="/usr/local/lib/node_modules/appium"
   displayName: 'Run Katalon Test Suite'
+
+# ✅ Publish Katalon reports to Azure DevOps artifacts
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(System.DefaultWorkingDirectory)/Reports'
+    artifact: 'KatalonReports'
+    publishLocation: 'pipeline'
+  displayName: 'Publish Katalon Reports'
