@@ -16,6 +16,13 @@ steps:
   displayName: 'Install Appium'
 
 - script: |
+    echo "Installing JDK 8 for Android SDK tools..."
+    brew tap homebrew/cask-versions
+    brew install --cask temurin8
+
+    export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
+    echo "Using Java at $JAVA_HOME"
+
     echo "Installing Android Emulator system image..."
     echo "y" | $ANDROID_HOME/tools/bin/sdkmanager "system-images;android-30;google_apis;x86"
 
@@ -24,7 +31,7 @@ steps:
 
     echo "Starting Android Emulator..."
     $ANDROID_HOME/emulator/emulator -avd Pixel_API_30 -no-window -no-audio -no-boot-anim &
-    
+
     echo "Waiting for emulator to boot..."
     $ANDROID_HOME/platform-tools/adb wait-for-device
     bootanim=""
@@ -37,7 +44,6 @@ steps:
     echo "Emulator is ready."
     $ANDROID_HOME/platform-tools/adb devices
   displayName: 'Start Android Emulator on macOS'
-
 
 - task: katalonTask@1
   inputs:
