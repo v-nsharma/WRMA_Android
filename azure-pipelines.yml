@@ -5,16 +5,19 @@ pool:
   vmImage: 'macOS-latest'
 
 steps:
+# Install Node.js
 - task: NodeTool@0
   inputs:
     versionSpec: '18.x'
   displayName: 'Install Node.js'
 
+# Install Appium
 - script: |
     echo "Installing Appium..."
     npm install -g appium
   displayName: 'Install Appium'
 
+# Install Java 8 and start emulator with boot check
 - script: |
     echo "Installing JDK 8 for Android SDK tools..."
     brew tap homebrew/cask-versions
@@ -23,7 +26,7 @@ steps:
     export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
     echo "Using Java at $JAVA_HOME"
 
-    echo "Installing Android Emulator system image..."
+    echo "Installing Android system image..."
     echo "y" | $ANDROID_HOME/tools/bin/sdkmanager "system-images;android-30;google_apis;x86"
 
     echo "Creating AVD..."
@@ -34,6 +37,7 @@ steps:
 
     echo "Waiting for emulator to boot..."
     $ANDROID_HOME/platform-tools/adb wait-for-device
+
     bootanim=""
     until [[ "$bootanim" == *"stopped"* ]]; do
       sleep 5
@@ -45,6 +49,7 @@ steps:
     $ANDROID_HOME/platform-tools/adb devices
   displayName: 'Start Android Emulator on macOS'
 
+# Run Katalon with emulator
 - task: katalonTask@1
   inputs:
     version: '10.1.1'
