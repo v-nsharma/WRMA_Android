@@ -2,7 +2,7 @@ trigger:
 - main
  
 pool:
-  vmImage: 'windows-latest'
+  vmImage: 'macOS-latest'
  
 steps:
 - task: NodeTool@0
@@ -11,10 +11,12 @@ steps:
   displayName: 'Install Node.js'
  
 - script: |
-    echo Starting Android Emulator...
-    cd "%ANDROID_HOME%\emulator"
-    emulator -avd Pixel_API_30 -no-window -no-audio -no-boot-anim &
-  displayName: 'Start Android Emulator'
+    echo "Starting Android Emulator..."
+    echo "y" | $ANDROID_HOME/tools/bin/sdkmanager "system-images;android-30;google_apis;x86"
+    echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n Pixel_API_30 -k "system-images;android-30;google_apis;x86" --force
+    $ANDROID_HOME/emulator/emulator -avd Pixel_API_30 -no-window -no-audio -no-boot-anim &
+    sleep 60
+  displayName: 'Start Android Emulator on macOS'
  
 - task: katalonTask@1
   inputs:
