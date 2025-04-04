@@ -1,37 +1,75 @@
 trigger:
+
 - main
- 
+
 pool:
+
   vmImage: 'macOS-latest'
- 
+
 steps:
+
 - task: NodeTool@0
+
   inputs:
+
     versionSpec: '18.x'
+
   displayName: 'Install Node.js'
  
 - script: |
+
+    echo "Installing Appium..."
+
+    npm install -g appium
+
+  displayName: 'Install Appium'
+
+- script: |
+
     echo "Starting Android Emulator..."
+
     echo "y" | $ANDROID_HOME/tools/bin/sdkmanager "system-images;android-30;google_apis;x86"
+
     echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n Pixel_API_30 -k "system-images;android-30;google_apis;x86" --force
+
     $ANDROID_HOME/emulator/emulator -avd Pixel_API_30 -no-window -no-audio -no-boot-anim &
+
     sleep 60
+
   displayName: 'Start Android Emulator on macOS'
- 
+
 - task: katalonTask@1
+
   inputs:
+
     version: '10.1.1'
+
     executeArgs: >
+
       -retry=0
+
       -testSuitePath="Test Suites/demo"
+
       -browserType="Android"
+
       -deviceId="emulator-5554"
+
       -executionProfile="WRMA-Android"
+
       -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123"
+
       -orgID=1958469
+
       --config
+
       -proxy.auth.option=NO_PROXY
+
       -proxy.system.option=NO_PROXY
+
       -proxy.system.applyToDesiredCapabilities=true
+
       -webui.autoUpdateDrivers=true
-      -appiumDirectory="C:\\Users\\VssAdministrator\\AppData\\Roaming\\npm\\node_modules\\appium"
+
+      -appiumDirectory="/usr/local/lib/node_modules/appium"
+
+ 
