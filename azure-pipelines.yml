@@ -49,27 +49,27 @@ steps:
     $ANDROID_HOME/platform-tools/adb devices
   displayName: 'Start Android Emulator on macOS'
 
-# Ensure Katalon is installed and located
+# Set Katalon Path
 - script: |
     echo "Setting Katalon path..."
     export PATH="/Users/runner/.katalon/10.1.1/Katalon_Studio_Engine_MacOS-10.1.1:$PATH"
     echo "Katalon path: $(which katalonc)"
   displayName: 'Set Katalon Path'
 
-# Ensure Appium is recognized
+# Verify Appium Path
 - script: |
     echo "Verifying Appium path..."
     export PATH="/usr/local/lib/node_modules/appium/bin:$PATH"
     echo "Appium path: $(which appium)"
   displayName: 'Verify Appium Path'
 
-# Ensure Java 8 is applied
+# Verify Java 8 Setup
 - script: |
     export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
     echo "Using Java: $JAVA_HOME"
   displayName: 'Verify Java 8 Setup'
 
-# Run Katalon with emulator
+# ✅ Run Katalon with emulator (don't fail pipeline on test failures)
 - task: katalonTask@1
   inputs:
     version: '10.1.1'
@@ -88,11 +88,40 @@ steps:
       -webui.autoUpdateDrivers=true
       -appiumDirectory="/usr/local/lib/node_modules/appium"
   displayName: 'Run Katalon Test Suite'
+  continueOnError: true
 
-# ✅ Publish Katalon reports to Azure DevOps artifacts
+# ✅ Publish JUnit test results and fail pipeline if tests failed
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/Reports/**/*.xml'
+    failTaskOnFailedTests: true
+  condition: succeededOrFailed()
+  displayName: 'Publish JUnit Test Results'
+
+# ✅ Copy HTML/PDF reports to a known folder for publishing
+- script: |
+    echo "Looking for latest Katalon report..."
+    latestReportFolder=$(find $(System.DefaultWorkingDirectory)/Reports -type d -name "*WRMA*" | sort | tail -n 1)
+    echo "Found report folder: $latestReportFolder"
+
+    mkdir -p $(System.DefaultWorkingDirectory)/Reports/FinalReport
+    cp -v $latestReportFolder/*.html $(System.DefaultWorkingDirectory)/Reports/FinalReport || true
+    cp -v $latestReportFolder/*.pdf $(System.DefaultWorkingDirectory)/Reports/FinalReport || true
+  displayName: 'Collect HTML/PDF Report Files'
+
+# ✅ Publish HTML/PDF Report as downloadable artifact
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(System.DefaultWorkingDirectory)/Reports/FinalReport'
+    artifact: 'Katalon-HTML-PDF-Report'
+    publishLocation: 'pipeline'
+  displayName: 'Publish HTML/PDF Report Artifact'
+
+# ✅ Also publish the full Katalon Reports folder for reference
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(System.DefaultWorkingDirectory)/Reports'
     artifact: 'KatalonReports'
     publishLocation: 'pipeline'
-  displayName: 'Publish Katalon Reports'
+  displayName: 'Publish Full Katalon Reports Folder'
