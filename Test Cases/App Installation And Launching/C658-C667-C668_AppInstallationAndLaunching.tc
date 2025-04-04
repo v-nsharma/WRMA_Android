@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the Intro Page opens correctly&#xd;
+Verify that the Term and Conditions in Guest Mode is displayed correctly&#xd;
+Verify that the Privacy Policy in Guest Mode is displayed correctly</description>
+   <name>C658-C667-C668_AppInstallationAndLaunching</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eeac2358-5345-442f-ba59-ce41910851cf</testCaseGuid>
+</TestCaseEntity>

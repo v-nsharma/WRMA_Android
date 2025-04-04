@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the correct inline error message appears when the email address with the domain &quot;@wgresorts.com&quot; is entered</description>
+   <name>C678_SignUpNewUserPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a052662-7bd0-42b8-b128-fdcbe83838cf</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>297f15f9-bd3b-45e7-81bc-814e2ae2f753</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C678</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

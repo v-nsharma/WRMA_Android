@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the system doesn't allow go to the next page users to proceed with existing email addresses in the system</description>
+   <name>C680_SignUpNewUserPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02114483-dfb1-40f5-a778-4fb1c6a83192</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>175ad717-5c18-4a02-b5a2-894603ab2e03</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C680</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

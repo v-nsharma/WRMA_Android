@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the correct inline error message appears when the Confirm password doesn't match the original password</description>
+   <name>C685_SignUpNewUserPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ffdc0c8-6e69-4a94-a2ed-84d45d2a38f6</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e60fa4c6-5020-436a-8558-a6c5add63ca0</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C685 (1)</testDataId>
+   </testDataLinks>
+</TestCaseEntity>
