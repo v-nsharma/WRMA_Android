@@ -75,7 +75,7 @@ steps:
     version: '10.1.1'
     executeArgs: >
       -retry=0
-      -testSuitePath="Test Suites/demo"
+      -testSuitePath="Test Suites/WRMA Android Regression"
       -browserType="Android"
       -deviceId="emulator-5554"
       -executionProfile="WRMA-Android"
