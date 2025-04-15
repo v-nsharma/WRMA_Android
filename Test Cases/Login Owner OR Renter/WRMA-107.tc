@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the correct error message appears when entering an incorrect reservation number</description>
+   <name>WRMA-107</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5d12033-25b5-4373-839a-bd5c6e25c60f</testCaseGuid>
+</TestCaseEntity>
