@@ -1,127 +1,27 @@
 trigger:
-  - main
-
-pool:
-  vmImage: 'macOS-latest'
-
-steps:
-# Install Node.js
-- task: NodeTool@0
-  inputs:
-    versionSpec: '18.x'
-  displayName: 'Install Node.js'
-
-# Install Appium
-- script: |
-    echo "Installing Appium..."
-    npm install -g appium
-  displayName: 'Install Appium'
-
-# Install Java 8 and start emulator with boot check
-- script: |
-    echo "Installing JDK 8 for Android SDK tools..."
-    brew tap homebrew/cask-versions
-    brew install --cask temurin8
-
-    export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
-    echo "Using Java at $JAVA_HOME"
-
-    echo "Installing Android system image..."
-    echo "y" | $ANDROID_HOME/tools/bin/sdkmanager "system-images;android-30;google_apis;x86"
-
-    echo "Creating AVD..."
-    echo "no" | $ANDROID_HOME/tools/bin/avdmanager create avd -n Pixel_API_30 -k "system-images;android-30;google_apis;x86" --force
-
-    echo "Starting Android Emulator..."
-    $ANDROID_HOME/emulator/emulator -avd Pixel_API_30 -no-window -no-audio -no-boot-anim &
-
-    echo "Waiting for emulator to boot..."
-    $ANDROID_HOME/platform-tools/adb wait-for-device
-
-    bootanim=""
-    until [[ "$bootanim" == *"stopped"* ]]; do
-      sleep 5
-      bootanim=$($ANDROID_HOME/platform-tools/adb shell getprop init.svc.bootanim 2>/dev/null)
-      echo "Waiting for boot animation to stop... ($bootanim)"
-    done
-
-    echo "Emulator is ready."
-    $ANDROID_HOME/platform-tools/adb devices
-  displayName: 'Start Android Emulator on macOS'
-
-# Set Katalon Path
-- script: |
-    echo "Setting Katalon path..."
-    export PATH="/Users/runner/.katalon/10.1.1/Katalon_Studio_Engine_MacOS-10.1.1:$PATH"
-    echo "Katalon path: $(which katalonc)"
-  displayName: 'Set Katalon Path'
-
-# Verify Appium Path
-- script: |
-    echo "Verifying Appium path..."
-    export PATH="/usr/local/lib/node_modules/appium/bin:$PATH"
-    echo "Appium path: $(which appium)"
-  displayName: 'Verify Appium Path'
-
-# Verify Java 8 Setup
-- script: |
-    export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
-    echo "Using Java: $JAVA_HOME"
-  displayName: 'Verify Java 8 Setup'
-
-# ✅ Run Katalon with emulator (don't fail pipeline on test failures)
-- task: katalonTask@1
-  inputs:
-    version: '10.1.1'
-    executeArgs: >
-      -retry=0
-      -testSuitePath="Test Suites/WRMA Android Regression"
-      -browserType="Android"
-      -deviceId="emulator-5554"
-      -executionProfile="WRMA-Android"
-      -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123"
-      -orgID=1958469
-      --config
-      -proxy.auth.option=NO_PROXY
-      -proxy.system.option=NO_PROXY
-      -proxy.system.applyToDesiredCapabilities=true
-      -webui.autoUpdateDrivers=true
-      -appiumDirectory="/usr/local/lib/node_modules/appium"
-  displayName: 'Run Katalon Test Suite'
-  continueOnError: true
-
-# ✅ Publish JUnit test results and fail pipeline if tests failed
-- task: PublishTestResults@2
-  inputs:
-    testResultsFormat: 'JUnit'
-    testResultsFiles: '**/Reports/**/*.xml'
-    failTaskOnFailedTests: true
-  condition: succeededOrFailed()
-  displayName: 'Publish JUnit Test Results'
-
-# ✅ Copy HTML/PDF reports to a known folder for publishing
-- script: |
-    echo "Looking for latest Katalon report..."
-    latestReportFolder=$(find $(System.DefaultWorkingDirectory)/Reports -type d -name "*WRMA*" | sort | tail -n 1)
-    echo "Found report folder: $latestReportFolder"
-
-    mkdir -p $(System.DefaultWorkingDirectory)/Reports/FinalReport
-    cp -v $latestReportFolder/*.html $(System.DefaultWorkingDirectory)/Reports/FinalReport || true
-    cp -v $latestReportFolder/*.pdf $(System.DefaultWorkingDirectory)/Reports/FinalReport || true
-  displayName: 'Collect HTML/PDF Report Files'
-
-# ✅ Publish HTML/PDF Report as downloadable artifact
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(System.DefaultWorkingDirectory)/Reports/FinalReport'
-    artifact: 'Katalon-HTML-PDF-Report'
-    publishLocation: 'pipeline'
-  displayName: 'Publish HTML/PDF Report Artifact'
-
-# ✅ Also publish the full Katalon Reports folder for reference
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(System.DefaultWorkingDirectory)/Reports'
-    artifact: 'KatalonReports'
-    publishLocation: 'pipeline'
-  displayName: 'Publish Full Katalon Reports Folder'
+  branches:
+    include:
+    - main
+stages:
+- stage: __default
+  jobs:
+  - job: Job
+    pool:
+      vmImage: 'macOS-latest'
+    steps:
+    - task: katalonTask@1
+      inputs:
+        version: '10.1.1'
+        executeArgs: '-retry=0 -testSuitePath="Test Suites/demo" -browserType="TestCloud" -testcloudMobileDeviceId="any_android_phone_15" -testcloudMobileId="any_android_phone" -testcloudTunnel="false" -overrideTestcloudAppId="true" -testcloudAppId="0354a505-482f-4e77-b614-ac9a209c3cd3" -executionProfile="default" -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123" -orgID=1958469 -testOpsProjectId=1965815 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
+    - task: PublishTestResults@2
+      displayName: "Publish Test Results"
+      condition: always()
+      inputs:
+        testResultsFormat: "JUnit"
+        testResultsFiles: "**/Reports/**/JUnit_Report.xml"
+    - task: PublishBuildArtifacts@1
+      displayName: "Upload Test Reports"
+      condition: always()
+      inputs:
+        pathToPublish: "/Users/runner/work/1/s/Reports/"
+        artifactName: "TestReports"
