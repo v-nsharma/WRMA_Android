@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Calendar pop up for DoB</description>
+   <name>WRMA-108_AddAccountNumber_CalendarpopupFor_DoB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4699c68c-3bad-4fd6-9bdd-5fc369beeda9</testCaseGuid>
+</TestCaseEntity>

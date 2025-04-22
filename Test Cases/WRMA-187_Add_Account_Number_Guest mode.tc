@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>My Account _Guest mode</description>
+   <name>WRMA-187_Add_Account_Number_Guest mode</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>443eebe0-0490-4192-a5e7-51101f752c5d</testCaseGuid>
+</TestCaseEntity>
