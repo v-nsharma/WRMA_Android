@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C735-Verify that the Term and Conditions in Logged state is displayed correctly&#xd;
+C736-Verify that the Privacy Policy in Logged state is displayed correctly</description>
+   <name>C735_C736_LoginOwnerOrRenter_TermsAndConditions_PrivacyPolicy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>628ee4d9-4f96-4d74-9474-41d01594b619</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>36c934f5-3cd6-45bd-b840-4ebc88e5bb39</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C739</testDataId>
+   </testDataLinks>
+</TestCaseEntity>
