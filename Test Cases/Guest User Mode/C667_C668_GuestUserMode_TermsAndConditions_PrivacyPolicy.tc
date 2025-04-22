@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C667-Verify that the Term and Conditions in Guest Mode is displayed correctly
+C668-Verify that the Privacy Policy in Guest Mode is displayed correctly</description>
+   <name>C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fe19728-e035-4da3-a5c1-cf2d33a6d33c</testCaseGuid>
+</TestCaseEntity>
