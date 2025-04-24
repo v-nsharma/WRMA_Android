@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C710-Verify that the appropriate Modal Stack with error message is displayed when entering the incorrect First payment Date
+C711-Verify that the appropriate Modal Stack with error message is displayed when entering the incorrect Monthly Payment Amount</description>
+   <name>C710-C711_AddAccountNumber_Error)VOAUsers</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a8549dec-4d3f-4e94-b8e1-7822d33e9e5a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C709-Verify that the appropriate Modal Stack with error message is displayed when entering the incorrect Date of Birth</description>
+   <name>C709_AddAccountNumber_Error_DOB_VOA_Users</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>710b76de-9548-477a-bbdb-94df219aedda</testCaseGuid>
+</TestCaseEntity>
