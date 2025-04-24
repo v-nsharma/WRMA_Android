@@ -26,6 +26,7 @@ Mobile.startApplication(GlobalVariable.appUrl, true)
 'Wait for 10 seconds for app to load'
 Mobile.delay(10)
 
+
 'Tap on Login or Sign Up button'
 Mobile.tap(findTestObject('Object Repository/VOA-Users/android.widget.Button - Login or Sign Up'), 0)
 
