@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>My Stay_Late Payment</description>
+   <name>WRMA-297</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8e73696f-126e-4612-b334-9940c22d2c50</testCaseGuid>
+</TestCaseEntity>

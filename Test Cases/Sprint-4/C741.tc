@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the correct error message appears when entering an already added reservation number</description>
+   <name>C741</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7d1f8758-98ae-46a9-b3d0-eb6af0076cb1</testCaseGuid>
+</TestCaseEntity>

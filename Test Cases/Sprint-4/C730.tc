@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the function &quot;Add a reservation&quot; is working correctly</description>
+   <name>C730</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>90119a8b-6c3d-4289-8e1a-60012e19526a</testCaseGuid>
+</TestCaseEntity>
