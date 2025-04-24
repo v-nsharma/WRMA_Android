@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C770-Verify that the Book a Rental tile is not displayed on the Home page when the user logged in to the app as an Owner
+C771-Verify that the Book a Rental tile is disappeared after the user Rental became the Owner</description>
+   <name>C770_C771_BookARentalTile_ThingsToDoFeed</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>75453384-aa61-4a4c-a57d-7dc1dd8db639</testCaseGuid>
+</TestCaseEntity>

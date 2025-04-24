@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify that the Settings in Guest Mode is displayed correctly</description>
-   <name>C666</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f968ddef-b5b6-45c7-af42-fbb8521ce3a5</testCaseGuid>
-</TestCaseEntity>

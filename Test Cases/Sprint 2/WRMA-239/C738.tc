@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verify that the bottom navbar is displayed correctly when the user is in Guest state</description>
-   <name>C738</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9f7144a0-f8fd-49e3-a648-ef78e7629677</testCaseGuid>
-</TestCaseEntity>

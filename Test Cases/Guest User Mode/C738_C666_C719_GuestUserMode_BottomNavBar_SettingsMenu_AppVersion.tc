@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C666-Verify that the Settings in Guest Mode is displayed correctly&#xd;
+C719-Verify that the app version on the Settings menu in Guest Mode is correct&#xd;
+C738-Verify that the bottom navbar is displayed correctly when the user is in Guest state</description>
+   <name>C738_C666_C719_GuestUserMode_BottomNavBar_SettingsMenu_AppVersion</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f72c33a5-c282-4d9d-9d7f-1f2a476e7245</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C657-App Launch
+C658-Verify that the Intro Page opens correctly</description>
+   <name>C657_C658_AppInstallationAndLaunching</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eeac2358-5345-442f-ba59-ce41910851cf</testCaseGuid>
+</TestCaseEntity>

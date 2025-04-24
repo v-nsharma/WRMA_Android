@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C708-Verify that the appropriate Modal Stack with error message is displayed when entering the incorrect Social security number</description>
+   <name>C708</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d608c49a-fb9f-490e-9983-c013d77b8412</testCaseGuid>
+</TestCaseEntity>

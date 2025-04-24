@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>hierarchy</name>
+   <tag></tag>
+   <elementGuidId>1fa48456-4c7b-4213-b0b3-b13ce17baf4e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hierarchy</value>
+      <webElementGuid>4ce556a7-417e-4ead-8a98-82f4690794df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>index</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>1969a070-b319-4967-a5cc-a88788e9be46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>2400</value>
+      <webElementGuid>3d7b2dec-2723-4ef8-b0d9-ab145a0a2be4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rotation</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>b0ff2d16-7246-40b4-94aa-797e11262c97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>1080</value>
+      <webElementGuid>6828a890-eddd-4499-adde-1d17e3ef0106</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//hierarchy</value>
+      <webElementGuid>452789de-a7df-4bde-ac7b-cbf552019a0b</webElementGuid>
+   </webElementProperties>
+   <locator>./hierarchy[
+  count(. | //*[@class = 'hierarchy' and @index = '0' and @height = '2400' and @rotation = '0' and @width = '1080']) 
+  = 
+  count(//*[@class = 'hierarchy' and @index = '0' and @height = '2400' and @rotation = '0' and @width = '1080'])
+]</locator>
+   <locatorCollection>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>hierarchy</value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;hierarchy&quot;).index(0)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>./hierarchy[
+  count(. | //*[@class = 'hierarchy' and @index = '0' and @height = '2400' and @rotation = '0' and @width = '1080']) 
+  = 
+  count(//*[@class = 'hierarchy' and @index = '0' and @height = '2400' and @rotation = '0' and @width = '1080'])
+]</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//hierarchy[count(. | //*[@class = 'hierarchy' and @index = '0' and @height = '2400' and @rotation = '0' and @width = '1080']) = count(//*[@class = 'hierarchy' and @index = '0' and @height = '2400' and @rotation = '0' and @width = '1080'])]</value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value></value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>XPATH</locatorStrategy>
+   <platform>ANDROID</platform>
+</MobileElementEntity>

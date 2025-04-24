@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C768-Verify that the Book a Rental tile is displayd correctly on the Home page when the user logged in to the app as a Rental</description>
+   <name>C768_BookARentalTile_RentalTileIsDIsplayedCorrectly</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f27d5939-f001-4dc3-8ff5-1318a64d366f</testCaseGuid>
+</TestCaseEntity>

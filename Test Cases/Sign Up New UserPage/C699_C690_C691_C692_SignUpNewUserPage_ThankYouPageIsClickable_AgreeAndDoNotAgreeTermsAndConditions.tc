@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C699-Verify that the Next button on the 'Not Verified Thank You' page is clickable
+C690	Verify that the 'Agree to Terms and Conditions' button is clickable and navigates to the next page&#xd;
+C691	Verify that the 'I Do Not Agree' button is clickable and redirects the user to the previous page&#xd;
+C692	Verify that the 'Back' button redirects the User to the previous page</description>
+   <name>C699_C690_C691_C692_SignUpNewUserPage_ThankYouPageIsClickable_AgreeAndDoNotAgreeTermsAndConditions</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a814025-9c3c-4a18-ade4-24328aebe63e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>083de6fc-1af3-4f8e-b63f-ba0e4e66423f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/C699</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

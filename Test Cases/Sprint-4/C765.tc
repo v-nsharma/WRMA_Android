@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C765-Verify that the mandatory sections of the Home Page are displayed correctly in the logged-in state</description>
+   <name>C765</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef2948f9-2891-48da-b304-2e3bf838a9e7</testCaseGuid>
+</TestCaseEntity>
