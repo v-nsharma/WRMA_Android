@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C751-Verify that the Upcoming reservation card is clickable</description>
+   <name>C751_MyStayAndReservations_Current tab_UpcomingReservations</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f5e932af-467a-407f-beb3-ee38770041f1</testCaseGuid>
+</TestCaseEntity>

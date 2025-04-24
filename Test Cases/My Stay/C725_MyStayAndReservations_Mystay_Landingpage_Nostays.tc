@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C725-Verify that the Current page in My Stay is displayed correctly when reservations are not added</description>
+   <name>C725_MyStayAndReservations_Mystay_Landingpage_Nostays</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>372e2f55-6dce-4a75-bbf7-b3d4571243e0</testCaseGuid>
+</TestCaseEntity>

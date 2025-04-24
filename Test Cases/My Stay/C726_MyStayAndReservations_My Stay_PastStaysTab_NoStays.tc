@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the Past Stays page in My Stay is displayed correctly when no reservation are added</description>
+   <name>C726_MyStayAndReservations_My Stay_PastStaysTab_NoStays</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5592d52d-d8e1-4eca-9dbd-ce4848f0330a</testCaseGuid>
+</TestCaseEntity>

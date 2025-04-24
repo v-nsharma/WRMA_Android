@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>As a Westgate Resorts app user, I want to be able to view my clear guidance on what to do next when my stays fail to load, so that I can troubleshoot the issue or take alternative actions like adding a reservation.
+Error: Reservations Not Loading_ current stays</description>
+   <name>WRMA-293_MyStayAndReservations_Error_ReservationsNotLoading_current stays</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eae3d5b5-9da3-4fd5-8a1a-f222434ce186</testCaseGuid>
+</TestCaseEntity>

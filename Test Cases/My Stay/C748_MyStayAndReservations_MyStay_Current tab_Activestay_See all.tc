@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C748-Verify that the section Active Stay has the button See All</description>
+   <name>C748_MyStayAndReservations_MyStay_Current tab_Activestay_See all</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>017209b6-0d62-4dec-8733-b79be8127912</testCaseGuid>
+</TestCaseEntity>
