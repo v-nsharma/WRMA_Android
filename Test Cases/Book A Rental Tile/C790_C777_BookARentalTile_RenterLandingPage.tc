@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C790Verify that the page Landing My Account displays correctly when the user is not enrolled Loyalty
+C777-Verify that the page Landing My Account displays correctly when the user is enrolled</description>
+   <name>C790_C777_BookARentalTile_RenterLandingPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7e53a58-5caf-4e7c-b214-f21862859bde</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>My Account_Account Alerts_Book a rental tile</description>
+   <name>WRMA-473_BookARentalTile_AccountAlerts</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>340ccef7-47d7-410f-891f-f668058401e5</testCaseGuid>
+</TestCaseEntity>
