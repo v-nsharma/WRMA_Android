@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Owner Login/ Linking accounts</description>
+   <name>C737_C665_C805_C806_C807_C808_LinkingAccounts_TermsAndConditions_OwnerLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b51b777-97ea-418b-b550-46465259ae92</testCaseGuid>
+</TestCaseEntity>
