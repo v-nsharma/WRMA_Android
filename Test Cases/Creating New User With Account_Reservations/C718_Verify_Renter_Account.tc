@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>C718_Verify_Renter_Account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a670c5de-c2fc-4d5f-970c-9edfaadc4d4f</testCaseGuid>
+</TestCaseEntity>

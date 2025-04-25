@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>C701	-Verify that the correct inline error message appears when entering an incorrect account number&#xd;
 C702	-Verify that the correct error message appears when entering a non-existent account number</description>
-   <name>C701_C702_Verify_Incorrect_Account_Number</name>
+   <name>C701_C702_AddAccountNumber_Verify_Incorrect_Account_Number</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

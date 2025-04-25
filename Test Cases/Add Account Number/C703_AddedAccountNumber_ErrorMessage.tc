@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>C703-Verify that the correct error message appears when entering an account number that has already been added</description>
-   <name>C703_AddedAccountNumber</name>
+   <name>C703_AddedAccountNumber_ErrorMessage</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

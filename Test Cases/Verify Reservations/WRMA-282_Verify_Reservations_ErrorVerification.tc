@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the appropriate Modal Stack with error message is displayed when entering an incorrect Reservattion number/Last name</description>
+   <name>WRMA-282_Verify_Reservations_ErrorVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83481b82-267c-4538-bae2-680548a3655a</testCaseGuid>
+</TestCaseEntity>

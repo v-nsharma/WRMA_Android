@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>C708-Verify that the appropriate Modal Stack with error message is displayed when entering the incorrect Social security number</description>
-   <name>C708_Error_SSN_Owner_Users</name>
+   <name>C708_VerifyAccount_Error_SSN_Owner_Users</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

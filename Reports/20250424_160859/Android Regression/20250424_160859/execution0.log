@@ -56834,10 +56834,7 @@ Session ID: 9dd69071-e2f9-4895-bf38-1f37af3777fb</property>
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2025-04-24T13:08:25.649826Z</date>
   <millis>1745500105649</millis>
