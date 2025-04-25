@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C764-Verify that the Login Now tile is redirected to the OAM website
+C793	Verify that the Login tile is displayed in the &quot;Things to Do&quot; feed on the Home page when the user is in a logged-out state.
+C739	Verify that the bottom navbar is displayed correctly when the user is in a logged-in state</description>
+   <name>C764_C739_C793_GuestUserMode_OAM_BottomNavBar_ThingsToDo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ced32e72-bb38-4500-a691-046f5388aa42</testCaseGuid>
+</TestCaseEntity>
