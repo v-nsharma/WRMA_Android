@@ -37,7 +37,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch the Westgate mobile application'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('8be092e2-8aba-45d4-a086-ad912593f36c', true)
 
 'Wait for the application to load completely'
 Mobile.delay(10)
