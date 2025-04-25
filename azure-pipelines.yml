@@ -1,0 +1,27 @@
+trigger:
+  branches:
+    include:
+    - main
+stages:
+- stage: __default
+  jobs:
+  - job: Job
+    pool:
+      vmImage: 'macOS-latest'
+    steps:
+    - task: katalonTask@1
+      inputs:
+        version: '10.1.1'
+        executeArgs: '-retry=0 -testSuitePath="Test Suites/Test" -browserType="TestCloud" -testcloudMobileDeviceId="any_android_phone_15" -testcloudMobileId="any_android_phone" -testcloudTunnel="false" -overrideTestcloudAppId="true" -testcloudAppId="0354a505-482f-4e77-b614-ac9a209c3cd3" -executionProfile="default" -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123" -orgID=1958469 -testOpsProjectId=1965815 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
+    - task: PublishTestResults@2
+      displayName: "Publish Test Results"
+      condition: always()
+      inputs:
+        testResultsFormat: "JUnit"
+        testResultsFiles: "**/Reports/**/JUnit_Report.xml"
+    - task: PublishBuildArtifacts@1
+      displayName: "Upload Test Reports"
+      condition: always()
+      inputs:
+        pathToPublish: "/Users/runner/work/1/s/Reports/"
+        artifactName: "TestReports"
