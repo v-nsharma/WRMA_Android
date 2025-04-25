@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the appropriate Modal Stack with error message is displayed when entering the incorrect internet access code</description>
+   <name>C707_Error_InternetAccessCode_Owner_Users</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7e9b557-82a5-413d-8b71-9c8d960c12a2</testCaseGuid>
+</TestCaseEntity>

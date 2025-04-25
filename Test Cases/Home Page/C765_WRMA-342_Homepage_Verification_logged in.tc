@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C765-Verify that the mandatory sections of the Home Page are displayed correctly in the logged-in state</description>
+   <name>C765_WRMA-342_Homepage_Verification_logged in</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7890083-e854-4eaa-b9ba-279d50177b3b</testCaseGuid>
+</TestCaseEntity>

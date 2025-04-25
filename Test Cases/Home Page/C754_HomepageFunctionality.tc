@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C754-Verify that the functionality of the Homepage carousel is implemented correctly</description>
+   <name>C754_HomepageFunctionality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>18048ebc-c367-4370-b14b-42196a62c874</testCaseGuid>
+</TestCaseEntity>

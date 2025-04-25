@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C753-Verify that the mandatory sections of the Home Page are displayed correctly in the logged-out state</description>
+   <name>C753_LoggeOutState_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69235350-cc76-45aa-bffd-0f59235d5a38</testCaseGuid>
+</TestCaseEntity>
