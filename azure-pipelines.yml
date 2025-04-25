@@ -12,7 +12,7 @@ stages:
     - task: katalonTask@1
       inputs:
         version: '10.1.1'
-        executeArgs: '-retry=0 -testSuitePath="Test Suites/Test" -browserType="TestCloud" -testcloudMobileDeviceId="any_android_phone_15" -testcloudMobileId="any_android_phone" -testcloudTunnel="false" -executionProfile="default" -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123" -orgID=1958469 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
+        executeArgs: '-retry=0 -testSuitePath="Test Suites/Test" -browserType="TestCloud" -testcloudMobileDeviceId="any_android_phone_15" -testcloudMobileId="any_android_phone" -testcloudTunnel="false" -overrideTestcloudAppId="true" -testcloudAppId="8be092e2-8aba-45d4-a086-ad912593f36c" -executionProfile="default" -apiKey="61282ee6-82bb-48f4-bb3f-fb469f4b2123" -orgID=1958469 --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
     - task: PublishTestResults@2
       displayName: "Publish Test Results"
       condition: always()
