@@ -21,73 +21,93 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+'Launch the application from specified APK path with data clearing'
 Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk', true)
 
+'Wait 10 seconds for app initialization'
 Mobile.delay(10)
 
+'Tap on Login or Sign Up button'
 Mobile.tap(findTestObject('Object Repository/Repo/MyStay/android.widget.Button - Login or Sign Up (1)'), 0)
 
+'Wait 10 seconds for login screen to load'
 Mobile.delay(10)
 
+'Enter email address in email field'
 Mobile.setText(findTestObject('Object Repository/Repo/MyStay/android.widget.EditText (3)'), '0425201TM@WG.COM', 0)
 
+'Hide the keyboard after email entry'
 Mobile.hideKeyboard()
 
+'Wait 10 seconds before proceeding'
 Mobile.delay(10)
 
+'Tap Next button to proceed to password screen'
 Mobile.tap(findTestObject('Object Repository/Repo/MyStay/android.widget.Button - Next (1)'), 0)
 
+'Wait 10 seconds for password screen transition'
 Mobile.delay(10)
 
-'Extended wait (30s) for OAM login screen to load'
+'Extended wait (30s) for OAM login screen to fully load'
 Mobile.delay(30)
 
-'Re-enter email in OAM username field for confirmation'
+'Re-enter email in OAM username field for verification'
 Mobile.setText(findTestObject('Object Repository/Repo/SignUpNewUser/android.widget.EditText (24)'), '0425201TM@WG.COM', 0)
 
-'Hide the on-screen keyboard'
+'Hide the keyboard after username entry'
 Mobile.hideKeyboard()
 
 'Wait 20 seconds before password entry'
 Mobile.delay(20)
 
-'Enter test password in password field'
+'Enter password in password field'
 Mobile.setText(findTestObject('Object Repository/Repo/SignUpNewUser/android.widget.EditText (25)'), 'password', 0)
 
-'Hide the on-screen keyboard'
+'Hide the keyboard after password entry'
 Mobile.hideKeyboard()
 
-'Wait 20 seconds before login attempt'
+'Wait 20 seconds before final login attempt'
 Mobile.delay(20)
 
-'Complete login by tapping LOGIN button'
+'Tap LOGIN button to complete authentication'
 Mobile.tap(findTestObject('Object Repository/Repo/SignUpNewUser/android.widget.Button - LOGIN'), 0)
 
-'Wait 20 seconds for login to complete and app to load'
+'Wait 20 seconds for login completion and home screen load'
 Mobile.delay(20)
 
+'Tap on Home navigation button'
 Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView - Home'), 0)
 
+'Wait 15 seconds for home screen content to load'
 Mobile.delay(15)
 
+'Verify basic text view element exists on home screen'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView'), 0)
 
+'Perform right-to-left swipe gesture on screen'
 Mobile.swipe(800, 500, 100, 500)
 
+'Wait 10 seconds after swipe action'
 Mobile.delay(10)
 
+'Scroll down to find recommended section'
 Mobile.scrollToText('recommended')
 
+'Wait 10 seconds after scrolling'
 Mobile.delay(10)
 
+'Verify Book a Rental option exists'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - Book a Rental'), 0)
 
+'Verify RECOMMENDED FOR YOU section exists'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU'), 0)
 
+'Verify Home navigation option exists'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - Home'), 0)
 
+'Verify My Account option exists'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - My Account'), 0)
 
+'Close the application after test completion'
 Mobile.closeApplication()
-
 

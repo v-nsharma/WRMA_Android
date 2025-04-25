@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250425_115635/Sprint-4/20250425_115635/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250425_125023/Sprint-4/20250425_125023/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Sprint-4', suiteProperties, new File("/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250425_115635/Sprint-4/20250425_115635/testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/Sprint-4', suiteProperties, new File("/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250425_125023/Sprint-4/20250425_125023/testCaseBinding"))

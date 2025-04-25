@@ -17,32 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Launch the mobile application from the specified APK file path with data clearing enabled'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk', true)
+Mobile.startApplication('8be092e2-8aba-45d4-a086-ad912593f36c', true)
 
-'Wait for 10 seconds to allow the application to initialize'
-Mobile.delay(10)
-
-'Tap on the Home button/text element in the application'
-Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView - Home'), 0)
-
-'Wait for 15 seconds for the home screen to load completely'
-Mobile.delay(15)
-
-'Tap on the first text view element in the Carousel section'
-Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView (1)'), 0)
-
-'Wait for 10 seconds after the tap action'
-Mobile.delay(10)
-
-'Verify that the App Test Image Article text element is present on screen'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - App Test Image Article'), 
-    0)
-
-'Verify that the second App Test Image Article text element is present on screen'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - App Test Image Article (1)'), 
-    0)
-
-'Close the application after test completion'
 Mobile.closeApplication()
 

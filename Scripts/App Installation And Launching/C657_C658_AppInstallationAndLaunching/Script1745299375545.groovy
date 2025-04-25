@@ -26,7 +26,9 @@ import com.kms.katalon.core.util.KeywordUtil
 
 
 'Launch the application on the physical device'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+//Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('8be092e2-8aba-45d4-a086-ad912593f36c', true)
+
 
 'Wait for 3 seconds for the app to load'
 Mobile.delay(10)
