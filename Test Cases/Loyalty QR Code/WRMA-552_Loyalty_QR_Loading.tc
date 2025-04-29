@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WRMA-552_Loyalty_QR_Loading</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6dc9a3d0-79d6-4c6c-b9ae-9ba8f9e70389</testCaseGuid>
+</TestCaseEntity>

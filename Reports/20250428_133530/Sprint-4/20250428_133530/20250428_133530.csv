@@ -1,0 +1,301 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sprint-4,,,,28-04-2025 13:35:35,28-04-2025 14:13:09,37m - 34.172s,FAILED
+,,,,,,,
+Test Cases/Home Page/C753_LoggeOutState_Verification,,C753-Verify that the mandatory sections of the Home Page are displayed correctly in the logged-out state,,28-04-2025 13:35:35,28-04-2025 13:37:06,1m - 30.412s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk"", true)",,Launch the mobile application from the specified APK file path and clear any previous data,,28-04-2025 13:35:35,28-04-2025 13:36:08,32.542s,PASSED
+delay(10),,Wait for 10 seconds to allow the app to load completely,,28-04-2025 13:36:08,28-04-2025 13:36:18,10.015s,PASSED
+"tap(findTestObject(""Object Repository/Carousel/android.widget.TextView - Home""), 0)",,Tap on the Home text view element in the application,,28-04-2025 13:36:18,28-04-2025 13:36:19,0.795s,PASSED
+delay(15),,Wait for 15 seconds to allow the home screen to load,,28-04-2025 13:36:19,28-04-2025 13:36:34,15.009s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView""), 0)",,Verify that a text view element exists on the screen,,28-04-2025 13:36:34,28-04-2025 13:36:34,0.411s,PASSED
+"swipe(800, 500, 100, 500)",,Perform a horizontal swipe gesture from right to left,,28-04-2025 13:36:34,28-04-2025 13:36:36,1.350s,PASSED
+delay(10),,Wait for 10 seconds after swipe action,,28-04-2025 13:36:36,28-04-2025 13:36:46,10.014s,PASSED
+"scrollToText(""recommended"")",,Scroll down to find text containing recommended,,28-04-2025 13:36:46,28-04-2025 13:36:51,5.104s,PASSED
+delay(10),,Wait for 10 seconds after scrolling,,28-04-2025 13:36:51,28-04-2025 13:37:01,10.012s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - Login Now""), 0)",,Verify the Login Now text element exists on screen,,28-04-2025 13:37:01,28-04-2025 13:37:01,0.381s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - Book a Rental""), 0)",,Verify the Book a Rental text element exists on screen,,28-04-2025 13:37:01,28-04-2025 13:37:01,0.321s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU""), 0)",,Verify the RECOMMENDED FOR YOU text element exists on screen,,28-04-2025 13:37:01,28-04-2025 13:37:02,0.305s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - Home""), 0)",,Verify the Home text element exists on screen,,28-04-2025 13:37:02,28-04-2025 13:37:02,0.315s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - My Account""), 0)",,Verify the My Account text element exists on screen,,28-04-2025 13:37:02,28-04-2025 13:37:02,0.284s,PASSED
+closeApplication(),,Close the application,,28-04-2025 13:37:02,28-04-2025 13:37:06,3.497s,PASSED
+,,,,,,,
+Test Cases/Home Page/C765_WRMA-342_Homepage_Verification_logged in,,C765-Verify that the mandatory sections of the Home Page are displayed correctly in the logged-in state,,28-04-2025 13:37:06,28-04-2025 13:40:41,3m - 34.900s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk"", true)",,Launch the application from specified APK path with data clearing,,28-04-2025 13:37:06,28-04-2025 13:37:34,27.976s,PASSED
+delay(10),,Wait 10 seconds for app initialization,,28-04-2025 13:37:34,28-04-2025 13:37:44,10.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/MyStay/android.widget.Button - Login or Sign Up (1)""), 0)",,Tap on Login or Sign Up button,,28-04-2025 13:37:44,28-04-2025 13:37:45,1.224s,PASSED
+delay(10),,Wait 10 seconds for login screen to load,,28-04-2025 13:37:45,28-04-2025 13:37:55,10.011s,PASSED
+"setText(findTestObject(""Object Repository/Repo/MyStay/android.widget.EditText (3)""), ""0425201TM@WG.COM"", 0)",,Enter email address in email field,,28-04-2025 13:37:55,28-04-2025 13:37:56,0.691s,PASSED
+hideKeyboard(),,Hide the keyboard after email entry,,28-04-2025 13:37:56,28-04-2025 13:37:57,1.655s,PASSED
+delay(10),,Wait 10 seconds before proceeding,,28-04-2025 13:37:57,28-04-2025 13:38:07,10.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/MyStay/android.widget.Button - Next (1)""), 0)",,Tap Next button to proceed to password screen,,28-04-2025 13:38:07,28-04-2025 13:38:08,0.461s,PASSED
+delay(10),,Wait 10 seconds for password screen transition,,28-04-2025 13:38:08,28-04-2025 13:38:18,10.010s,PASSED
+delay(30),,Extended wait (30s) for OAM login screen to fully load,,28-04-2025 13:38:18,28-04-2025 13:38:48,30.010s,PASSED
+"setText(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.EditText (24)""), ""0425201TM@WG.COM"", 0)",,Re-enter email in OAM username field for verification,,28-04-2025 13:38:48,28-04-2025 13:38:50,1.665s,PASSED
+hideKeyboard(),,Hide the keyboard after username entry,,28-04-2025 13:38:50,28-04-2025 13:38:51,1.233s,PASSED
+delay(20),,Wait 20 seconds before password entry,,28-04-2025 13:38:51,28-04-2025 13:39:11,20.011s,PASSED
+"setText(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.EditText (25)""), ""password"", 0)",,Enter password in password field,,28-04-2025 13:39:11,28-04-2025 13:39:11,0.473s,PASSED
+hideKeyboard(),,Hide the keyboard after password entry,,28-04-2025 13:39:11,28-04-2025 13:39:13,1.581s,PASSED
+delay(20),,Wait 20 seconds before final login attempt,,28-04-2025 13:39:13,28-04-2025 13:39:33,20.010s,PASSED
+"tap(findTestObject(""Object Repository/Repo/SignUpNewUser/android.widget.Button - LOGIN""), 0)",,Tap LOGIN button to complete authentication,,28-04-2025 13:39:33,28-04-2025 13:39:33,0.357s,PASSED
+delay(20),,Wait 20 seconds for login completion and home screen load,,28-04-2025 13:39:33,28-04-2025 13:39:53,20.011s,PASSED
+"tap(findTestObject(""Object Repository/Carousel/android.widget.TextView - Home""), 0)",,Tap on Home navigation button,,28-04-2025 13:39:53,28-04-2025 13:39:54,0.445s,PASSED
+delay(15),,Wait 15 seconds for home screen content to load,,28-04-2025 13:39:54,28-04-2025 13:40:09,15.011s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView""), 0)",,Verify basic text view element exists on home screen,,28-04-2025 13:40:09,28-04-2025 13:40:09,0.264s,PASSED
+"swipe(800, 500, 100, 500)",,Perform right-to-left swipe gesture on screen,,28-04-2025 13:40:09,28-04-2025 13:40:10,1.169s,PASSED
+delay(10),,Wait 10 seconds after swipe action,,28-04-2025 13:40:10,28-04-2025 13:40:20,10.009s,PASSED
+"scrollToText(""recommended"")",,Scroll down to find recommended section,,28-04-2025 13:40:20,28-04-2025 13:40:25,4.963s,PASSED
+delay(10),,Wait 10 seconds after scrolling,,28-04-2025 13:40:25,28-04-2025 13:40:35,10.011s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - Book a Rental""), 0)",,Verify Book a Rental option exists,,28-04-2025 13:40:35,28-04-2025 13:40:35,0.324s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU""), 0)",,Verify RECOMMENDED FOR YOU section exists,,28-04-2025 13:40:35,28-04-2025 13:40:36,0.280s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - Home""), 0)",,Verify Home navigation option exists,,28-04-2025 13:40:36,28-04-2025 13:40:36,0.245s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - My Account""), 0)",,Verify My Account option exists,,28-04-2025 13:40:36,28-04-2025 13:40:36,0.276s,PASSED
+closeApplication(),,Close the application after test completion,,28-04-2025 13:40:36,28-04-2025 13:40:41,4.459s,PASSED
+,,,,,,,
+Test Cases/Home Page/C754_HomepageFunctionality,,C754-Verify that the functionality of the Homepage carousel is implemented correctly,,28-04-2025 13:40:41,28-04-2025 13:41:48,1m - 7.353s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk"", true)",,Launch the mobile application from the specified APK file path with data clearing enabled,,28-04-2025 13:40:41,28-04-2025 13:41:08,27.478s,PASSED
+delay(10),,Wait for 10 seconds to allow the application to initialize,,28-04-2025 13:41:08,28-04-2025 13:41:18,10.011s,PASSED
+"tap(findTestObject(""Object Repository/Carousel/android.widget.TextView - Home""), 0)",,Tap on the Home button/text element in the application,,28-04-2025 13:41:18,28-04-2025 13:41:19,0.858s,PASSED
+delay(15),,Wait for 15 seconds for the home screen to load completely,,28-04-2025 13:41:19,28-04-2025 13:41:34,15.010s,PASSED
+"tap(findTestObject(""Object Repository/Carousel/android.widget.TextView (1)""), 0)",,Tap on the first text view element in the Carousel section,,28-04-2025 13:41:34,28-04-2025 13:41:35,0.450s,PASSED
+delay(10),,Wait for 10 seconds after the tap action,,28-04-2025 13:41:35,28-04-2025 13:41:45,10.007s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - App Test Image Article""), 0)",,Verify that the App Test Image Article text element is present on screen,,28-04-2025 13:41:45,28-04-2025 13:41:45,0.176s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Carousel/android.widget.TextView - App Test Image Article (1)""), 0)",,Verify that the second App Test Image Article text element is present on screen,,28-04-2025 13:41:45,28-04-2025 13:41:45,0.150s,PASSED
+closeApplication(),,Close the application after test completion,,28-04-2025 13:41:45,28-04-2025 13:41:48,3.184s,PASSED
+,,,,,,,
+Test Cases/Add Account Number/C701_C702_AddAccountNumber_Verify_Incorrect_Account_Number,,"C701	-Verify that the correct inline error message appears when entering an incorrect account number
+C702	-Verify that the correct error message appears when entering a non-existent account number",,28-04-2025 13:41:48,28-04-2025 13:45:58,4m - 10.084s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk"", true)",,Launch the application from specified APK path with data clearing,,28-04-2025 13:41:48,28-04-2025 13:42:23,35.174s,PASSED
+delay(10),,Wait 10 seconds for app initialization,,28-04-2025 13:42:23,28-04-2025 13:42:33,10.009s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - Login or Sign Up""), 0)",,Tap on Login or Sign Up button to begin authentication,,28-04-2025 13:42:33,28-04-2025 13:42:34,1.160s,PASSED
+delay(10),,Wait 10 seconds for login screen to load,,28-04-2025 13:42:34,28-04-2025 13:42:44,10.010s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText""), ""0425201TM@WG.COM"", 0)",,Enter email address in email field,,28-04-2025 13:42:44,28-04-2025 13:42:45,0.635s,PASSED
+hideKeyboard(),,Hide the keyboard after email entry,,28-04-2025 13:42:45,28-04-2025 13:42:46,1.298s,PASSED
+delay(10),,Wait 10 seconds before proceeding,,28-04-2025 13:42:46,28-04-2025 13:42:56,10.009s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - Next""), 0)",,Tap Next button to proceed to password screen,,28-04-2025 13:42:56,28-04-2025 13:42:57,0.341s,PASSED
+delay(40),,Extended wait (40s) for OAM login screen to fully load,,28-04-2025 13:42:57,28-04-2025 13:43:37,40.007s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText (1)""), ""0425201TM@WG.COM"", 0)",,Re-enter email in OAM username field for verification,,28-04-2025 13:43:37,28-04-2025 13:43:37,0.564s,PASSED
+hideKeyboard(),,Hide the keyboard after username entry,,28-04-2025 13:43:37,28-04-2025 13:43:39,1.273s,PASSED
+delay(10),,Wait 10 seconds before password entry,,28-04-2025 13:43:39,28-04-2025 13:43:49,10.010s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText (2)""), ""password"", 0)",,Enter password in password field,,28-04-2025 13:43:49,28-04-2025 13:43:49,0.487s,PASSED
+hideKeyboard(),,Hide the keyboard after password entry,,28-04-2025 13:43:49,28-04-2025 13:43:50,1.374s,PASSED
+delay(10),,Wait 10 seconds before final login attempt,,28-04-2025 13:43:50,28-04-2025 13:44:00,10.010s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - LOGIN""), 0)",,Tap LOGIN button to complete authentication,,28-04-2025 13:44:00,28-04-2025 13:44:01,0.318s,PASSED
+delay(10),,Wait 10 seconds for login completion,,28-04-2025 13:44:01,28-04-2025 13:44:11,10.011s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.TextView - My Account""), 0)",,Navigate to My Account section,,28-04-2025 13:44:11,28-04-2025 13:44:11,0.286s,PASSED
+delay(10),,Wait 10 seconds for account screen to load,,28-04-2025 13:44:11,28-04-2025 13:44:21,10.008s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.TextView - Add An Account Number""), 0)",,Select Add An Account Number option,,28-04-2025 13:44:21,28-04-2025 13:44:21,0.429s,PASSED
+delay(10),,Wait 10 seconds for account number screen,,28-04-2025 13:44:21,28-04-2025 13:44:32,10.010s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText (3)""), ""123"", 0)",,Enter invalid short account number (3 digits),,28-04-2025 13:44:32,28-04-2025 13:44:32,0.424s,PASSED
+delay(10),,Wait 10 seconds for validation,,28-04-2025 13:44:32,28-04-2025 13:44:42,10.011s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C701-C702/android.widget.TextView -  Account number should be 7-11 digits""), 0)",,Verify error message for short account number appears,,28-04-2025 13:44:42,28-04-2025 13:44:42,0.221s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - reset""), 0)",,Reset the account number field,,28-04-2025 13:44:42,28-04-2025 13:44:42,0.322s,PASSED
+delay(10),,Wait 10 seconds after reset,,28-04-2025 13:44:42,28-04-2025 13:44:52,10.009s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText (4)""), ""123456789012"", 0)",,Enter invalid long account number (12 digits),,28-04-2025 13:44:52,28-04-2025 13:44:53,0.355s,PASSED
+delay(10),,Wait 10 seconds for validation,,28-04-2025 13:44:53,28-04-2025 13:45:03,10.009s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C701-C702/android.widget.TextView -  Account number should be 7-11 digits""), 0)",,Verify error message for long account number appears,,28-04-2025 13:45:03,28-04-2025 13:45:03,0.204s,PASSED
+delay(10),,Wait 10 seconds before navigation,,28-04-2025 13:45:03,28-04-2025 13:45:13,10.010s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - back""), 0)",,Navigate back from account number screen,,28-04-2025 13:45:13,28-04-2025 13:45:13,0.249s,PASSED
+delay(10),,Wait 10 seconds after navigation,,28-04-2025 13:45:13,28-04-2025 13:45:23,10.008s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.TextView - Add An Account Number""), 0)",,Re-enter Add An Account Number flow,,28-04-2025 13:45:23,28-04-2025 13:45:24,0.334s,PASSED
+delay(10),,Wait 10 seconds for screen to load,,28-04-2025 13:45:24,28-04-2025 13:45:34,10.010s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText (5)""), ""45634725"", 0)",,Enter valid length but non-existent account number (8 digits),,28-04-2025 13:45:34,28-04-2025 13:45:34,0.409s,PASSED
+delay(10),,Wait 10 seconds after entry,,28-04-2025 13:45:34,28-04-2025 13:45:44,10.009s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - Next (1)""), 0)",,Attempt to proceed with account number,,28-04-2025 13:45:44,28-04-2025 13:45:44,0.268s,PASSED
+delay(10),,Wait 10 seconds for validation,,28-04-2025 13:45:44,28-04-2025 13:45:54,10.009s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C701-C702/android.widget.TextView - Error""), 0)",,Verify error dialog appears,,28-04-2025 13:45:54,28-04-2025 13:45:55,0.168s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C701-C702/android.widget.TextView - Your account number could not be found. Please try again""), 0)",,Verify error message for invalid account number,,28-04-2025 13:45:55,28-04-2025 13:45:55,0.119s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C701-C702/android.widget.Button - Try Again""), 0)",,Verify Try Again button exists in error dialog,,28-04-2025 13:45:55,28-04-2025 13:45:55,0.128s,PASSED
+closeApplication(),,Close the application after test completion,,28-04-2025 13:45:55,28-04-2025 13:45:58,3.334s,PASSED
+,,,,,,,
+Test Cases/Add Account Number/C703_AddedAccountNumber_ErrorMessage,,C703-Verify that the correct error message appears when entering an account number that has already been added,,28-04-2025 13:45:58,28-04-2025 13:49:13,3m - 14.696s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk"", true)",,Launch application from specified APK path with data clearing enabled,,28-04-2025 13:45:58,28-04-2025 13:46:28,29.423s,PASSED
+delay(10),,Wait 10 seconds for app initialization,,28-04-2025 13:46:28,28-04-2025 13:46:38,10.010s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - Login or Sign Up""), 0)",,Tap Login/Sign Up button to begin authentication flow,,28-04-2025 13:46:38,28-04-2025 13:46:39,1.007s,PASSED
+delay(10),,Wait 10 seconds for login screen to load,,28-04-2025 13:46:39,28-04-2025 13:46:49,10.010s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText""), ""0425201TM@WG.COM"", 0)",,Enter test email in email field,,28-04-2025 13:46:49,28-04-2025 13:46:49,0.761s,PASSED
+hideKeyboard(),,Hide keyboard after email entry,,28-04-2025 13:46:49,28-04-2025 13:46:51,1.294s,PASSED
+delay(10),,Wait 10 seconds before proceeding,,28-04-2025 13:46:51,28-04-2025 13:47:01,10.008s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - Next""), 0)",,Tap Next button to proceed to OAM login,,28-04-2025 13:47:01,28-04-2025 13:47:01,0.458s,PASSED
+delay(40),,Extended wait (40s) for OAM screen to load completely,,28-04-2025 13:47:01,28-04-2025 13:47:41,40.008s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText (1)""), ""0425201TM@WG.COM"", 0)",,Re-enter email in OAM username field,,28-04-2025 13:47:41,28-04-2025 13:47:42,0.436s,PASSED
+hideKeyboard(),,Hide keyboard after username entry,,28-04-2025 13:47:42,28-04-2025 13:47:43,1.210s,PASSED
+delay(10),,Wait 10 seconds before password entry,,28-04-2025 13:47:43,28-04-2025 13:47:53,10.008s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText (2)""), ""password"", 0)",,Enter test password in password field,,28-04-2025 13:47:53,28-04-2025 13:47:53,0.437s,PASSED
+hideKeyboard(),,Hide keyboard after password entry,,28-04-2025 13:47:53,28-04-2025 13:47:55,1.501s,PASSED
+delay(10),,Wait 10 seconds before final login,,28-04-2025 13:47:55,28-04-2025 13:48:05,10.009s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - LOGIN""), 0)",,Tap LOGIN button to complete authentication,,28-04-2025 13:48:05,28-04-2025 13:48:05,0.330s,PASSED
+delay(10),,Wait 10 seconds for login to complete,,28-04-2025 13:48:05,28-04-2025 13:48:15,10.011s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.TextView - My Account""), 0)",,Navigate to My Account section,,28-04-2025 13:48:15,28-04-2025 13:48:15,0.349s,PASSED
+delay(10),,Wait 10 seconds for account screen to load,,28-04-2025 13:48:15,28-04-2025 13:48:25,10.008s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.TextView - Add An Account Number""), 0)",,Select Add An Account Number option,,28-04-2025 13:48:25,28-04-2025 13:48:26,0.336s,PASSED
+delay(10),,Wait 10 seconds for account entry screen,,28-04-2025 13:48:26,28-04-2025 13:48:36,10.005s,PASSED
+"setText(findTestObject(""Object Repository/C701-C702/android.widget.EditText (5)""), ""99868581242"", 0)",,Enter valid test account number (11 digits),,28-04-2025 13:48:36,28-04-2025 13:48:43,6.818s,PASSED
+delay(10),,Wait 10 seconds after account number entry,,28-04-2025 13:48:43,28-04-2025 13:48:53,10.007s,PASSED
+"tap(findTestObject(""Object Repository/C701-C702/android.widget.Button - Next (1)""), 0)",,Attempt to proceed with account number,,28-04-2025 13:48:53,28-04-2025 13:48:53,0.288s,PASSED
+delay(10),,Wait 10 seconds for validation response,,28-04-2025 13:48:53,28-04-2025 13:49:03,10.009s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C701-C702/android.widget.TextView - Error""), 0)",,Verify error dialog appears,,28-04-2025 13:49:03,28-04-2025 13:49:09,6.264s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C701-C702/android.widget.TextView - Your account number could not be found. Please try again""), 0)",,Verify account not found error message,,28-04-2025 13:49:09,28-04-2025 13:49:09,0.163s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C701-C702/android.widget.Button - Try Again""), 0)",,Verify Try Again button exists in error dialog,,28-04-2025 13:49:09,28-04-2025 13:49:09,0.128s,PASSED
+closeApplication(),,Close application after test completion,,28-04-2025 13:49:09,28-04-2025 13:49:13,3.363s,PASSED
+,,,,,,,
+Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users,,Verify that the appropriate Modal Stack with error message is displayed when entering the incorrect internet access code,,28-04-2025 13:52:48,28-04-2025 13:56:27,3m - 38.581s,FAILED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk"", true)",,Start the mobile application from the specified APK file and reinstall if already installed,,28-04-2025 13:52:48,28-04-2025 13:53:19,30.692s,PASSED
+delay(10),,Wait for the application to fully load,,28-04-2025 13:53:19,28-04-2025 13:53:29,10.005s,PASSED
+"tap(findTestObject(""Object Repository/SSN/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button on the welcome screen",,28-04-2025 13:53:29,28-04-2025 13:53:30,0.844s,PASSED
+delay(10),,Pause to ensure the login screen has loaded,,28-04-2025 13:53:30,28-04-2025 13:53:40,10.009s,PASSED
+"setText(findTestObject(""Object Repository/SSN/android.widget.EditText""), ""0425201TM@WG.COM"", 0)",,Enter the email address in the email input field,,28-04-2025 13:53:40,28-04-2025 13:53:44,4.174s,PASSED
+hideKeyboard(),,Hide the keyboard to avoid obstructing UI elements,,28-04-2025 13:53:44,28-04-2025 13:53:45,1.374s,PASSED
+delay(10),,Wait before proceeding to the next action,,28-04-2025 13:53:45,28-04-2025 13:53:55,10.010s,PASSED
+"tap(findTestObject(""Object Repository/SSN/android.widget.Button - Next""), 0)",,"Tap the ""Next"" button to continue to the password screen",,28-04-2025 13:53:55,28-04-2025 13:53:56,0.733s,PASSED
+delay(40),,Allow time for the next screen to fully load,,28-04-2025 13:53:56,28-04-2025 13:54:36,40.008s,PASSED
+"setText(findTestObject(""Object Repository/SSN/android.widget.EditText (1)""), ""0425201TM@WG.COM"", 0)",,Re-enter the email address in the username field on the login form,,28-04-2025 13:54:36,28-04-2025 13:54:37,0.552s,PASSED
+hideKeyboard(),,Hide the keyboard after entering the email,,28-04-2025 13:54:37,28-04-2025 13:54:38,1.379s,PASSED
+delay(10),,Pause briefly before entering the password,,28-04-2025 13:54:38,28-04-2025 13:54:48,10.009s,PASSED
+"setText(findTestObject(""Object Repository/SSN/android.widget.EditText (2)""), ""password"", 0)",,Enter the password in the password field,,28-04-2025 13:54:48,28-04-2025 13:54:49,0.589s,PASSED
+hideKeyboard(),,Hide the keyboard after entering the password,,28-04-2025 13:54:49,28-04-2025 13:54:50,1.385s,PASSED
+delay(10),,Wait briefly before logging in,,28-04-2025 13:54:50,28-04-2025 13:55:00,10.008s,PASSED
+"tap(findTestObject(""Object Repository/SSN/android.widget.Button - LOGIN""), 0)",,"Tap on the ""LOGIN"" button to submit credentials",,28-04-2025 13:55:00,28-04-2025 13:55:00,0.351s,PASSED
+delay(20),,Pause to allow the post-login screen to load,,28-04-2025 13:55:00,28-04-2025 13:55:20,20.010s,PASSED
+"tap(findTestObject(""Object Repository/SSN/android.widget.TextView - My Account""), 0)",,"Tap on the ""My Account"" tab to navigate to account options",,28-04-2025 13:55:20,28-04-2025 13:55:21,0.370s,PASSED
+delay(10),,Pause to ensure the account screen has loaded,,28-04-2025 13:55:21,28-04-2025 13:55:31,10.008s,PASSED
+"tap(findTestObject(""Object Repository/SSN/android.widget.TextView - Add An Account Number""), 0)",,"Tap on ""Add An Account Number"" to begin linking a new account",,28-04-2025 13:55:31,28-04-2025 13:55:32,1.060s,PASSED
+delay(10),,Wait for the account entry screen to load,,28-04-2025 13:55:32,28-04-2025 13:55:42,10.008s,PASSED
+"setText(findTestObject(""Object Repository/SSN/android.widget.EditText (3)""), ""99868581242"", 0)",,Enter the account number into the input field,,28-04-2025 13:55:42,28-04-2025 13:55:42,0.478s,PASSED
+hideKeyboard(),,Hide the keyboard after entering the account number,,28-04-2025 13:55:42,28-04-2025 13:55:43,1.186s,PASSED
+delay(10),,Wait before proceeding to the next step,,28-04-2025 13:55:43,28-04-2025 13:55:53,10.009s,PASSED
+"tap(findTestObject(""Object Repository/SSN/android.widget.Button - Next (1)""), 0)",,"Tap the ""Next"" button to proceed to the verification code input",,28-04-2025 13:55:53,28-04-2025 13:55:54,0.389s,PASSED
+"setText(findTestObject(""Object Repository/SSN/android.widget.EditText (4)""), ""1234567"", 0)",,Enter the verification code for the account,,28-04-2025 13:55:54,28-04-2025 13:56:27,32.914s,FAILED
+,,,,,,,
+Test Cases/Verify Account/C708_VerifyAccount_Error_SSN_Owner_Users,,C708-Verify that the appropriate Modal Stack with error message is displayed when entering the incorrect Social security number,,28-04-2025 13:56:27,28-04-2025 13:59:53,3m - 26.598s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk"", true)",,Start the mobile application from the specified APK file and reinstall if already installed,,28-04-2025 13:56:27,28-04-2025 13:56:58,31.504s,PASSED
+delay(10),,Wait for the application to fully load,,28-04-2025 13:56:58,28-04-2025 13:57:08,10.003s,PASSED
+"tap(findTestObject(""Object Repository/C708/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button on the welcome screen",,28-04-2025 13:57:08,28-04-2025 13:57:09,0.674s,PASSED
+delay(10),,Pause to ensure the login screen has loaded,,28-04-2025 13:57:09,28-04-2025 13:57:19,10.008s,PASSED
+"setText(findTestObject(""Object Repository/C708/android.widget.EditText""), ""0425201TM@WG.COM"", 0)",,Enter the email address in the email input field,,28-04-2025 13:57:19,28-04-2025 13:57:20,0.518s,PASSED
+hideKeyboard(),,Hide the keyboard to avoid obstructing UI elements,,28-04-2025 13:57:20,28-04-2025 13:57:21,1.204s,PASSED
+delay(10),,Wait before proceeding to the next action,,28-04-2025 13:57:21,28-04-2025 13:57:31,10.008s,PASSED
+"tap(findTestObject(""Object Repository/C708/android.widget.Button - Next""), 0)",,"Tap the ""Next"" button to continue to the password screen",,28-04-2025 13:57:31,28-04-2025 13:57:31,0.532s,PASSED
+delay(40),,Allow time for the next screen to fully load,,28-04-2025 13:57:31,28-04-2025 13:58:11,40.010s,PASSED
+"setText(findTestObject(""Object Repository/C708/android.widget.EditText (1)""), ""0425201TM@WG.COM"", 0)",,Re-enter the email address in the username field on the login form,,28-04-2025 13:58:11,28-04-2025 13:58:12,0.508s,PASSED
+hideKeyboard(),,Hide the keyboard after entering the email,,28-04-2025 13:58:12,28-04-2025 13:58:13,1.228s,PASSED
+delay(10),,Pause briefly before entering the password,,28-04-2025 13:58:13,28-04-2025 13:58:23,10.010s,PASSED
+"setText(findTestObject(""Object Repository/C708/android.widget.EditText (2)""), ""password"", 0)",,Enter the password in the password field,,28-04-2025 13:58:23,28-04-2025 13:58:24,0.566s,PASSED
+hideKeyboard(),,Hide the keyboard after entering the password,,28-04-2025 13:58:24,28-04-2025 13:58:25,1.429s,PASSED
+delay(10),,Wait briefly before logging in,,28-04-2025 13:58:25,28-04-2025 13:58:35,10.009s,PASSED
+"tap(findTestObject(""Object Repository/C708/android.widget.Button - LOGIN""), 0)",,"Tap on the ""LOGIN"" button to submit credentials",,28-04-2025 13:58:35,28-04-2025 13:58:35,0.396s,PASSED
+delay(15),,Pause to allow the post-login screen to load,,28-04-2025 13:58:35,28-04-2025 13:58:50,15.012s,PASSED
+"tap(findTestObject(""Object Repository/C708/android.widget.TextView - My Account""), 0)",,"Tap on the ""My Account"" tab to navigate to account options",,28-04-2025 13:58:50,28-04-2025 13:58:52,1.726s,PASSED
+delay(10),,Pause to ensure the account screen has loaded,,28-04-2025 13:58:52,28-04-2025 13:59:02,10.010s,PASSED
+"tap(findTestObject(""Object Repository/C708/android.widget.TextView - Add An Account Number""), 0)",,"Tap on ""Add An Account Number"" to begin linking a new account",,28-04-2025 13:59:02,28-04-2025 13:59:03,0.461s,PASSED
+delay(10),,Wait for the account entry screen to load,,28-04-2025 13:59:03,28-04-2025 13:59:13,10.011s,PASSED
+"setText(findTestObject(""Object Repository/C708/android.widget.EditText (3)""), ""99868581242"", 0)",,Enter the account number into the input field,,28-04-2025 13:59:13,28-04-2025 13:59:13,0.361s,PASSED
+delay(10),,Pause before proceeding to the next step,,28-04-2025 13:59:13,28-04-2025 13:59:23,10.009s,PASSED
+"tap(findTestObject(""Object Repository/C708/android.widget.Button - Next (1)""), 0)",,"Tap the ""Next"" button to proceed to verification method selection",,28-04-2025 13:59:23,28-04-2025 13:59:23,0.334s,PASSED
+"tap(findTestObject(""Object Repository/C708/android.widget.TextView - Social Security Number""), 0)",,"Tap on ""Social Security Number"" option for verification",,28-04-2025 13:59:23,28-04-2025 13:59:25,1.877s,PASSED
+delay(10),,Pause to ensure SSN input field is ready,,28-04-2025 13:59:25,28-04-2025 13:59:35,10.007s,PASSED
+"setText(findTestObject(""Object Repository/C708/android.widget.EditText (4)""), ""12345"", 0)",,Enter an invalid or test social security number,,28-04-2025 13:59:35,28-04-2025 13:59:36,0.474s,PASSED
+delay(10),,Pause before submitting the SSN,,28-04-2025 13:59:36,28-04-2025 13:59:46,10.007s,PASSED
+"tap(findTestObject(""Object Repository/C708/android.widget.Button - Next (1)""), 0)",,"Tap the ""Next"" button to attempt account verification",,28-04-2025 13:59:46,28-04-2025 13:59:46,0.324s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C708/android.widget.TextView - Error""), 0)",,Verify the error message indicating verification failure is displayed,,28-04-2025 13:59:46,28-04-2025 13:59:48,1.930s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C708/android.widget.TextView - Account Number""), 0)",,"Verify that the ""Account Number"" label is present for user reference",,28-04-2025 13:59:48,28-04-2025 13:59:48,0.145s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C708/android.widget.TextView - There was a problem adding or associating your account""), 0)",,Verify that a detailed problem message is shown to the user,,28-04-2025 13:59:48,28-04-2025 13:59:48,0.168s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C708/android.widget.TextView - Your social security number for this account does not match our records. Please try again""), 0)",,Verify that the SSN mismatch warning is displayed,,28-04-2025 13:59:48,28-04-2025 13:59:48,0.145s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/C708/android.widget.Button - Back to Verify""), 0)",,"Verify the presence of ""Back to Verify"" button to retry the process",,28-04-2025 13:59:48,28-04-2025 13:59:49,0.220s,PASSED
+closeApplication(),,Close the mobile application,,28-04-2025 13:59:49,28-04-2025 13:59:53,4.737s,PASSED
+,,,,,,,
+Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification,,Verify that the appropriate Modal Stack with error message is displayed when entering an incorrect Reservattion number/Last name,,28-04-2025 14:01:22,28-04-2025 14:03:47,2m - 25.578s,FAILED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug (1).apk"", true)",,Start the mobile application from the specified APK file and reinstall if already installed,,28-04-2025 14:01:22,28-04-2025 14:01:51,29.221s,PASSED
+delay(10),,Wait for the application to fully load,,28-04-2025 14:01:51,28-04-2025 14:02:01,10.007s,PASSED
+"tap(findTestObject(""Object Repository/VOAusers/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button on the welcome screen",,28-04-2025 14:02:01,28-04-2025 14:02:02,1.213s,PASSED
+delay(10),,Pause to ensure the login screen has loaded,,28-04-2025 14:02:02,28-04-2025 14:02:12,10.006s,PASSED
+"setText(findTestObject(""Object Repository/VOAusers/android.widget.EditText""), ""SELENAWB@GMAIL.COM"", 0)",,Enter the email address in the email input field,,28-04-2025 14:02:12,28-04-2025 14:02:22,10.144s,PASSED
+hideKeyboard(),,Hide the keyboard to avoid obstructing UI elements,,28-04-2025 14:02:22,28-04-2025 14:02:24,1.294s,PASSED
+delay(10),,Wait before proceeding to the next action,,28-04-2025 14:02:24,28-04-2025 14:02:34,10.009s,PASSED
+"tap(findTestObject(""Object Repository/VOAusers/android.widget.Button - Next""), 0)",,"Tap the ""Next"" button to continue to the password screen",,28-04-2025 14:02:34,28-04-2025 14:02:34,0.402s,PASSED
+delay(40),,Allow time for the next screen to fully load,,28-04-2025 14:02:34,28-04-2025 14:03:14,40.010s,PASSED
+"setText(findTestObject(""Object Repository/VOAusers/android.widget.EditText""), ""SELENAWB@GMAIL.COM"", 0)",,Re-enter the email address in the username field on the login form,,28-04-2025 14:03:14,28-04-2025 14:03:47,33.264s,FAILED
+,,,,,,,
+Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment,,My Stay_Late Payment,,28-04-2025 14:05:10,28-04-2025 14:06:33,1m - 22.700s,FAILED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk"", true)",,Start the mobile application from the specified APK file and reinstall if already installed,,28-04-2025 14:05:10,28-04-2025 14:05:36,26.153s,PASSED
+delay(10),,Wait for the application to fully load,,28-04-2025 14:05:36,28-04-2025 14:05:46,10.008s,PASSED
+"tap(findTestObject(""Object Repository/MyStayOverDue/android.widget.Button - Login or Sign Up""), 0)",,"Tap on the ""Login or Sign Up"" button on the welcome screen",,28-04-2025 14:05:46,28-04-2025 14:05:47,1.150s,PASSED
+delay(10),,Pause to ensure the login screen has loaded,,28-04-2025 14:05:47,28-04-2025 14:05:57,10.009s,PASSED
+"setText(findTestObject(""Object Repository/MyStayOverDue/android.widget.EditText""), ""ELPHA@ELPHA.DEMON.CO.UK"", 0)",,Enter the email address in the email input field,,28-04-2025 14:05:57,28-04-2025 14:06:33,35.373s,FAILED
+,,,,,,,
+Test Cases/My Stay And Reservations/C730_MyStayAndReservations_AddVerification,,"Verify that the function ""Add a reservation"" is working correctly",,28-04-2025 14:06:33,28-04-2025 14:09:56,3m - 23.301s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk"", true)",,Launch application from specified APK path with data clearing,,28-04-2025 14:06:33,28-04-2025 14:06:56,23.287s,PASSED
+delay(10),,,,28-04-2025 14:06:56,28-04-2025 14:07:06,10.008s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - Login or Sign Up""), 0)",,Initiate login process by tapping Login/Sign Up button,,28-04-2025 14:07:06,28-04-2025 14:07:07,1.172s,PASSED
+delay(10),,,,28-04-2025 14:07:07,28-04-2025 14:07:17,10.007s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText""), ""PEPOKLE@HOTMAIL.COM"", 0)",,Enter registered email address,,28-04-2025 14:07:17,28-04-2025 14:07:18,0.641s,PASSED
+hideKeyboard(),,,,28-04-2025 14:07:18,28-04-2025 14:07:19,1.500s,PASSED
+delay(10),,,,28-04-2025 14:07:19,28-04-2025 14:07:29,10.009s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - Next""), 0)",,Proceed to OAM authentication screen,,28-04-2025 14:07:29,28-04-2025 14:07:30,0.438s,PASSED
+delay(40),,,,28-04-2025 14:07:30,28-04-2025 14:08:10,40.007s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText (1)""), ""PEPOKLE@HOTMAIL.COM"", 0)",,Re-enter email in OAM username field,,28-04-2025 14:08:10,28-04-2025 14:08:10,0.526s,PASSED
+hideKeyboard(),,,,28-04-2025 14:08:10,28-04-2025 14:08:11,1.000s,PASSED
+delay(10),,,,28-04-2025 14:08:11,28-04-2025 14:08:21,10.008s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText (2)""), ""password"", 0)",,Enter account password,,28-04-2025 14:08:21,28-04-2025 14:08:22,0.448s,PASSED
+hideKeyboard(),,,,28-04-2025 14:08:22,28-04-2025 14:08:23,1.169s,PASSED
+delay(5),,,,28-04-2025 14:08:23,28-04-2025 14:08:28,5.009s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - LOGIN""), 0)",,Complete authentication by tapping LOGIN,,28-04-2025 14:08:28,28-04-2025 14:08:28,0.310s,PASSED
+delay(15),,,,28-04-2025 14:08:28,28-04-2025 14:08:43,15.009s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.view.View - My Stay""), 0)",,Navigate to My Stay section,,28-04-2025 14:08:43,28-04-2025 14:08:44,0.405s,PASSED
+delay(10),,,,28-04-2025 14:08:44,28-04-2025 14:08:54,10.007s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - ADD A RESERVATION""), 0)",,Initiate new reservation process,,28-04-2025 14:08:54,28-04-2025 14:08:54,0.375s,PASSED
+delay(10),,,,28-04-2025 14:08:54,28-04-2025 14:09:04,10.009s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText (3)""), ""18764955"", 0)",,Enter reservation number,,28-04-2025 14:09:04,28-04-2025 14:09:06,2.192s,PASSED
+hideKeyboard(),,,,28-04-2025 14:09:06,28-04-2025 14:09:07,1.126s,PASSED
+delay(10),,,,28-04-2025 14:09:07,28-04-2025 14:09:17,10.009s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - Next (1)""), 0)",,Proceed to guest information screen,,28-04-2025 14:09:17,28-04-2025 14:09:17,0.238s,PASSED
+delay(10),,,,28-04-2025 14:09:17,28-04-2025 14:09:27,10.010s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText (4)""), ""WOODS"", 0)",,Enter last name for reservation verification,,28-04-2025 14:09:27,28-04-2025 14:09:28,0.881s,PASSED
+hideKeyboard(),,,,28-04-2025 14:09:28,28-04-2025 14:09:29,0.971s,PASSED
+delay(10),,,,28-04-2025 14:09:29,28-04-2025 14:09:39,10.008s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - Add Reservation""), 0)",,Submit reservation details,,28-04-2025 14:09:39,28-04-2025 14:09:40,0.255s,PASSED
+delay(10),,,,28-04-2025 14:09:40,28-04-2025 14:09:50,10.010s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/MystayReservation/android.widget.TextView - Success""), 0)",,Verify successful reservation addition,,28-04-2025 14:09:50,28-04-2025 14:09:50,0.154s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/MystayReservation/android.widget.TextView - Add Another Reservation""), 0)",,,,28-04-2025 14:09:50,28-04-2025 14:09:50,0.131s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/MystayReservation/android.widget.TextView - Thank you for adding your Westgate Resorts reservations""), 0)",,,,28-04-2025 14:09:50,28-04-2025 14:09:50,0.123s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/MystayReservation/android.widget.TextView - Thank You""), 0)",,,,28-04-2025 14:09:50,28-04-2025 14:09:50,0.122s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - Next (1)""), 0)",,Complete reservation process,,28-04-2025 14:09:50,28-04-2025 14:09:50,0.221s,PASSED
+closeApplication(),,Close application after test completion,,28-04-2025 14:09:50,28-04-2025 14:09:56,5.482s,PASSED
+,,,,,,,
+Test Cases/My Stay And Reservations/C741_MyStayAndReservations_ErrorVerification,,Verify that the correct error message appears when entering an already added reservation number,,28-04-2025 14:09:56,28-04-2025 14:13:09,3m - 13.652s,PASSED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk"", true)",,Launch application from specified APK path with data clearing,,28-04-2025 14:09:56,28-04-2025 14:10:21,25.219s,PASSED
+delay(10),,,,28-04-2025 14:10:21,28-04-2025 14:10:31,10.007s,PASSED
+"""--- AUTHENTICATION FLOW ---""",,,,28-04-2025 14:10:31,28-04-2025 14:10:31,0.001s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - Login or Sign Up""), 0)",,Initiate login process,,28-04-2025 14:10:31,28-04-2025 14:10:32,0.956s,PASSED
+delay(10),,,,28-04-2025 14:10:32,28-04-2025 14:10:42,10.008s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText""), ""PEPOKLE@HOTMAIL.COM"", 0)",,Enter registered email address,,28-04-2025 14:10:42,28-04-2025 14:10:43,0.697s,PASSED
+hideKeyboard(),,,,28-04-2025 14:10:43,28-04-2025 14:10:44,1.460s,PASSED
+delay(10),,,,28-04-2025 14:10:44,28-04-2025 14:10:54,10.009s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - Next""), 0)",,Proceed to OAM authentication,,28-04-2025 14:10:54,28-04-2025 14:10:55,0.396s,PASSED
+delay(40),,,,28-04-2025 14:10:55,28-04-2025 14:11:35,40.009s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText (1)""), ""PEPOKLE@HOTMAIL.COM"", 0)",,Re-enter email in OAM username field,,28-04-2025 14:11:35,28-04-2025 14:11:35,0.495s,PASSED
+hideKeyboard(),,,,28-04-2025 14:11:35,28-04-2025 14:11:36,1.107s,PASSED
+delay(10),,,,28-04-2025 14:11:36,28-04-2025 14:11:46,10.008s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText (2)""), ""password"", 0)",,Enter account password,,28-04-2025 14:11:46,28-04-2025 14:11:47,0.494s,PASSED
+hideKeyboard(),,,,28-04-2025 14:11:47,28-04-2025 14:11:48,1.082s,PASSED
+delay(5),,,,28-04-2025 14:11:48,28-04-2025 14:11:53,5.009s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - LOGIN""), 0)",,Complete authentication,,28-04-2025 14:11:53,28-04-2025 14:11:53,0.271s,PASSED
+delay(15),,,,28-04-2025 14:11:53,28-04-2025 14:12:08,15.008s,PASSED
+"""--- RESERVATION FLOW ---""",,,,28-04-2025 14:12:08,28-04-2025 14:12:08,0.001s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.view.View - My Stay""), 0)",,Navigate to My Stay section,,28-04-2025 14:12:08,28-04-2025 14:12:09,0.609s,PASSED
+delay(10),,,,28-04-2025 14:12:09,28-04-2025 14:12:19,10.008s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - ADD A RESERVATION""), 0)",,Initiate new reservation process,,28-04-2025 14:12:19,28-04-2025 14:12:19,0.404s,PASSED
+delay(10),,,,28-04-2025 14:12:19,28-04-2025 14:12:29,10.009s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText (3)""), ""18764955"", 0)",,Enter reservation number,,28-04-2025 14:12:29,28-04-2025 14:12:30,0.424s,PASSED
+hideKeyboard(),,,,28-04-2025 14:12:30,28-04-2025 14:12:31,1.027s,PASSED
+delay(10),,,,28-04-2025 14:12:31,28-04-2025 14:12:41,10.008s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - Next (1)""), 0)",,Proceed to guest information screen,,28-04-2025 14:12:41,28-04-2025 14:12:41,0.210s,PASSED
+delay(10),,,,28-04-2025 14:12:41,28-04-2025 14:12:51,10.009s,PASSED
+"setText(findTestObject(""Object Repository/MystayReservation/android.widget.EditText (4)""), ""WOODS"", 0)",,Enter last name for reservation verification,,28-04-2025 14:12:51,28-04-2025 14:12:51,0.301s,PASSED
+hideKeyboard(),,,,28-04-2025 14:12:51,28-04-2025 14:12:52,1.053s,PASSED
+delay(10),,,,28-04-2025 14:12:52,28-04-2025 14:13:02,10.008s,PASSED
+"tap(findTestObject(""Object Repository/MystayReservation/android.widget.Button - Add Reservation""), 0)",,Submit reservation details,,28-04-2025 14:13:02,28-04-2025 14:13:02,0.260s,PASSED
+"""--- ERROR VERIFICATION ---""",,,,28-04-2025 14:13:02,28-04-2025 14:13:02,0.001s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/MystayReservation/android.widget.TextView - Error""), 0)",,Verify error message appears for invalid reservation,,28-04-2025 14:13:02,28-04-2025 14:13:04,1.942s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/MystayReservation/android.widget.TextView - Sorry. Your reservation could not be added. Please try again""), 0)",,,,28-04-2025 14:13:04,28-04-2025 14:13:05,0.227s,PASSED
+"timestamp = Date().format(""yyyyMMdd_HHmmss"")",,Capture screenshot for documentation,,28-04-2025 14:13:05,28-04-2025 14:13:05,0.003s,PASSED
+"takeScreenshot(""/tmp/reservation_error_"" + timestamp + "".png"")",,,,28-04-2025 14:13:05,28-04-2025 14:13:06,1.334s,PASSED
+closeApplication(),,Close application,,28-04-2025 14:13:06,28-04-2025 14:13:09,3.539s,PASSED

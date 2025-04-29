@@ -81,7 +81,7 @@ Mobile.tap(findTestObject('Object Repository/SSN/android.widget.TextView - Add A
 Mobile.delay(10)
 
 'Enter the account number into the input field'
-Mobile.setText(findTestObject('Object Repository/SSN/android.widget.EditText (3)'), '99929032862', 0)
+Mobile.setText(findTestObject('Object Repository/SSN/android.widget.EditText (3)'), '99868581242', 0)
 
 'Hide the keyboard after entering the account number'
 Mobile.hideKeyboard()
@@ -91,6 +91,8 @@ Mobile.delay(10)
 
 'Tap the "Next" button to proceed to the verification code input'
 Mobile.tap(findTestObject('Object Repository/SSN/android.widget.Button - Next (1)'), 0)
+
+Mobile.delay(20)
 
 'Enter the verification code for the account'
 Mobile.setText(findTestObject('Object Repository/SSN/android.widget.EditText (4)'), '1234567', 0)

@@ -1,0 +1,2073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sprint-4" time="2254.172" tests="11" failures="3" errors="0">
+   <testsuite name="Sprint-4" tests="11" failures="3" errors="0" time="2254.172" skipped="0" timestamp="28-04-2025T13:35:35" hostname="**********" id="Test Suites/Sprint-4">
+      <properties>
+         <property name="deviceName" value="samsung SM-A146B (Android 14)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530"/>
+         <property name="logFiles" value="/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/execution0.log, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium_error.log, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium.log"/>
+         <property name="attachments" value="/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745828566699.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745828567725.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745828784385.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745828785868.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829077641.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829080133.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829224958.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829226409.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829305239.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829307951.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829387735.png, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829390580.png, /tmp/reservation_error_20250428_141305.png"/>
+         <property name="hostName" value="**********"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.17.1"/>
+         <property name="deviceModel" value="SM-A146B"/>
+         <property name="hostAddress" value="**********"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp"/>
+         <property name="deviceName" value="samsung SM-A146B (Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Home Page/C753_LoggeOutState_Verification" time="90.412" classname="Test Cases/Home Page/C753_LoggeOutState_Verification" status="PASSED">
+         <system-out><![CDATA[28-04-2025T13:35:35 - [TEST_CASE][PASSED] - Test Cases/Home Page/C753_LoggeOutState_Verification: Test Cases/Home Page/C753_LoggeOutState_Verification
+
+28-04-2025T13:35:35 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk'
+
+28-04-2025T13:35:35 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk'
+
+28-04-2025T13:35:35 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T13:35:35 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T13:35:36 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.10.0_1/bin/node"
+
+28-04-2025T13:35:36 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+28-04-2025T13:35:36 - [MESSAGE][INFO] - APPIUM_HOME: /Users/gv.vignesh/.appium
+
+28-04-2025T13:35:36 - [MESSAGE][INFO] - appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium.log
+
+28-04-2025T13:35:36 - [MESSAGE][INFO] - appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium_error.log
+
+28-04-2025T13:35:37 - [MESSAGE][INFO] - Appium server started on port 53,492
+
+28-04-2025T13:36:08 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk'
+
+28-04-2025T13:36:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:36:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:36:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Carousel/android.widget.TextView - Home"), 0): Tapped on element 'Object Repository/Carousel/android.widget.TextView - Home'
+
+28-04-2025T13:36:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:36:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Carousel/android.widget.TextView - Home'
+
+28-04-2025T13:36:19 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+28-04-2025T13:36:34 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+28-04-2025T13:36:34 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView"), 0): Element 'Object Repository/Carousel/android.widget.TextView' is exist
+
+28-04-2025T13:36:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:36:34 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView' is exist
+
+28-04-2025T13:36:34 - [TEST_STEP][PASSED] - swipe(800, 500, 100, 500): Swiped from 800,500 to 100,500
+
+28-04-2025T13:36:36 - [MESSAGE][PASSED] - Swiped from 800,500 to 100,500
+
+28-04-2025T13:36:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:36:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:36:46 - [TEST_STEP][PASSED] - scrollToText("recommended"): Scrolling to text 'recommended' successfully
+
+28-04-2025T13:36:51 - [MESSAGE][PASSED] - Scrolling to text 'recommended' successfully
+
+28-04-2025T13:36:51 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:37:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:37:01 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - Login Now"), 0): Element 'Object Repository/Carousel/android.widget.TextView - Login Now' is exist
+
+28-04-2025T13:37:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:37:01 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - Login Now' is exist
+
+28-04-2025T13:37:01 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - Book a Rental"), 0): Element 'Object Repository/Carousel/android.widget.TextView - Book a Rental' is exist
+
+28-04-2025T13:37:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:37:01 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - Book a Rental' is exist
+
+28-04-2025T13:37:01 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU"), 0): Element 'Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU' is exist
+
+28-04-2025T13:37:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:37:02 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU' is exist
+
+28-04-2025T13:37:02 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - Home"), 0): Element 'Object Repository/Carousel/android.widget.TextView - Home' is exist
+
+28-04-2025T13:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:37:02 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - Home' is exist
+
+28-04-2025T13:37:02 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - My Account"), 0): Element 'Object Repository/Carousel/android.widget.TextView - My Account' is exist
+
+28-04-2025T13:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:37:02 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - My Account' is exist
+
+28-04-2025T13:37:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+28-04-2025T13:37:06 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/C765_WRMA-342_Homepage_Verification_logged in" time="214.9" classname="Test Cases/Home Page/C765_WRMA-342_Homepage_Verification_logged in" status="PASSED">
+         <system-out><![CDATA[28-04-2025T13:37:06 - [TEST_CASE][PASSED] - Test Cases/Home Page/C765_WRMA-342_Homepage_Verification_logged in: Test Cases/Home Page/C765_WRMA-342_Homepage_Verification_logged in
+
+28-04-2025T13:37:06 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk'
+
+28-04-2025T13:37:06 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk'
+
+28-04-2025T13:37:06 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T13:37:06 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T13:37:06 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.10.0_1/bin/node"
+
+28-04-2025T13:37:06 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+28-04-2025T13:37:06 - [MESSAGE][INFO] - APPIUM_HOME: /Users/gv.vignesh/.appium
+
+28-04-2025T13:37:06 - [MESSAGE][INFO] - appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium.log
+
+28-04-2025T13:37:06 - [MESSAGE][INFO] - appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium_error.log
+
+28-04-2025T13:37:08 - [MESSAGE][INFO] - Appium server started on port 53,730
+
+28-04-2025T13:37:34 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk'
+
+28-04-2025T13:37:34 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:37:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:37:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/MyStay/android.widget.Button - Login or Sign Up (1)"), 0): Tapped on element 'Object Repository/Repo/MyStay/android.widget.Button - Login or Sign Up (1)'
+
+28-04-2025T13:37:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:37:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/MyStay/android.widget.Button - Login or Sign Up (1)'
+
+28-04-2025T13:37:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:37:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:37:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Repo/MyStay/android.widget.EditText (3)"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/Repo/MyStay/android.widget.EditText (3)'
+
+28-04-2025T13:37:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:37:56 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/Repo/MyStay/android.widget.EditText (3)'
+
+28-04-2025T13:37:56 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:37:57 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:37:57 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:38:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:38:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/MyStay/android.widget.Button - Next (1)"), 0): Tapped on element 'Object Repository/Repo/MyStay/android.widget.Button - Next (1)'
+
+28-04-2025T13:38:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:38:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/MyStay/android.widget.Button - Next (1)'
+
+28-04-2025T13:38:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:38:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:38:18 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+28-04-2025T13:38:48 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+28-04-2025T13:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Repo/SignUpNewUser/android.widget.EditText (24)"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/Repo/SignUpNewUser/android.widget.EditText (24)'
+
+28-04-2025T13:38:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:38:50 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/Repo/SignUpNewUser/android.widget.EditText (24)'
+
+28-04-2025T13:38:50 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:38:51 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:38:51 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+28-04-2025T13:39:11 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+28-04-2025T13:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Repo/SignUpNewUser/android.widget.EditText (25)"), "password", 0): Text 'password' has been set to element 'Object Repository/Repo/SignUpNewUser/android.widget.EditText (25)'
+
+28-04-2025T13:39:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:39:11 - [MESSAGE][PASSED] - Text 'password' has been set to element 'Object Repository/Repo/SignUpNewUser/android.widget.EditText (25)'
+
+28-04-2025T13:39:11 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:39:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:39:13 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+28-04-2025T13:39:33 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+28-04-2025T13:39:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/SignUpNewUser/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/Repo/SignUpNewUser/android.widget.Button - LOGIN'
+
+28-04-2025T13:39:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:39:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/SignUpNewUser/android.widget.Button - LOGIN'
+
+28-04-2025T13:39:33 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+28-04-2025T13:39:53 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+28-04-2025T13:39:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Carousel/android.widget.TextView - Home"), 0): Tapped on element 'Object Repository/Carousel/android.widget.TextView - Home'
+
+28-04-2025T13:39:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:39:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Carousel/android.widget.TextView - Home'
+
+28-04-2025T13:39:54 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+28-04-2025T13:40:09 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+28-04-2025T13:40:09 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView"), 0): Element 'Object Repository/Carousel/android.widget.TextView' is exist
+
+28-04-2025T13:40:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:40:09 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView' is exist
+
+28-04-2025T13:40:09 - [TEST_STEP][PASSED] - swipe(800, 500, 100, 500): Swiped from 800,500 to 100,500
+
+28-04-2025T13:40:10 - [MESSAGE][PASSED] - Swiped from 800,500 to 100,500
+
+28-04-2025T13:40:10 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:40:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:40:20 - [TEST_STEP][PASSED] - scrollToText("recommended"): Scrolling to text 'recommended' successfully
+
+28-04-2025T13:40:25 - [MESSAGE][PASSED] - Scrolling to text 'recommended' successfully
+
+28-04-2025T13:40:25 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:40:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:40:35 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - Book a Rental"), 0): Element 'Object Repository/Carousel/android.widget.TextView - Book a Rental' is exist
+
+28-04-2025T13:40:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:40:35 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - Book a Rental' is exist
+
+28-04-2025T13:40:35 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU"), 0): Element 'Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU' is exist
+
+28-04-2025T13:40:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:40:36 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU' is exist
+
+28-04-2025T13:40:36 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - Home"), 0): Element 'Object Repository/Carousel/android.widget.TextView - Home' is exist
+
+28-04-2025T13:40:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:40:36 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - Home' is exist
+
+28-04-2025T13:40:36 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - My Account"), 0): Element 'Object Repository/Carousel/android.widget.TextView - My Account' is exist
+
+28-04-2025T13:40:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:40:36 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - My Account' is exist
+
+28-04-2025T13:40:36 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+28-04-2025T13:40:41 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Page/C754_HomepageFunctionality" time="67.353" classname="Test Cases/Home Page/C754_HomepageFunctionality" status="PASSED">
+         <system-out><![CDATA[28-04-2025T13:40:41 - [TEST_CASE][PASSED] - Test Cases/Home Page/C754_HomepageFunctionality: Test Cases/Home Page/C754_HomepageFunctionality
+
+28-04-2025T13:40:41 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk'
+
+28-04-2025T13:40:41 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk'
+
+28-04-2025T13:40:41 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T13:40:41 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T13:40:41 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.10.0_1/bin/node"
+
+28-04-2025T13:40:41 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+28-04-2025T13:40:41 - [MESSAGE][INFO] - APPIUM_HOME: /Users/gv.vignesh/.appium
+
+28-04-2025T13:40:41 - [MESSAGE][INFO] - appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium.log
+
+28-04-2025T13:40:41 - [MESSAGE][INFO] - appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium_error.log
+
+28-04-2025T13:40:42 - [MESSAGE][INFO] - Appium server started on port 54,086
+
+28-04-2025T13:41:08 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk'
+
+28-04-2025T13:41:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:41:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:41:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Carousel/android.widget.TextView - Home"), 0): Tapped on element 'Object Repository/Carousel/android.widget.TextView - Home'
+
+28-04-2025T13:41:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:41:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Carousel/android.widget.TextView - Home'
+
+28-04-2025T13:41:19 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+28-04-2025T13:41:34 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+28-04-2025T13:41:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Carousel/android.widget.TextView (1)"), 0): Tapped on element 'Object Repository/Carousel/android.widget.TextView (1)'
+
+28-04-2025T13:41:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:41:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Carousel/android.widget.TextView (1)'
+
+28-04-2025T13:41:35 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:41:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:41:45 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - App Test Image Article"), 0): Element 'Object Repository/Carousel/android.widget.TextView - App Test Image Article' is exist
+
+28-04-2025T13:41:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:41:45 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - App Test Image Article' is exist
+
+28-04-2025T13:41:45 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Carousel/android.widget.TextView - App Test Image Article (1)"), 0): Element 'Object Repository/Carousel/android.widget.TextView - App Test Image Article (1)' is exist
+
+28-04-2025T13:41:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:41:45 - [MESSAGE][PASSED] - Element 'Object Repository/Carousel/android.widget.TextView - App Test Image Article (1)' is exist
+
+28-04-2025T13:41:45 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+28-04-2025T13:41:48 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Account Number/C701_C702_AddAccountNumber_Verify_Incorrect_Account_Number" time="250.084" classname="Test Cases/Add Account Number/C701_C702_AddAccountNumber_Verify_Incorrect_Account_Number" status="PASSED">
+         <system-out><![CDATA[28-04-2025T13:41:48 - [TEST_CASE][PASSED] - Test Cases/Add Account Number/C701_C702_AddAccountNumber_Verify_Incorrect_Account_Number: Test Cases/Add Account Number/C701_C702_AddAccountNumber_Verify_Incorrect_Account_Number
+
+28-04-2025T13:41:48 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:41:48 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:41:48 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T13:41:48 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T13:41:48 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.10.0_1/bin/node"
+
+28-04-2025T13:41:48 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+28-04-2025T13:41:48 - [MESSAGE][INFO] - APPIUM_HOME: /Users/gv.vignesh/.appium
+
+28-04-2025T13:41:48 - [MESSAGE][INFO] - appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium.log
+
+28-04-2025T13:41:48 - [MESSAGE][INFO] - appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium_error.log
+
+28-04-2025T13:41:49 - [MESSAGE][INFO] - Appium server started on port 54,282
+
+28-04-2025T13:42:23 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:42:23 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:42:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:42:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - Login or Sign Up"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - Login or Sign Up'
+
+28-04-2025T13:42:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:42:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - Login or Sign Up'
+
+28-04-2025T13:42:34 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:42:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:42:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/C701-C702/android.widget.EditText'
+
+28-04-2025T13:42:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:42:45 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/C701-C702/android.widget.EditText'
+
+28-04-2025T13:42:45 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:42:46 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:42:46 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:42:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:42:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - Next'
+
+28-04-2025T13:42:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:42:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - Next'
+
+28-04-2025T13:42:57 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+28-04-2025T13:43:37 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+28-04-2025T13:43:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText (1)"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/C701-C702/android.widget.EditText (1)'
+
+28-04-2025T13:43:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:43:37 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/C701-C702/android.widget.EditText (1)'
+
+28-04-2025T13:43:37 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:43:39 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:43:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:43:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:43:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText (2)"), "password", 0): Text 'password' has been set to element 'Object Repository/C701-C702/android.widget.EditText (2)'
+
+28-04-2025T13:43:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:43:49 - [MESSAGE][PASSED] - Text 'password' has been set to element 'Object Repository/C701-C702/android.widget.EditText (2)'
+
+28-04-2025T13:43:49 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:43:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:43:50 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:44:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:44:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - LOGIN'
+
+28-04-2025T13:44:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:44:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - LOGIN'
+
+28-04-2025T13:44:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:44:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:44:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.TextView - My Account"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.TextView - My Account'
+
+28-04-2025T13:44:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:44:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.TextView - My Account'
+
+28-04-2025T13:44:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:44:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:44:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.TextView - Add An Account Number"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:44:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:44:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:44:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:44:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:44:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText (3)"), "123", 0): Text '123' has been set to element 'Object Repository/C701-C702/android.widget.EditText (3)'
+
+28-04-2025T13:44:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:44:32 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/C701-C702/android.widget.EditText (3)'
+
+28-04-2025T13:44:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:44:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:44:42 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C701-C702/android.widget.TextView -  Account number should be 7-11 digits"), 0): Element 'Object Repository/C701-C702/android.widget.TextView -  Account number should be 7-11 digits' is exist
+
+28-04-2025T13:44:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:44:42 - [MESSAGE][PASSED] - Element 'Object Repository/C701-C702/android.widget.TextView -  Account number should be 7-11 digits' is exist
+
+28-04-2025T13:44:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - reset"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - reset'
+
+28-04-2025T13:44:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:44:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - reset'
+
+28-04-2025T13:44:42 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:44:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:44:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText (4)"), "123456789012", 0): Text '123456789012' has been set to element 'Object Repository/C701-C702/android.widget.EditText (4)'
+
+28-04-2025T13:44:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:44:53 - [MESSAGE][PASSED] - Text '123456789012' has been set to element 'Object Repository/C701-C702/android.widget.EditText (4)'
+
+28-04-2025T13:44:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:45:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:45:03 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C701-C702/android.widget.TextView -  Account number should be 7-11 digits"), 0): Element 'Object Repository/C701-C702/android.widget.TextView -  Account number should be 7-11 digits' is exist
+
+28-04-2025T13:45:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:45:03 - [MESSAGE][PASSED] - Element 'Object Repository/C701-C702/android.widget.TextView -  Account number should be 7-11 digits' is exist
+
+28-04-2025T13:45:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:45:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:45:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - back"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - back'
+
+28-04-2025T13:45:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:45:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - back'
+
+28-04-2025T13:45:13 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:45:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:45:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.TextView - Add An Account Number"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:45:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:45:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:45:24 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:45:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:45:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText (5)"), "45634725", 0): Text '45634725' has been set to element 'Object Repository/C701-C702/android.widget.EditText (5)'
+
+28-04-2025T13:45:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:45:34 - [MESSAGE][PASSED] - Text '45634725' has been set to element 'Object Repository/C701-C702/android.widget.EditText (5)'
+
+28-04-2025T13:45:34 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:45:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:45:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - Next (1)"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - Next (1)'
+
+28-04-2025T13:45:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:45:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - Next (1)'
+
+28-04-2025T13:45:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:45:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:45:54 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C701-C702/android.widget.TextView - Error"), 0): Element 'Object Repository/C701-C702/android.widget.TextView - Error' is exist
+
+28-04-2025T13:45:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:45:55 - [MESSAGE][PASSED] - Element 'Object Repository/C701-C702/android.widget.TextView - Error' is exist
+
+28-04-2025T13:45:55 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C701-C702/android.widget.TextView - Your account number could not be found. Please try again"), 0): Element 'Object Repository/C701-C702/android.widget.TextView - Your account number could not be found. Please try again' is exist
+
+28-04-2025T13:45:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:45:55 - [MESSAGE][PASSED] - Element 'Object Repository/C701-C702/android.widget.TextView - Your account number could not be found. Please try again' is exist
+
+28-04-2025T13:45:55 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C701-C702/android.widget.Button - Try Again"), 0): Element 'Object Repository/C701-C702/android.widget.Button - Try Again' is exist
+
+28-04-2025T13:45:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:45:55 - [MESSAGE][PASSED] - Element 'Object Repository/C701-C702/android.widget.Button - Try Again' is exist
+
+28-04-2025T13:45:55 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+28-04-2025T13:45:58 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Account Number/C703_AddedAccountNumber_ErrorMessage" time="194.696" classname="Test Cases/Add Account Number/C703_AddedAccountNumber_ErrorMessage" status="PASSED">
+         <system-out><![CDATA[28-04-2025T13:45:58 - [TEST_CASE][PASSED] - Test Cases/Add Account Number/C703_AddedAccountNumber_ErrorMessage: Test Cases/Add Account Number/C703_AddedAccountNumber_ErrorMessage
+
+28-04-2025T13:45:58 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:45:58 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:45:58 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T13:45:58 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T13:45:58 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.10.0_1/bin/node"
+
+28-04-2025T13:45:58 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+28-04-2025T13:45:58 - [MESSAGE][INFO] - APPIUM_HOME: /Users/gv.vignesh/.appium
+
+28-04-2025T13:45:58 - [MESSAGE][INFO] - appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium.log
+
+28-04-2025T13:45:58 - [MESSAGE][INFO] - appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium_error.log
+
+28-04-2025T13:46:00 - [MESSAGE][INFO] - Appium server started on port 54,585
+
+28-04-2025T13:46:28 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:46:28 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:46:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:46:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - Login or Sign Up"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - Login or Sign Up'
+
+28-04-2025T13:46:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:46:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - Login or Sign Up'
+
+28-04-2025T13:46:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:46:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:46:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/C701-C702/android.widget.EditText'
+
+28-04-2025T13:46:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:46:49 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/C701-C702/android.widget.EditText'
+
+28-04-2025T13:46:49 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:46:51 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:46:51 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:47:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:47:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - Next'
+
+28-04-2025T13:47:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:47:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - Next'
+
+28-04-2025T13:47:01 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+28-04-2025T13:47:41 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+28-04-2025T13:47:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText (1)"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/C701-C702/android.widget.EditText (1)'
+
+28-04-2025T13:47:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:47:42 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/C701-C702/android.widget.EditText (1)'
+
+28-04-2025T13:47:42 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:47:43 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:47:43 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:47:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:47:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText (2)"), "password", 0): Text 'password' has been set to element 'Object Repository/C701-C702/android.widget.EditText (2)'
+
+28-04-2025T13:47:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:47:53 - [MESSAGE][PASSED] - Text 'password' has been set to element 'Object Repository/C701-C702/android.widget.EditText (2)'
+
+28-04-2025T13:47:53 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:47:55 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:47:55 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:48:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:48:05 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - LOGIN'
+
+28-04-2025T13:48:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:48:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - LOGIN'
+
+28-04-2025T13:48:05 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:48:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:48:15 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.TextView - My Account"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.TextView - My Account'
+
+28-04-2025T13:48:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:48:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.TextView - My Account'
+
+28-04-2025T13:48:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:48:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:48:25 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.TextView - Add An Account Number"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:48:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:48:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:48:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:48:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:48:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C701-C702/android.widget.EditText (5)"), "99868581242", 0): Text '99868581242' has been set to element 'Object Repository/C701-C702/android.widget.EditText (5)'
+
+28-04-2025T13:48:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:48:43 - [MESSAGE][PASSED] - Text '99868581242' has been set to element 'Object Repository/C701-C702/android.widget.EditText (5)'
+
+28-04-2025T13:48:43 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:48:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:48:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C701-C702/android.widget.Button - Next (1)"), 0): Tapped on element 'Object Repository/C701-C702/android.widget.Button - Next (1)'
+
+28-04-2025T13:48:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:48:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C701-C702/android.widget.Button - Next (1)'
+
+28-04-2025T13:48:53 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:49:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:49:03 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C701-C702/android.widget.TextView - Error"), 0): Element 'Object Repository/C701-C702/android.widget.TextView - Error' is exist
+
+28-04-2025T13:49:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:49:09 - [MESSAGE][PASSED] - Element 'Object Repository/C701-C702/android.widget.TextView - Error' is exist
+
+28-04-2025T13:49:09 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C701-C702/android.widget.TextView - Your account number could not be found. Please try again"), 0): Element 'Object Repository/C701-C702/android.widget.TextView - Your account number could not be found. Please try again' is exist
+
+28-04-2025T13:49:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:49:09 - [MESSAGE][PASSED] - Element 'Object Repository/C701-C702/android.widget.TextView - Your account number could not be found. Please try again' is exist
+
+28-04-2025T13:49:09 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C701-C702/android.widget.Button - Try Again"), 0): Element 'Object Repository/C701-C702/android.widget.Button - Try Again' is exist
+
+28-04-2025T13:49:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:49:09 - [MESSAGE][PASSED] - Element 'Object Repository/C701-C702/android.widget.Button - Try Again' is exist
+
+28-04-2025T13:49:09 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+28-04-2025T13:49:13 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users" time="218.581" classname="Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Failed to set text into element&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)&#xa;	at C707_VerifyAccount_Error_InternetAccessCode_Owner_Users.run(C707_VerifyAccount_Error_InternetAccessCode_Owner_Users:96)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SSN/android.widget.EditText (4) not found&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[28-04-2025T13:52:48 - [TEST_CASE][FAILED] - Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users: Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at C707_VerifyAccount_Error_InternetAccessCode_Owner_Users.run(C707_VerifyAccount_Error_InternetAccessCode_Owner_Users:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SSN/android.widget.EditText (4) not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+
+
+28-04-2025T13:52:48 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:52:48 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:52:48 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T13:52:48 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T13:53:19 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:53:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:53:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:53:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SSN/android.widget.Button - Login or Sign Up"), 0): Tapped on element 'Object Repository/SSN/android.widget.Button - Login or Sign Up'
+
+28-04-2025T13:53:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:53:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SSN/android.widget.Button - Login or Sign Up'
+
+28-04-2025T13:53:30 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:53:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SSN/android.widget.EditText"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/SSN/android.widget.EditText'
+
+28-04-2025T13:53:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:53:44 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/SSN/android.widget.EditText'
+
+28-04-2025T13:53:44 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:53:45 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:53:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:53:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:53:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SSN/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/SSN/android.widget.Button - Next'
+
+28-04-2025T13:53:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:53:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SSN/android.widget.Button - Next'
+
+28-04-2025T13:53:56 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+28-04-2025T13:54:36 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+28-04-2025T13:54:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SSN/android.widget.EditText (1)"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/SSN/android.widget.EditText (1)'
+
+28-04-2025T13:54:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:54:37 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/SSN/android.widget.EditText (1)'
+
+28-04-2025T13:54:37 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:54:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:54:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:54:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:54:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SSN/android.widget.EditText (2)"), "password", 0): Text 'password' has been set to element 'Object Repository/SSN/android.widget.EditText (2)'
+
+28-04-2025T13:54:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:54:49 - [MESSAGE][PASSED] - Text 'password' has been set to element 'Object Repository/SSN/android.widget.EditText (2)'
+
+28-04-2025T13:54:49 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:54:50 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:54:50 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:55:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:55:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SSN/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/SSN/android.widget.Button - LOGIN'
+
+28-04-2025T13:55:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:55:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SSN/android.widget.Button - LOGIN'
+
+28-04-2025T13:55:00 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+28-04-2025T13:55:20 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+28-04-2025T13:55:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SSN/android.widget.TextView - My Account"), 0): Tapped on element 'Object Repository/SSN/android.widget.TextView - My Account'
+
+28-04-2025T13:55:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:55:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SSN/android.widget.TextView - My Account'
+
+28-04-2025T13:55:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:55:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:55:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SSN/android.widget.TextView - Add An Account Number"), 0): Tapped on element 'Object Repository/SSN/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:55:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:55:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SSN/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:55:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:55:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:55:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/SSN/android.widget.EditText (3)"), "99868581242", 0): Text '99868581242' has been set to element 'Object Repository/SSN/android.widget.EditText (3)'
+
+28-04-2025T13:55:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:55:42 - [MESSAGE][PASSED] - Text '99868581242' has been set to element 'Object Repository/SSN/android.widget.EditText (3)'
+
+28-04-2025T13:55:42 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:55:43 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:55:43 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:55:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:55:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/SSN/android.widget.Button - Next (1)"), 0): Tapped on element 'Object Repository/SSN/android.widget.Button - Next (1)'
+
+28-04-2025T13:55:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:55:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SSN/android.widget.Button - Next (1)'
+
+28-04-2025T13:55:54 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/SSN/android.widget.EditText (4)"), "1234567", 0): Failed to set text into element (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at C707_VerifyAccount_Error_InternetAccessCode_Owner_Users.run(C707_VerifyAccount_Error_InternetAccessCode_Owner_Users:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SSN/android.widget.EditText (4) not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)
+
+28-04-2025T13:55:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:56:25 - [MESSAGE][FAILED] - Object Object Repository/SSN/android.widget.EditText (4) not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SSN/android.widget.EditText (4) not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at C707_VerifyAccount_Error_InternetAccessCode_Owner_Users.run(C707_VerifyAccount_Error_InternetAccessCode_Owner_Users:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745828784385.png]]
+
+28-04-2025T13:56:27 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at C707_VerifyAccount_Error_InternetAccessCode_Owner_Users.run(C707_VerifyAccount_Error_InternetAccessCode_Owner_Users:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SSN/android.widget.EditText (4) not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)
+[[ATTACHMENT|/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745828785868.png]]]]></system-out>
+         <system-err><![CDATA[28-04-2025T13:52:48 - [TEST_CASE][FAILED] - Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users: Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at C707_VerifyAccount_Error_InternetAccessCode_Owner_Users.run(C707_VerifyAccount_Error_InternetAccessCode_Owner_Users:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SSN/android.widget.EditText (4) not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Account/C708_VerifyAccount_Error_SSN_Owner_Users" time="206.598" classname="Test Cases/Verify Account/C708_VerifyAccount_Error_SSN_Owner_Users" status="PASSED">
+         <system-out><![CDATA[28-04-2025T13:56:27 - [TEST_CASE][PASSED] - Test Cases/Verify Account/C708_VerifyAccount_Error_SSN_Owner_Users: Test Cases/Verify Account/C708_VerifyAccount_Error_SSN_Owner_Users
+
+28-04-2025T13:56:27 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:56:27 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:56:27 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T13:56:27 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T13:56:58 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk'
+
+28-04-2025T13:56:58 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:57:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:57:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C708/android.widget.Button - Login or Sign Up"), 0): Tapped on element 'Object Repository/C708/android.widget.Button - Login or Sign Up'
+
+28-04-2025T13:57:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:57:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C708/android.widget.Button - Login or Sign Up'
+
+28-04-2025T13:57:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:57:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:57:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C708/android.widget.EditText"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/C708/android.widget.EditText'
+
+28-04-2025T13:57:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:57:20 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/C708/android.widget.EditText'
+
+28-04-2025T13:57:20 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:57:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:57:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:57:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:57:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C708/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/C708/android.widget.Button - Next'
+
+28-04-2025T13:57:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:57:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C708/android.widget.Button - Next'
+
+28-04-2025T13:57:31 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+28-04-2025T13:58:11 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+28-04-2025T13:58:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C708/android.widget.EditText (1)"), "0425201TM@WG.COM", 0): Text '0425201TM@WG.COM' has been set to element 'Object Repository/C708/android.widget.EditText (1)'
+
+28-04-2025T13:58:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:58:12 - [MESSAGE][PASSED] - Text '0425201TM@WG.COM' has been set to element 'Object Repository/C708/android.widget.EditText (1)'
+
+28-04-2025T13:58:12 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:58:13 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:58:13 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:58:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:58:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C708/android.widget.EditText (2)"), "password", 0): Text 'password' has been set to element 'Object Repository/C708/android.widget.EditText (2)'
+
+28-04-2025T13:58:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:58:24 - [MESSAGE][PASSED] - Text 'password' has been set to element 'Object Repository/C708/android.widget.EditText (2)'
+
+28-04-2025T13:58:24 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T13:58:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T13:58:25 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:58:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:58:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C708/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/C708/android.widget.Button - LOGIN'
+
+28-04-2025T13:58:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:58:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C708/android.widget.Button - LOGIN'
+
+28-04-2025T13:58:35 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+28-04-2025T13:58:50 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+28-04-2025T13:58:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C708/android.widget.TextView - My Account"), 0): Tapped on element 'Object Repository/C708/android.widget.TextView - My Account'
+
+28-04-2025T13:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:58:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C708/android.widget.TextView - My Account'
+
+28-04-2025T13:58:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:59:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:59:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C708/android.widget.TextView - Add An Account Number"), 0): Tapped on element 'Object Repository/C708/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:59:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C708/android.widget.TextView - Add An Account Number'
+
+28-04-2025T13:59:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:59:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:59:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C708/android.widget.EditText (3)"), "99868581242", 0): Text '99868581242' has been set to element 'Object Repository/C708/android.widget.EditText (3)'
+
+28-04-2025T13:59:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:13 - [MESSAGE][PASSED] - Text '99868581242' has been set to element 'Object Repository/C708/android.widget.EditText (3)'
+
+28-04-2025T13:59:13 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:59:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:59:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C708/android.widget.Button - Next (1)"), 0): Tapped on element 'Object Repository/C708/android.widget.Button - Next (1)'
+
+28-04-2025T13:59:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C708/android.widget.Button - Next (1)'
+
+28-04-2025T13:59:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C708/android.widget.TextView - Social Security Number"), 0): Tapped on element 'Object Repository/C708/android.widget.TextView - Social Security Number'
+
+28-04-2025T13:59:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C708/android.widget.TextView - Social Security Number'
+
+28-04-2025T13:59:25 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:59:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:59:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/C708/android.widget.EditText (4)"), "12345", 0): Text '12345' has been set to element 'Object Repository/C708/android.widget.EditText (4)'
+
+28-04-2025T13:59:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:36 - [MESSAGE][PASSED] - Text '12345' has been set to element 'Object Repository/C708/android.widget.EditText (4)'
+
+28-04-2025T13:59:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T13:59:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T13:59:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/C708/android.widget.Button - Next (1)"), 0): Tapped on element 'Object Repository/C708/android.widget.Button - Next (1)'
+
+28-04-2025T13:59:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/C708/android.widget.Button - Next (1)'
+
+28-04-2025T13:59:46 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C708/android.widget.TextView - Error"), 0): Element 'Object Repository/C708/android.widget.TextView - Error' is exist
+
+28-04-2025T13:59:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:48 - [MESSAGE][PASSED] - Element 'Object Repository/C708/android.widget.TextView - Error' is exist
+
+28-04-2025T13:59:48 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C708/android.widget.TextView - Account Number"), 0): Element 'Object Repository/C708/android.widget.TextView - Account Number' is exist
+
+28-04-2025T13:59:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:48 - [MESSAGE][PASSED] - Element 'Object Repository/C708/android.widget.TextView - Account Number' is exist
+
+28-04-2025T13:59:48 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C708/android.widget.TextView - There was a problem adding or associating your account"), 0): Element 'Object Repository/C708/android.widget.TextView - There was a problem adding or associating your account' is exist
+
+28-04-2025T13:59:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:48 - [MESSAGE][PASSED] - Element 'Object Repository/C708/android.widget.TextView - There was a problem adding or associating your account' is exist
+
+28-04-2025T13:59:48 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C708/android.widget.TextView - Your social security number for this account does not match our records. Please try again"), 0): Element 'Object Repository/C708/android.widget.TextView - Your social security number for this account does not match our records. Please try again' is exist
+
+28-04-2025T13:59:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:48 - [MESSAGE][PASSED] - Element 'Object Repository/C708/android.widget.TextView - Your social security number for this account does not match our records. Please try again' is exist
+
+28-04-2025T13:59:48 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/C708/android.widget.Button - Back to Verify"), 0): Element 'Object Repository/C708/android.widget.Button - Back to Verify' is exist
+
+28-04-2025T13:59:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T13:59:49 - [MESSAGE][PASSED] - Element 'Object Repository/C708/android.widget.Button - Back to Verify' is exist
+
+28-04-2025T13:59:49 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+28-04-2025T13:59:53 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification" time="145.578" classname="Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Failed to set text into element&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)&#xa;	at WRMA-282_Verify_Reservations_ErrorVerification.run(WRMA-282_Verify_Reservations_ErrorVerification:50)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/VOAusers/android.widget.EditText not found&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[28-04-2025T14:01:22 - [TEST_CASE][FAILED] - Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification: Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-282_Verify_Reservations_ErrorVerification.run(WRMA-282_Verify_Reservations_ErrorVerification:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/VOAusers/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+
+
+28-04-2025T14:01:22 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug (1).apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug (1).apk'
+
+28-04-2025T14:01:22 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug (1).apk'
+
+28-04-2025T14:01:22 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T14:01:22 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T14:01:51 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug (1).apk'
+
+28-04-2025T14:01:51 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:02:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:02:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/VOAusers/android.widget.Button - Login or Sign Up"), 0): Tapped on element 'Object Repository/VOAusers/android.widget.Button - Login or Sign Up'
+
+28-04-2025T14:02:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:02:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VOAusers/android.widget.Button - Login or Sign Up'
+
+28-04-2025T14:02:02 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:02:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:02:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/VOAusers/android.widget.EditText"), "SELENAWB@GMAIL.COM", 0): Text 'SELENAWB@GMAIL.COM' has been set to element 'Object Repository/VOAusers/android.widget.EditText'
+
+28-04-2025T14:02:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:02:22 - [MESSAGE][PASSED] - Text 'SELENAWB@GMAIL.COM' has been set to element 'Object Repository/VOAusers/android.widget.EditText'
+
+28-04-2025T14:02:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:02:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:02:24 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:02:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:02:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/VOAusers/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/VOAusers/android.widget.Button - Next'
+
+28-04-2025T14:02:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:02:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/VOAusers/android.widget.Button - Next'
+
+28-04-2025T14:02:34 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+28-04-2025T14:03:14 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+28-04-2025T14:03:14 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/VOAusers/android.widget.EditText"), "SELENAWB@GMAIL.COM", 0): Failed to set text into element (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-282_Verify_Reservations_ErrorVerification.run(WRMA-282_Verify_Reservations_ErrorVerification:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/VOAusers/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)
+
+28-04-2025T14:03:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:03:46 - [MESSAGE][FAILED] - Object Object Repository/VOAusers/android.widget.EditText not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/VOAusers/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-282_Verify_Reservations_ErrorVerification.run(WRMA-282_Verify_Reservations_ErrorVerification:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829224958.png]]
+
+28-04-2025T14:03:47 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-282_Verify_Reservations_ErrorVerification.run(WRMA-282_Verify_Reservations_ErrorVerification:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/VOAusers/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)
+[[ATTACHMENT|/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829226409.png]]]]></system-out>
+         <system-err><![CDATA[28-04-2025T14:01:22 - [TEST_CASE][FAILED] - Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification: Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-282_Verify_Reservations_ErrorVerification.run(WRMA-282_Verify_Reservations_ErrorVerification:50)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/VOAusers/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment" time="82.7" classname="Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment" status="FAILED">
+         <failure type="FAILED" message="Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Failed to set text into element&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)&#xa;	at WRMA-297_MyStayAndReservations__LatePayment.run(WRMA-297_MyStayAndReservations__LatePayment:33)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/MyStayOverDue/android.widget.EditText not found&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)&#xa;	... 21 more&#xa;"/>
+         <system-out><![CDATA[28-04-2025T14:05:10 - [TEST_CASE][FAILED] - Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment: Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-297_MyStayAndReservations__LatePayment.run(WRMA-297_MyStayAndReservations__LatePayment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/MyStayOverDue/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+
+
+28-04-2025T14:05:10 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk'
+
+28-04-2025T14:05:10 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk'
+
+28-04-2025T14:05:10 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T14:05:10 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T14:05:36 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk'
+
+28-04-2025T14:05:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:05:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:05:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MyStayOverDue/android.widget.Button - Login or Sign Up"), 0): Tapped on element 'Object Repository/MyStayOverDue/android.widget.Button - Login or Sign Up'
+
+28-04-2025T14:05:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:05:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MyStayOverDue/android.widget.Button - Login or Sign Up'
+
+28-04-2025T14:05:47 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:05:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:05:57 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/MyStayOverDue/android.widget.EditText"), "ELPHA@ELPHA.DEMON.CO.UK", 0): Failed to set text into element (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-297_MyStayAndReservations__LatePayment.run(WRMA-297_MyStayAndReservations__LatePayment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/MyStayOverDue/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)
+
+28-04-2025T14:05:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:06:30 - [MESSAGE][FAILED] - Object Object Repository/MyStayOverDue/android.widget.EditText not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/MyStayOverDue/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-297_MyStayAndReservations__LatePayment.run(WRMA-297_MyStayAndReservations__LatePayment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829387735.png]]
+
+28-04-2025T14:06:33 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-297_MyStayAndReservations__LatePayment.run(WRMA-297_MyStayAndReservations__LatePayment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/MyStayOverDue/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more
+)
+[[ATTACHMENT|/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/1745829390580.png]]]]></system-out>
+         <system-err><![CDATA[28-04-2025T14:05:10 - [TEST_CASE][FAILED] - Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment: Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at WRMA-297_MyStayAndReservations__LatePayment.run(WRMA-297_MyStayAndReservations__LatePayment:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/MyStayOverDue/android.widget.EditText not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 21 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Stay And Reservations/C730_MyStayAndReservations_AddVerification" time="203.301" classname="Test Cases/My Stay And Reservations/C730_MyStayAndReservations_AddVerification" status="PASSED">
+         <system-out><![CDATA[28-04-2025T14:06:33 - [TEST_CASE][PASSED] - Test Cases/My Stay And Reservations/C730_MyStayAndReservations_AddVerification: Test Cases/My Stay And Reservations/C730_MyStayAndReservations_AddVerification
+
+28-04-2025T14:06:33 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk'
+
+28-04-2025T14:06:33 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk'
+
+28-04-2025T14:06:33 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T14:06:33 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T14:06:56 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk'
+
+28-04-2025T14:06:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:07:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:07:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - Login or Sign Up"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Login or Sign Up'
+
+28-04-2025T14:07:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:07:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Login or Sign Up'
+
+28-04-2025T14:07:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:07:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:07:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText"), "PEPOKLE@HOTMAIL.COM", 0): Text 'PEPOKLE@HOTMAIL.COM' has been set to element 'Object Repository/MystayReservation/android.widget.EditText'
+
+28-04-2025T14:07:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:07:18 - [MESSAGE][PASSED] - Text 'PEPOKLE@HOTMAIL.COM' has been set to element 'Object Repository/MystayReservation/android.widget.EditText'
+
+28-04-2025T14:07:18 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:07:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:07:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:07:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:07:29 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next'
+
+28-04-2025T14:07:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:07:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next'
+
+28-04-2025T14:07:30 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+28-04-2025T14:08:10 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+28-04-2025T14:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText (1)"), "PEPOKLE@HOTMAIL.COM", 0): Text 'PEPOKLE@HOTMAIL.COM' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (1)'
+
+28-04-2025T14:08:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:08:10 - [MESSAGE][PASSED] - Text 'PEPOKLE@HOTMAIL.COM' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (1)'
+
+28-04-2025T14:08:10 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:08:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:08:11 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:08:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:08:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText (2)"), "password", 0): Text 'password' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (2)'
+
+28-04-2025T14:08:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:08:22 - [MESSAGE][PASSED] - Text 'password' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (2)'
+
+28-04-2025T14:08:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:08:23 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:08:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-04-2025T14:08:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-04-2025T14:08:28 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - LOGIN'
+
+28-04-2025T14:08:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:08:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - LOGIN'
+
+28-04-2025T14:08:28 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+28-04-2025T14:08:43 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+28-04-2025T14:08:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.view.View - My Stay"), 0): Tapped on element 'Object Repository/MystayReservation/android.view.View - My Stay'
+
+28-04-2025T14:08:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:08:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.view.View - My Stay'
+
+28-04-2025T14:08:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:08:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:08:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - ADD A RESERVATION"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - ADD A RESERVATION'
+
+28-04-2025T14:08:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:08:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - ADD A RESERVATION'
+
+28-04-2025T14:08:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:09:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:09:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText (3)"), "18764955", 0): Text '18764955' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (3)'
+
+28-04-2025T14:09:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:09:06 - [MESSAGE][PASSED] - Text '18764955' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (3)'
+
+28-04-2025T14:09:06 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:09:07 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:09:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:09:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:09:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - Next (1)"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next (1)'
+
+28-04-2025T14:09:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:09:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next (1)'
+
+28-04-2025T14:09:17 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:09:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:09:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText (4)"), "WOODS", 0): Text 'WOODS' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (4)'
+
+28-04-2025T14:09:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:09:28 - [MESSAGE][PASSED] - Text 'WOODS' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (4)'
+
+28-04-2025T14:09:28 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:09:29 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:09:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:09:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:09:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - Add Reservation"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Add Reservation'
+
+28-04-2025T14:09:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:09:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Add Reservation'
+
+28-04-2025T14:09:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:09:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:09:50 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/MystayReservation/android.widget.TextView - Success"), 0): Element 'Object Repository/MystayReservation/android.widget.TextView - Success' is exist
+
+28-04-2025T14:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:09:50 - [MESSAGE][PASSED] - Element 'Object Repository/MystayReservation/android.widget.TextView - Success' is exist
+
+28-04-2025T14:09:50 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/MystayReservation/android.widget.TextView - Add Another Reservation"), 0): Element 'Object Repository/MystayReservation/android.widget.TextView - Add Another Reservation' is exist
+
+28-04-2025T14:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:09:50 - [MESSAGE][PASSED] - Element 'Object Repository/MystayReservation/android.widget.TextView - Add Another Reservation' is exist
+
+28-04-2025T14:09:50 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/MystayReservation/android.widget.TextView - Thank you for adding your Westgate Resorts reservations"), 0): Element 'Object Repository/MystayReservation/android.widget.TextView - Thank you for adding your Westgate Resorts reservations' is exist
+
+28-04-2025T14:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:09:50 - [MESSAGE][PASSED] - Element 'Object Repository/MystayReservation/android.widget.TextView - Thank you for adding your Westgate Resorts reservations' is exist
+
+28-04-2025T14:09:50 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/MystayReservation/android.widget.TextView - Thank You"), 0): Element 'Object Repository/MystayReservation/android.widget.TextView - Thank You' is exist
+
+28-04-2025T14:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:09:50 - [MESSAGE][PASSED] - Element 'Object Repository/MystayReservation/android.widget.TextView - Thank You' is exist
+
+28-04-2025T14:09:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - Next (1)"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next (1)'
+
+28-04-2025T14:09:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:09:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next (1)'
+
+28-04-2025T14:09:50 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+28-04-2025T14:09:56 - [MESSAGE][INFO] - The process with PID 10,646 wasnt terminated, error: {1}
+
+28-04-2025T14:09:56 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Stay And Reservations/C741_MyStayAndReservations_ErrorVerification" time="193.652" classname="Test Cases/My Stay And Reservations/C741_MyStayAndReservations_ErrorVerification" status="PASSED">
+         <system-out><![CDATA[28-04-2025T14:09:56 - [TEST_CASE][PASSED] - Test Cases/My Stay And Reservations/C741_MyStayAndReservations_ErrorVerification: Test Cases/My Stay And Reservations/C741_MyStayAndReservations_ErrorVerification
+
+28-04-2025T14:09:56 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk'
+
+28-04-2025T14:09:56 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk'
+
+28-04-2025T14:09:56 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+28-04-2025T14:09:56 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+28-04-2025T14:09:56 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.10.0_1/bin/node"
+
+28-04-2025T14:09:56 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+28-04-2025T14:09:56 - [MESSAGE][INFO] - APPIUM_HOME: /Users/gv.vignesh/.appium
+
+28-04-2025T14:09:56 - [MESSAGE][INFO] - appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium.log
+
+28-04-2025T14:09:56 - [MESSAGE][INFO] - appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250428_133530/Sprint-4/20250428_133530/appium_error.log
+
+28-04-2025T14:09:58 - [MESSAGE][INFO] - Appium server started on port 56,981
+
+28-04-2025T14:10:21 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk'
+
+28-04-2025T14:10:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:10:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:10:31 - [TEST_STEP][PASSED] - "--- AUTHENTICATION FLOW ---": null
+
+28-04-2025T14:10:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - Login or Sign Up"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Login or Sign Up'
+
+28-04-2025T14:10:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:10:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Login or Sign Up'
+
+28-04-2025T14:10:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:10:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:10:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText"), "PEPOKLE@HOTMAIL.COM", 0): Text 'PEPOKLE@HOTMAIL.COM' has been set to element 'Object Repository/MystayReservation/android.widget.EditText'
+
+28-04-2025T14:10:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:10:43 - [MESSAGE][PASSED] - Text 'PEPOKLE@HOTMAIL.COM' has been set to element 'Object Repository/MystayReservation/android.widget.EditText'
+
+28-04-2025T14:10:43 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:10:44 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:10:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:10:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:10:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next'
+
+28-04-2025T14:10:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:10:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next'
+
+28-04-2025T14:10:55 - [TEST_STEP][PASSED] - delay(40): Delayed 40 second(s)
+
+28-04-2025T14:11:35 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+28-04-2025T14:11:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText (1)"), "PEPOKLE@HOTMAIL.COM", 0): Text 'PEPOKLE@HOTMAIL.COM' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (1)'
+
+28-04-2025T14:11:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:11:35 - [MESSAGE][PASSED] - Text 'PEPOKLE@HOTMAIL.COM' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (1)'
+
+28-04-2025T14:11:35 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:11:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:11:36 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:11:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText (2)"), "password", 0): Text 'password' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (2)'
+
+28-04-2025T14:11:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:11:47 - [MESSAGE][PASSED] - Text 'password' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (2)'
+
+28-04-2025T14:11:47 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:11:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:11:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-04-2025T14:11:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-04-2025T14:11:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - LOGIN"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - LOGIN'
+
+28-04-2025T14:11:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:11:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - LOGIN'
+
+28-04-2025T14:11:53 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+28-04-2025T14:12:08 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+28-04-2025T14:12:08 - [TEST_STEP][PASSED] - "--- RESERVATION FLOW ---": null
+
+28-04-2025T14:12:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.view.View - My Stay"), 0): Tapped on element 'Object Repository/MystayReservation/android.view.View - My Stay'
+
+28-04-2025T14:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:12:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.view.View - My Stay'
+
+28-04-2025T14:12:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:12:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:12:19 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - ADD A RESERVATION"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - ADD A RESERVATION'
+
+28-04-2025T14:12:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:12:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - ADD A RESERVATION'
+
+28-04-2025T14:12:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:12:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:12:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText (3)"), "18764955", 0): Text '18764955' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (3)'
+
+28-04-2025T14:12:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:12:30 - [MESSAGE][PASSED] - Text '18764955' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (3)'
+
+28-04-2025T14:12:30 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:12:31 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:12:31 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:12:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:12:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - Next (1)"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next (1)'
+
+28-04-2025T14:12:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:12:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Next (1)'
+
+28-04-2025T14:12:41 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:12:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:12:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/MystayReservation/android.widget.EditText (4)"), "WOODS", 0): Text 'WOODS' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (4)'
+
+28-04-2025T14:12:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:12:51 - [MESSAGE][PASSED] - Text 'WOODS' has been set to element 'Object Repository/MystayReservation/android.widget.EditText (4)'
+
+28-04-2025T14:12:51 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+28-04-2025T14:12:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+28-04-2025T14:12:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+28-04-2025T14:13:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+28-04-2025T14:13:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/MystayReservation/android.widget.Button - Add Reservation"), 0): Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Add Reservation'
+
+28-04-2025T14:13:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:13:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/MystayReservation/android.widget.Button - Add Reservation'
+
+28-04-2025T14:13:02 - [TEST_STEP][PASSED] - "--- ERROR VERIFICATION ---": null
+
+28-04-2025T14:13:02 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/MystayReservation/android.widget.TextView - Error"), 0): Element 'Object Repository/MystayReservation/android.widget.TextView - Error' is exist
+
+28-04-2025T14:13:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:13:04 - [MESSAGE][PASSED] - Element 'Object Repository/MystayReservation/android.widget.TextView - Error' is exist
+
+28-04-2025T14:13:04 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/MystayReservation/android.widget.TextView - Sorry. Your reservation could not be added. Please try again"), 0): Element 'Object Repository/MystayReservation/android.widget.TextView - Sorry. Your reservation could not be added. Please try again' is exist
+
+28-04-2025T14:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-04-2025T14:13:05 - [MESSAGE][PASSED] - Element 'Object Repository/MystayReservation/android.widget.TextView - Sorry. Your reservation could not be added. Please try again' is exist
+
+28-04-2025T14:13:05 - [TEST_STEP][PASSED] - timestamp = Date().format("yyyyMMdd_HHmmss"): null
+
+28-04-2025T14:13:05 - [TEST_STEP][PASSED] - takeScreenshot("/tmp/reservation_error_" + timestamp + ".png"): Screenshot is taken
+
+28-04-2025T14:13:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|/tmp/reservation_error_20250428_141305.png]]
+
+28-04-2025T14:13:06 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+28-04-2025T14:13:09 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-04-2025T13:35:35 - [TEST_SUITE][FAILED] - Sprint-4: Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at C707_VerifyAccount_Error_InternetAccessCode_Owner_Users.run(C707_VerifyAccount_Error_InternetAccessCode_Owner_Users:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SSN/android.widget.EditText (4) not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[28-04-2025T13:35:35 - [TEST_SUITE][FAILED] - Sprint-4: Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to set text into element
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:34)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:1278)
+	at C707_VerifyAccount_Error_InternetAccessCode_Owner_Users.run(C707_VerifyAccount_Error_InternetAccessCode_Owner_Users:96)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1745827530758.run(TempTestSuite1745827530758.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/SSN/android.widget.EditText (4) not found
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:64)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:52)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:30)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

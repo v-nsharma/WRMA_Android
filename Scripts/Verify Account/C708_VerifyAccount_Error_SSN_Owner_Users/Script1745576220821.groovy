@@ -81,13 +81,15 @@ Mobile.tap(findTestObject('Object Repository/C708/android.widget.TextView - Add 
 Mobile.delay(10)
 
 'Enter the account number into the input field'
-Mobile.setText(findTestObject('Object Repository/C708/android.widget.EditText (3)'), '99929032862', 0)
+Mobile.setText(findTestObject('Object Repository/C708/android.widget.EditText (3)'), '99868581242', 0)
 
 'Pause before proceeding to the next step'
 Mobile.delay(10)
 
 'Tap the "Next" button to proceed to verification method selection'
 Mobile.tap(findTestObject('Object Repository/C708/android.widget.Button - Next (1)'), 0)
+
+Mobile.delay(20)
 
 'Tap on "Social Security Number" option for verification'
 Mobile.tap(findTestObject('Object Repository/C708/android.widget.TextView - Social Security Number'), 0)

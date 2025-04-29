@@ -59,7 +59,7 @@ Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Bu
 Mobile.delay(10)
 
 'Enter reservation number'
-Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (3)'), '18057607', 0)
+Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (3)'), '18250674', 0)
 Mobile.hideKeyboard()
 Mobile.delay(10)
 
@@ -68,7 +68,7 @@ Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Bu
 Mobile.delay(10)
 
 'Enter last name for reservation verification'
-Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (4)'), 'EDWARDS', 0)
+Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (4)'), 'DAGAN', 0)
 Mobile.hideKeyboard()
 Mobile.delay(10)
 

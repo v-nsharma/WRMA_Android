@@ -4371,10 +4371,7 @@ C765_WRMA-342_Homepage_Verification_logged in.run(C765_WRMA-342_Homepage_Verific
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2025-04-25T08:03:37.489923Z</date>
   <millis>1745568217489</millis>
@@ -4493,3 +4490,4 @@ C765_WRMA-342_Homepage_Verification_logged in.run(C765_WRMA-342_Homepage_Verific
   <escapedJava>false</escapedJava>
   <property name="deviceName">Samsung Galaxy S25 Ultra</property>
 </record>
+</log>

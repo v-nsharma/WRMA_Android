@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/Home Page/C753_LoggeOutState_Verification","testCaseId":"Test Cases/Home Page/C753_LoggeOutState_Verification","iterationVariableName":""}
+{"testCaseName":"Test Cases/Home Page/C765_WRMA-342_Homepage_Verification_logged in","testCaseId":"Test Cases/Home Page/C765_WRMA-342_Homepage_Verification_logged in","iterationVariableName":""}
+{"testCaseName":"Test Cases/Home Page/C754_HomepageFunctionality","testCaseId":"Test Cases/Home Page/C754_HomepageFunctionality","iterationVariableName":""}
+{"testCaseName":"Test Cases/Add Account Number/C701_C702_AddAccountNumber_Verify_Incorrect_Account_Number","testCaseId":"Test Cases/Add Account Number/C701_C702_AddAccountNumber_Verify_Incorrect_Account_Number","iterationVariableName":""}
+{"testCaseName":"Test Cases/Add Account Number/C703_AddedAccountNumber_ErrorMessage","testCaseId":"Test Cases/Add Account Number/C703_AddedAccountNumber_ErrorMessage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users","testCaseId":"Test Cases/Verify Account/C707_VerifyAccount_Error_InternetAccessCode_Owner_Users","iterationVariableName":""}
+{"testCaseName":"Test Cases/Verify Account/C708_VerifyAccount_Error_SSN_Owner_Users","testCaseId":"Test Cases/Verify Account/C708_VerifyAccount_Error_SSN_Owner_Users","iterationVariableName":""}
+{"testCaseName":"Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification","testCaseId":"Test Cases/Verify Reservations/WRMA-282_Verify_Reservations_ErrorVerification","iterationVariableName":""}
+{"testCaseName":"Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment","testCaseId":"Test Cases/My Stay And Reservations/WRMA-297_MyStayAndReservations__LatePayment","iterationVariableName":""}
+{"testCaseName":"Test Cases/My Stay And Reservations/C730_MyStayAndReservations_AddVerification","testCaseId":"Test Cases/My Stay And Reservations/C730_MyStayAndReservations_AddVerification","iterationVariableName":""}
+{"testCaseName":"Test Cases/My Stay And Reservations/C741_MyStayAndReservations_ErrorVerification","testCaseId":"Test Cases/My Stay And Reservations/C741_MyStayAndReservations_ErrorVerification","iterationVariableName":""}
