@@ -89,7 +89,7 @@ Mobile.tap(findTestObject('Object Repository/PastStay/android.widget.TextView - 
 'Wait for stay details to load'
 Mobile.delay(10)
 
-'Verify that stay details are displayed correctly'
+'Verify that stay details are displayed correctly, hence ACTIVE STAY is clickable'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/PastStay/android.widget.TextView - Mar 28 - Jun 26, 2025  Hotel Room'), 0)
 
 'Wait before navigating back'
@@ -118,7 +118,7 @@ assert Mobile.verifyElementExist(findTestObject('Object Repository/PastStay/andr
 assert Mobile.verifyElementExist(findTestObject('Object Repository/PastStay/android.widget.TextView - CHECKED-OUT (3)'), 0)
 
 
-'Verify that specific past stay dates are displayed correctly'
+'Verify that specific past stay dates and resort names are displayed correctly'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/PastStay/android.widget.TextView - Mar 25, 2025 - Apr 24, 2025'), 0)
 assert Mobile.verifyElementExist(findTestObject('Object Repository/PastStay/android.widget.TextView - Apr 03, 2025 - Apr 20, 2025'), 0)
 assert Mobile.verifyElementExist(findTestObject('Object Repository/PastStay/android.widget.TextView - Apr 09, 2025 - Apr 22, 2025'), 0)

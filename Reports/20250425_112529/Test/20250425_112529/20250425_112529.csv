@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Test,,,,25-04-2025 11:25:34,25-04-2025 11:25:34,0.286s,FAILED
-,,,,,,,
-Test Cases/App Installation And Launching/C657_C658_AppInstallationAndLaunching,,"C657-App Launch
-C658-Verify that the Intro Page opens correctly",,25-04-2025 11:25:34,25-04-2025 11:25:34,0.012s,FAILED
-"startApplication(appUrl, true)",,Launch the application on the physical device,,25-04-2025 11:25:34,25-04-2025 11:25:34,0.002s,FAILED

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Loyalty_QR_Loading</description>
    <name>WRMA-552_Loyalty_QR_Loading</name>
    <tag></tag>
    <comment></comment>
