@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C830-Verify that the Loyalty barcode is displayed under Top Nav Bar when the Loyalty program is enrolled
+C833-Verify that the Loyalty QR code page is opened correctly through the barcode
+C838-Verify that the Waterpark QR code page is opened correctly through the barcode
+</description>
+   <name>C830_C833_C838_LoyaltyQR_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33144db8-e68e-4eff-88fd-7c36c1dfd0f8</testCaseGuid>
+</TestCaseEntity>
