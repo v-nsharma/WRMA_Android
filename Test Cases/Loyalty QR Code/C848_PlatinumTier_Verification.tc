@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C848-Verify that the Platinum Loyalty tier shows correctly color and text
+</description>
+   <name>C848_PlatinumTier_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>196ea69f-6c6e-46c7-8c42-d99ada774b78</testCaseGuid>
+</TestCaseEntity>

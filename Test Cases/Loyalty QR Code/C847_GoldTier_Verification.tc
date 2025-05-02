@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C847-Verify that the Gold Loyalty tier shows correctly color and text
+</description>
+   <name>C847_GoldTier_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc7856a4-ebf0-44f6-a3a8-80808d7027f8</testCaseGuid>
+</TestCaseEntity>

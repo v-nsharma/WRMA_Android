@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C828-Verify that the WOW Loyalty Program banner is displayed under Top Nav Bar when the Loyalty program is enrolled
+C846-Verify that the Silver Loyalty tier shows correctly color and text
+</description>
+   <name>C828_C846_SilverTierVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea90d588-e563-4489-85d7-35612eb5247a</testCaseGuid>
+</TestCaseEntity>

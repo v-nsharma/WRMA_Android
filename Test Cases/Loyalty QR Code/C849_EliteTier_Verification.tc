@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C849-Verify that the Elite Loyalty tier shows correctly color and text
+</description>
+   <name>C849_EliteTier_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a9b4c2a-3d33-4978-8f9f-c6653edb8452</testCaseGuid>
+</TestCaseEntity>
