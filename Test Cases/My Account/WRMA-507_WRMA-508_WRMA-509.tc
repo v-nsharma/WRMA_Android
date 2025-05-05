@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>WRMA-507-My Account_Owner Contact Information_Edit Address and phone number_Country&#xd;
+WRMA-508-My Account_Owner Contact Information_Edit Address and phone number_State&#xd;
+WRMA-509-My Account_Owner Contact Information_Edit Address and phone number_Country/Region.</description>
+   <name>WRMA-507_WRMA-508_WRMA-509</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0a06bfc9-bd33-4449-a16b-d52166dd0b01</testCaseGuid>
+</TestCaseEntity>

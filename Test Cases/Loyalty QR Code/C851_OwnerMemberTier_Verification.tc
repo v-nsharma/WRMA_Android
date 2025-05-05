@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C851-Verify that the Owner Member tier shows correctly color and text</description>
+   <name>C851_OwnerMemberTier_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8689c9e1-26a9-46ab-9e5e-7fec90488c3a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C850-Verify that the VOA Loyalty tier shows correctly color and text</description>
+   <name>C850_VOATier_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5587888f-7893-4f30-b7e7-e2ee3d15b90a</testCaseGuid>
+</TestCaseEntity>

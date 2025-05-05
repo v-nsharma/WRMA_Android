@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test</name>
+   <name>Sprint-1 Report</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,31 +12,24 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>93351c82-78e7-4c35-94b4-f88c8d5bf25c</testSuiteGuid>
    <testCaseLink>
-      <guid>8e660865-8a0d-4a14-9c4e-6a5eaff5f2ac</guid>
+      <guid>289c8453-afb3-49a0-b20c-5e14fe14c97f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test-Cloud/C657_C658_AppInstallationAndLaunching</testCaseId>
+      <testCaseId>Test Cases/App Installation And Launching/C657_C658_AppInstallationAndLaunching</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>75a5406d-fb05-4573-98aa-ec77fda7291d</guid>
+      <guid>a9fbf3fe-d97a-4670-b52d-eb9fbf2fc015</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test-Cloud/C738_C666_C719_GuestUserMode_BottomNavBar_SettingsMenu_AppVersion</testCaseId>
+      <testCaseId>Test Cases/Guest User Mode/C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f4932e7f-36d2-4b29-b230-2d8558aa2b61</guid>
+      <guid>b363dfd5-ff10-4158-aeb6-470cdb8c8b11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Test-Cloud/C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9b375ec6-4d89-4c13-b5bf-1820cf430279</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test-Cloud/C764_C739_C793_GuestUserMode_OAM_BottomNavBar_ThingsToDo</testCaseId>
+      <testCaseId>Test Cases/Login Owner OR Renter/C735_C736_LoginOwnerOrRenter_TermsAndConditions_PrivacyPolicy</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

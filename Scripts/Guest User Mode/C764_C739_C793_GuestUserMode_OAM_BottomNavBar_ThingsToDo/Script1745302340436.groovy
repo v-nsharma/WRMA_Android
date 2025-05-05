@@ -22,8 +22,6 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 'Launch the application'
 Mobile.startApplication(GlobalVariable.appUrl, true)
-//Mobile.startApplication('8be092e2-8aba-45d4-a086-ad912593f36c', true)
-
 
 'Retrieve test data from the "C699" data file'
 TestData testData = findTestData('Data Files/WRMA-107')

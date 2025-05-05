@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C845-Verify that the Member Loyalty tier shows correctly color and text</description>
+   <name>C845_MemberTier_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57cee558-3096-4571-bf31-0bf90064b095</testCaseGuid>
+</TestCaseEntity>

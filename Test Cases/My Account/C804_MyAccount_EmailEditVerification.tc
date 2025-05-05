@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C804-Verify that the email address is editable</description>
+   <name>C804_MyAccount_EmailEditVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fc9b77e-7a71-41cb-8dd0-290209eb0cf9</testCaseGuid>
+</TestCaseEntity>

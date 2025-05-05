@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C840-Verify that the President's Club QR code page is opened correctly through the barcode
+C855-Verify that the President's Club QR code page is opened correctly through the barcode
+</description>
+   <name>C840_C855_PresidentClub_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1cfa89cf-2f23-478d-aaf0-1863ac5347e3</testCaseGuid>
+</TestCaseEntity>
