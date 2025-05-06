@@ -38,6 +38,9 @@ Mobile.hideKeyboard()
 'Wait before proceeding'
 Mobile.delay(10)
 
+
+
+
 'Tap the "Next" button'
 Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.Button - Next'), 0)
 
