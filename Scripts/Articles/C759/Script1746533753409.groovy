@@ -74,53 +74,66 @@ Mobile.tap(findTestObject('Object Repository/EditVerify/android.widget.Button - 
 'Wait for login to complete'
 Mobile.delay(20)
 
-'Tap on "My Account" section'
-Mobile.tap(findTestObject('Object Repository/EditVerify/android.view.View - My Account'), 0)
+'Swipe horizontally to view article'
+Mobile.swipe(900, 500, 100, 500)
 
-'Wait for "My Account" screen to load'
-Mobile.delay(20)
+'Wait after swipe'
+Mobile.delay(15)
 
-'Tap on profile view'
-Mobile.tap(findTestObject('Object Repository/EditVerify/android.view.View'), 0)
+'Tap on article titled "How to Cook in a Hotel Room and Save Money Updated 2025"'
+Mobile.tap(findTestObject('Object Repository/Article/android.widget.TextView - How to Cook in a Hotel Room and Save Money Updated 2025'), 0)
 
-'Wait after opening profile view'
-Mobile.delay(10)
+'Wait for article details to load'
+Mobile.delay(5)
 
-'Tap on "Owner Contact Information" button'
-Mobile.tap(findTestObject('Object Repository/EditVerify/android.widget.Button - Owner Contact Information'), 0)
+'Verify article title exists on detail screen'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/Article/android.widget.TextView - How to Cook in a Hotel Room and Save Money Updated 2025 (1)'), 0)
 
-'Wait for contact information screen to load'
-Mobile.delay(10)
+'Get screen dimensions for swipe gestures'
+int screenHeight = Mobile.getDeviceHeight()
+int screenWidth = Mobile.getDeviceWidth()
 
-'Tap on "Edit Email" option'
-Mobile.tap(findTestObject('Object Repository/emailedit/android.widget.TextView - Edit Email'), 0)
+'Set swipe coordinates for vertical swipe'
+int swipeStartX = screenWidth / 2
+int swipeStartY = screenHeight * 3 / 4
+int swipeEndX = swipeStartX
+int swipeEndY = screenHeight / 4
 
-'Wait after tapping edit'
-Mobile.delay(10)
+'Swipe up 3 times to scroll through article content'
+for (int i = 0; i < 3; i++) {
+	Mobile.swipe(swipeStartX, swipeStartY, swipeEndX, swipeEndY)
+	Mobile.delay(1)
+}
 
-'Tap on "Reset" button'
-Mobile.tap(findTestObject('Object Repository/emailedit/android.widget.Button - reset'), 0)
+'Tap on share icon'
+Mobile.tap(findTestObject('Object Repository/Article/android.widget.Image'), 0)
 
-'Wait after reset'
-Mobile.delay(10)
+'Wait for share options to appear'
+Mobile.delay(5)
 
-'Verify error message for invalid email format is displayed'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/emailedit/android.widget.TextView -  Invalid Email format'), 0)
+'Verify "Quick Share" option exists'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/Article/android.widget.TextView - Quick Share'), 0)
 
-'Enter valid email address'
-Mobile.setText(findTestObject('Object Repository/emailedit/android.widget.EditText'), 'hello91@yopmail.com', 0)
+'Verify "Chrome" option exists'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/Article/android.widget.TextView - Chrome'), 0)
 
-'Wait after entering new email'
-Mobile.delay(10)
+'Verify "Messages" option exists'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/Article/android.widget.TextView - Messages'), 0)
 
-'Tap on "Save" button'
-Mobile.tap(findTestObject('Object Repository/emailedit/android.widget.Button - Save'), 0)
+'Verify "Bluetooth" option exists'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/Article/android.widget.TextView - Bluetooth'), 0)
 
-'Wait for email update to complete'
-Mobile.delay(20)
+'Verify "Save" option exists'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/Article/android.widget.TextView - Save'), 0)
 
-'Verify that the new email address is displayed'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/emailedit/android.widget.TextView - hello91yopmail.com'), 0)
+'Tap on background (ScrollView) to dismiss share popup'
+Mobile.tap(findTestObject('Object Repository/Article/android.widget.ScrollView'), 0)
+
+'Wait after dismissing popup'
+Mobile.delay(5)
+
+'Tap on "Back" button to exit article'
+Mobile.tap(findTestObject('Object Repository/Article/android.widget.Button - back'), 0)
 
 'Close the application'
 Mobile.closeApplication()

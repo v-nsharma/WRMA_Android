@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C759-Verify that any article details page meets all requirements
+</description>
+   <name>C759</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87c1edf8-de86-49c9-8cc0-fbcd34f1b008</testCaseGuid>
+</TestCaseEntity>
