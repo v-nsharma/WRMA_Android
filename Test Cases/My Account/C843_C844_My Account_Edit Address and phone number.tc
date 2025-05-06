@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>C843_C844_My Account_Edit Address and phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6891c43e-09e2-4034-9dc4-ef0f093c9007</testCaseGuid>
+</TestCaseEntity>

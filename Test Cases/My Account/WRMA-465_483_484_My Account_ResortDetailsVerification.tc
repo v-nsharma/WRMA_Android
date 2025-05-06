@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>WRMA-465_My Account_View Account Details_Resort information
+WRMA-483_My Account_View Account Details_ Usage Availability
+WRMA-484_My Account_Account Documents</description>
+   <name>WRMA-465_483_484_My Account_ResortDetailsVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea91afdc-78b5-424d-af86-164bb35151c7</testCaseGuid>
+</TestCaseEntity>
