@@ -100,7 +100,7 @@ int swipeEndX = swipeStartX
 int swipeEndY = screenHeight / 4
 
 'Swipe up 3 times to scroll through article content'
-for (int i = 0; i < 3; i++) {
+for (int i = 0; i < 6; i++) {
 	Mobile.swipe(swipeStartX, swipeStartY, swipeEndX, swipeEndY)
 	Mobile.delay(1)
 }

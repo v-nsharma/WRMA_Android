@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C722-Verify that the user is logged out successfully
+</description>
+   <name>C722_LogoutVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a037737-75b0-43ee-bb74-7ec96e19c489</testCaseGuid>
+</TestCaseEntity>

@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>C759-Verify that any article details page meets all requirements
 </description>
-   <name>C759</name>
+   <name>C759_Articles</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

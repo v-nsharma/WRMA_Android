@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C670-Verify that the user can sign up using a previously deleted user account
+</description>
+   <name>C670_DeletedAccount_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5f2f714e-84ab-42b4-a30a-93108624f05d</testCaseGuid>
+</TestCaseEntity>
