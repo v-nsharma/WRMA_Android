@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C715-Verify that the appropriate Modal Stack with the error message is displayed during adding a reservations
+C716-Verify that the appropriate Modal Stack with the error message is displayed after clicking on the Retry button 3 times
+</description>
+   <name>C715_C716_ErrorMessage_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>032eca2a-6d6e-4d75-8a63-22c8589f4f23</testCaseGuid>
+</TestCaseEntity>
