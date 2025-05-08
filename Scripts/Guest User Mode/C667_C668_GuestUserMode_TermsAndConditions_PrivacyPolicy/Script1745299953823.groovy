@@ -26,67 +26,8 @@ import com.kms.katalon.core.util.KeywordUtil
 
 'Launch the application on the physical device'
 Mobile.startApplication(GlobalVariable.appUrl, true)
-//Mobile.startApplication('8be092e2-8aba-45d4-a086-ad912593f36c', true)
-
 
 Mobile.delay(10)
-
-//'Wait for 3 seconds for the app to load'
-//Mobile.delay(10)
-//
-//'Verify the text "You are Moments Away From Customized Vacation Experiences" is present'
-//Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences'),
-//	0)
-//
-//'Wait for 3 seconds'
-//Mobile.delay(3)
-//
-//'Get the text "You are Moments Away From Customized Vacation Experiences" and print it'
-//String text = Mobile.getText(findTestObject('Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences'),
-//	0)
-//
-//println('Text: ' + text)
-//
-//'Wait for 3 seconds'
-//Mobile.delay(3)
-//
-//'Verify the "Login or Sign Up" button is present'
-//Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.widget.Button - Login or Sign Up'), 0)
-//
-//'Wait for 3 seconds'
-//Mobile.delay(3)
-//
-//'Verify the bottom navigation bar "Home" is present'
-//Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.view.View - Home'), 0)
-//
-//'Wait for 3 seconds'
-//Mobile.delay(3)
-//
-//'Verify the bottom navigation bar "My Account" is present'
-//Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.view.View - My Account'), 0)
-//
-//'Wait for 3 seconds'
-//Mobile.delay(3)
-//
-//'Tap on the non-clickable text "Vacation More. Get More"'
-//Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TextView - Vacation More. Get More'), 0)
-//
-//'Wait for 3 seconds'
-//Mobile.delay(3)
-//
-//'Verify that tapping on "Vacation More. Get More" does not redirect to the next page'
-//Mobile.verifyElementVisible(findTestObject('Object Repository/Repo/android.widget.TextView - Vacation More. Get More'),
-//	0)
-//
-//'Wait for 3 seconds'
-//Mobile.delay(3)
-//
-//'Verify the text "Explore Westgate Loyalty" is visible'
-//Mobile.verifyElementVisible(findTestObject('Object Repository/Repo/android.widget.TextView - Explore Westgate Loyalty'),
-//	0)
-//
-//'Wait for 3 seconds'
-//Mobile.delay(3)
 
 'Tap on the clickable text "Continue as a Guest"'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TextView - Continue as a Guest'), 0)
