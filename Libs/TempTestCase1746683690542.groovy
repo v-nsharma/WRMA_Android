@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/Test Cases/Verify Reservations/C715_C716_ErrorMessage_Verification/20250508_085648/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/Test Cases/C752_SeeAll_Verification/20250508_112450/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Verify Reservations/C715_C716_ErrorMessage_Verification', new TestCaseBinding('Test Cases/Verify Reservations/C715_C716_ErrorMessage_Verification',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/C752_SeeAll_Verification', new TestCaseBinding('Test Cases/C752_SeeAll_Verification',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

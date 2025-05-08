@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Launch the application with a fresh install using the provided APK'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.82.apk', true)
+'Start the application and reset app state'
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.86.apk', true)
 
 'Wait for the app to load'
 Mobile.delay(10)
@@ -74,41 +74,66 @@ Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.Button - 
 'Wait for user dashboard/home screen to load'
 Mobile.delay(20)
 
-'Tap on the "My Stay" section to view booking'
-Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.view.View - My Stay'), 0)
+'Tap on the "My Stay" section'
+Mobile.tap(findTestObject('Object Repository/Resort/android.view.View - My Stay'), 0)
 
-'Wait for stay summary to load'
-Mobile.delay(20)
-
-'Tap "View Stay Details" to expand stay information'
-Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.TextView - View Stay Details'), 0)
-
-'Wait for stay details screen'
+'Wait before tapping on stay details'
 Mobile.delay(10)
 
-'Verify room number is displayed'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/LoyaltyWeb/android.widget.TextView - 57F'), 0)
+'Verify "My Stay" label is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.TextView - My Stay'), 0)
 
-'Verify resort name is displayed'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/LoyaltyWeb/android.widget.TextView - Wild Bear Inn'), 0)
+'Verify "Current" button is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.Button - Current'), 0)
 
-'Verify resort address is visible'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/LoyaltyWeb/android.widget.TextView - 4236 ParkwayPigeon Forge, TN 37863'), 0)
+'Verify "Past Stays" button is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.Button - Past Stays'), 0)
 
-'Verify general View element is present'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/LoyaltyWeb/android.view.View'), 0)
+'Verify "ACTIVE STAYS" label is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.TextView - ACTIVE STAYS'), 0)
 
-'Scroll until the word "online" is found'
-Mobile.scrollToText('online')
+'Verify "UPCOMING STAYS" label is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.TextView - UPCOMING STAYS'), 0)
 
-'Tap the "MANAGE ONLINE" button to access account settings'
-Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.Button - MANAGE ONLINE'), 0)
+'Verify "SEE ALL" text is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.TextView - SEE ALL'), 0)
 
-'Wait for the online management screen to load'
-Mobile.delay(40)
+'Tap "SEE ALL" to view all reservations'
+Mobile.tap(findTestObject('Object Repository/SeeAll/android.widget.TextView - SEE ALL'), 0)
 
-'Verify that the online account management title is displayed'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/LoyaltyWeb/android.widget.TextView - WESTGATE Online Account Management'), 0)
+'Wait for the list of reservations to load'
+Mobile.delay(10)
+
+'Verify Westgate Cocoa Beach Resort is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.TextView - Westgate Cocoa Beach Resort'), 0)
+
+'Verify reservation date range is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.TextView - May 13, 2025 - May 17, 2025'), 0)
+
+'Verify Westgate Myrtle Beach Oceanfront Resort is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.TextView - Westgate Myrtle Beach Oceanfront Resort'), 0)
+
+'Verify Westgate Lakes Resort & Spa is displayed'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.TextView - Westgate Lakes Resort  Spa'), 0)
+
+'Get screen dimensions for swipe gestures'
+int screenHeight = Mobile.getDeviceHeight()
+int screenWidth = Mobile.getDeviceWidth()
+
+'Set swipe coordinates for vertical swipe'
+int swipeStartX = screenWidth / 2
+int swipeStartY = screenHeight * 3 / 4
+int swipeEndX = swipeStartX
+int swipeEndY = screenHeight / 4
+
+'Swipe up to reveal more resorts'
+for (int i = 0; i < 5; i++) {
+	Mobile.swipe(swipeStartX, swipeStartY, swipeEndX, swipeEndY)
+	Mobile.delay(1)
+}
+
+'Verify Westgate Blue Tree Resort is displayed after scrolling'
+assert Mobile.verifyElementExist(findTestObject('Object Repository/SeeAll/android.widget.TextView - Westgate Blue Tree Resort'), 0)
 
 'Close the application'
 Mobile.closeApplication()

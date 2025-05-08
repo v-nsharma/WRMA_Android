@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WRMA-62_NextButtonClickable</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>36bd2c42-7b89-471c-91d9-85ac59dd7905</testCaseGuid>
+</TestCaseEntity>
