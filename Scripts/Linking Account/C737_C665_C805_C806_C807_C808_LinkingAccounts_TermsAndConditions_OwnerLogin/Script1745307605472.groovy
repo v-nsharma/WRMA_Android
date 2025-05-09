@@ -176,9 +176,6 @@ try {
         'Log failure to tap Done button'
         println("Failed to tap Done button: " + e.getMessage())
         
-//        'Take screenshot for debugging purposes'
-//        Mobile.takeScreenshot()
-        
         'Fail test with descriptive message'
         assert false : "Failed to tap Done button"
     }

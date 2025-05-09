@@ -80,9 +80,5 @@ Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Bu
 assert Mobile.verifyElementExist(findTestObject('Object Repository/MystayReservation/android.widget.TextView - Error'), 0)
 assert Mobile.verifyElementExist(findTestObject('Object Repository/MystayReservation/android.widget.TextView - Sorry. Your reservation could not be added. Please try again'), 0)
 
-'Capture screenshot for documentation'
-def timestamp = new Date().format('yyyyMMdd_HHmmss')
-Mobile.takeScreenshot('/tmp/reservation_error_' + timestamp + '.png')
-
 'Close application'
 Mobile.closeApplication()

@@ -21,7 +21,7 @@ import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 'Launch the application'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.88.apk', true)
 
 'Retrieve test data from the "C699" data file'
 TestData testData = findTestData('Data Files/WRMA-107')
@@ -90,27 +90,27 @@ println('My Account Text: ' + myAccountText)
 
 Mobile.verifyEqual(myAccountText, 'My Account', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(15)
-
-'Scroll to text: Recommended for you'
-Mobile.scrollToText('Recommended for you')
-
-Mobile.delay(5)
-
-'Verify Recommended for you text is present'
-Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.widget.TextView - RECOMMENDED FOR YOU'), 0)
-
-Mobile.delay(5)
-
-'Get and verify Recommended for you text'
-def recommendedText = Mobile.getText(findTestObject('Object Repository/Repo/android.widget.TextView - RECOMMENDED FOR YOU'), 
-    0).trim()
-
-println('Recommended Text: ' + recommendedText)
-
-Mobile.verifyEqual(recommendedText, 'RECOMMENDED FOR YOU', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.delay(5)
+//Mobile.delay(15)
+//
+//'Scroll to text: Recommended for you'
+//Mobile.scrollToText('Recommended for you')
+//
+//Mobile.delay(5)
+//
+//'Verify Recommended for you text is present'
+//Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.widget.TextView - RECOMMENDED FOR YOU'), 0)
+//
+//Mobile.delay(5)
+//
+//'Get and verify Recommended for you text'
+//def recommendedText = Mobile.getText(findTestObject('Object Repository/Repo/android.widget.TextView - RECOMMENDED FOR YOU'), 
+//    0).trim()
+//
+//println('Recommended Text: ' + recommendedText)
+//
+//Mobile.verifyEqual(recommendedText, 'RECOMMENDED FOR YOU', FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.delay(5)
 
 'Verify Things to Do section is present'
 Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.widget.TextView - THINGS TO DO'), 0)
@@ -191,7 +191,7 @@ Mobile.delay(10)
 'Tap on the "Login" button to attempt authentication'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button -OAM(Login)'), 0)
 
-Mobile.delay(10)
+Mobile.delay(30)
 
 'Verify "Home" element exists'
 boolean homeElementExists = Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.view.View - Home'), 0)

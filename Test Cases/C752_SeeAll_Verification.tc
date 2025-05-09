@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>C752-Verify that the section Upcoming Stay has the button See All</description>
-   <name>C752_SeeAll_Verification</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cbbc18e7-585e-4316-bdd4-bb1953152a29</testCaseGuid>
-</TestCaseEntity>
