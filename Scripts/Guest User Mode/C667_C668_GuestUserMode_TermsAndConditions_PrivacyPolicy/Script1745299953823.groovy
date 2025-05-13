@@ -33,12 +33,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TextView - Continue as a Guest'), 0)
 
 'Wait for 10 seconds'
-Mobile.delay(10) 
-
-
-
-
-
+Mobile.delay(10)
 
 'Tap on the menu button'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - menu'), 0)

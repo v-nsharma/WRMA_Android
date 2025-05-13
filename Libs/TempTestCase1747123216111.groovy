@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/Test Cases/Guest User Mode/C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy/20250513_012109/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/Test Cases/Add Payment Method/C792_C797_C798_CreditAccountCreation_ErrorValidation/20250513_133016/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Guest User Mode/C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy', new TestCaseBinding('Test Cases/Guest User Mode/C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Add Payment Method/C792_C797_C798_CreditAccountCreation_ErrorValidation', new TestCaseBinding('Test Cases/Add Payment Method/C792_C797_C798_CreditAccountCreation_ErrorValidation',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C857-Verify that the error message is displayed when attempting to add a Credit/Debit account with a nickname that already exists</description>
+   <name>C857_NickNameError_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0112fcc4-b76b-4ea3-9939-f948dfcfe6b8</testCaseGuid>
+</TestCaseEntity>

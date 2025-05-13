@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C796-Verify that the Saving account is added successfully</description>
+   <name>C796_SavingAccount_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>302b6525-c0cb-4870-b026-e56e857c0ca1</testCaseGuid>
+</TestCaseEntity>

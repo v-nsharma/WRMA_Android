@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C792-Verify that the Credit/Debit account is added successfully
+C798-Verify that the correct inline error message appears when the data are entered in the day field
+C797-Verify that the correct inline error message appears when the data are entered in the month field
+</description>
+   <name>C792_C797_C798_CreditAccountCreation_ErrorValidation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>457dab38-b69c-4d15-9629-eff75b362449</testCaseGuid>
+</TestCaseEntity>

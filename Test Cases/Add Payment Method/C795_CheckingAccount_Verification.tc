@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C795-Verify that the Checking account is added successfully</description>
+   <name>C795_CheckingAccount_Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>199bacfa-dcd3-4244-a25a-04964b6f7eea</testCaseGuid>
+</TestCaseEntity>
