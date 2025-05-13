@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>WRMA-481_My Account_Payment Wallet_Credit Card</description>
+   <name>WRMA-481_PaymentWallet_Validation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5576c48-fc83-4ce8-b9b6-2a7304fdb914</testCaseGuid>
+</TestCaseEntity>
