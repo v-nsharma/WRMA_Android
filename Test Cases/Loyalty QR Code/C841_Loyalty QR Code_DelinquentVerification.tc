@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C841-Verify that the Loyalty QR code Delinquent page is opened correctly through the barcode </description>
+   <name>C841_Loyalty QR Code_DelinquentVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>85608b1a-64f6-46d3-95cf-d62c5484ef1e</testCaseGuid>
+</TestCaseEntity>

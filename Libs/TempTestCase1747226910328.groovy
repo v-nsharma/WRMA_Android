@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/Test Cases/Add Payment Method/WRMA-481/20250513_182300/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/Test Cases/New Test Case/20250514_181830/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Add Payment Method/WRMA-481', new TestCaseBinding('Test Cases/Add Payment Method/WRMA-481',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/New Test Case', new TestCaseBinding('Test Cases/New Test Case',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
