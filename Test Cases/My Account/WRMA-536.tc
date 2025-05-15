@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>New Test Case</name>
+   <description>WRMA-536-My Account_Account Details_Mortgage Past Due section_Pay Now</description>
+   <name>WRMA-536</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
