@@ -174,8 +174,10 @@
 [38;5;229m[043e0614][0m[38;5;-178m[AndroidUiautomator2Driver@800a][0m Replacing sessionId d5324dc1-fb10-4abb-8c1f-3e97d560b980 with 043e0614-2027-4391-9b87-18c4294cac4b
 [38;5;229m[043e0614][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/043e0614-2027-4391-9b87-18c4294cac4b/source 200 19 ms - 30274 
 [38;5;229m[043e0614][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/043e0614-2027-4391-9b87-18c4294cac4b/screenshot[39m {}
-[38;5;229m[043e0614][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/043e0614-2027-4391-9b87-18c4294cac4b/screenshot 200 372 ms - 1828088 
-[38;5;229m[043e0614][0m[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/043e0614-2027-4391-9b87-18c4294cac4b/window/rect[39m {}
+[38;5;[38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 2ms
+m-->[39m [37mGET[39m [37m/wd/hub/session/043e0614-2027-4391-9b87-18c4294cac4b/window/rect[39m {}
 [38;5;229m[043e0614][0m[38;5;86m[HTTP][0m <-- GET /wd/hub/session/043e0614-2027-4391-9b87-18c4294cac4b/window/rect 200 11 ms - 50 
 [38;5;229m[043e0614][0m[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/043e0614-2027-4391-9b87-18c4294cac4b/elements[39m {"value":"//*[@class = 'android.widget.EditText' and @resource-id = 'ion-input-2' and (@text = '' or . = '')]","using":"xpath"}
 [38;5;229m[043e0614][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session/043e0614-2027-4391-9b87-18c4294cac4b/elements 200 54 ms - 139 

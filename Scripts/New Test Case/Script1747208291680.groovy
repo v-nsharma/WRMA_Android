@@ -25,17 +25,17 @@ Mobile.setText(findTestObject('Object Repository/WRMA536/android.widget.EditText
 
 Mobile.tap(findTestObject('Object Repository/WRMA536/android.view.View - My Account'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.view.View'), 0)
+assert Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.view.View'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.widget.TextView - Mortgage Payment is Past Due'), 
+assert Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.widget.TextView - Mortgage Payment is Past Due'), 
     0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.widget.TextView - Westgate Vacation Villas Resort'), 
+assert Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.widget.TextView - Westgate Vacation Villas Resort'), 
     0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.widget.TextView - Amount Due 16371.8'), 0)
+assert Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.widget.TextView - Amount Due 16371.8'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.widget.TextView - Pay Now'), 0)
+assert Mobile.verifyElementExist(findTestObject('Object Repository/WRMA536/android.widget.TextView - Pay Now'), 0)
 
 Mobile.closeApplication()
 
