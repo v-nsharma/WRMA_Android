@@ -200,3 +200,6 @@
 [38;5;109m[22258963][0m[38;5;-4m[AndroidUiautomator2Driver@36d6][0m Unable to remove system port forward: Could not find a connected Android device in 20000ms
 [38;5;109m[22258963][0m[38;5;-4m[AndroidUiautomator2Driver@36d6][0m Restoring hidden api policy to the device default configuration
 [38;5;109m[22258963][0m[38;5;229m[ADB][0m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy
+                                                                                                                                                                                                                                                                                                                                 [38;5;112m[Appium][0m Received SIGTERM - shutting down
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been succesfully closed after 1ms

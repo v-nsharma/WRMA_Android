@@ -35,6 +35,7 @@ Mobile.setText(findTestObject('Object Repository/Loyalty/android.widget.EditText
 'Hide the keyboard'
 Mobile.hideKeyboard()
 
+
 'Wait for any UI transitions or loading'
 Mobile.delay(10)
 
