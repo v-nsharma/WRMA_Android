@@ -25,7 +25,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.util.KeywordUtil
 
 'Launch the application on the physical device'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk', true)
 
 Mobile.delay(10)
 

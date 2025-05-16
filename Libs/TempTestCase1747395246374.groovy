@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/Test Cases/Loyalty QR Code/C828_C846_SilverTierVerification/20250516_102930/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/20250516_170406/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Loyalty QR Code/C828_C846_SilverTierVerification', new TestCaseBinding('Test Cases/Loyalty QR Code/C828_C846_SilverTierVerification',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('', new TestCaseBinding('',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

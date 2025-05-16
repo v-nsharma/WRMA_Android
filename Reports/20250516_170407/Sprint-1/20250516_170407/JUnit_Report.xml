@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sprint-1" time="404.026" tests="3" failures="0" errors="0">
+   <testsuite name="Sprint-1" tests="3" failures="0" errors="0" time="404.026" skipped="0" timestamp="16-05-2025T17:04:11" hostname="**********" id="Test Suites/Sprint-1">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone16k_arm64 - Android 15)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407"/>
+         <property name="logFiles" value="/Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407/execution0.log, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407/appium_error.log, /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="**********"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.17.1"/>
+         <property name="deviceModel" value="sdk_gphone16k_arm64"/>
+         <property name="hostAddress" value="**********"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone16k_arm64 - Android 15)"/>
+         <property name="deviceOSVersion" value="15"/>
+      </properties>
+      <testcase name="Test Cases/App Installation And Launching/C657_C658_AppInstallationAndLaunching" time="41.103" classname="Test Cases/App Installation And Launching/C657_C658_AppInstallationAndLaunching" status="PASSED">
+         <system-out><![CDATA[16-05-2025T17:04:11 - [TEST_CASE][PASSED] - Test Cases/App Installation And Launching/C657_C658_AppInstallationAndLaunching: Test Cases/App Installation And Launching/C657_C658_AppInstallationAndLaunching
+
+16-05-2025T17:04:11 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk'
+
+16-05-2025T17:04:11 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk'
+
+16-05-2025T17:04:11 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+16-05-2025T17:04:11 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+16-05-2025T17:04:11 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.10.0_1/bin/node"
+
+16-05-2025T17:04:11 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+16-05-2025T17:04:11 - [MESSAGE][INFO] - APPIUM_HOME: /Users/gv.vignesh/.appium
+
+16-05-2025T17:04:11 - [MESSAGE][INFO] - appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407/appium.log
+
+16-05-2025T17:04:11 - [MESSAGE][INFO] - appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407/appium_error.log
+
+16-05-2025T17:04:12 - [MESSAGE][INFO] - Appium server started on port 64,050
+
+16-05-2025T17:04:18 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk'
+
+16-05-2025T17:04:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:04:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:04:28 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences"), 0): Element 'Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences' is exist
+
+16-05-2025T17:04:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:04:29 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences' is exist
+
+16-05-2025T17:04:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-05-2025T17:04:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-05-2025T17:04:32 - [TEST_STEP][PASSED] - text = getText(findTestObject("Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences"), 0): Text of element 'Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences' is: 'You’re Moments Away From
+Customized Vacation Experiences.'
+
+16-05-2025T17:04:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:04:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences' is: 'You’re Moments Away From
+Customized Vacation Experiences.'
+
+16-05-2025T17:04:32 - [TEST_STEP][PASSED] - println("Text: " + text): null
+
+16-05-2025T17:04:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-05-2025T17:04:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-05-2025T17:04:35 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Repo/android.widget.Button - Login or Sign Up"), 0): Element 'Object Repository/Repo/android.widget.Button - Login or Sign Up' is exist
+
+16-05-2025T17:04:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:04:35 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.widget.Button - Login or Sign Up' is exist
+
+16-05-2025T17:04:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-05-2025T17:04:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-05-2025T17:04:38 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Repo/android.view.View - Home"), 0): Element 'Object Repository/Repo/android.view.View - Home' is exist
+
+16-05-2025T17:04:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:04:38 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.view.View - Home' is exist
+
+16-05-2025T17:04:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-05-2025T17:04:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-05-2025T17:04:41 - [TEST_STEP][PASSED] - assert verifyElementExist(findTestObject("Object Repository/Repo/android.view.View - My Account"), 0): Element 'Object Repository/Repo/android.view.View - My Account' is exist
+
+16-05-2025T17:04:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:04:41 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.view.View - My Account' is exist
+
+16-05-2025T17:04:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-05-2025T17:04:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-05-2025T17:04:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.TextView - Vacation More. Get More"), 0): Tapped on element 'Object Repository/Repo/android.widget.TextView - Vacation More. Get More'
+
+16-05-2025T17:04:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:04:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.TextView - Vacation More. Get More'
+
+16-05-2025T17:04:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-05-2025T17:04:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-05-2025T17:04:47 - [TEST_STEP][PASSED] - assert verifyElementVisible(findTestObject("Object Repository/Repo/android.widget.TextView - Vacation More. Get More"), 0): Element 'Object Repository/Repo/android.widget.TextView - Vacation More. Get More' is visible
+
+16-05-2025T17:04:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:04:47 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.widget.TextView - Vacation More. Get More' is visible
+
+16-05-2025T17:04:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+16-05-2025T17:04:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+16-05-2025T17:04:50 - [TEST_STEP][PASSED] - assert verifyElementVisible(findTestObject("Object Repository/Repo/android.widget.TextView - Explore Westgate Loyalty"), 0): Element 'Object Repository/Repo/android.widget.TextView - Explore Westgate Loyalty' is visible
+
+16-05-2025T17:04:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:04:51 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.widget.TextView - Explore Westgate Loyalty' is visible
+
+16-05-2025T17:04:51 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+16-05-2025T17:04:52 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Guest User Mode/C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy" time="112.946" classname="Test Cases/Guest User Mode/C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy" status="PASSED">
+         <system-out><![CDATA[16-05-2025T17:04:52 - [TEST_CASE][PASSED] - Test Cases/Guest User Mode/C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy: Test Cases/Guest User Mode/C667_C668_GuestUserMode_TermsAndConditions_PrivacyPolicy
+
+16-05-2025T17:04:52 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk'
+
+16-05-2025T17:04:52 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk'
+
+16-05-2025T17:04:52 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+16-05-2025T17:04:52 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+16-05-2025T17:04:52 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.10.0_1/bin/node"
+
+16-05-2025T17:04:52 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+16-05-2025T17:04:52 - [MESSAGE][INFO] - APPIUM_HOME: /Users/gv.vignesh/.appium
+
+16-05-2025T17:04:52 - [MESSAGE][INFO] - appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407/appium.log
+
+16-05-2025T17:04:52 - [MESSAGE][INFO] - appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407/appium_error.log
+
+16-05-2025T17:04:53 - [MESSAGE][INFO] - Appium server started on port 64,248
+
+16-05-2025T17:04:58 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk'
+
+16-05-2025T17:04:58 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:05:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:05:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.TextView - Continue as a Guest"), 0): Tapped on element 'Object Repository/Repo/android.widget.TextView - Continue as a Guest'
+
+16-05-2025T17:05:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:05:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.TextView - Continue as a Guest'
+
+16-05-2025T17:05:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:05:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:05:18 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.Button - menu"), 0): Tapped on element 'Object Repository/Repo/android.widget.Button - menu'
+
+16-05-2025T17:05:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:05:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.Button - menu'
+
+16-05-2025T17:05:18 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+16-05-2025T17:05:48 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+16-05-2025T17:05:48 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu"), 0): Tapped on element 'Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu'
+
+16-05-2025T17:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:05:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu'
+
+16-05-2025T17:05:48 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:05:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:05:58 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Repo/android.view.View-Terms and conditions web"), 30, STOP_ON_FAILURE)): null
+
+16-05-2025T17:05:59 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.view.View-Terms and conditions web' is present
+
+16-05-2025T17:05:59 - [TEST_STEP][PASSED] - println("Element 'android.view.View - Terms & Conditions-Webview' exists."): null
+
+16-05-2025T17:05:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:06:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:06:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.ImageButton-Cancel web"), 0): Tapped on element 'Object Repository/Repo/android.widget.ImageButton-Cancel web'
+
+16-05-2025T17:06:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:06:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.ImageButton-Cancel web'
+
+16-05-2025T17:06:09 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+16-05-2025T17:06:24 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+16-05-2025T17:06:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.Button - menu"), 0): Tapped on element 'Object Repository/Repo/android.widget.Button - menu'
+
+16-05-2025T17:06:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:06:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.Button - menu'
+
+16-05-2025T17:06:25 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+16-05-2025T17:06:40 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+16-05-2025T17:06:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.TextView - Privacy Policy-Menu"), 0): Tapped on element 'Object Repository/Repo/android.widget.TextView - Privacy Policy-Menu'
+
+16-05-2025T17:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:06:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.TextView - Privacy Policy-Menu'
+
+16-05-2025T17:06:40 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Repo/android.widget.TextView - Privacy Policy-web"), 30, STOP_ON_FAILURE)): null
+
+16-05-2025T17:06:43 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.widget.TextView - Privacy Policy-web' is present
+
+16-05-2025T17:06:43 - [TEST_STEP][PASSED] - println("Element 'android.widget.TextView - Privacy Policy-web' exists."): null
+
+16-05-2025T17:06:43 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+16-05-2025T17:06:45 - [MESSAGE][PASSED] - Close app successfully
+
+16-05-2025T17:06:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+16-05-2025T17:06:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Owner OR Renter/C735_C736_LoginOwnerOrRenter_TermsAndConditions_PrivacyPolicy" time="249.922" classname="Test Cases/Login Owner OR Renter/C735_C736_LoginOwnerOrRenter_TermsAndConditions_PrivacyPolicy" status="PASSED">
+         <system-out><![CDATA[16-05-2025T17:06:45 - [TEST_CASE][PASSED] - Test Cases/Login Owner OR Renter/C735_C736_LoginOwnerOrRenter_TermsAndConditions_PrivacyPolicy: Test Cases/Login Owner OR Renter/C735_C736_LoginOwnerOrRenter_TermsAndConditions_PrivacyPolicy
+
+16-05-2025T17:06:45 - [TEST_STEP][PASSED] - testData = findTestData("Data Files/LogiNewUser"): null
+
+16-05-2025T17:06:45 - [TEST_STEP][PASSED] - email = testData.getValue("email", 1): null
+
+16-05-2025T17:06:45 - [TEST_STEP][PASSED] - password = testData.getValue("password", 1): null
+
+16-05-2025T17:06:45 - [TEST_STEP][PASSED] - startApplication("/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk", true): Started application: '/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk'
+
+16-05-2025T17:06:45 - [MESSAGE][INFO] - Starting application: '/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk'
+
+16-05-2025T17:06:45 - [MESSAGE][INFO] - User set preference: ['uiautomator2ServerInstallTimeout', '0']
+
+16-05-2025T17:06:45 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+16-05-2025T17:06:45 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/23.10.0_1/bin/node"
+
+16-05-2025T17:06:45 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+16-05-2025T17:06:45 - [MESSAGE][INFO] - APPIUM_HOME: /Users/gv.vignesh/.appium
+
+16-05-2025T17:06:45 - [MESSAGE][INFO] - appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407/appium.log
+
+16-05-2025T17:06:45 - [MESSAGE][INFO] - appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/Reports/20250516_170407/Sprint-1/20250516_170407/appium_error.log
+
+16-05-2025T17:06:47 - [MESSAGE][INFO] - Appium server started on port 64,735
+
+16-05-2025T17:06:51 - [MESSAGE][PASSED] - Started application: '/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk'
+
+16-05-2025T17:06:51 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:07:01 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:07:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.Button - Login or Sign Up"), 0): Tapped on element 'Object Repository/Repo/android.widget.Button - Login or Sign Up'
+
+16-05-2025T17:07:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:07:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.Button - Login or Sign Up'
+
+16-05-2025T17:07:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:07:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:07:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Repo/android.widget.EditText-LoginorSignUp"), email): Send keys '0525071TM@WG.COM' on test object 'Object Repository/Repo/android.widget.EditText-LoginorSignUp' successfully.
+
+16-05-2025T17:07:12 - [MESSAGE][PASSED] - Send keys '0525071TM@WG.COM' on test object 'Object Repository/Repo/android.widget.EditText-LoginorSignUp' successfully.
+
+16-05-2025T17:07:12 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:07:22 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:07:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.Button - Next"), 0): Tapped on element 'Object Repository/Repo/android.widget.Button - Next'
+
+16-05-2025T17:07:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:07:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.Button - Next'
+
+16-05-2025T17:07:22 - [TEST_STEP][PASSED] - delay(45): Delayed 45 second(s)
+
+16-05-2025T17:08:07 - [MESSAGE][PASSED] - Delayed 45 second(s)
+
+16-05-2025T17:08:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Repo/android.widget.EditText-OAM(Login)"), email, 0): Text '0525071TM@WG.COM' has been set to element 'Object Repository/Repo/android.widget.EditText-OAM(Login)'
+
+16-05-2025T17:08:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:08:07 - [MESSAGE][PASSED] - Text '0525071TM@WG.COM' has been set to element 'Object Repository/Repo/android.widget.EditText-OAM(Login)'
+
+16-05-2025T17:08:07 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+16-05-2025T17:08:08 - [MESSAGE][PASSED] - Keyboard is hidden
+
+16-05-2025T17:08:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:08:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:08:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Repo/android.widget.EditText-OAM(Password)"), password, 0): Text 'password' has been set to element 'Object Repository/Repo/android.widget.EditText-OAM(Password)'
+
+16-05-2025T17:08:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:08:19 - [MESSAGE][PASSED] - Text 'password' has been set to element 'Object Repository/Repo/android.widget.EditText-OAM(Password)'
+
+16-05-2025T17:08:19 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+16-05-2025T17:08:21 - [MESSAGE][PASSED] - Keyboard is hidden
+
+16-05-2025T17:08:21 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+16-05-2025T17:08:31 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+16-05-2025T17:08:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.Button -OAM(Login)"), 0): Tapped on element 'Object Repository/Repo/android.widget.Button -OAM(Login)'
+
+16-05-2025T17:08:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:08:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.Button -OAM(Login)'
+
+16-05-2025T17:08:32 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+16-05-2025T17:08:52 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+16-05-2025T17:08:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.view.View - Home"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Repo/android.view.View - Home'
+
+16-05-2025T17:08:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:08:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.view.View - Home'
+
+16-05-2025T17:08:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+16-05-2025T17:08:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+16-05-2025T17:08:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.Button - menu"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Repo/android.widget.Button - menu'
+
+16-05-2025T17:08:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:08:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.Button - menu'
+
+16-05-2025T17:08:57 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+16-05-2025T17:09:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+16-05-2025T17:09:17 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu"), 10, CONTINUE_ON_FAILURE)): null
+
+16-05-2025T17:09:17 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu' is present
+
+16-05-2025T17:09:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu'
+
+16-05-2025T17:09:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:09:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu'
+
+16-05-2025T17:09:17 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+16-05-2025T17:09:37 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+16-05-2025T17:09:37 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Repo/android.view.View-Terms and conditions web"), 10, CONTINUE_ON_FAILURE)): null
+
+16-05-2025T17:09:37 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.view.View-Terms and conditions web' is present
+
+16-05-2025T17:09:37 - [TEST_STEP][PASSED] - println("Element 'android.view.View - Terms & Conditions-Webview' exists."): null
+
+16-05-2025T17:09:37 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+16-05-2025T17:09:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+16-05-2025T17:09:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.ImageButton-Cancel web"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Repo/android.widget.ImageButton-Cancel web'
+
+16-05-2025T17:09:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:09:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.ImageButton-Cancel web'
+
+16-05-2025T17:09:57 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+16-05-2025T17:10:12 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+16-05-2025T17:10:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.Button - menu"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Repo/android.widget.Button - menu'
+
+16-05-2025T17:10:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:10:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.Button - menu'
+
+16-05-2025T17:10:12 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+16-05-2025T17:10:32 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+16-05-2025T17:10:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Repo/android.widget.TextView - Privacy Policy-Menu"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Repo/android.widget.TextView - Privacy Policy-Menu'
+
+16-05-2025T17:10:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+16-05-2025T17:10:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Repo/android.widget.TextView - Privacy Policy-Menu'
+
+16-05-2025T17:10:33 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+16-05-2025T17:10:53 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+16-05-2025T17:10:53 - [TEST_STEP][PASSED] - if (waitForElementPresent(findTestObject("Object Repository/Repo/android.widget.TextView - Privacy Policy-web"), 20, STOP_ON_FAILURE)): null
+
+16-05-2025T17:10:53 - [MESSAGE][PASSED] - Element 'Object Repository/Repo/android.widget.TextView - Privacy Policy-web' is present
+
+16-05-2025T17:10:53 - [TEST_STEP][PASSED] - println("Element 'android.widget.TextView - Privacy Policy-web' exists."): null
+
+16-05-2025T17:10:53 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+16-05-2025T17:10:55 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[16-05-2025T17:04:11 - [TEST_SUITE][PASSED] - Sprint-1: Test Cases/Login Owner OR Renter/C735_C736_LoginOwnerOrRenter_TermsAndConditions_PrivacyPolicy]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
