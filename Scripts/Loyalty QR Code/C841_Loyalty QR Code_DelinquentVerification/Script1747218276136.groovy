@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.util.KeywordUtil
 
 'Start the application using the specified APK and reset app data'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.93.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait for the app to load'
 Mobile.delay(10)

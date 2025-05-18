@@ -19,7 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch the specified Android application and reset its state.'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.90.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait for 10 seconds to allow the app to load properly.'
 Mobile.delay(10)

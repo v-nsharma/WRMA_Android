@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch application from specified APK path with data clearing enabled'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-Version 2.99.68.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait 10 seconds for app initialization'
 Mobile.delay(10)

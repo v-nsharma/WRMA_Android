@@ -22,7 +22,7 @@ import com.kms.katalon.core.testobject.TestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Launch the application from specified APK path with data clearing'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait 10 seconds for app initialization'
 Mobile.delay(10)

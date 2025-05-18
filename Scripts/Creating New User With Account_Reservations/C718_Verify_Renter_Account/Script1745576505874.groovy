@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch application from specified APK path with data clearing'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug (2.99.69).apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Initiate login/signup process'
 Mobile.tap(findTestObject('Object Repository/LoginFlow/android.widget.Button - Login or Sign Up'), 0)

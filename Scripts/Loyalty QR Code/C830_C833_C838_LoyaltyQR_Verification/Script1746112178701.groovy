@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Start the application with a fresh install'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.81.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait for the app to load'
 Mobile.delay(10)

@@ -21,7 +21,7 @@ import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 'Launch the application'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.88.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Retrieve test data from the "C699" data file'
 TestData testData = findTestData('Data Files/WRMA-107')

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.86.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 Mobile.delay(10)
 

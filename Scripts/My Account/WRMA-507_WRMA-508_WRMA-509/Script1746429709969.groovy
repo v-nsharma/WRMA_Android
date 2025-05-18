@@ -2,7 +2,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 'Start the application from the specified APK file'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait for the app to load'
 Mobile.delay(10)

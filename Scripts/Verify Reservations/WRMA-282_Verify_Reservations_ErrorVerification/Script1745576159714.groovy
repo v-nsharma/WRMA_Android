@@ -20,7 +20,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Start the mobile application from the specified APK file and reinstall if already installed'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug (1).apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait for the application to fully load'
 Mobile.delay(10)

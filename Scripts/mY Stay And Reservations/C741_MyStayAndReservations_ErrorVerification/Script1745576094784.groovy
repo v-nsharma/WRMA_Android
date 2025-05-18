@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch application from specified APK path with data clearing'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-Version-2.99.70.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 Mobile.delay(10)
 
 '--- AUTHENTICATION FLOW ---'

@@ -119,7 +119,7 @@ Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TabWidget-Setti
 Mobile.delay(10)
 
 'Retrieve the actual version displayed in the application'
-String actualVersion = Mobile.getText(findTestObject('Object Repository/testing/android.widget.Button - Version 2.99.75'), 0)
+String actualVersion = Mobile.getText(findTestObject('Object Repository/android.widget.Button - Version 2.99.96'), 0)
 
 'Compare the actual version with the expected version from test data'
 if (actualVersion == expectedVersion) {

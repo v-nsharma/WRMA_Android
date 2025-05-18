@@ -33,7 +33,7 @@ String email = testData.getValue('email', 1)
 String password = testData.getValue('password', 1)
 
 'Launch the mobile application'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-2.99.96.apk', true)
+Mobile.startApplication(GlobalVariable.appUrl, true)
 
 'Wait for 10 seconds to allow the app to load'
 Mobile.delay(10)
