@@ -74,7 +74,7 @@ def homeText = Mobile.getText(findTestObject('Object Repository/Repo/android.vie
 
 println('Home Text: ' + homeText)
 
-Mobile.verifyEqual(homeText, 'Home', FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyEqual(homeText, 'Home', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.delay(5)
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>C863-Verify that the user can't pay now when the mortgage payment is paid in full</description>
+   <name>C863</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>27be4d6c-c7b3-43b5-b8a4-a086a86b782d</testCaseGuid>
+</TestCaseEntity>

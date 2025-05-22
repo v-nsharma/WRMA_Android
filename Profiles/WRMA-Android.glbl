@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>may19</description>
-      <initValue>'/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/app-debug-2.99.98.apk'</initValue>
+      <description>may22</description>
+      <initValue>'/Users/gv.vignesh/Downloads/WGR-Android-Automation/App Folder/app-debug-2.99.102.apk'</initValue>
       <name>appUrl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

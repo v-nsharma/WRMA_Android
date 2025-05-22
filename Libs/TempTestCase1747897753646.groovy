@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/Test Cases/Delete My Account/C670_DeletedAccount_Verification/20250519_111732/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/31/bxrgywy908s0_m3f2mfxp_cc0000gn/T/Katalon/Test Cases/Login Owner OR Renter/C661-C720-C721_LoginOwnerOrRenter_Login_AppVersion_Settingsd/20250522_123913/execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Delete My Account/C670_DeletedAccount_Verification', new TestCaseBinding('Test Cases/Delete My Account/C670_DeletedAccount_Verification',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Login Owner OR Renter/C661-C720-C721_LoginOwnerOrRenter_Login_AppVersion_Settingsd', new TestCaseBinding('Test Cases/Login Owner OR Renter/C661-C720-C721_LoginOwnerOrRenter_Login_AppVersion_Settingsd',[:]), FailureHandling.STOP_ON_FAILURE , false)
     
