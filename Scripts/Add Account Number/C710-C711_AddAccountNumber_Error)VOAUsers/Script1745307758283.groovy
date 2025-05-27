@@ -32,8 +32,8 @@ Mobile.tap(findTestObject('Object Repository/VOAusers/android.widget.Button - Lo
 'Wait for 10 seconds for login screen to load'
 Mobile.delay(10)
 
-'Enter email address "SELENAWB@GMAIL.COM" in the email field'
-Mobile.setText(findTestObject('Object Repository/VOAusers/android.widget.EditText'), 'CGARNER024@GMAIL.COM', 0)
+'Enter email address in the email field'
+Mobile.setText(findTestObject('Object Repository/VOAusers/android.widget.EditText'), 'UPSONA@TRIAD.RR.COM', 0)
 
 'Hide the on-screen keyboard after text entry'
 Mobile.hideKeyboard()
@@ -45,10 +45,10 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/VOAusers/android.widget.Button - Next'), 0)
 
 'Extended wait (40 seconds) for next screen to load completely'
-Mobile.delay(40)
+Mobile.delay(60)
 
-'Confirm email by re-entering "SELENAWB@GMAIL.COM" in confirmation field'
-Mobile.setText(findTestObject('Object Repository/VOAusers/android.widget.EditText (1)'), 'CGARNER024@GMAIL.COM', 0)
+'Confirm email by re-entering in confirmation field'
+Mobile.setText(findTestObject('Object Repository/VOAusers/android.widget.EditText (1)'), 'UPSONA@TRIAD.RR.COM', 0)
 
 'Hide the on-screen keyboard'
 Mobile.hideKeyboard()
@@ -84,7 +84,7 @@ Mobile.tap(findTestObject('Object Repository/VOAusers/android.widget.TextView - 
 Mobile.delay(10)
 
 'Enter account number "69099564838" in the input field'
-Mobile.setText(findTestObject('Object Repository/VOAusers/android.widget.EditText (3)'), '18702754', 0)
+Mobile.setText(findTestObject('Object Repository/VOAusers/android.widget.EditText (3)'), '26713899727', 0)
 
 'Hide the on-screen keyboard'
 Mobile.hideKeyboard()

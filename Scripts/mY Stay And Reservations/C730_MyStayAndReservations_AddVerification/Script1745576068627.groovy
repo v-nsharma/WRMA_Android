@@ -26,38 +26,51 @@ Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Bu
 Mobile.delay(10)
 
 'Enter registered email address'
-Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText'), 'PEPOKLE@HOTMAIL.COM', 0)
+Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText'), '0525041tm@wg.com', 0)
 Mobile.hideKeyboard()
 Mobile.delay(10)
 
 'Proceed to OAM authentication screen'
 Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Button - Next'), 0)
-Mobile.delay(40)
+Mobile.delay(50)
 
 'Re-enter email in OAM username field'
-Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (1)'), 'PEPOKLE@HOTMAIL.COM', 0)
+Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (1)'), '0525041tm@wg.com', 0)
 Mobile.hideKeyboard()
 Mobile.delay(10)
 
 'Enter account password'
 Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (2)'), 'password', 0)
 Mobile.hideKeyboard()
-Mobile.delay(5)
+Mobile.delay(15)
 
 'Complete authentication by tapping LOGIN'
 Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Button - LOGIN'), 0)
-Mobile.delay(15)
+Mobile.delay(25)
 
 'Navigate to My Stay section'
 Mobile.tap(findTestObject('Object Repository/MystayReservation/android.view.View - My Stay'), 0)
 Mobile.delay(10)
+
+int deviceHeight = Mobile.getDeviceHeight()
+int deviceWidth = Mobile.getDeviceWidth()
+
+int startX = deviceWidth / 2
+int startY = deviceHeight * 3 / 4
+int endX = startX
+int endY = deviceHeight / 4
+
+for (int i = 0; i < 8; i++) {
+	Mobile.swipe(startX, startY, endX, endY)
+	Mobile.delay(1)
+}
 
 'Initiate new reservation process'
 Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Button - ADD A RESERVATION'), 0)
 Mobile.delay(10)
 
 'Enter reservation number'
-Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (3)'), '18250674', 0)
+Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (3)'), '18640268', 0)
 Mobile.hideKeyboard()
 Mobile.delay(10)
 
@@ -66,7 +79,7 @@ Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Bu
 Mobile.delay(10)
 
 'Enter last name for reservation verification'
-Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (4)'), 'DAGAN', 0)
+Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (4)'), 'GINN', 0)
 Mobile.hideKeyboard()
 Mobile.delay(10)
 

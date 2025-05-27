@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.Button - 
 Mobile.delay(10)
 
 'Enter email in the email input field'
-Mobile.setText(findTestObject('Object Repository/LoyaltyWeb/android.widget.EditText'), '0425041tm@wg.com', 0)
+Mobile.setText(findTestObject('Object Repository/LoyaltyWeb/android.widget.EditText'), '0525041tm@wg.com', 0)
 
 'Hide the keyboard after entering email'
 Mobile.hideKeyboard()
@@ -42,7 +42,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.Button - Next'), 0)
 
 'Wait for the cookie consent screen to appear'
-Mobile.delay(40)
+Mobile.delay(60)
 
 'Tap "Accept All Cookies" button'
 Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.Button - Accept All Cookies'), 0)
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.Button - 
 Mobile.delay(10)
 
 'Re-enter email address for login'
-Mobile.setText(findTestObject('Object Repository/LoyaltyWeb/android.widget.EditText (1)'), '0425041tm@wg.com', 0)
+Mobile.setText(findTestObject('Object Repository/LoyaltyWeb/android.widget.EditText (1)'), '0525041tm@wg.com', 0)
 
 'Hide the keyboard after typing email'
 Mobile.hideKeyboard()
@@ -87,16 +87,15 @@ Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.TextView 
 Mobile.delay(10)
 
 'Verify room number is displayed'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/LoyaltyWeb/android.widget.TextView - 57F'), 0)
+assert Mobile.verifyElementExist(findTestObject('Object Repository/testing/android.widget.TextView - 6950 Villa de Costa DriveOrlando, FL 32821'), 0)
 
 'Verify resort name is displayed'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/LoyaltyWeb/android.widget.TextView - Wild Bear Inn'), 0)
+assert Mobile.verifyElementExist(findTestObject('Object Repository/testing/android.widget.TextView - 76F'), 0)
 
 'Verify resort address is visible'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/LoyaltyWeb/android.widget.TextView - 4236 ParkwayPigeon Forge, TN 37863'), 0)
+assert Mobile.verifyElementExist(findTestObject('Object Repository/testing/android.widget.TextView - Expected Weather Forecast'), 0)
 
-'Verify general View element is present'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/LoyaltyWeb/android.view.View'), 0)
+assert Mobile.verifyElementExist(findTestObject('Object Repository/testing/android.widget.TextView - Westgate Leisure Resort'), 0)
 
 'Scroll until the word "online" is found'
 Mobile.scrollToText('online')

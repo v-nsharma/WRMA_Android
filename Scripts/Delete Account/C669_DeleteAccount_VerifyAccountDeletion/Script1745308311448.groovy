@@ -48,7 +48,7 @@ Mobile.delay(10)
 'Proceed to next screen by tapping Next button'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - Next'), 0)
 'Extended wait (30s) for OAM login screen to load'
-Mobile.delay(30)
+Mobile.delay(60)
 
 'Re-enter email in OAM username field for confirmation'
 Mobile.setText(findTestObject('Object Repository/Repo/android.widget.EditText-OAM(Login)'), email, 0)

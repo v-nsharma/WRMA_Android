@@ -142,7 +142,7 @@ Mobile.delay(5)
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - Agree to Terms  Conditions'), 0)
 
 'Wait for 30 seconds to allow time for agreement processing'
-Mobile.delay(45)
+Mobile.delay(60)
 
 'Enter the email address in the login field on the OAM (Online Account Management) screen'
 Mobile.setText(findTestObject('Object Repository/Repo/android.widget.EditText-OAM(Login)'), email, 0)
@@ -166,7 +166,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button -OAM(Login)'), 0)
 
 'Wait for 30 seconds to allow time for authentication processing'
-Mobile.delay(20)
+Mobile.delay(30)
 
 'Tap on the "Next" button to proceed with verifying the account'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - Next-(VerifyAccount)'), 0)
@@ -175,14 +175,14 @@ Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - Next-(
 Mobile.delay(10)
 
 'Verify the existence of the message that indicates email verification has been skipped'
-Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.widget.TextView - Youve chosen to skip the email verification process. While you can explore the app as a guest, please note that certain features and functionalities may be limited'), 
+assert Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.widget.TextView - Youve chosen to skip the email verification process. While you can explore the app as a guest, please note that certain features and functionalities may be limited'), 
     0)
 
 'Wait for 10 seconds'
 Mobile.delay(10)
 
 'Verify the existence of the message about limited feature access'
-Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.widget.TextView - To fully access all features'), 
+assert Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.widget.TextView - To fully access all features'), 
     0)
 
 'Wait for 10 seconds'

@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/C701-C702/android.widget.Button - L
 Mobile.delay(10)
 
 'Enter test email in email field'
-Mobile.setText(findTestObject('Object Repository/C701-C702/android.widget.EditText'), '0425201TM@WG.COM', 0)
+Mobile.setText(findTestObject('Object Repository/C701-C702/android.widget.EditText'), '0525041tm@wg.com', 0)
 
 'Hide keyboard after email entry'
 Mobile.hideKeyboard()
@@ -42,10 +42,10 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/C701-C702/android.widget.Button - Next'), 0)
 
 'Extended wait (40s) for OAM screen to load completely'
-Mobile.delay(40)
+Mobile.delay(60)
 
 'Re-enter email in OAM username field'
-Mobile.setText(findTestObject('Object Repository/C701-C702/android.widget.EditText (1)'), '0425201TM@WG.COM', 0)
+Mobile.setText(findTestObject('Object Repository/C701-C702/android.widget.EditText (1)'), '0525041tm@wg.com', 0)
 
 'Hide keyboard after username entry'
 Mobile.hideKeyboard()
@@ -66,7 +66,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/C701-C702/android.widget.Button - LOGIN'), 0)
 
 'Wait 10 seconds for login to complete'
-Mobile.delay(10)
+Mobile.delay(20)
 
 'Navigate to My Account section'
 Mobile.tap(findTestObject('Object Repository/C701-C702/android.widget.TextView - My Account'), 0)
@@ -81,7 +81,7 @@ Mobile.tap(findTestObject('Object Repository/C701-C702/android.widget.TextView -
 Mobile.delay(10)
 
 'Enter valid test account number (11 digits)'
-Mobile.setText(findTestObject('Object Repository/C701-C702/android.widget.EditText (5)'), '99868581242', 0)
+Mobile.setText(findTestObject('Object Repository/C701-C702/android.widget.EditText (5)'), '99949128443', 0)
 
 'Wait 10 seconds after account number entry'
 Mobile.delay(10)

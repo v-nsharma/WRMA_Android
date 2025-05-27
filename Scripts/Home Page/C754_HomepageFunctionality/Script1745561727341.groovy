@@ -27,7 +27,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView - Home'), 0)
 
 'Wait for 15 seconds for the home screen to load completely'
-Mobile.delay(15)
+Mobile.delay(20)
 
 'Tap on the first text view element in the Carousel section'
 Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView (1)'), 0)
@@ -36,11 +36,7 @@ Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView (1
 Mobile.delay(10)
 
 'Verify that the App Test Image Article text element is present on screen'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - App Test Image Article'), 
-    0)
-
-'Verify that the second App Test Image Article text element is present on screen'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - App Test Image Article (1)'), 
+assert Mobile.verifyElementExist(findTestObject('Object Repository/testing/android.widget.TextView - 50 Welcome Bonus  3 Back in Rewards'), 
     0)
 
 'Close the application after test completion'

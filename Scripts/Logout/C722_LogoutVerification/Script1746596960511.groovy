@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/Logout/android.widget.Button - Logi
 Mobile.delay(10)
 
 'Enter the email address in the email input field'
-Mobile.setText(findTestObject('Object Repository/Logout/android.widget.EditText'), '0425041tm@wg.com', 0)
+Mobile.setText(findTestObject('Object Repository/Logout/android.widget.EditText'), '0525041tm@wg.com', 0)
 
 'Hide the keyboard after entering the email'
 Mobile.hideKeyboard()
@@ -42,7 +42,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Logout/android.widget.Button - Next'), 0)
 
 'Wait for the authentication process and next screen to load'
-Mobile.delay(40)
+Mobile.delay(60)
 
 'Tap on "Accept All Cookies" to dismiss the cookie popup'
 Mobile.tap(findTestObject('Object Repository/Logout/android.widget.Button - Accept All Cookies'), 0)
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Object Repository/Logout/android.widget.Button - Acce
 Mobile.delay(10)
 
 'Re-enter the email address on the login screen'
-Mobile.setText(findTestObject('Object Repository/Logout/android.widget.EditText (1)'), '0425041tm@wg.com', 0)
+Mobile.setText(findTestObject('Object Repository/Logout/android.widget.EditText (1)'), '0525041tm@wg.com', 0)
 
 'Hide the keyboard after re-entering email'
 Mobile.hideKeyboard()
@@ -93,7 +93,7 @@ Mobile.tap(findTestObject('Object Repository/Logout/android.widget.Button - LOGO
 Mobile.delay(10)
 
 'Verify the "Login or Sign Up" button is visible again, confirming logout'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/Logout/android.widget.TextView - Login or Sign Up'), 0)
+assert Mobile.verifyElementExist(findTestObject('Object Repository/Settings/android.widget.Button - Login or Sign Up'), 0)
 
 'Close the application'
 Mobile.closeApplication()

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WRMA-566_MyAccount_Account Details_Maintenance</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d70e8a62-a06f-4d7c-ab2b-52770d7319a1</testCaseGuid>
+</TestCaseEntity>

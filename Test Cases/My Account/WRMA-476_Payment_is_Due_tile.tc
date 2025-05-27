@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WRMA-476_Payment_is_Due_tile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e0f0d1bb-d7b4-4b86-b605-f7fe6c3383d4</testCaseGuid>
+</TestCaseEntity>

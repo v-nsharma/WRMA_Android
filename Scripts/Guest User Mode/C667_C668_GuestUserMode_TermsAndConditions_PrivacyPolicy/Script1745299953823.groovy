@@ -55,7 +55,6 @@ if (Mobile.waitForElementPresent(findTestObject('Object Repository/Repo/android.
 	println("Element 'android.view.View - Terms & Conditions-Webview' does not exist after waiting.")
 }
 
-
 'Wait for 30 seconds'
 Mobile.delay(10)
 

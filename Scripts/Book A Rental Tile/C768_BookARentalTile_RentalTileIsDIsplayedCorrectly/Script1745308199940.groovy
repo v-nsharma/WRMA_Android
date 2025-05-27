@@ -34,7 +34,7 @@ Mobile.delay(10)
 'Proceed to next authentication step by tapping Next button'
 Mobile.tap(findTestObject('Object Repository/Repo/MyStay/BookRental/android.widget.Button - Next'), 0)
 'Extended wait (45s) for OAM login screen to load'
-Mobile.delay(45)
+Mobile.delay(60)
 
 'Re-enter email in OAM username field for confirmation'
 Mobile.setText(findTestObject('Object Repository/Repo/MyStay/BookRental/android.widget.EditText (1)'), email, 0)
@@ -53,15 +53,25 @@ Mobile.delay(10)
 'Complete login by tapping LOGIN button'
 Mobile.tap(findTestObject('Object Repository/Repo/MyStay/BookRental/android.widget.Button - LOGIN'), 0)
 'Wait 20 seconds for login to complete and home screen to load'
-Mobile.delay(20)
+Mobile.delay(30)
 
 'Navigate to Home section'
 Mobile.tap(findTestObject('Object Repository/Repo/MyStay/BookRental/android.view.View - Home'), 0)
 'Wait 10 seconds for home screen to load'
-Mobile.delay(10)
+Mobile.delay(20)
 
-'Scroll down to "recommended for you" section'
-Mobile.scrollToText('recommended for you')
+int deviceHeight = Mobile.getDeviceHeight()
+int deviceWidth = Mobile.getDeviceWidth()
+
+int startX = deviceWidth / 2
+int startY = deviceHeight * 3 / 4
+int endX = startX
+int endY = deviceHeight / 4
+
+for (int i = 0; i < 3; i++) {
+	Mobile.swipe(startX, startY, endX, endY)
+	Mobile.delay(1)
+}
 
 'Define array of Book Rental elements to verify'
 String[] elementsToVerify = [

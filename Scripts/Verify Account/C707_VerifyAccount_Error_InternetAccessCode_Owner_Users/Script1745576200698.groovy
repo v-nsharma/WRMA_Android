@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/SSN/android.widget.Button - Login o
 Mobile.delay(10)
 
 'Enter the email address in the email input field'
-Mobile.setText(findTestObject('Object Repository/SSN/android.widget.EditText'), '0425201TM@WG.COM', 0)
+Mobile.setText(findTestObject('Object Repository/SSN/android.widget.EditText'), '0525041tm@wg.com', 0)
 
 'Hide the keyboard to avoid obstructing UI elements'
 Mobile.hideKeyboard()
@@ -42,10 +42,10 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/SSN/android.widget.Button - Next'), 0)
 
 'Allow time for the next screen to fully load'
-Mobile.delay(40)
+Mobile.delay(60)
 
 'Re-enter the email address in the username field on the login form'
-Mobile.setText(findTestObject('Object Repository/SSN/android.widget.EditText (1)'), '0425201TM@WG.COM', 0)
+Mobile.setText(findTestObject('Object Repository/SSN/android.widget.EditText (1)'), '0525041tm@wg.com', 0)
 
 'Hide the keyboard after entering the email'
 Mobile.hideKeyboard()
@@ -81,7 +81,7 @@ Mobile.tap(findTestObject('Object Repository/SSN/android.widget.TextView - Add A
 Mobile.delay(10)
 
 'Enter the account number into the input field'
-Mobile.setText(findTestObject('Object Repository/SSN/android.widget.EditText (3)'), '99868581242', 0)
+Mobile.setText(findTestObject('Object Repository/SSN/android.widget.EditText (3)'), '99949128443', 0)
 
 'Hide the keyboard after entering the account number'
 Mobile.hideKeyboard()

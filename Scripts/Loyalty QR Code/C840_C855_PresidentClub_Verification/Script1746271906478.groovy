@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/PRClub/android.widget.Button - Logi
 Mobile.delay(10)
 
 'Enter email address in the email input field'
-Mobile.setText(findTestObject('Object Repository/PRClub/android.widget.EditText'), 'RKRUG1113@GMAIL.COM', 0)
+Mobile.setText(findTestObject('Object Repository/PRClub/android.widget.EditText'), 'DELMG61@HOTMAIL.COM', 0)
 
 'Hide the keyboard after entering email'
 Mobile.hideKeyboard()
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Object Repository/PRClub/android.widget.Button - Acce
 Mobile.delay(40)
 
 'Re-enter the email address in the login form'
-Mobile.setText(findTestObject('Object Repository/PRClub/android.widget.EditText (1)'), 'RKRUG1113@GMAIL.COM', 0)
+Mobile.setText(findTestObject('Object Repository/PRClub/android.widget.EditText (1)'), 'DELMG61@HOTMAIL.COM', 0)
 
 'Hide the keyboard'
 Mobile.hideKeyboard()

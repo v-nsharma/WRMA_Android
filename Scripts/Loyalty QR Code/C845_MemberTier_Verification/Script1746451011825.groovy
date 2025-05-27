@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/MemberTier/android.widget.Button - 
 Mobile.delay(10)
 
 'Enter the Member Tier user email address'
-Mobile.setText(findTestObject('Object Repository/MemberTier/android.widget.EditText'), '0425070TM@WG.COM', 0)
+Mobile.setText(findTestObject('Object Repository/MemberTier/android.widget.EditText'), '0525070tm@wg.com', 0)
 
 'Hide the keyboard after entering the email'
 Mobile.hideKeyboard()
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Object Repository/MemberTier/android.widget.Button - 
 Mobile.delay(40)
 
 'Re-enter the email address in the login form'
-Mobile.setText(findTestObject('Object Repository/MemberTier/android.widget.EditText (1)'), '0425070TM@WG.COM', 0)
+Mobile.setText(findTestObject('Object Repository/MemberTier/android.widget.EditText (1)'), '0525070tm@wg.com', 0)
 
 'Hide the keyboard after re-entering the email'
 Mobile.hideKeyboard()

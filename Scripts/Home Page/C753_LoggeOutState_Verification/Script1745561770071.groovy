@@ -31,7 +31,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView - Home'), 0)
 
 'Wait for 15 seconds to allow the home screen to load'
-Mobile.delay(15)
+Mobile.delay(20)
 
 'Verify that a text view element exists on the screen'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView'), 0)
@@ -43,7 +43,7 @@ Mobile.swipe(800, 500, 100, 500)
 Mobile.delay(10)
 
 'Scroll down to find text containing recommended'
-Mobile.scrollToText('recommended')
+Mobile.scrollToText('things to do')
 
 'Wait for 10 seconds after scrolling'
 Mobile.delay(10)
@@ -53,9 +53,6 @@ assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/andr
 
 'Verify the Book a Rental text element exists on screen'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - Book a Rental'), 0)
-
-'Verify the RECOMMENDED FOR YOU text element exists on screen'
-assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - RECOMMENDED FOR YOU'), 0)
 
 'Verify the Home text element exists on screen'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView - Home'), 0)

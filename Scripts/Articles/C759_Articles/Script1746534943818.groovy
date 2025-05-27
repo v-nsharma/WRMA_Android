@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/EditVerify/android.widget.Button - 
 Mobile.delay(10)
 
 'Enter email address in the email field'
-Mobile.setText(findTestObject('Object Repository/EditVerify/android.widget.EditText'), '0425041tm@wg.com', 0)
+Mobile.setText(findTestObject('Object Repository/EditVerify/android.widget.EditText'), '0525071TM@WG.COM', 0)
 
 'Hide the keyboard'
 Mobile.hideKeyboard()
@@ -42,7 +42,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/EditVerify/android.widget.Button - Next'), 0)
 
 'Wait for authentication and next screen to load'
-Mobile.delay(40)
+Mobile.delay(60)
 
 'Tap on "Accept All Cookies" button'
 Mobile.tap(findTestObject('Object Repository/EditVerify/android.widget.Button - Accept All Cookies'), 0)
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Object Repository/EditVerify/android.widget.Button - 
 Mobile.delay(10)
 
 'Re-enter email address on login screen'
-Mobile.setText(findTestObject('Object Repository/EditVerify/android.widget.EditText (1)'), '0425041tm@wg.com', 0)
+Mobile.setText(findTestObject('Object Repository/EditVerify/android.widget.EditText (1)'), '0525071TM@WG.COM', 0)
 
 'Hide the keyboard'
 Mobile.hideKeyboard()

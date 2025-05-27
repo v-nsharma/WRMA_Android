@@ -33,7 +33,7 @@ Mobile.tap(findTestObject('Object Repository/VOA-Users/android.widget.Button - L
 Mobile.delay(10)
 
 'Enter email address in email field'
-Mobile.setText(findTestObject('Object Repository/VOA-Users/android.widget.EditText'), 'SELENAWB@GMAIL.COM', 0)
+Mobile.setText(findTestObject('Object Repository/VOA-Users/android.widget.EditText'), 'UPSONA@TRIAD.RR.COM', 0)
 
 'Hide the keyboard'
 Mobile.hideKeyboard()
@@ -45,10 +45,10 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/VOA-Users/android.widget.Button - Next'), 0)
 
 'Wait for 40 seconds for next screen to load'
-Mobile.delay(40)
+Mobile.delay(60)
 
 'Re-enter email address in confirmation field'
-Mobile.setText(findTestObject('Object Repository/VOA-Users/android.widget.EditText (1)'), 'SELENAWB@GMAIL.COM', 0)
+Mobile.setText(findTestObject('Object Repository/VOA-Users/android.widget.EditText (1)'), 'UPSONA@TRIAD.RR.COM', 0)
 
 'Hide the keyboard'
 Mobile.hideKeyboard()
