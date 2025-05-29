@@ -15,7 +15,7 @@ String email = testData.getValue('email', 1)
 String password = testData.getValue('password', 1)
 
 'Launch the mobile application from specified APK path'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 'Wait 10 seconds for app to fully initialize'
 Mobile.delay(10)
 
@@ -35,6 +35,9 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Repo/MyStay/BookRental/android.widget.Button - Next'), 0)
 'Extended wait (45s) for OAM login screen to load'
 Mobile.delay(60)
+
+Mobile.tap(findTestObject('Object Repository/EditVerify/android.widget.Button - Accept All Cookies'), 0)
+
 
 'Re-enter email in OAM username field for confirmation'
 Mobile.setText(findTestObject('Object Repository/Repo/MyStay/BookRental/android.widget.EditText (1)'), email, 0)

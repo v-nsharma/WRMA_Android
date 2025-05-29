@@ -25,7 +25,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.util.KeywordUtil
 
 'Launch the application on the physical device'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 
 Mobile.delay(10)
 
@@ -39,7 +39,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - menu'), 0)
 
 'Wait for 30 seconds for the menu to open'
-Mobile.delay(30)
+Mobile.delay(10)
 
 'Tap on the "Terms and Conditions" option in the menu'
 Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TextView - Terms and Conditions-Menu'), 0)

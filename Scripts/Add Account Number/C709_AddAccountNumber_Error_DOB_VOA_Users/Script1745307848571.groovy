@@ -21,7 +21,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Launch the mobile application'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 
 'Wait for 10 seconds for app to load'
 Mobile.delay(10)
@@ -33,7 +33,7 @@ Mobile.tap(findTestObject('Object Repository/VOA-Users/android.widget.Button - L
 Mobile.delay(10)
 
 'Enter email address in email field'
-Mobile.setText(findTestObject('Object Repository/VOA-Users/android.widget.EditText'), 'UPSONA@TRIAD.RR.COM', 0)
+Mobile.setText(findTestObject('Object Repository/VOA-Users/android.widget.EditText'), '0525041tm@wg.coms', 0)
 
 'Hide the keyboard'
 Mobile.hideKeyboard()
@@ -48,7 +48,7 @@ Mobile.tap(findTestObject('Object Repository/VOA-Users/android.widget.Button - N
 Mobile.delay(60)
 
 'Re-enter email address in confirmation field'
-Mobile.setText(findTestObject('Object Repository/VOA-Users/android.widget.EditText (1)'), 'UPSONA@TRIAD.RR.COM', 0)
+Mobile.setText(findTestObject('Object Repository/VOA-Users/android.widget.EditText (1)'), '0525041tm@wg.com', 0)
 
 'Hide the keyboard'
 Mobile.hideKeyboard()

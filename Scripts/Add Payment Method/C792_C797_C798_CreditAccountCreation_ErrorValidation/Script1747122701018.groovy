@@ -19,7 +19,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch the specified Android application and reset its state.'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 
 'Wait for 10 seconds to allow the app to load properly.'
 Mobile.delay(10)
@@ -43,7 +43,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/C795/android.widget.Button - Next'), 0)
 
 'Wait for 40 seconds to allow the next screen (e.g., webview) to load.'
-Mobile.delay(40)
+Mobile.delay(60)
 
 'Tap on the "Accept All Cookies" button.'
 Mobile.tap(findTestObject('Object Repository/C795/android.widget.Button - Accept All Cookies'), 0)
@@ -90,7 +90,7 @@ int startY = deviceHeight * 3 / 4
 int endX = startX
 int endY = deviceHeight / 4
 
-for (int i = 0; i < 2; i++) {
+for (int i = 0; i < 4; i++) {
 	Mobile.swipe(startX, startY, endX, endY)
 	Mobile.delay(1)
 }
@@ -165,7 +165,7 @@ Mobile.setText(findTestObject('Object Repository/C792/android.widget.EditText (4
 Mobile.delay(5)
 
 'Enter the cardholder last name.'
-Mobile.setText(findTestObject('Object Repository/C792/android.widget.EditText (5)'), 'Rob', 0)
+Mobile.setText(findTestObject('Object Repository/C792/android.widget.EditText (5)'), 'jones', 0)
 
 'Wait for 5 seconds.'
 Mobile.delay(5)

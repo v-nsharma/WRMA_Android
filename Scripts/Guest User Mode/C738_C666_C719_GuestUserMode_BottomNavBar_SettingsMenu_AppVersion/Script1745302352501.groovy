@@ -37,7 +37,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch the Westgate mobile application'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 //Mobile.startApplication('8be092e2-8aba-45d4-a086-ad912593f36c', true)
 
 'Wait for the application to load completely'
@@ -62,10 +62,10 @@ Mobile.tap(findTestObject('Object Repository/Repo/android.widget.TabWidget-Setti
 Mobile.delay(10)
 
 'Capture the actual version text'
-String actualVersionText = Mobile.getText(findTestObject('Object Repository/Settings/android.widget.Button - Version 2.99.104'), 0)
+String actualVersionText = Mobile.getText(findTestObject('Object Repository/android.widget.Button - Version 2.99.106'), 0)
 
 'Verify application version'
-String expectedVersionText = "Version 2.99.104"
+String expectedVersionText = "Version 2.99.106"
 assert actualVersionText == expectedVersionText : "Version mismatch. Expected: ${expectedVersionText}, Actual: ${actualVersionText}"
 
 println("Version verification successful: ${actualVersionText}")

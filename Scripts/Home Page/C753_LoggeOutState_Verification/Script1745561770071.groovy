@@ -22,7 +22,7 @@ import com.kms.katalon.core.testobject.TestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Launch the mobile application from the specified APK file path and clear any previous data'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 
 'Wait for 10 seconds to allow the app to load completely'
 Mobile.delay(10)
@@ -31,7 +31,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView - Home'), 0)
 
 'Wait for 15 seconds to allow the home screen to load'
-Mobile.delay(20)
+Mobile.delay(40)
 
 'Verify that a text view element exists on the screen'
 assert Mobile.verifyElementExist(findTestObject('Object Repository/Carousel/android.widget.TextView'), 0)

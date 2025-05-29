@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch application from specified APK path with data clearing'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 Mobile.delay(10)
 
 'Initiate login process by tapping Login/Sign Up button'
@@ -33,6 +33,9 @@ Mobile.delay(10)
 'Proceed to OAM authentication screen'
 Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Button - Next'), 0)
 Mobile.delay(50)
+
+Mobile.tap(findTestObject('Object Repository/LoyaltyWeb/android.widget.Button - Accept All Cookies'), 0)
+
 
 'Re-enter email in OAM username field'
 Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (1)'), '0525041tm@wg.com', 0)
@@ -70,7 +73,7 @@ Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Bu
 Mobile.delay(10)
 
 'Enter reservation number'
-Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (3)'), '18640268', 0)
+Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (3)'), '18560497', 0)
 Mobile.hideKeyboard()
 Mobile.delay(10)
 
@@ -79,7 +82,7 @@ Mobile.tap(findTestObject('Object Repository/MystayReservation/android.widget.Bu
 Mobile.delay(10)
 
 'Enter last name for reservation verification'
-Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (4)'), 'GINN', 0)
+Mobile.setText(findTestObject('Object Repository/MystayReservation/android.widget.EditText (4)'), 'WANG', 0)
 Mobile.hideKeyboard()
 Mobile.delay(10)
 

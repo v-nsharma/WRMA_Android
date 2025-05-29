@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>WRMA-939_C872_FeeCurrent</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>b5d3dcc5-557f-43fa-ba4c-4657ffe17619</testCaseGuid>
+   <testCaseGuid>3692ee7b-144a-4cd7-8e38-88cf3793d5b1</testCaseGuid>
 </TestCaseEntity>

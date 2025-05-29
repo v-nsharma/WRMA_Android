@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,,,,29-05-2025 15:15:30,29-05-2025 15:15:49,18.351s,FAILED
+,,,,,,,
+Test Cases/App Installation And Launching/C657_C658_AppInstallationAndLaunching,,"C657-App Launch
+C658-Verify that the Intro Page opens correctly",,29-05-2025 15:15:30,29-05-2025 15:15:49,18.297s,FAILED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug-106.apk"", true)",,Launch the application on the physical device,,29-05-2025 15:15:31,29-05-2025 15:15:38,7.188s,PASSED
+delay(10),,Wait for 3 seconds for the app to load,,29-05-2025 15:15:38,29-05-2025 15:15:48,10.014s,PASSED
+"assert verifyElementExist(findTestObject(""Object Repository/Repo/android.widget.TextView - Youre Moments A-way FromCustomized Vacation Experiences""), 0)",,"Verify the text ""You are Moments Away From Customized Vacation Experiences"" is present",,29-05-2025 15:15:48,29-05-2025 15:15:49,1.007s,FAILED

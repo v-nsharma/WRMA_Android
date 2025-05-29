@@ -1,0 +1,111 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.17.1 (REV 12a3d4a6f1eedf483855716b989d828443438f79)
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m51171[39m }
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Attempting to load driver mac2...
+[38;5;112m[Appium][0m Attempting to load driver chromium...
+[38;5;112m[Appium][0m Attempting to load driver espresso...
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:51171/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:51171/wd/hub (only accessible from the same host)
+	http://192.168.0.109:51171/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.2.2 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m   - mac2@2.2.2 (automationName 'Mac2')
+[38;5;112m[Appium][0m   - chromium@1.5.1 (automationName 'Chromium')
+[38;5;112m[Appium][0m   - espresso@4.1.4 (automationName 'Espresso')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 5 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/app-debug (3).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":51170,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":0,"platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/app-debug (3).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":51170,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":0}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;146m[AppiumDriver@2bdd][0m Appium v2.17.1 creating new AndroidUiautomator2Driver (v4.2.2) session
+[38;5;146m[AppiumDriver@2bdd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;146m[AppiumDriver@2bdd][0m Appium's BaseDriver version is 9.16.4
+[38;5;146m[AppiumDriver@2bdd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-74m[AndroidUiautomator2Driver@2995][0m The following provided capabilities were not recognized by this driver:
+[38;5;-74m[AndroidUiautomator2Driver@2995][0m   deviceId
+[38;5;146m[63331e72][0m[38;5;-74m[AndroidUiautomator2Driver@2995][0m Session created with session id: 63331e72-4565-42bb-9c92-2ca88dce1644
+[38;5;146m[63331e72][0m[38;5;229m[ADB][0m Found 1 'build-tools' folders under '/Users/gv.vignesh/.katalon/tools/android_sdk' (newest first):
+[38;5;146m[63331e72][0m[38;5;229m[ADB][0m     /Users/gv.vignesh/.katalon/tools/android_sdk/build-tools/29.0.3
+[38;5;146m[63331e72][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;146m[63331e72][0m[38;5;-74m[AndroidUiautomator2Driver@2995][0m Retrieving device list
+[38;5;146m[63331e72][0m[38;5;-74m[AndroidUiautomator2Driver@2995][0m Using device: emulator-5554
+[38;5;146m[63331e72][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;146m[63331e72][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;146m[63331e72][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;146m[63331e72][0m[38;5;-74m[AndroidUiautomator2Driver@2995][0m Restoring hidden api policy to the device default configuration
+[38;5;146m[63331e72][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 415 ms - 710 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/app-debug (3).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":51207,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":0,"platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/app-debug (3).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":51207,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":0}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;146m[AppiumDriver@2bdd][0m Appium v2.17.1 creating new AndroidUiautomator2Driver (v4.2.2) session
+[38;5;146m[AppiumDriver@2bdd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;146m[AppiumDriver@2bdd][0m Appium's BaseDriver version is 9.16.4
+[38;5;146m[AppiumDriver@2bdd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-66m[AndroidUiautomator2Driver@e98c][0m The following provided capabilities were not recognized by this driver:
+[38;5;-66m[AndroidUiautomator2Driver@e98c][0m   deviceId
+[38;5;103m[548d42ff][0m[38;5;-66m[AndroidUiautomator2Driver@e98c][0m Session created with session id: 548d42ff-ca1e-4081-9a71-388c068fb325
+[38;5;103m[548d42ff][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;103m[548d42ff][0m[38;5;-66m[AndroidUiautomator2Driver@e98c][0m Retrieving device list
+[38;5;103m[548d42ff][0m[38;5;-66m[AndroidUiautomator2Driver@e98c][0m Using device: emulator-5554
+[38;5;103m[548d42ff][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;103m[548d42ff][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;103m[548d42ff][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;103m[548d42ff][0m[38;5;-66m[AndroidUiautomator2Driver@e98c][0m Restoring hidden api policy to the device default configuration
+[38;5;103m[548d42ff][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 294 ms - 710 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/app-debug (3).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":51233,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":0,"platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/app-debug (3).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":51233,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":0}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;146m[AppiumDriver@2bdd][0m Appium v2.17.1 creating new AndroidUiautomator2Driver (v4.2.2) session
+[38;5;146m[AppiumDriver@2bdd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;146m[AppiumDriver@2bdd][0m Appium's BaseDriver version is 9.16.4
+[38;5;146m[AppiumDriver@2bdd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;-29m[AndroidUiautomator2Driver@453b][0m The following provided capabilities were not recognized by this driver:
+[38;5;-29m[AndroidUiautomator2Driver@453b][0m   deviceId
+[38;5;93m[fe3e4389][0m[38;5;-29m[AndroidUiautomator2Driver@453b][0m Session created with session id: fe3e4389-4bbf-41e2-aae1-22200bf9f327
+[38;5;93m[fe3e4389][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;93m[fe3e4389][0m[38;5;-29m[AndroidUiautomator2Driver@453b][0m Retrieving device list
+[38;5;93m[fe3e4389][0m[38;5;-29m[AndroidUiautomator2Driver@453b][0m Using device: emulator-5554
+[38;5;93m[fe3e4389][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;93m[fe3e4389][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;93m[fe3e4389][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;93m[fe3e4389][0m[38;5;-29m[AndroidUiautomator2Driver@453b][0m Restoring hidden api policy to the device default configuration
+[38;5;93m[fe3e4389][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 293 ms - 710 
+[38;5;86m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m {}
+[38;5;86m[HTTP][0m <-- GET /wd/hub/status 200 0 ms - 200 
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m {"capabilities":{"firstMatch":[{"appium:app":"/Users/gv.vignesh/Downloads/app-debug (3).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":51258,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":0,"platformName":"ANDROID"}]},"desiredCapabilities":{"appium:app":"/Users/gv.vignesh/Downloads/app-debug (3).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceId":"","appium:deviceName":"emulator-5554 (sdk_gphone16k_arm64 - Android 15)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"appium:platformName":"ANDROID","appium:platformVersion":"15","appium:systemPort":51258,"appium:udid":"emulator-5554","appium:uiautomator2ServerInstallTimeout":0}}
+[38;5;123m[BaseDriver][0m Ignoring capability 'appium:platformName=ANDROID' and using capability 'platformName=ANDROID'
+[38;5;123m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'uiautomator2' and platformName 'ANDROID'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/gv.vignesh/.appium/node_modules/appium-uiautomator2-driver
+[38;5;146m[AppiumDriver@2bdd][0m Appium v2.17.1 creating new AndroidUiautomator2Driver (v4.2.2) session
+[38;5;146m[AppiumDriver@2bdd][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;146m[AppiumDriver@2bdd][0m Appium's BaseDriver version is 9.16.4
+[38;5;146m[AppiumDriver@2bdd][0m AndroidUiautomator2Driver's BaseDriver version is 9.16.4
+[38;5;0m[AndroidUiautomator2Driver@29a5][0m The following provided capabilities were not recognized by this driver:
+[38;5;0m[AndroidUiautomator2Driver@29a5][0m   deviceId
+[38;5;184m[b1bc5c20][0m[38;5;0m[AndroidUiautomator2Driver@29a5][0m Session created with session id: b1bc5c20-c0d2-48f7-97ab-e192feffaa64
+[38;5;184m[b1bc5c20][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;184m[b1bc5c20][0m[38;5;0m[AndroidUiautomator2Driver@29a5][0m Retrieving device list
+[38;5;184m[b1bc5c20][0m[38;5;0m[AndroidUiautomator2Driver@29a5][0m Using device: emulator-5554
+[38;5;184m[b1bc5c20][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/gv.vignesh/.katalon/tools/android_sdk/platform-tools/adb'
+[38;5;184m[b1bc5c20][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;184m[b1bc5c20][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;184m[b1bc5c20][0m[38;5;0m[AndroidUiautomator2Driver@29a5][0m Restoring hidden api policy to the device default configuration
+[38;5;184m[b1bc5c20][0m[38;5;86m[HTTP][0m <-- POST /wd/hub/session 500 285 ms - 710 

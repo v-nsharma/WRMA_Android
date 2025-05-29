@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test,,,,29-05-2025 15:13:38,29-05-2025 15:13:42,3.818s,FAILED
+,,,,,,,
+Test Cases/App Installation And Launching/C657_C658_AppInstallationAndLaunching,,"C657-App Launch
+C658-Verify that the Intro Page opens correctly",,29-05-2025 15:13:42,29-05-2025 15:13:42,0.307s,FAILED
+"startApplication(""/Users/gv.vignesh/Downloads/app-debug (3).apk"", true)",,Launch the application on the physical device,,29-05-2025 15:13:42,29-05-2025 15:13:42,0.299s,FAILED

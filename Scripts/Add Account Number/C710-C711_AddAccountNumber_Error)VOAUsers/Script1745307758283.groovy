@@ -21,7 +21,7 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 'Launch the mobile application from specified APK path'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 
 'Wait for 10 seconds for app to load completely'
 Mobile.delay(10)
@@ -33,7 +33,7 @@ Mobile.tap(findTestObject('Object Repository/VOAusers/android.widget.Button - Lo
 Mobile.delay(10)
 
 'Enter email address in the email field'
-Mobile.setText(findTestObject('Object Repository/VOAusers/android.widget.EditText'), 'UPSONA@TRIAD.RR.COM', 0)
+Mobile.setText(findTestObject('Object Repository/Repo/android.widget.EditText-LoginorSignUp'), 'UPSONA@TRIAD.RR.COM', 0)
 
 'Hide the on-screen keyboard after text entry'
 Mobile.hideKeyboard()
@@ -84,7 +84,7 @@ Mobile.tap(findTestObject('Object Repository/VOAusers/android.widget.TextView - 
 Mobile.delay(10)
 
 'Enter account number "69099564838" in the input field'
-Mobile.setText(findTestObject('Object Repository/VOAusers/android.widget.EditText (3)'), '26713899727', 0)
+Mobile.setText(findTestObject('Object Repository/android.widget.EditText-addaccnum'), '26713899727', 0)
 
 'Hide the on-screen keyboard'
 Mobile.hideKeyboard()
@@ -118,7 +118,7 @@ Mobile.tap(findTestObject('Object Repository/VOAusers/android.widget.Image'), 0)
 Mobile.delay(10)
 
 'Select specific date "Wednesday, April 9" from calendar'
-Mobile.tap(findTestObject('Object Repository/VOAusers/android.widget.Button - Wednesday, April 9'), 0)
+Mobile.tap(findTestObject('Object Repository/android.widget.Button - Thursday, May 29'), 0)
 
 'Wait for 10 seconds after date selection'
 Mobile.delay(10)

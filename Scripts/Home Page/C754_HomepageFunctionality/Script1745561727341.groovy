@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch the mobile application from the specified APK file path with data clearing enabled'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 
 'Wait for 10 seconds to allow the application to initialize'
 Mobile.delay(10)
@@ -27,7 +27,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView - Home'), 0)
 
 'Wait for 15 seconds for the home screen to load completely'
-Mobile.delay(20)
+Mobile.delay(30)
 
 'Tap on the first text view element in the Carousel section'
 Mobile.tap(findTestObject('Object Repository/Carousel/android.widget.TextView (1)'), 0)

@@ -38,7 +38,7 @@ String password = testData.getValue('password', 3)
 String confirmPassword = testData.getValue('confirm password', 3)
 
 'Launch the mobile application with reset enabled'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 
 'Wait for 10 seconds to allow the application to load'
 Mobile.delay(10)
@@ -143,6 +143,8 @@ Mobile.tap(findTestObject('Object Repository/Repo/android.widget.Button - Agree 
 
 'Wait for 30 seconds to allow time for agreement processing'
 Mobile.delay(60)
+
+Mobile.tap(findTestObject('Object Repository/EditVerify/android.widget.Button - Accept All Cookies'), 0)
 
 'Enter the email address in the login field on the OAM (Online Account Management) screen'
 Mobile.setText(findTestObject('Object Repository/Repo/android.widget.EditText-OAM(Login)'), email, 0)

@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Launch the mobile application with reset to clear any previous data'
-Mobile.startApplication(GlobalVariable.appUrl, true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
 
 'Wait for the app to load'
 Mobile.delay(10)
@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/Silver/android.widget.Button - Logi
 Mobile.delay(10)
 
 'Enter the email address in the email input field'
-Mobile.setText(findTestObject('Object Repository/Silver/android.widget.EditText'), 'rfrancis@twc.com', 0)
+Mobile.setText(findTestObject('Object Repository/Silver/android.widget.EditText'), '0525041tm@wg.com', 0)
 
 'Hide the keyboard after entering email'
 Mobile.hideKeyboard()
@@ -42,7 +42,7 @@ Mobile.delay(10)
 Mobile.tap(findTestObject('Object Repository/Silver/android.widget.Button - Next'), 0)
 
 'Wait for the authentication screen to fully load'
-Mobile.delay(40)
+Mobile.delay(60)
 
 'Tap on the Accept All Cookies button'
 Mobile.tap(findTestObject('Object Repository/Silver/android.widget.Button - Accept All Cookies'), 0)
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Object Repository/Silver/android.widget.Button - Acce
 Mobile.delay(10)
 
 'Enter the email address again in the second email input field'
-Mobile.setText(findTestObject('Object Repository/Silver/android.widget.EditText (1)'), 'rfrancis@twc.com', 0)
+Mobile.setText(findTestObject('Object Repository/Silver/android.widget.EditText (1)'), '0525041tm@wg.com', 0)
 
 'Hide the keyboard after entering email'
 Mobile.hideKeyboard()
