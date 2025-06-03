@@ -21423,4 +21423,2818 @@ Session ID: 9e9199ef-3742-4aba-8a46-6549e2bbeb76</property>
   <escapedJava>false</escapedJava>
   <property name="deviceOSVersion">15</property>
 </record>
-</log>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2025-06-02T12:50:12.103269Z</date>
+  <millis>1748868612103</millis>
+  <nanos>269000</nanos>
+  <sequence>3888</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:50:12.113140Z</date>
+  <millis>1748868612113</millis>
+  <nanos>140000</nanos>
+  <sequence>3889</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:50:12.113672Z</date>
+  <millis>1748868612113</millis>
+  <nanos>672000</nanos>
+  <sequence>3890</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:50:12.113835Z</date>
+  <millis>1748868612113</millis>
+  <nanos>835000</nanos>
+  <sequence>3891</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:50:12.113934Z</date>
+  <millis>1748868612113</millis>
+  <nanos>934000</nanos>
+  <sequence>3892</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:50:14.084167Z</date>
+  <millis>1748868614084</millis>
+  <nanos>167000</nanos>
+  <sequence>3893</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>Appium server started on port 52,767</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:50:14.087389Z</date>
+  <millis>1748868614087</millis>
+  <nanos>389000</nanos>
+  <sequence>3894</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:50:14.087512Z</date>
+  <millis>1748868614087</millis>
+  <nanos>512000</nanos>
+  <sequence>3895</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:50:19.276008Z</date>
+  <millis>1748868619276</millis>
+  <nanos>8000</nanos>
+  <sequence>3896</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T12:50:19.276655Z</date>
+  <millis>1748868619276</millis>
+  <nanos>655000</nanos>
+  <sequence>3897</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T12:50:19.329500Z</date>
+  <millis>1748868619329</millis>
+  <nanos>500000</nanos>
+  <sequence>3898</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T12:50:19.329709Z</date>
+  <millis>1748868619329</millis>
+  <nanos>709000</nanos>
+  <sequence>3899</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone16k_arm64 - Android 15)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone16k_arm64 - Android 15)</property>
+</record>
+<record>
+  <date>2025-06-02T12:50:19.329808Z</date>
+  <millis>1748868619329</millis>
+  <nanos>808000</nanos>
+  <sequence>3900</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>deviceModel = sdk_gphone16k_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone16k_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T12:50:19.329872Z</date>
+  <millis>1748868619329</millis>
+  <nanos>872000</nanos>
+  <sequence>3901</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T12:50:19.329934Z</date>
+  <millis>1748868619329</millis>
+  <nanos>934000</nanos>
+  <sequence>3902</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T12:50:19.329995Z</date>
+  <millis>1748868619329</millis>
+  <nanos>995000</nanos>
+  <sequence>3903</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>158</thread>
+  <message>deviceOSVersion = 15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15</property>
+</record>
+<record>
+  <date>2025-06-02T12:50:30.197745Z</date>
+  <millis>1748868630197</millis>
+  <nanos>745000</nanos>
+  <sequence>3904</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:50:57.571572Z</date>
+  <millis>1748868657571</millis>
+  <nanos>572000</nanos>
+  <sequence>3905</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:51:05.206028Z</date>
+  <millis>1748868665206</millis>
+  <nanos>28000</nanos>
+  <sequence>3906</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:52:40.087238Z</date>
+  <millis>1748868760087</millis>
+  <nanos>238000</nanos>
+  <sequence>3907</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:52:45.370721Z</date>
+  <millis>1748868765370</millis>
+  <nanos>721000</nanos>
+  <sequence>3908</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:52:58.896498Z</date>
+  <millis>1748868778896</millis>
+  <nanos>498000</nanos>
+  <sequence>3909</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:53:21.387172Z</date>
+  <millis>1748868801387</millis>
+  <nanos>172000</nanos>
+  <sequence>3910</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:53:33.773996Z</date>
+  <millis>1748868813773</millis>
+  <nanos>996000</nanos>
+  <sequence>3911</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:53:43.904705Z</date>
+  <millis>1748868823904</millis>
+  <nanos>705000</nanos>
+  <sequence>3912</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:53:52.488713Z</date>
+  <millis>1748868832488</millis>
+  <nanos>713000</nanos>
+  <sequence>3913</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:56:12.729713Z</date>
+  <millis>1748868972729</millis>
+  <nanos>713000</nanos>
+  <sequence>3914</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:56:43.890973Z</date>
+  <millis>1748869003890</millis>
+  <nanos>973000</nanos>
+  <sequence>3915</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:56:55.932705Z</date>
+  <millis>1748869015932</millis>
+  <nanos>705000</nanos>
+  <sequence>3916</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T12:57:49.478478Z</date>
+  <millis>1748869069478</millis>
+  <nanos>478000</nanos>
+  <sequence>3917</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:38:30.766363Z</date>
+  <millis>1748875110766</millis>
+  <nanos>363000</nanos>
+  <sequence>3918</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:38:30.771876Z</date>
+  <millis>1748875110771</millis>
+  <nanos>876000</nanos>
+  <sequence>3919</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:38:30.772111Z</date>
+  <millis>1748875110772</millis>
+  <nanos>111000</nanos>
+  <sequence>3920</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:38:30.772312Z</date>
+  <millis>1748875110772</millis>
+  <nanos>312000</nanos>
+  <sequence>3921</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:38:30.772391Z</date>
+  <millis>1748875110772</millis>
+  <nanos>391000</nanos>
+  <sequence>3922</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:38:32.737080Z</date>
+  <millis>1748875112737</millis>
+  <nanos>80000</nanos>
+  <sequence>3923</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>Appium server started on port 54,164</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:38:32.738333Z</date>
+  <millis>1748875112738</millis>
+  <nanos>333000</nanos>
+  <sequence>3924</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:38:32.738632Z</date>
+  <millis>1748875112738</millis>
+  <nanos>632000</nanos>
+  <sequence>3925</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:38:37.813044Z</date>
+  <millis>1748875117813</millis>
+  <nanos>44000</nanos>
+  <sequence>3926</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T14:38:37.813490Z</date>
+  <millis>1748875117813</millis>
+  <nanos>490000</nanos>
+  <sequence>3927</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T14:38:37.816965Z</date>
+  <millis>1748875117816</millis>
+  <nanos>965000</nanos>
+  <sequence>3928</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T14:38:37.817104Z</date>
+  <millis>1748875117817</millis>
+  <nanos>104000</nanos>
+  <sequence>3929</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone16k_arm64 - Android 15)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone16k_arm64 - Android 15)</property>
+</record>
+<record>
+  <date>2025-06-02T14:38:37.817172Z</date>
+  <millis>1748875117817</millis>
+  <nanos>172000</nanos>
+  <sequence>3930</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>deviceModel = sdk_gphone16k_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone16k_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T14:38:37.817234Z</date>
+  <millis>1748875117817</millis>
+  <nanos>234000</nanos>
+  <sequence>3931</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T14:38:37.817304Z</date>
+  <millis>1748875117817</millis>
+  <nanos>304000</nanos>
+  <sequence>3932</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T14:38:37.817358Z</date>
+  <millis>1748875117817</millis>
+  <nanos>358000</nanos>
+  <sequence>3933</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>363</thread>
+  <message>deviceOSVersion = 15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15</property>
+</record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2025-06-02T14:41:35.722595Z</date>
+  <millis>1748875295722</millis>
+  <nanos>595000</nanos>
+  <sequence>3888</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:41:35.752141Z</date>
+  <millis>1748875295752</millis>
+  <nanos>141000</nanos>
+  <sequence>3889</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:41:35.752381Z</date>
+  <millis>1748875295752</millis>
+  <nanos>381000</nanos>
+  <sequence>3890</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:41:35.752699Z</date>
+  <millis>1748875295752</millis>
+  <nanos>699000</nanos>
+  <sequence>3891</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:41:35.752876Z</date>
+  <millis>1748875295752</millis>
+  <nanos>876000</nanos>
+  <sequence>3892</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:41:38.060320Z</date>
+  <millis>1748875298060</millis>
+  <nanos>320000</nanos>
+  <sequence>3893</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>Appium server started on port 49,588</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:41:38.065557Z</date>
+  <millis>1748875298065</millis>
+  <nanos>557000</nanos>
+  <sequence>3894</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:41:38.065770Z</date>
+  <millis>1748875298065</millis>
+  <nanos>770000</nanos>
+  <sequence>3895</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:41:43.413340Z</date>
+  <millis>1748875303413</millis>
+  <nanos>340000</nanos>
+  <sequence>3896</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T14:41:43.413805Z</date>
+  <millis>1748875303413</millis>
+  <nanos>805000</nanos>
+  <sequence>3897</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T14:41:43.422344Z</date>
+  <millis>1748875303422</millis>
+  <nanos>344000</nanos>
+  <sequence>3898</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T14:41:43.422497Z</date>
+  <millis>1748875303422</millis>
+  <nanos>497000</nanos>
+  <sequence>3899</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone16k_arm64 - Android 15)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone16k_arm64 - Android 15)</property>
+</record>
+<record>
+  <date>2025-06-02T14:41:43.422580Z</date>
+  <millis>1748875303422</millis>
+  <nanos>580000</nanos>
+  <sequence>3900</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>deviceModel = sdk_gphone16k_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone16k_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T14:41:43.422649Z</date>
+  <millis>1748875303422</millis>
+  <nanos>649000</nanos>
+  <sequence>3901</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T14:41:43.422713Z</date>
+  <millis>1748875303422</millis>
+  <nanos>713000</nanos>
+  <sequence>3902</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T14:41:43.422781Z</date>
+  <millis>1748875303422</millis>
+  <nanos>781000</nanos>
+  <sequence>3903</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>151</thread>
+  <message>deviceOSVersion = 15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15</property>
+</record>
+<record>
+  <date>2025-06-02T14:43:42.288852Z</date>
+  <millis>1748875422288</millis>
+  <nanos>852000</nanos>
+  <sequence>3904</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:43:42.292619Z</date>
+  <millis>1748875422292</millis>
+  <nanos>619000</nanos>
+  <sequence>3905</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:43:42.292789Z</date>
+  <millis>1748875422292</millis>
+  <nanos>789000</nanos>
+  <sequence>3906</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:43:42.292864Z</date>
+  <millis>1748875422292</millis>
+  <nanos>864000</nanos>
+  <sequence>3907</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:43:42.292932Z</date>
+  <millis>1748875422292</millis>
+  <nanos>932000</nanos>
+  <sequence>3908</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:43:43.927104Z</date>
+  <millis>1748875423927</millis>
+  <nanos>104000</nanos>
+  <sequence>3909</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>Appium server started on port 50,093</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:43:43.927588Z</date>
+  <millis>1748875423927</millis>
+  <nanos>588000</nanos>
+  <sequence>3910</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:43:43.927712Z</date>
+  <millis>1748875423927</millis>
+  <nanos>712000</nanos>
+  <sequence>3911</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:43:51.907907Z</date>
+  <millis>1748875431907</millis>
+  <nanos>907000</nanos>
+  <sequence>3912</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T14:43:51.908355Z</date>
+  <millis>1748875431908</millis>
+  <nanos>355000</nanos>
+  <sequence>3913</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T14:43:51.913642Z</date>
+  <millis>1748875431913</millis>
+  <nanos>642000</nanos>
+  <sequence>3914</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T14:43:51.913794Z</date>
+  <millis>1748875431913</millis>
+  <nanos>794000</nanos>
+  <sequence>3915</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone64_arm64 - Android 15)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone64_arm64 - Android 15)</property>
+</record>
+<record>
+  <date>2025-06-02T14:43:51.913864Z</date>
+  <millis>1748875431913</millis>
+  <nanos>864000</nanos>
+  <sequence>3916</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>deviceModel = sdk_gphone64_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone64_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T14:43:51.913931Z</date>
+  <millis>1748875431913</millis>
+  <nanos>931000</nanos>
+  <sequence>3917</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T14:43:51.913997Z</date>
+  <millis>1748875431913</millis>
+  <nanos>997000</nanos>
+  <sequence>3918</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T14:43:51.914066Z</date>
+  <millis>1748875431914</millis>
+  <nanos>66000</nanos>
+  <sequence>3919</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>177</thread>
+  <message>deviceOSVersion = 15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15</property>
+</record>
+<record>
+  <date>2025-06-02T14:49:50.246256Z</date>
+  <millis>1748875790246</millis>
+  <nanos>256000</nanos>
+  <sequence>3920</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:49:50.250909Z</date>
+  <millis>1748875790250</millis>
+  <nanos>909000</nanos>
+  <sequence>3921</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:49:50.251135Z</date>
+  <millis>1748875790251</millis>
+  <nanos>135000</nanos>
+  <sequence>3922</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:49:50.251213Z</date>
+  <millis>1748875790251</millis>
+  <nanos>213000</nanos>
+  <sequence>3923</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:49:50.251277Z</date>
+  <millis>1748875790251</millis>
+  <nanos>277000</nanos>
+  <sequence>3924</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:49:51.890639Z</date>
+  <millis>1748875791890</millis>
+  <nanos>639000</nanos>
+  <sequence>3925</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>Appium server started on port 50,657</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:49:51.891198Z</date>
+  <millis>1748875791891</millis>
+  <nanos>198000</nanos>
+  <sequence>3926</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:49:51.891331Z</date>
+  <millis>1748875791891</millis>
+  <nanos>331000</nanos>
+  <sequence>3927</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:49:56.410492Z</date>
+  <millis>1748875796410</millis>
+  <nanos>492000</nanos>
+  <sequence>3928</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T14:49:56.410930Z</date>
+  <millis>1748875796410</millis>
+  <nanos>930000</nanos>
+  <sequence>3929</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T14:49:56.415154Z</date>
+  <millis>1748875796415</millis>
+  <nanos>154000</nanos>
+  <sequence>3930</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T14:49:56.415542Z</date>
+  <millis>1748875796415</millis>
+  <nanos>542000</nanos>
+  <sequence>3931</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone64_arm64 - Android 15)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone64_arm64 - Android 15)</property>
+</record>
+<record>
+  <date>2025-06-02T14:49:56.415673Z</date>
+  <millis>1748875796415</millis>
+  <nanos>673000</nanos>
+  <sequence>3932</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>deviceModel = sdk_gphone64_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone64_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T14:49:56.415776Z</date>
+  <millis>1748875796415</millis>
+  <nanos>776000</nanos>
+  <sequence>3933</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T14:49:56.415867Z</date>
+  <millis>1748875796415</millis>
+  <nanos>867000</nanos>
+  <sequence>3934</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T14:49:56.415969Z</date>
+  <millis>1748875796415</millis>
+  <nanos>969000</nanos>
+  <sequence>3935</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>208</thread>
+  <message>deviceOSVersion = 15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15</property>
+</record>
+<record>
+  <date>2025-06-02T14:51:17.962619Z</date>
+  <millis>1748875877962</millis>
+  <nanos>619000</nanos>
+  <sequence>3957</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:51:17.966989Z</date>
+  <millis>1748875877966</millis>
+  <nanos>989000</nanos>
+  <sequence>3958</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:51:17.967179Z</date>
+  <millis>1748875877967</millis>
+  <nanos>179000</nanos>
+  <sequence>3959</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:51:17.967241Z</date>
+  <millis>1748875877967</millis>
+  <nanos>241000</nanos>
+  <sequence>3960</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:51:17.967289Z</date>
+  <millis>1748875877967</millis>
+  <nanos>289000</nanos>
+  <sequence>3961</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:51:19.594548Z</date>
+  <millis>1748875879594</millis>
+  <nanos>548000</nanos>
+  <sequence>3962</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>Appium server started on port 50,911</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:51:19.594919Z</date>
+  <millis>1748875879594</millis>
+  <nanos>919000</nanos>
+  <sequence>3963</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:51:19.595002Z</date>
+  <millis>1748875879595</millis>
+  <nanos>2000</nanos>
+  <sequence>3964</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:51:24.118973Z</date>
+  <millis>1748875884118</millis>
+  <nanos>973000</nanos>
+  <sequence>3965</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T14:51:24.119376Z</date>
+  <millis>1748875884119</millis>
+  <nanos>376000</nanos>
+  <sequence>3966</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T14:51:24.122733Z</date>
+  <millis>1748875884122</millis>
+  <nanos>733000</nanos>
+  <sequence>3967</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T14:51:24.122941Z</date>
+  <millis>1748875884122</millis>
+  <nanos>941000</nanos>
+  <sequence>3968</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone64_arm64 - Android 15)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone64_arm64 - Android 15)</property>
+</record>
+<record>
+  <date>2025-06-02T14:51:24.123073Z</date>
+  <millis>1748875884123</millis>
+  <nanos>73000</nanos>
+  <sequence>3969</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>deviceModel = sdk_gphone64_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone64_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T14:51:24.123149Z</date>
+  <millis>1748875884123</millis>
+  <nanos>149000</nanos>
+  <sequence>3970</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T14:51:24.123208Z</date>
+  <millis>1748875884123</millis>
+  <nanos>208000</nanos>
+  <sequence>3971</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T14:51:24.123268Z</date>
+  <millis>1748875884123</millis>
+  <nanos>268000</nanos>
+  <sequence>3972</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>259</thread>
+  <message>deviceOSVersion = 15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15</property>
+</record>
+<record>
+  <date>2025-06-02T14:51:30.243096Z</date>
+  <millis>1748875890243</millis>
+  <nanos>96000</nanos>
+  <sequence>3973</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:51:36.786716Z</date>
+  <millis>1748875896786</millis>
+  <nanos>716000</nanos>
+  <sequence>3974</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:53:17.553238Z</date>
+  <millis>1748875997553</millis>
+  <nanos>238000</nanos>
+  <sequence>3975</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:53:56.723017Z</date>
+  <millis>1748876036723</millis>
+  <nanos>17000</nanos>
+  <sequence>3976</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:54:02.726279Z</date>
+  <millis>1748876042726</millis>
+  <nanos>279000</nanos>
+  <sequence>3977</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:54:19.391089Z</date>
+  <millis>1748876059391</millis>
+  <nanos>89000</nanos>
+  <sequence>3978</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:54:45.791776Z</date>
+  <millis>1748876085791</millis>
+  <nanos>776000</nanos>
+  <sequence>3979</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:55:27.400461Z</date>
+  <millis>1748876127400</millis>
+  <nanos>461000</nanos>
+  <sequence>3980</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:56:05.174663Z</date>
+  <millis>1748876165174</millis>
+  <nanos>663000</nanos>
+  <sequence>3981</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:58:17.402407Z</date>
+  <millis>1748876297402</millis>
+  <nanos>407000</nanos>
+  <sequence>3982</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:58:17.407452Z</date>
+  <millis>1748876297407</millis>
+  <nanos>452000</nanos>
+  <sequence>3983</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:58:17.407626Z</date>
+  <millis>1748876297407</millis>
+  <nanos>626000</nanos>
+  <sequence>3984</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:58:17.407744Z</date>
+  <millis>1748876297407</millis>
+  <nanos>744000</nanos>
+  <sequence>3985</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:58:17.407808Z</date>
+  <millis>1748876297407</millis>
+  <nanos>808000</nanos>
+  <sequence>3986</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:58:19.684912Z</date>
+  <millis>1748876299684</millis>
+  <nanos>912000</nanos>
+  <sequence>3987</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>Appium server started on port 51,559</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:58:19.685920Z</date>
+  <millis>1748876299685</millis>
+  <nanos>920000</nanos>
+  <sequence>3988</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:58:19.686184Z</date>
+  <millis>1748876299686</millis>
+  <nanos>184000</nanos>
+  <sequence>3989</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T14:58:24.415675Z</date>
+  <millis>1748876304415</millis>
+  <nanos>675000</nanos>
+  <sequence>3990</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T14:58:24.416033Z</date>
+  <millis>1748876304416</millis>
+  <nanos>33000</nanos>
+  <sequence>3991</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T14:58:24.419584Z</date>
+  <millis>1748876304419</millis>
+  <nanos>584000</nanos>
+  <sequence>3992</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T14:58:24.419809Z</date>
+  <millis>1748876304419</millis>
+  <nanos>809000</nanos>
+  <sequence>3993</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone64_arm64 - Android 14)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone64_arm64 - Android 14)</property>
+</record>
+<record>
+  <date>2025-06-02T14:58:24.419882Z</date>
+  <millis>1748876304419</millis>
+  <nanos>882000</nanos>
+  <sequence>3994</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>deviceModel = sdk_gphone64_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone64_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T14:58:24.419960Z</date>
+  <millis>1748876304419</millis>
+  <nanos>960000</nanos>
+  <sequence>3995</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T14:58:24.420020Z</date>
+  <millis>1748876304420</millis>
+  <nanos>20000</nanos>
+  <sequence>3996</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T14:58:24.420104Z</date>
+  <millis>1748876304420</millis>
+  <nanos>104000</nanos>
+  <sequence>3997</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>383</thread>
+  <message>deviceOSVersion = 14</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">14</property>
+</record>
+<record>
+  <date>2025-06-02T15:05:50.844195Z</date>
+  <millis>1748876750844</millis>
+  <nanos>195000</nanos>
+  <sequence>3998</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:05:50.850582Z</date>
+  <millis>1748876750850</millis>
+  <nanos>582000</nanos>
+  <sequence>3999</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:05:50.850933Z</date>
+  <millis>1748876750850</millis>
+  <nanos>933000</nanos>
+  <sequence>4000</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:05:50.851121Z</date>
+  <millis>1748876750851</millis>
+  <nanos>121000</nanos>
+  <sequence>4001</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:05:50.851196Z</date>
+  <millis>1748876750851</millis>
+  <nanos>196000</nanos>
+  <sequence>4002</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:05:53.129597Z</date>
+  <millis>1748876753129</millis>
+  <nanos>597000</nanos>
+  <sequence>4003</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>Appium server started on port 52,452</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:05:53.130709Z</date>
+  <millis>1748876753130</millis>
+  <nanos>709000</nanos>
+  <sequence>4004</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:05:53.132346Z</date>
+  <millis>1748876753132</millis>
+  <nanos>346000</nanos>
+  <sequence>4005</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:06:02.736105Z</date>
+  <millis>1748876762736</millis>
+  <nanos>105000</nanos>
+  <sequence>4006</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T15:06:02.737386Z</date>
+  <millis>1748876762737</millis>
+  <nanos>386000</nanos>
+  <sequence>4007</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T15:06:02.743684Z</date>
+  <millis>1748876762743</millis>
+  <nanos>684000</nanos>
+  <sequence>4008</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T15:06:02.743867Z</date>
+  <millis>1748876762743</millis>
+  <nanos>867000</nanos>
+  <sequence>4009</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone64_arm64 - Android 15)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone64_arm64 - Android 15)</property>
+</record>
+<record>
+  <date>2025-06-02T15:06:02.743939Z</date>
+  <millis>1748876762743</millis>
+  <nanos>939000</nanos>
+  <sequence>4010</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>deviceModel = sdk_gphone64_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone64_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T15:06:02.744019Z</date>
+  <millis>1748876762744</millis>
+  <nanos>19000</nanos>
+  <sequence>4011</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T15:06:02.744082Z</date>
+  <millis>1748876762744</millis>
+  <nanos>82000</nanos>
+  <sequence>4012</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T15:06:02.744142Z</date>
+  <millis>1748876762744</millis>
+  <nanos>142000</nanos>
+  <sequence>4013</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>547</thread>
+  <message>deviceOSVersion = 15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15</property>
+</record>
+<record>
+  <date>2025-06-02T15:07:54.883135Z</date>
+  <millis>1748876874883</millis>
+  <nanos>135000</nanos>
+  <sequence>4014</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:07:54.888620Z</date>
+  <millis>1748876874888</millis>
+  <nanos>620000</nanos>
+  <sequence>4015</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:07:54.888891Z</date>
+  <millis>1748876874888</millis>
+  <nanos>891000</nanos>
+  <sequence>4016</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:07:54.888993Z</date>
+  <millis>1748876874888</millis>
+  <nanos>993000</nanos>
+  <sequence>4017</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:07:54.889067Z</date>
+  <millis>1748876874889</millis>
+  <nanos>67000</nanos>
+  <sequence>4018</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:07:56.518706Z</date>
+  <millis>1748876876518</millis>
+  <nanos>706000</nanos>
+  <sequence>4019</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>Appium server started on port 52,794</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:07:56.519054Z</date>
+  <millis>1748876876519</millis>
+  <nanos>54000</nanos>
+  <sequence>4020</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:07:56.519152Z</date>
+  <millis>1748876876519</millis>
+  <nanos>152000</nanos>
+  <sequence>4021</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:08:00.970801Z</date>
+  <millis>1748876880970</millis>
+  <nanos>801000</nanos>
+  <sequence>4022</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T15:08:00.971512Z</date>
+  <millis>1748876880971</millis>
+  <nanos>512000</nanos>
+  <sequence>4023</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T15:08:00.976027Z</date>
+  <millis>1748876880976</millis>
+  <nanos>27000</nanos>
+  <sequence>4024</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T15:08:00.976217Z</date>
+  <millis>1748876880976</millis>
+  <nanos>217000</nanos>
+  <sequence>4025</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone64_arm64 - Android 15)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone64_arm64 - Android 15)</property>
+</record>
+<record>
+  <date>2025-06-02T15:08:00.976330Z</date>
+  <millis>1748876880976</millis>
+  <nanos>330000</nanos>
+  <sequence>4026</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>deviceModel = sdk_gphone64_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone64_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T15:08:00.976404Z</date>
+  <millis>1748876880976</millis>
+  <nanos>404000</nanos>
+  <sequence>4027</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T15:08:00.976474Z</date>
+  <millis>1748876880976</millis>
+  <nanos>474000</nanos>
+  <sequence>4028</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T15:08:00.976533Z</date>
+  <millis>1748876880976</millis>
+  <nanos>533000</nanos>
+  <sequence>4029</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>575</thread>
+  <message>deviceOSVersion = 15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15</property>
+</record>
+<record>
+  <date>2025-06-02T15:08:33.581946Z</date>
+  <millis>1748876913581</millis>
+  <nanos>946000</nanos>
+  <sequence>4030</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:08:58.314425Z</date>
+  <millis>1748876938314</millis>
+  <nanos>425000</nanos>
+  <sequence>4031</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:10:19.160432Z</date>
+  <millis>1748877019160</millis>
+  <nanos>432000</nanos>
+  <sequence>4032</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:10:19.164142Z</date>
+  <millis>1748877019164</millis>
+  <nanos>142000</nanos>
+  <sequence>4033</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:10:19.164286Z</date>
+  <millis>1748877019164</millis>
+  <nanos>286000</nanos>
+  <sequence>4034</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:10:19.164353Z</date>
+  <millis>1748877019164</millis>
+  <nanos>353000</nanos>
+  <sequence>4035</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:10:19.164416Z</date>
+  <millis>1748877019164</millis>
+  <nanos>416000</nanos>
+  <sequence>4036</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:10:20.817333Z</date>
+  <millis>1748877020817</millis>
+  <nanos>333000</nanos>
+  <sequence>4037</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>Appium server started on port 53,235</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:10:20.818236Z</date>
+  <millis>1748877020818</millis>
+  <nanos>236000</nanos>
+  <sequence>4038</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:10:20.818455Z</date>
+  <millis>1748877020818</millis>
+  <nanos>455000</nanos>
+  <sequence>4039</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:10:49.183951Z</date>
+  <millis>1748877049183</millis>
+  <nanos>951000</nanos>
+  <sequence>4040</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T15:10:49.184295Z</date>
+  <millis>1748877049184</millis>
+  <nanos>295000</nanos>
+  <sequence>4041</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T15:10:49.189223Z</date>
+  <millis>1748877049189</millis>
+  <nanos>223000</nanos>
+  <sequence>4042</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>deviceId = adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">adb-RZCW811B2MK-cCoIXY._adb-tls-connect._tcp</property>
+</record>
+<record>
+  <date>2025-06-02T15:10:49.189363Z</date>
+  <millis>1748877049189</millis>
+  <nanos>363000</nanos>
+  <sequence>4043</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>deviceName = samsung SM-A146B (Android 14)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">samsung SM-A146B (Android 14)</property>
+</record>
+<record>
+  <date>2025-06-02T15:10:49.189468Z</date>
+  <millis>1748877049189</millis>
+  <nanos>468000</nanos>
+  <sequence>4044</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>deviceModel = SM-A146B</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">SM-A146B</property>
+</record>
+<record>
+  <date>2025-06-02T15:10:49.189560Z</date>
+  <millis>1748877049189</millis>
+  <nanos>560000</nanos>
+  <sequence>4045</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>deviceManufacturer = samsung</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">samsung</property>
+</record>
+<record>
+  <date>2025-06-02T15:10:49.189653Z</date>
+  <millis>1748877049189</millis>
+  <nanos>653000</nanos>
+  <sequence>4046</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T15:10:49.189744Z</date>
+  <millis>1748877049189</millis>
+  <nanos>744000</nanos>
+  <sequence>4047</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>653</thread>
+  <message>deviceOSVersion = 14</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">14</property>
+</record>
+<record>
+  <date>2025-06-02T15:11:44.410219Z</date>
+  <millis>1748877104410</millis>
+  <nanos>219000</nanos>
+  <sequence>4048</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2025-06-02T15:18:50.865535Z</date>
+  <millis>1748877530865</millis>
+  <nanos>535000</nanos>
+  <sequence>3888</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>Detected NodeJS location: &amp;quot;/opt/homebrew/Cellar/node/23.10.0_1/bin/node&amp;quot;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:18:50.873297Z</date>
+  <millis>1748877530873</millis>
+  <nanos>297000</nanos>
+  <sequence>3889</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>PATH: /opt/homebrew/Cellar/node/23.10.0_1/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Enterprise.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:18:50.873557Z</date>
+  <millis>1748877530873</millis>
+  <nanos>557000</nanos>
+  <sequence>3890</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>APPIUM_HOME: /Users/gv.vignesh/.appium</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:18:50.873659Z</date>
+  <millis>1748877530873</millis>
+  <nanos>659000</nanos>
+  <sequence>3891</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>appium outlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:18:50.873733Z</date>
+  <millis>1748877530873</millis>
+  <nanos>733000</nanos>
+  <sequence>3892</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>appium errlog: /Users/gv.vignesh/Downloads/WGR-Android-Automation/appium_error.log</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:18:52.844862Z</date>
+  <millis>1748877532844</millis>
+  <nanos>862000</nanos>
+  <sequence>3893</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>Appium server started on port 53,907</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:18:52.848375Z</date>
+  <millis>1748877532848</millis>
+  <nanos>375000</nanos>
+  <sequence>3894</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>User set preference: [&amp;apos;uiautomator2ServerInstallTimeout&amp;apos;, &amp;apos;0&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:18:52.848540Z</date>
+  <millis>1748877532848</millis>
+  <nanos>540000</nanos>
+  <sequence>3895</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>User set preference: [&amp;apos;deviceId&amp;apos;, &amp;apos;&amp;apos;]</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-06-02T15:19:05.357519Z</date>
+  <millis>1748877545357</millis>
+  <nanos>519000</nanos>
+  <sequence>3896</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>appiumVersion = 2.17.1</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumVersion">2.17.1</property>
+</record>
+<record>
+  <date>2025-06-02T15:19:05.357936Z</date>
+  <millis>1748877545357</millis>
+  <nanos>936000</nanos>
+  <sequence>3897</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>appiumServerStatus = {&amp;quot;value&amp;quot;:{&amp;quot;ready&amp;quot;:true,&amp;quot;message&amp;quot;:&amp;quot;The server is ready to accept new connections&amp;quot;,&amp;quot;build&amp;quot;:{&amp;quot;version&amp;quot;:&amp;quot;2.17.1&amp;quot;,&amp;quot;git-sha&amp;quot;:&amp;quot;12a3d4a6f1eedf483855716b989d828443438f79&amp;quot;,&amp;quot;built&amp;quot;:&amp;quot;2025-04-22 15:18:47 +0000&amp;quot;}}}</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="appiumServerStatus">{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.17.1&quot;,&quot;git-sha&quot;:&quot;12a3d4a6f1eedf483855716b989d828443438f79&quot;,&quot;built&quot;:&quot;2025-04-22 15:18:47 +0000&quot;}}}</property>
+</record>
+<record>
+  <date>2025-06-02T15:19:05.362975Z</date>
+  <millis>1748877545362</millis>
+  <nanos>975000</nanos>
+  <sequence>3898</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>deviceId = emulator-5554</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceId">emulator-5554</property>
+</record>
+<record>
+  <date>2025-06-02T15:19:05.363185Z</date>
+  <millis>1748877545363</millis>
+  <nanos>185000</nanos>
+  <sequence>3899</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>deviceName = emulator-5554 (sdk_gphone64_arm64 - Android 15)</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceName">emulator-5554 (sdk_gphone64_arm64 - Android 15)</property>
+</record>
+<record>
+  <date>2025-06-02T15:19:05.363278Z</date>
+  <millis>1748877545363</millis>
+  <nanos>278000</nanos>
+  <sequence>3900</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>deviceModel = sdk_gphone64_arm64</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceModel">sdk_gphone64_arm64</property>
+</record>
+<record>
+  <date>2025-06-02T15:19:05.363353Z</date>
+  <millis>1748877545363</millis>
+  <nanos>353000</nanos>
+  <sequence>3901</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>deviceManufacturer = Google</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceManufacturer">Google</property>
+</record>
+<record>
+  <date>2025-06-02T15:19:05.363418Z</date>
+  <millis>1748877545363</millis>
+  <nanos>418000</nanos>
+  <sequence>3902</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>deviceOS = Android</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2025-06-02T15:19:05.363495Z</date>
+  <millis>1748877545363</millis>
+  <nanos>495000</nanos>
+  <sequence>3903</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>156</thread>
+  <message>deviceOSVersion = 15</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="deviceOSVersion">15</property>
+</record>
+<record>
+  <date>2025-06-02T15:19:32.600612Z</date>
+  <millis>1748877572600</millis>
+  <nanos>612000</nanos>
+  <sequence>3905</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Cannot find any WEBVIEW to switch to</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.testops.TestOpsLogHelper.handleFailedLogEntry(TestOpsLogHelper.java:112)
+com.kms.katalon.core.logging.KeywordLogger.logFailed(KeywordLogger.java:290)
+com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:43)
+com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+com.kms.katalon.composer.mobile.objectspy.util.MobileActionHelper.switchToWebView(MobileActionHelper.java:285)
+com.kms.katalon.composer.mobile.recorder.handlers.RecordActionPerformHandler.performAction(RecordActionPerformHandler.java:180)
+com.kms.katalon.composer.mobile.recorder.components.MobileRecorderDialog$3$1.lambda$0(MobileRecorderDialog.java:639)
+org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4368)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3991)
+org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+com.kms.katalon.composer.mobile.recorder.components.MobileRecorderDialog.performAction(MobileRecorderDialog.java:659)
+com.kms.katalon.composer.mobile.recorder.components.MobileRecorderDialog.onActionChosen(MobileRecorderDialog.java:565)
+com.kms.katalon.composer.mobile.recorder.components.MobileRecorderDialog.lambda$2(MobileRecorderDialog.java:549)
+com.kms.katalon.composer.mobile.recorder.components.MobileActionButtonWrapper$1.widgetSelected(MobileActionButtonWrapper.java:34)
+org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4413)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3989)
+org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+org.eclipse.jface.window.Window.open(Window.java:799)
+com.kms.katalon.composer.mobile.recorder.components.MobileRecorderDialog.open(MobileRecorderDialog.java:1170)
+com.kms.katalon.composer.mobile.recorder.handlers.OpenAndroidRecorderHandler.openRecorderDialog(OpenAndroidRecorderHandler.java:69)
+com.kms.katalon.composer.mobile.recorder.handlers.OpenAndroidRecorderHandler.execute(OpenAndroidRecorderHandler.java:58)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+org.eclipse.e4.ui.workbench.renderers.swt.DirectContributionItem.executeItem(DirectContributionItem.java:133)
+org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4413)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3989)
+org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.dropdownEvent(AbstractContributionItem.java:425)
+org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:436)
+org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+org.eclipse.swt.widgets.Display.sendEvent(Display.java:4646)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1524)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1547)
+org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1532)
+org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1325)
+org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4413)
+org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3989)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+com.kms.katalon.core.application.WorkbenchApplicationStarter.start(WorkbenchApplicationStarter.java:23)
+com.kms.katalon.application.Application.runGUI(Application.java:209)
+com.kms.katalon.application.Application.start(Application.java:114)
+org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+</property>
+</record>
+</log></log>
