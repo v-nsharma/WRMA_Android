@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Start the application from the specified APK file'
-Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug-106.apk', true)
+Mobile.startApplication('/Users/gv.vignesh/Downloads/app-debug.apk', true)
 
 'Wait for the app to load'
 Mobile.delay(10)
@@ -30,7 +30,7 @@ Mobile.tap(findTestObject('Object Repository/Logout/android.widget.Button - Logi
 Mobile.delay(10)
 
 'Enter the email address in the email input field'
-Mobile.setText(findTestObject('Object Repository/Logout/android.widget.EditText'), '0525041tm@wg.com', 0)
+Mobile.setText(findTestObject('Object Repository/Logout/android.widget.EditText'), '0625201TM@WG.COM', 0)
 
 'Hide the keyboard after entering the email'
 Mobile.hideKeyboard()
@@ -51,7 +51,7 @@ Mobile.tap(findTestObject('Object Repository/Logout/android.widget.Button - Acce
 Mobile.delay(10)
 
 'Re-enter the email address on the login screen'
-Mobile.setText(findTestObject('Object Repository/Logout/android.widget.EditText (1)'), '0525041tm@wg.com', 0)
+Mobile.setText(findTestObject('Object Repository/Logout/android.widget.EditText (1)'), '0625201TM@WG.COM', 0)
 
 'Hide the keyboard after re-entering email'
 Mobile.hideKeyboard()

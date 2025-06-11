@@ -10,7 +10,7 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile WRMA-Android : may28</p>
+     * <p>Profile WRMA-Android : june-11</p>
      */
     public static Object appUrl
      

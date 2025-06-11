@@ -40,12 +40,6 @@ assert Mobile.verifyElementExist(findTestObject('Object Repository/Repo/android.
 'Wait for 3 seconds'
 Mobile.delay(3)
 
-'Get the text "You are Moments Away From Customized Vacation Experiences" and print it'
-String text = Mobile.getText(findTestObject('Object Repository/Repo/android.widget.TextView - Youre Moments Away FromCustomized Vacation Experiences'),
-	0)
-
-println('Text: ' + text)
-
 'Wait for 3 seconds'
 Mobile.delay(3)
 
