@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>WRMA_774_SSO_ViewUsage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ed94648-af09-4750-afdd-bfeffdc25b6f</testCaseGuid>
+</TestCaseEntity>
