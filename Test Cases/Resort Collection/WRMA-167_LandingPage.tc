@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>WRMA-167_LandingPage</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>63def73b-5cd4-494f-b5be-88658ccd2eef</testCaseGuid>
+   <testCaseGuid>cc7e511a-66f5-4554-9ecf-dfdc31c4ab00</testCaseGuid>
 </TestCaseEntity>
